@@ -1,0 +1,884 @@
+[
+  {
+    "id": "p3-j-001",
+    "phase": 3,
+    "pattern": "j",
+    "teachingHint": "Your child is learning the /j/ sound. The letter 'j' says /j/ (like the start of 'jump'). Help your child spot the 'j' and blend: j-e-t → jet. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "jet",
+        "teachingTip": "j-e-t → The letter 'j' says /j/ (like the start of 'jump'). Blend: j-e-t → jet",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "jam",
+        "teachingTip": "j-a-m → The letter 'j' says /j/. Blend: j-a-m → jam",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "jog",
+        "teachingTip": "j-o-g → The letter 'j' says /j/. Blend: j-o-g → jog",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "jig",
+        "teachingTip": "j-i-g → The letter 'j' says /j/. Blend: j-i-g → jig",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "he",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'hee'. Learn it by sight."
+    },
+    "story": "A jet flew into a big pot of jam. He had to jog and jig to get out!"
+  },
+  {
+    "id": "p3-j-002",
+    "phase": 3,
+    "pattern": "j",
+    "teachingHint": "Your child is learning the /j/ sound. The letter 'j' says /j/ (like the start of 'jump'). Help your child spot the 'j' and blend: j-e-t → jet. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "jab",
+        "teachingTip": "j-a-b → The letter 'j' says /j/. Blend: j-a-b → jab",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      },
+      {
+        "word": "jug",
+        "teachingTip": "j-u-g → The letter 'j' says /j/. Blend: j-u-g → jug",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "jet",
+        "teachingTip": "j-e-t → The letter 'j' says /j/. Blend: j-e-t → jet",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "jog",
+        "teachingTip": "j-o-g → The letter 'j' says /j/. Blend: j-o-g → jog",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "she",
+      "teachingTip": "Tricky word! We know 'sh' but the 'e' says its name 'ee'. We say 'shee'."
+    },
+    "story": "She gave the jug a jab and it shot off like a jet. Then she had to jog to catch it!"
+  },
+  {
+    "id": "p3-j-003",
+    "phase": 3,
+    "pattern": "j",
+    "teachingHint": "Your child is learning the /j/ sound. The letter 'j' says /j/ (like the start of 'jump'). Help your child spot the 'j' and blend: j-e-t → jet. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "jig",
+        "teachingTip": "j-i-g → The letter 'j' says /j/. Blend: j-i-g → jig",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "jam",
+        "teachingTip": "j-a-m → The letter 'j' says /j/. Blend: j-a-m → jam",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "jab",
+        "teachingTip": "j-a-b → The letter 'j' says /j/. Blend: j-a-b → jab",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      },
+      {
+        "word": "jug",
+        "teachingTip": "j-u-g → The letter 'j' says /j/. Blend: j-u-g → jug",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "we",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'wee'."
+    },
+    "story": "We did a jig and spilt the jam from the jug. Mum gave the lid a jab to get it back on!"
+  },
+  {
+    "id": "p3-v-001",
+    "phase": 3,
+    "pattern": "v",
+    "teachingHint": "Your child is learning the /v/ sound. The letter 'v' says /v/ (top teeth on bottom lip, with a buzz). Help your child blend: v-a-n → van. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "van",
+        "teachingTip": "v-a-n → The letter 'v' says /v/ (top teeth on bottom lip, with a buzz). Blend: v-a-n → van",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "vet",
+        "teachingTip": "v-e-t → The letter 'v' says /v/. Blend: v-e-t → vet",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "vat",
+        "teachingTip": "v-a-t → The letter 'v' says /v/. Blend: v-a-t → vat",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "vex",
+        "teachingTip": "v-e-x → The letter 'v' says /v/. Blend: v-e-x → vex",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "x", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "me",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'mee'."
+    },
+    "story": "The vet took me in a van to see a cat in a vat. Do not vex that cat!"
+  },
+  {
+    "id": "p3-v-002",
+    "phase": 3,
+    "pattern": "v",
+    "teachingHint": "Your child is learning the /v/ sound. The letter 'v' says /v/ (top teeth on bottom lip, with a buzz). Help your child blend: v-a-n → van. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "vex",
+        "teachingTip": "v-e-x → The letter 'v' says /v/. Blend: v-e-x → vex",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "x", "type": "single" }
+        ]
+      },
+      {
+        "word": "van",
+        "teachingTip": "v-a-n → The letter 'v' says /v/. Blend: v-a-n → van",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "vat",
+        "teachingTip": "v-a-t → The letter 'v' says /v/. Blend: v-a-t → vat",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "vet",
+        "teachingTip": "v-e-t → The letter 'v' says /v/. Blend: v-e-t → vet",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "be",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'bee'."
+    },
+    "story": "Do not vex the vet or she will be cross! She hid a vat of soup in the van."
+  },
+  {
+    "id": "p3-w-001",
+    "phase": 3,
+    "pattern": "w",
+    "teachingHint": "Your child is learning the /w/ sound. The letter 'w' says /w/ (round your lips). Help your child blend: w-i-g → wig. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "will",
+        "teachingTip": "w-i-ll → The letter 'w' says /w/ (round your lips). Blend: w-i-ll → will",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "win",
+        "teachingTip": "w-i-n → The letter 'w' says /w/. Blend: w-i-n → win",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "wig",
+        "teachingTip": "w-i-g → The letter 'w' says /w/. Blend: w-i-g → wig",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "web",
+        "teachingTip": "w-e-b → The letter 'w' says /w/. Blend: w-e-b → web",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "was",
+      "teachingTip": "Tricky word! It looks like it should rhyme with 'has' but we say 'woz'. Learn it by sight."
+    },
+    "story": "A wig was stuck in a web. Will the bug win it back or will the wig stay stuck?"
+  },
+  {
+    "id": "p3-w-002",
+    "phase": 3,
+    "pattern": "w",
+    "teachingHint": "Your child is learning the /w/ sound. The letter 'w' says /w/ (round your lips). Help your child blend: w-i-g → wig. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "wet",
+        "teachingTip": "w-e-t → The letter 'w' says /w/. Blend: w-e-t → wet",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "wag",
+        "teachingTip": "w-a-g → The letter 'w' says /w/. Blend: w-a-g → wag",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "will",
+        "teachingTip": "w-i-ll → The letter 'w' says /w/. Blend: w-i-ll → will",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "wig",
+        "teachingTip": "w-i-g → The letter 'w' says /w/. Blend: w-i-g → wig",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "you",
+      "teachingTip": "Tricky word! We can't sound this one out normally. Look at the word and say 'you'."
+    },
+    "story": "The dog will wag and get wet in the rain. Can you put a wig on him to keep him dry?"
+  },
+  {
+    "id": "p3-w-003",
+    "phase": 3,
+    "pattern": "w",
+    "teachingHint": "Your child is learning the /w/ sound. The letter 'w' says /w/ (round your lips). Help your child blend: w-i-g → wig. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "web",
+        "teachingTip": "w-e-b → The letter 'w' says /w/. Blend: w-e-b → web",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      },
+      {
+        "word": "win",
+        "teachingTip": "w-i-n → The letter 'w' says /w/. Blend: w-i-n → win",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "wet",
+        "teachingTip": "w-e-t → The letter 'w' says /w/. Blend: w-e-t → wet",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "wag",
+        "teachingTip": "w-a-g → The letter 'w' says /w/. Blend: w-a-g → wag",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "they",
+      "teachingTip": "Tricky word! The 'ey' sounds like 'ay'. We say 'thay'. Learn it by sight."
+    },
+    "story": "They got wet in a web and had a wag. Can the bugs win the race to get dry?"
+  },
+  {
+    "id": "p3-x-001",
+    "phase": 3,
+    "pattern": "x",
+    "teachingHint": "Your child is learning the /ks/ sound. The letter 'x' says /ks/ (two sounds together). It usually comes at the end of words. Help your child blend: f-o-x → fox. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "box",
+        "teachingTip": "b-o-x → The letter 'x' says /ks/ (two sounds together). Blend: b-o-x → box",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "x", "type": "single" }
+        ]
+      },
+      {
+        "word": "fox",
+        "teachingTip": "f-o-x → The letter 'x' says /ks/. Blend: f-o-x → fox",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "x", "type": "single" }
+        ]
+      },
+      {
+        "word": "fix",
+        "teachingTip": "f-i-x → The letter 'x' says /ks/. Blend: f-i-x → fix",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "x", "type": "single" }
+        ]
+      },
+      {
+        "word": "six",
+        "teachingTip": "s-i-x → The letter 'x' says /ks/. Blend: s-i-x → six",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "x", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "all",
+      "teachingTip": "Tricky word! The 'a' makes an 'or' sound here. We say 'orl'. Learn it by sight."
+    },
+    "story": "A fox hid in a box. All six hens ran to fix the lid shut!"
+  },
+  {
+    "id": "p3-x-002",
+    "phase": 3,
+    "pattern": "x",
+    "teachingHint": "Your child is learning the /ks/ sound. The letter 'x' says /ks/ (two sounds together). It usually comes at the end of words. Help your child blend: f-o-x → fox. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "mix",
+        "teachingTip": "m-i-x → The letter 'x' says /ks/. Blend: m-i-x → mix",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "x", "type": "single" }
+        ]
+      },
+      {
+        "word": "Rex",
+        "teachingTip": "R-e-x → The letter 'x' says /ks/. Blend: R-e-x → Rex",
+        "segments": [
+          { "chars": "R", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "x", "type": "single" }
+        ]
+      },
+      {
+        "word": "box",
+        "teachingTip": "b-o-x → The letter 'x' says /ks/. Blend: b-o-x → box",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "x", "type": "single" }
+        ]
+      },
+      {
+        "word": "six",
+        "teachingTip": "s-i-x → The letter 'x' says /ks/. Blend: s-i-x → six",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "x", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "are",
+      "teachingTip": "Tricky word! It looks like it should rhyme with 'care' but we say 'ar'. Learn it by sight."
+    },
+    "story": "Rex and I are going to mix a cake. We put six eggs in a box to take home!"
+  },
+  {
+    "id": "p3-x-003",
+    "phase": 3,
+    "pattern": "x",
+    "teachingHint": "Your child is learning the /ks/ sound. The letter 'x' says /ks/ (two sounds together). It usually comes at the end of words. Help your child blend: f-o-x → fox. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "fox",
+        "teachingTip": "f-o-x → The letter 'x' says /ks/. Blend: f-o-x → fox",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "x", "type": "single" }
+        ]
+      },
+      {
+        "word": "fix",
+        "teachingTip": "f-i-x → The letter 'x' says /ks/. Blend: f-i-x → fix",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "x", "type": "single" }
+        ]
+      },
+      {
+        "word": "Rex",
+        "teachingTip": "R-e-x → The letter 'x' says /ks/. Blend: R-e-x → Rex",
+        "segments": [
+          { "chars": "R", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "x", "type": "single" }
+        ]
+      },
+      {
+        "word": "mix",
+        "teachingTip": "m-i-x → The letter 'x' says /ks/. Blend: m-i-x → mix",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "x", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "my",
+      "teachingTip": "Tricky word! The 'y' says 'eye' here. We say 'my' (like 'eye' with an 'm')."
+    },
+    "story": "My dog Rex saw a fox and tried to mix up a plan. Can he fix the gate before the fox gets in?"
+  },
+  {
+    "id": "p3-y-001",
+    "phase": 3,
+    "pattern": "y",
+    "teachingHint": "Your child is learning the /y/ sound. The letter 'y' says /y/ (like the start of 'yes'). Help your child blend: y-a-k → yak. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "yes",
+        "teachingTip": "y-e-s → The letter 'y' says /y/ (like the start of 'yes'). Blend: y-e-s → yes",
+        "segments": [
+          { "chars": "y", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" }
+        ]
+      },
+      {
+        "word": "yet",
+        "teachingTip": "y-e-t → The letter 'y' says /y/. Blend: y-e-t → yet",
+        "segments": [
+          { "chars": "y", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "yap",
+        "teachingTip": "y-a-p → The letter 'y' says /y/. Blend: y-a-p → yap",
+        "segments": [
+          { "chars": "y", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "yak",
+        "teachingTip": "y-a-k → The letter 'y' says /y/. Blend: y-a-k → yak",
+        "segments": [
+          { "chars": "y", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "her",
+      "teachingTip": "Tricky word! Your child will learn the 'er' sound soon, but for now learn 'her' by sight."
+    },
+    "story": "The dog will yap at her yak. Has the yak said yes to being friends yet?"
+  },
+  {
+    "id": "p3-y-002",
+    "phase": 3,
+    "pattern": "y",
+    "teachingHint": "Your child is learning the /y/ sound. The letter 'y' says /y/ (like the start of 'yes'). Help your child blend: y-a-k → yak. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "yak",
+        "teachingTip": "y-a-k → The letter 'y' says /y/. Blend: y-a-k → yak",
+        "segments": [
+          { "chars": "y", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "yes",
+        "teachingTip": "y-e-s → The letter 'y' says /y/. Blend: y-e-s → yes",
+        "segments": [
+          { "chars": "y", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" }
+        ]
+      },
+      {
+        "word": "yet",
+        "teachingTip": "y-e-t → The letter 'y' says /y/. Blend: y-e-t → yet",
+        "segments": [
+          { "chars": "y", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "yap",
+        "teachingTip": "y-a-p → The letter 'y' says /y/. Blend: y-a-p → yap",
+        "segments": [
+          { "chars": "y", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "was",
+      "teachingTip": "Tricky word! It looks like it should rhyme with 'has' but we say 'woz'. Learn it by sight."
+    },
+    "story": "A yak was having a nap but the dog had a yap. The yak said yes I am up, but not yet ready!"
+  },
+  {
+    "id": "p3-z-001",
+    "phase": 3,
+    "pattern": "z, zz",
+    "teachingHint": "Your child is learning the /z/ sound. The letter 'z' says /z/ (a buzzy sound). Sometimes it's written as 'zz' at the end of words — still the same /z/ sound. Help your child blend: z-i-p → zip, b-u-zz → buzz. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "zip",
+        "teachingTip": "z-i-p → The letter 'z' says /z/ (a buzzy sound). Blend: z-i-p → zip",
+        "segments": [
+          { "chars": "z", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "zap",
+        "teachingTip": "z-a-p → The letter 'z' says /z/. Blend: z-a-p → zap",
+        "segments": [
+          { "chars": "z", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "buzz",
+        "teachingTip": "b-u-zz → The 'zz' at the end still says /z/. Blend: b-u-zz → buzz",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "zz", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "fizz",
+        "teachingTip": "f-i-zz → The 'zz' at the end still says /z/. Blend: f-i-zz → fizz",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "zz", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "he",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'hee'. Learn it by sight."
+    },
+    "story": "He had a drink that went fizz and buzz. Then he tried to zip up his coat and got a zap!"
+  },
+  {
+    "id": "p3-z-002",
+    "phase": 3,
+    "pattern": "z, zz",
+    "teachingHint": "Your child is learning the /z/ sound. The letter 'z' says /z/ (a buzzy sound). Sometimes it's written as 'zz' at the end of words — still the same /z/ sound. Help your child blend: z-i-p → zip, b-u-zz → buzz. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "fuzz",
+        "teachingTip": "f-u-zz → The 'zz' at the end still says /z/. Blend: f-u-zz → fuzz",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "zz", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "jazz",
+        "teachingTip": "j-a-zz → The 'zz' at the end still says /z/. Blend: j-a-zz → jazz",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "zz", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "zip",
+        "teachingTip": "z-i-p → The letter 'z' says /z/. Blend: z-i-p → zip",
+        "segments": [
+          { "chars": "z", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "buzz",
+        "teachingTip": "b-u-zz → The 'zz' at the end still says /z/. Blend: b-u-zz → buzz",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "zz", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "she",
+      "teachingTip": "Tricky word! We know 'sh' but the 'e' says its name 'ee'. We say 'shee'."
+    },
+    "story": "She put on some jazz and found a ball of fuzz. A bee went buzz and did a zip past her ear!"
+  },
+  {
+    "id": "p3-z-003",
+    "phase": 3,
+    "pattern": "z, zz",
+    "teachingHint": "Your child is learning the /z/ sound. The letter 'z' says /z/ (a buzzy sound). Sometimes it's written as 'zz' at the end of words — still the same /z/ sound. Help your child blend: z-i-p → zip, b-u-zz → buzz. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "zap",
+        "teachingTip": "z-a-p → The letter 'z' says /z/. Blend: z-a-p → zap",
+        "segments": [
+          { "chars": "z", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "fizz",
+        "teachingTip": "f-i-zz → The 'zz' at the end still says /z/. Blend: f-i-zz → fizz",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "zz", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "fuzz",
+        "teachingTip": "f-u-zz → The 'zz' at the end still says /z/. Blend: f-u-zz → fuzz",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "zz", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "jazz",
+        "teachingTip": "j-a-zz → The 'zz' at the end still says /z/. Blend: j-a-zz → jazz",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "zz", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "all",
+      "teachingTip": "Tricky word! The 'a' makes an 'or' sound here. We say 'orl'. Learn it by sight."
+    },
+    "story": "A bee tried to zap all the fuzz off a peach. The peach did a fizz and played some jazz!"
+  },
+  {
+    "id": "p3-qu-001",
+    "phase": 3,
+    "pattern": "qu",
+    "teachingHint": "Your child is learning the /kw/ sound. The letters 'qu' always go together and make /kw/ (like the start of 'queen'). The 'q' is never on its own — it always has a 'u' next to it. Help your child blend: qu-i-z → quiz. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "quit",
+        "teachingTip": "qu-i-t → The letters 'qu' say /kw/ (like the start of 'queen'). Blend: qu-i-t → quit",
+        "segments": [
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "quick",
+        "teachingTip": "qu-i-ck → The letters 'qu' say /kw/. Blend: qu-i-ck → quick",
+        "segments": [
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "quiz",
+        "teachingTip": "qu-i-z → The letters 'qu' say /kw/. Blend: qu-i-z → quiz",
+        "segments": [
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "z", "type": "single" }
+        ]
+      },
+      {
+        "word": "quack",
+        "teachingTip": "qu-a-ck → The letters 'qu' say /kw/. Blend: qu-a-ck → quack",
+        "segments": [
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "you",
+      "teachingTip": "Tricky word! We can't sound this one out normally. Look at the word and say 'you'."
+    },
+    "story": "Can you do a quick quiz? A duck said quack but then it quit and ran off!"
+  },
+  {
+    "id": "p3-qu-002",
+    "phase": 3,
+    "pattern": "qu",
+    "teachingHint": "Your child is learning the /kw/ sound. The letters 'qu' always go together and make /kw/ (like the start of 'queen'). The 'q' is never on its own — it always has a 'u' next to it. Help your child blend: qu-i-z → quiz. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "quack",
+        "teachingTip": "qu-a-ck → The letters 'qu' say /kw/. Blend: qu-a-ck → quack",
+        "segments": [
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "quiz",
+        "teachingTip": "qu-i-z → The letters 'qu' say /kw/. Blend: qu-i-z → quiz",
+        "segments": [
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "z", "type": "single" }
+        ]
+      },
+      {
+        "word": "quick",
+        "teachingTip": "qu-i-ck → The letters 'qu' say /kw/. Blend: qu-i-ck → quick",
+        "segments": [
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "quit",
+        "teachingTip": "qu-i-t → The letters 'qu' say /kw/. Blend: qu-i-t → quit",
+        "segments": [
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "they",
+      "teachingTip": "Tricky word! The 'ey' sounds like 'ay'. We say 'thay'. Learn it by sight."
+    },
+    "story": "The ducks said quack and did a quick quiz. They did not quit until they got every one right!"
+  }
+]

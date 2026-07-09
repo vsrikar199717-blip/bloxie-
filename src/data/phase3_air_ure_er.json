@@ -1,0 +1,574 @@
+[
+  {
+    "id": "p3-air-001",
+    "phase": 3,
+    "pattern": "air",
+    "teachingHint": "Your child is learning the /air/ sound (as in 'fair'). The three letters 'a', 'i', 'r' work together to make one sound: /air/. Help your child spot 'air' and blend: f-air → fair, ch-air → chair. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "fair",
+        "teachingTip": "f-air → Spot the 'air' trigraph. Blend: f-air → fair",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "pair",
+        "teachingTip": "p-air → Spot the 'air' trigraph. Blend: p-air → pair",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "hair",
+        "teachingTip": "h-air → Spot the 'air' trigraph. Blend: h-air → hair",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "air",
+        "teachingTip": "This word is just the 'air' trigraph — one sound!",
+        "segments": [
+          { "chars": "air", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "was",
+      "teachingTip": "Tricky word! 'Was' doesn't sound like w-a-s. We say 'woz'. Learn it by sight."
+    },
+    "story": "The pair was not fair. She pulled his hair and let out air from the balloon!"
+  },
+  {
+    "id": "p3-air-002",
+    "phase": 3,
+    "pattern": "air",
+    "teachingHint": "Your child is learning the /air/ sound (as in 'fair'). The three letters 'a', 'i', 'r' work together to make one sound: /air/. Help your child spot 'air' and blend: f-air → fair, ch-air → chair. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "chair",
+        "teachingTip": "ch-air → Spot the 'ch' digraph and 'air' trigraph. Blend: ch-air → chair",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "lair",
+        "teachingTip": "l-air → Spot the 'air' trigraph. Blend: l-air → lair",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "fair",
+        "teachingTip": "f-air → Spot the 'air' trigraph. Blend: f-air → fair",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "hair",
+        "teachingTip": "h-air → Spot the 'air' trigraph. Blend: h-air → hair",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "you",
+      "teachingTip": "Tricky word! 'You' doesn't follow the usual rules. We say 'yoo'. Learn it by sight."
+    },
+    "story": "You sat in the chair. It was not fair — the lair had no hair brushes!"
+  },
+  {
+    "id": "p3-air-003",
+    "phase": 3,
+    "pattern": "air",
+    "teachingHint": "Your child is learning the /air/ sound (as in 'fair'). The three letters 'a', 'i', 'r' work together to make one sound: /air/. Help your child spot 'air' and blend: f-air → fair, ch-air → chair. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pair",
+        "teachingTip": "p-air → Spot the 'air' trigraph. Blend: p-air → pair",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "air",
+        "teachingTip": "This word is just the 'air' trigraph — one sound!",
+        "segments": [
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "chair",
+        "teachingTip": "ch-air → Spot the 'ch' digraph and 'air' trigraph. Blend: ch-air → chair",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "lair",
+        "teachingTip": "l-air → Spot the 'air' trigraph. Blend: l-air → lair",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "they",
+      "teachingTip": "Tricky word! 'They' doesn't follow the usual rules. The 'ey' says 'ay'. Learn it by sight."
+    },
+    "story": "They had a pair of chairs in the lair. The air was cool and fresh!"
+  },
+  {
+    "id": "p3-air-004",
+    "phase": 3,
+    "pattern": "air",
+    "teachingHint": "Your child is learning the /air/ sound (as in 'fair'). The three letters 'a', 'i', 'r' work together to make one sound: /air/. Help your child spot 'air' and blend: f-air → fair, ch-air → chair. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hair",
+        "teachingTip": "h-air → Spot the 'air' trigraph. Blend: h-air → hair",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "fair",
+        "teachingTip": "f-air → Spot the 'air' trigraph. Blend: f-air → fair",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "pair",
+        "teachingTip": "p-air → Spot the 'air' trigraph. Blend: p-air → pair",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "chair",
+        "teachingTip": "ch-air → Spot the 'ch' digraph and 'air' trigraph. Blend: ch-air → chair",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "all",
+      "teachingTip": "Tricky word! The 'a' in 'all' says /or/. We say 'orl'. Learn it by sight."
+    },
+    "story": "All the hair was not fair! She got a pair of clips and sat in the chair."
+  },
+  {
+    "id": "p3-ure-001",
+    "phase": 3,
+    "pattern": "ure",
+    "teachingHint": "Your child is learning the /ure/ sound (as in 'sure'). The three letters 'u', 'r', 'e' work together to make one sound: /ure/. Help your child spot 'ure' and blend: p-ure → pure, c-ure → cure. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sure",
+        "teachingTip": "s-ure → Spot the 'ure' trigraph. Blend: s-ure → sure",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ure", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "pure",
+        "teachingTip": "p-ure → Spot the 'ure' trigraph. Blend: p-ure → pure",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ure", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "cure",
+        "teachingTip": "c-ure → Spot the 'ure' trigraph. Blend: c-ure → cure",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ure", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "lure",
+        "teachingTip": "l-ure → Spot the 'ure' trigraph. Blend: l-ure → lure",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "ure", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "he",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'hee'. Learn it by sight."
+    },
+    "story": "He was sure the pure water was the cure. It was a lure to get him to drink!"
+  },
+  {
+    "id": "p3-ure-002",
+    "phase": 3,
+    "pattern": "ure",
+    "teachingHint": "Your child is learning the /ure/ sound (as in 'sure'). The three letters 'u', 'r', 'e' work together to make one sound: /ure/. Help your child spot 'ure' and blend: p-ure → pure, c-ure → cure. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lure",
+        "teachingTip": "l-ure → Spot the 'ure' trigraph. Blend: l-ure → lure",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "ure", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "sure",
+        "teachingTip": "s-ure → Spot the 'ure' trigraph. Blend: s-ure → sure",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ure", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "pure",
+        "teachingTip": "p-ure → Spot the 'ure' trigraph. Blend: p-ure → pure",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ure", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "cure",
+        "teachingTip": "c-ure → Spot the 'ure' trigraph. Blend: c-ure → cure",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ure", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "she",
+      "teachingTip": "Tricky word! We know 'sh' but the 'e' says its name 'ee'. We say 'shee'."
+    },
+    "story": "She set a lure to catch a fish. She was sure the pure water had a cure for all ills!"
+  },
+  {
+    "id": "p3-ure-003",
+    "phase": 3,
+    "pattern": "ure",
+    "teachingHint": "Your child is learning the /ure/ sound (as in 'sure'). The three letters 'u', 'r', 'e' work together to make one sound: /ure/. Help your child spot 'ure' and blend: p-ure → pure, c-ure → cure. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "cure",
+        "teachingTip": "c-ure → Spot the 'ure' trigraph. Blend: c-ure → cure",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ure", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "lure",
+        "teachingTip": "l-ure → Spot the 'ure' trigraph. Blend: l-ure → lure",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "ure", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "sure",
+        "teachingTip": "s-ure → Spot the 'ure' trigraph. Blend: s-ure → sure",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ure", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "pure",
+        "teachingTip": "p-ure → Spot the 'ure' trigraph. Blend: p-ure → pure",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ure", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "we",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'wee'. Learn it by sight."
+    },
+    "story": "We need a cure! She was sure the lure of pure fresh air would help."
+  },
+  {
+    "id": "p3-er-001",
+    "phase": 3,
+    "pattern": "er",
+    "teachingHint": "Your child is learning the /er/ sound (as in 'her'). When 'e' and 'r' sit together, they make one sound: /er/. Help your child spot 'er' and blend: h-er → her, d-i-nn-er → dinner. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "dinner",
+        "teachingTip": "d-i-nn-er → Spot the 'nn' digraph and 'er' digraph. Blend: d-i-nn-er → dinner",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "nn", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "summer",
+        "teachingTip": "s-u-mm-er → Spot the 'mm' digraph and 'er' digraph. Blend: s-u-mm-er → summer",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "mm", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "letter",
+        "teachingTip": "l-e-tt-er → Spot the 'tt' digraph and 'er' digraph. Blend: l-e-tt-er → letter",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "tt", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "her",
+        "teachingTip": "h-er → Spot the 'er' digraph. Blend: h-er → her",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "be",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'bee'. Learn it by sight."
+    },
+    "story": "Her dinner was in a letter! It said to be at the summer party at six."
+  },
+  {
+    "id": "p3-er-002",
+    "phase": 3,
+    "pattern": "er",
+    "teachingHint": "Your child is learning the /er/ sound (as in 'her'). When 'e' and 'r' sit together, they make one sound: /er/. Help your child spot 'er' and blend: h-er → her, b-e-tt-er → better. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "better",
+        "teachingTip": "b-e-tt-er → Spot the 'tt' digraph and 'er' digraph. Blend: b-e-tt-er → better",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "tt", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "hammer",
+        "teachingTip": "h-a-mm-er → Spot the 'mm' digraph and 'er' digraph. Blend: h-a-mm-er → hammer",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "mm", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "matter",
+        "teachingTip": "m-a-tt-er → Spot the 'tt' digraph and 'er' digraph. Blend: m-a-tt-er → matter",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "tt", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "bigger",
+        "teachingTip": "b-i-gg-er → Spot the 'gg' digraph and 'er' digraph. Blend: b-i-gg-er → bigger",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "gg", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "me",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'mee'. Learn it by sight."
+    },
+    "story": "Hit it better with the hammer! It did not matter if it got bigger — just help me!"
+  },
+  {
+    "id": "p3-er-003",
+    "phase": 3,
+    "pattern": "er",
+    "teachingHint": "Your child is learning the /er/ sound (as in 'her'). When 'e' and 'r' sit together, they make one sound: /er/. Help your child spot 'er' and blend: h-er → her, r-u-nn-er → runner. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "runner",
+        "teachingTip": "r-u-nn-er → Spot the 'nn' digraph and 'er' digraph. Blend: r-u-nn-er → runner",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "nn", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "dinner",
+        "teachingTip": "d-i-nn-er → Spot the 'nn' digraph and 'er' digraph. Blend: d-i-nn-er → dinner",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "nn", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "summer",
+        "teachingTip": "s-u-mm-er → Spot the 'mm' digraph and 'er' digraph. Blend: s-u-mm-er → summer",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "mm", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "her",
+        "teachingTip": "h-er → Spot the 'er' digraph. Blend: h-er → her",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "my",
+      "teachingTip": "Tricky word! The 'y' says /eye/. We say 'my'. Learn it by sight."
+    },
+    "story": "My runner had her dinner in the summer sun. She ran and ran!"
+  },
+  {
+    "id": "p3-er-004",
+    "phase": 3,
+    "pattern": "er",
+    "teachingHint": "Your child is learning the /er/ sound (as in 'her'). When 'e' and 'r' sit together, they make one sound: /er/. Help your child spot 'er' and blend: h-er → her, l-e-tt-er → letter. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "letter",
+        "teachingTip": "l-e-tt-er → Spot the 'tt' digraph and 'er' digraph. Blend: l-e-tt-er → letter",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "tt", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "better",
+        "teachingTip": "b-e-tt-er → Spot the 'tt' digraph and 'er' digraph. Blend: b-e-tt-er → better",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "tt", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "bigger",
+        "teachingTip": "b-i-gg-er → Spot the 'gg' digraph and 'er' digraph. Blend: b-i-gg-er → bigger",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "gg", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "hammer",
+        "teachingTip": "h-a-mm-er → Spot the 'mm' digraph and 'er' digraph. Blend: h-a-mm-er → hammer",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "mm", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "are",
+      "teachingTip": "Tricky word! 'Are' doesn't sound like a-r-e. We say 'ar'. Learn it by sight."
+    },
+    "story": "Are the letters getting better? Use a bigger hammer to fix it all up!"
+  },
+  {
+    "id": "p3-er-005",
+    "phase": 3,
+    "pattern": "er",
+    "teachingHint": "Your child is learning the /er/ sound (as in 'her'). When 'e' and 'r' sit together, they make one sound: /er/. Help your child spot 'er' and blend: h-er → her, m-a-tt-er → matter. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "matter",
+        "teachingTip": "m-a-tt-er → Spot the 'tt' digraph and 'er' digraph. Blend: m-a-tt-er → matter",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "tt", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "runner",
+        "teachingTip": "r-u-nn-er → Spot the 'nn' digraph and 'er' digraph. Blend: r-u-nn-er → runner",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "nn", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "her",
+        "teachingTip": "h-er → Spot the 'er' digraph. Blend: h-er → her",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "dinner",
+        "teachingTip": "d-i-nn-er → Spot the 'nn' digraph and 'er' digraph. Blend: d-i-nn-er → dinner",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "nn", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "her",
+      "teachingTip": "Tricky word! 'Her' is also a common word to know by sight. The 'er' says /er/."
+    },
+    "story": "It did not matter that her runner was late for dinner. She kept on going!"
+  }
+]

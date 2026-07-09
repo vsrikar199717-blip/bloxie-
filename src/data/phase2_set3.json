@@ -1,0 +1,560 @@
+[
+  {
+    "id": "p2-set3-001",
+    "phase": 2,
+    "pattern": "g, o, c, k",
+    "teachingHint": "Your child is learning four new sounds: 'g' says g (a short sound at the back of the throat), 'o' says oh (like the start of 'octopus'), 'c' says c (same sound as 'k'), 'k' says k (same sound as 'c'). They can now read words with all the letters learned so far. Help them point to each letter, say its sound, then blend: d-o-g → dog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "got",
+        "teachingTip": "g-o-t → Say each sound: g, o, t. Blend: got",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "dog",
+        "teachingTip": "d-o-g → Say each sound: d, o, g. Blend: dog",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "on",
+        "teachingTip": "o-n → Say each sound: o, n. Blend: on",
+        "segments": [
+          { "chars": "o", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "A dog got on the mat. The dog got a big pat!"
+  },
+  {
+    "id": "p2-set3-002",
+    "phase": 2,
+    "pattern": "g, o, c, k",
+    "teachingHint": "Your child is learning four new sounds: 'g' says g (a short sound at the back of the throat), 'o' says oh (like the start of 'octopus'), 'c' says c (same sound as 'k'), 'k' says k (same sound as 'c'). They can now read words with all the letters learned so far. Help them point to each letter, say its sound, then blend: d-o-g → dog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "cat",
+        "teachingTip": "c-a-t → Say each sound: c, a, t. Blend: cat",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "not",
+        "teachingTip": "n-o-t → Say each sound: n, o, t. Blend: not",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "pot",
+        "teachingTip": "p-o-t → Say each sound: p, o, t. Blend: pot",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "The cat is not in the pot. The cat sat on top!"
+  },
+  {
+    "id": "p2-set3-003",
+    "phase": 2,
+    "pattern": "g, o, c, k",
+    "teachingHint": "Your child is learning four new sounds: 'g' says g (a short sound at the back of the throat), 'o' says oh (like the start of 'octopus'), 'c' says c (same sound as 'k'), 'k' says k (same sound as 'c'). They can now read words with all the letters learned so far. Help them point to each letter, say its sound, then blend: d-o-g → dog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "top",
+        "teachingTip": "t-o-p → Say each sound: t, o, p. Blend: top",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "cop",
+        "teachingTip": "c-o-p → Say each sound: c, o, p. Blend: cop",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "cap",
+        "teachingTip": "c-a-p → Say each sound: c, a, p. Blend: cap",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "I can see a cop on top. The cop has a big cap!"
+  },
+  {
+    "id": "p2-set3-004",
+    "phase": 2,
+    "pattern": "g, o, c, k",
+    "teachingHint": "Your child is learning four new sounds: 'g' says g (a short sound at the back of the throat), 'o' says oh (like the start of 'octopus'), 'c' says c (same sound as 'k'), 'k' says k (same sound as 'c'). They can now read words with all the letters learned so far. Help them point to each letter, say its sound, then blend: d-o-g → dog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "can",
+        "teachingTip": "c-a-n → Say each sound: c, a, n. Blend: can",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "cot",
+        "teachingTip": "c-o-t → Say each sound: c, o, t. Blend: cot",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "cod",
+        "teachingTip": "c-o-d → Say each sound: c, o, d. Blend: cod",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'noh'. Learn it by sight."
+    },
+    "story": "Can the cod sit on a cot? No, a cod can not do that!"
+  },
+  {
+    "id": "p2-set3-005",
+    "phase": 2,
+    "pattern": "g, o, c, k",
+    "teachingHint": "Your child is learning four new sounds: 'g' says g (a short sound at the back of the throat), 'o' says oh (like the start of 'octopus'), 'c' says c (same sound as 'k'), 'k' says k (same sound as 'c'). They can now read words with all the letters learned so far. Help them point to each letter, say its sound, then blend: d-o-g → dog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "kid",
+        "teachingTip": "k-i-d → Say each sound: k, i, d. Blend: kid",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "kit",
+        "teachingTip": "k-i-t → Say each sound: k, i, t. Blend: kit",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "dig",
+        "teachingTip": "d-i-g → Say each sound: d, i, g. Blend: dig",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! Like 'no', the 'o' says its name: 'goh'. Learn it by sight."
+    },
+    "story": "The kid got a dig kit. Go and dig in the sand!"
+  },
+  {
+    "id": "p2-set3-006",
+    "phase": 2,
+    "pattern": "g, o, c, k",
+    "teachingHint": "Your child is learning four new sounds: 'g' says g (a short sound at the back of the throat), 'o' says oh (like the start of 'octopus'), 'c' says c (same sound as 'k'), 'k' says k (same sound as 'c'). They can now read words with all the letters learned so far. Help them point to each letter, say its sound, then blend: d-o-g → dog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "gap",
+        "teachingTip": "g-a-p → Say each sound: g, a, p. Blend: gap",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "gag",
+        "teachingTip": "g-a-g → Say each sound: g, a, g. Blend: gag",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "tag",
+        "teachingTip": "t-a-g → Say each sound: t, a, g. Blend: tag",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "into",
+      "teachingTip": "Tricky word! It's two parts: 'in' + 'to'. Your child can sound out 'in' but 'to' is tricky."
+    },
+    "story": "The dog ran into a gap. It got a tag on its cap!"
+  },
+  {
+    "id": "p2-set3-007",
+    "phase": 2,
+    "pattern": "g, o, c, k",
+    "teachingHint": "Your child is learning four new sounds: 'g' says g (a short sound at the back of the throat), 'o' says oh (like the start of 'octopus'), 'c' says c (same sound as 'k'), 'k' says k (same sound as 'c'). They can now read words with all the letters learned so far. Help them point to each letter, say its sound, then blend: d-o-g → dog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "gig",
+        "teachingTip": "g-i-g → Say each sound: g, i, g. Blend: gig",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "nag",
+        "teachingTip": "n-a-g → Say each sound: n, a, g. Blend: nag",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "god",
+        "teachingTip": "g-o-d → Say each sound: g, o, d. Blend: god",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "The cat did a gig on top of the cot. Do not nag the cat!"
+  },
+  {
+    "id": "p2-set3-008",
+    "phase": 2,
+    "pattern": "g, o, c, k",
+    "teachingHint": "Your child is learning four new sounds: 'g' says g (a short sound at the back of the throat), 'o' says oh (like the start of 'octopus'), 'c' says c (same sound as 'k'), 'k' says k (same sound as 'c'). They can now read words with all the letters learned so far. Help them point to each letter, say its sound, then blend: d-o-g → dog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "dock",
+        "teachingTip": "d-o-ck → The 'ck' makes one /k/ sound. Blend: dock",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "sock",
+        "teachingTip": "s-o-ck → The 'ck' makes one /k/ sound. Blend: sock",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "kick",
+        "teachingTip": "k-i-ck → The 'ck' makes one /k/ sound. Blend: kick",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "I got a sock on the dock. I kick the sock into the pond!"
+  },
+  {
+    "id": "p2-set3-009",
+    "phase": 2,
+    "pattern": "g, o, c, k",
+    "teachingHint": "Your child is learning four new sounds: 'g' says g (a short sound at the back of the throat), 'o' says oh (like the start of 'octopus'), 'c' says c (same sound as 'k'), 'k' says k (same sound as 'c'). They can now read words with all the letters learned so far. Help them point to each letter, say its sound, then blend: d-o-g → dog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sack",
+        "teachingTip": "s-a-ck → The 'ck' makes one /k/ sound. Blend: sack",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "nick",
+        "teachingTip": "n-i-ck → The 'ck' makes one /k/ sound. Blend: nick",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "got",
+        "teachingTip": "g-o-t → Say each sound: g, o, t. Blend: got",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "I got a nick in the sack. Can I mend it on the spot?"
+  },
+  {
+    "id": "p2-set3-010",
+    "phase": 2,
+    "pattern": "g, o, c, k",
+    "teachingHint": "Your child is learning four new sounds: 'g' says g (a short sound at the back of the throat), 'o' says oh (like the start of 'octopus'), 'c' says c (same sound as 'k'), 'k' says k (same sound as 'c'). They can now read words with all the letters learned so far. Help them point to each letter, say its sound, then blend: d-o-g → dog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "dog",
+        "teachingTip": "d-o-g → Say each sound: d, o, g. Blend: dog",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "not",
+        "teachingTip": "n-o-t → Say each sound: n, o, t. Blend: not",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "cat",
+        "teachingTip": "c-a-t → Say each sound: c, a, t. Blend: cat",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'noh'. Learn it by sight."
+    },
+    "story": "The dog is not a cat. No, no, no — a dog is a dog!"
+  },
+  {
+    "id": "p2-set3-011",
+    "phase": 2,
+    "pattern": "g, o, c, k",
+    "teachingHint": "Your child is learning four new sounds: 'g' says g (a short sound at the back of the throat), 'o' says oh (like the start of 'octopus'), 'c' says c (same sound as 'k'), 'k' says k (same sound as 'c'). They can now read words with all the letters learned so far. Help them point to each letter, say its sound, then blend: d-o-g → dog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "top",
+        "teachingTip": "t-o-p → Say each sound: t, o, p. Blend: top",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "can",
+        "teachingTip": "c-a-n → Say each sound: c, a, n. Blend: can",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "dig",
+        "teachingTip": "d-i-g → Say each sound: d, i, g. Blend: dig",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! Like 'no', the 'o' says its name: 'goh'. Learn it by sight."
+    },
+    "story": "Can the kid dig to the top? Go, go, go — dig and dig!"
+  },
+  {
+    "id": "p2-set3-012",
+    "phase": 2,
+    "pattern": "g, o, c, k",
+    "teachingHint": "Your child is learning four new sounds: 'g' says g (a short sound at the back of the throat), 'o' says oh (like the start of 'octopus'), 'c' says c (same sound as 'k'), 'k' says k (same sound as 'c'). They can now read words with all the letters learned so far. Help them point to each letter, say its sound, then blend: d-o-g → dog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "cop",
+        "teachingTip": "c-o-p → Say each sound: c, o, p. Blend: cop",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "kid",
+        "teachingTip": "k-i-d → Say each sound: k, i, d. Blend: kid",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "on",
+        "teachingTip": "o-n → Say each sound: o, n. Blend: on",
+        "segments": [
+          { "chars": "o", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "into",
+      "teachingTip": "Tricky word! It's two parts: 'in' + 'to'. Your child can sound out 'in' but 'to' is tricky."
+    },
+    "story": "A kid sat on a cot and a cop ran into the room. The cop got the kid a snack!"
+  },
+  {
+    "id": "p2-set3-013",
+    "phase": 2,
+    "pattern": "g, o, c, k",
+    "teachingHint": "Your child is learning four new sounds: 'g' says g (a short sound at the back of the throat), 'o' says oh (like the start of 'octopus'), 'c' says c (same sound as 'k'), 'k' says k (same sound as 'c'). They can now read words with all the letters learned so far. Help them point to each letter, say its sound, then blend: d-o-g → dog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pot",
+        "teachingTip": "p-o-t → Say each sound: p, o, t. Blend: pot",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "god",
+        "teachingTip": "g-o-d → Say each sound: g, o, d. Blend: god",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "dock",
+        "teachingTip": "d-o-ck → The 'ck' makes one /k/ sound. Blend: dock",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "The pot is on the dock. Do not kick the pot into the pond!"
+  },
+  {
+    "id": "p2-set3-014",
+    "phase": 2,
+    "pattern": "g, o, c, k",
+    "teachingHint": "Your child is learning four new sounds: 'g' says g (a short sound at the back of the throat), 'o' says oh (like the start of 'octopus'), 'c' says c (same sound as 'k'), 'k' says k (same sound as 'c'). They can now read words with all the letters learned so far. Help them point to each letter, say its sound, then blend: d-o-g → dog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sock",
+        "teachingTip": "s-o-ck → The 'ck' makes one /k/ sound. Blend: sock",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "sack",
+        "teachingTip": "s-a-ck → The 'ck' makes one /k/ sound. Blend: sack",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "nick",
+        "teachingTip": "n-i-ck → The 'ck' makes one /k/ sound. Blend: nick",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! Like 'no', the 'o' says its name: 'goh'. Learn it by sight."
+    },
+    "story": "A sock and a sack go into a big tin. Did the sock get a nick in it?"
+  }
+]

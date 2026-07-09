@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "p3-ai-001",
+    "phase": 3,
+    "pattern": "ai",
+    "teachingHint": "Your child is learning the /ai/ sound (as in 'rain'). When 'a' and 'i' sit together, they make one sound: /ai/. Help your child spot 'ai' and blend: r-ai-n → rain. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "rain",
+        "teachingTip": "r-ai-n → Spot the 'ai' digraph. Blend: r-ai-n → rain",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "tail",
+        "teachingTip": "t-ai-l → Spot the 'ai' digraph. Blend: t-ai-l → tail",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "aim",
+        "teachingTip": "ai-m → Spot the 'ai' digraph. Blend: ai-m → aim",
+        "segments": [
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "mail",
+        "teachingTip": "m-ai-l → Spot the 'ai' digraph. Blend: m-ai-l → mail",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "he",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'hee'. Learn it by sight."
+    },
+    "story": "He got rain on his tail. His aim was to get the mail, but the rain got it all wet!"
+  },
+  {
+    "id": "p3-ai-002",
+    "phase": 3,
+    "pattern": "ai",
+    "teachingHint": "Your child is learning the /ai/ sound (as in 'rain'). When 'a' and 'i' sit together, they make one sound: /ai/. Help your child spot 'ai' and blend: r-ai-n → rain. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "paid",
+        "teachingTip": "p-ai-d → Spot the 'ai' digraph. Blend: p-ai-d → paid",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "sail",
+        "teachingTip": "s-ai-l → Spot the 'ai' digraph. Blend: s-ai-l → sail",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "main",
+        "teachingTip": "m-ai-n → Spot the 'ai' digraph. Blend: m-ai-n → main",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "pain",
+        "teachingTip": "p-ai-n → Spot the 'ai' digraph. Blend: p-ai-n → pain",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "she",
+      "teachingTip": "Tricky word! We know 'sh' but the 'e' says its name 'ee'. We say 'shee'."
+    },
+    "story": "She paid for a sail on the main ship. The pain in her leg was from the big sail rope!"
+  },
+  {
+    "id": "p3-ai-003",
+    "phase": 3,
+    "pattern": "ai",
+    "teachingHint": "Your child is learning the /ai/ sound (as in 'rain'). When 'a' and 'i' sit together, they make one sound: /ai/. Help your child spot 'ai' and blend: r-ai-n → rain. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "gain",
+        "teachingTip": "g-ai-n → Spot the 'ai' digraph. Blend: g-ai-n → gain",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "wait",
+        "teachingTip": "w-ai-t → Spot the 'ai' digraph. Blend: w-ai-t → wait",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "fail",
+        "teachingTip": "f-ai-l → Spot the 'ai' digraph. Blend: f-ai-l → fail",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "nail",
+        "teachingTip": "n-ai-l → Spot the 'ai' digraph. Blend: n-ai-l → nail",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "we",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'wee'. Learn it by sight."
+    },
+    "story": "We had to wait and not fail. We hit the nail in to gain a spot on the wall!"
+  },
+  {
+    "id": "p3-ai-004",
+    "phase": 3,
+    "pattern": "ai",
+    "teachingHint": "Your child is learning the /ai/ sound (as in 'rain'). When 'a' and 'i' sit together, they make one sound: /ai/. Help your child spot 'ai' and blend: r-ai-n → rain. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "rail",
+        "teachingTip": "r-ai-l → Spot the 'ai' digraph. Blend: r-ai-l → rail",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "jail",
+        "teachingTip": "j-ai-l → Spot the 'ai' digraph. Blend: j-ai-l → jail",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "hail",
+        "teachingTip": "h-ai-l → Spot the 'ai' digraph. Blend: h-ai-l → hail",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "rain",
+        "teachingTip": "r-ai-n → Spot the 'ai' digraph. Blend: r-ai-n → rain",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "me",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'mee'. Learn it by sight."
+    },
+    "story": "Hail and rain hit me by the rail. The jail got hail on its roof and rain ran down the rail!"
+  },
+  {
+    "id": "p3-ai-005",
+    "phase": 3,
+    "pattern": "ai",
+    "teachingHint": "Your child is learning the /ai/ sound (as in 'rain'). When 'a' and 'i' sit together, they make one sound: /ai/. Help your child spot 'ai' and blend: r-ai-n → rain. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "tail",
+        "teachingTip": "t-ai-l → Spot the 'ai' digraph. Blend: t-ai-l → tail",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "paid",
+        "teachingTip": "p-ai-d → Spot the 'ai' digraph. Blend: p-ai-d → paid",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "sail",
+        "teachingTip": "s-ai-l → Spot the 'ai' digraph. Blend: s-ai-l → sail",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "gain",
+        "teachingTip": "g-ai-n → Spot the 'ai' digraph. Blend: g-ai-n → gain",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "be",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'bee'. Learn it by sight."
+    },
+    "story": "The dog's tail went up as he paid to sail. It will be fun to gain speed on the big sail!"
+  },
+  {
+    "id": "p3-ai-006",
+    "phase": 3,
+    "pattern": "ai",
+    "teachingHint": "Your child is learning the /ai/ sound (as in 'rain'). When 'a' and 'i' sit together, they make one sound: /ai/. Help your child spot 'ai' and blend: r-ai-n → rain. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "aim",
+        "teachingTip": "ai-m → Spot the 'ai' digraph. Blend: ai-m → aim",
+        "segments": [
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "mail",
+        "teachingTip": "m-ai-l → Spot the 'ai' digraph. Blend: m-ai-l → mail",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "wait",
+        "teachingTip": "w-ai-t → Spot the 'ai' digraph. Blend: w-ai-t → wait",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "nail",
+        "teachingTip": "n-ai-l → Spot the 'ai' digraph. Blend: n-ai-l → nail",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "was",
+      "teachingTip": "Tricky word! It looks like it should say 'wass' but we say 'woz'. Learn it by sight."
+    },
+    "story": "His aim was to get the mail and a nail. He had to wait, but the mail was full of fun!"
+  },
+  {
+    "id": "p3-ai-007",
+    "phase": 3,
+    "pattern": "ai",
+    "teachingHint": "Your child is learning the /ai/ sound (as in 'rain'). When 'a' and 'i' sit together, they make one sound: /ai/. Help your child spot 'ai' and blend: r-ai-n → rain. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "main",
+        "teachingTip": "m-ai-n → Spot the 'ai' digraph. Blend: m-ai-n → main",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "pain",
+        "teachingTip": "p-ai-n → Spot the 'ai' digraph. Blend: p-ai-n → pain",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "fail",
+        "teachingTip": "f-ai-l → Spot the 'ai' digraph. Blend: f-ai-l → fail",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "hail",
+        "teachingTip": "h-ai-l → Spot the 'ai' digraph. Blend: h-ai-l → hail",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "you",
+      "teachingTip": "Tricky word! This doesn't follow the normal rules. We say 'yoo'. Learn it by sight."
+    },
+    "story": "The main pain was the hail! You must not fail to get in when hail hits the roof!"
+  },
+  {
+    "id": "p3-ai-008",
+    "phase": 3,
+    "pattern": "ai",
+    "teachingHint": "Your child is learning the /ai/ sound (as in 'rain'). When 'a' and 'i' sit together, they make one sound: /ai/. Help your child spot 'ai' and blend: r-ai-n → rain. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "rail",
+        "teachingTip": "r-ai-l → Spot the 'ai' digraph. Blend: r-ai-l → rail",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "jail",
+        "teachingTip": "j-ai-l → Spot the 'ai' digraph. Blend: j-ai-l → jail",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "aim",
+        "teachingTip": "ai-m → Spot the 'ai' digraph. Blend: ai-m → aim",
+        "segments": [
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "rain",
+        "teachingTip": "r-ai-n → Spot the 'ai' digraph. Blend: r-ai-n → rain",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "they",
+      "teachingTip": "Tricky word! The 'ey' makes an /ai/ sound here. We say 'thay'. Learn it by sight."
+    },
+    "story": "They sat on the rail in the rain. The jail had a rail, and they took aim at the puddle!"
+  },
+  {
+    "id": "p3-ee-001",
+    "phase": 3,
+    "pattern": "ee",
+    "teachingHint": "Your child is learning the /ee/ sound (as in 'bee'). When two 'e's sit together, they make one sound: /ee/. Help your child spot 'ee' and blend: b-ee → bee. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "bee",
+        "teachingTip": "b-ee → Spot the 'ee' digraph. Blend: b-ee → bee",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ee", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "see",
+        "teachingTip": "s-ee → Spot the 'ee' digraph. Blend: s-ee → see",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ee", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "feet",
+        "teachingTip": "f-ee-t → Spot the 'ee' digraph. Blend: f-ee-t → feet",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "seem",
+        "teachingTip": "s-ee-m → Spot the 'ee' digraph. Blend: s-ee-m → seem",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "all",
+      "teachingTip": "Tricky word! The 'a' says /or/ in this word. We say 'orl'. Learn it by sight."
+    },
+    "story": "A bee sat on my feet! I could see it all. It did seem to like sitting on my feet!"
+  },
+  {
+    "id": "p3-ee-002",
+    "phase": 3,
+    "pattern": "ee",
+    "teachingHint": "Your child is learning the /ee/ sound (as in 'bee'). When two 'e's sit together, they make one sound: /ee/. Help your child spot 'ee' and blend: b-ee → bee. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "meet",
+        "teachingTip": "m-ee-t → Spot the 'ee' digraph. Blend: m-ee-t → meet",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "jeep",
+        "teachingTip": "j-ee-p → Spot the 'ee' digraph. Blend: j-ee-p → jeep",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "keep",
+        "teachingTip": "k-ee-p → Spot the 'ee' digraph. Blend: k-ee-p → keep",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "been",
+        "teachingTip": "b-ee-n → Spot the 'ee' digraph. Blend: b-ee-n → been",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "are",
+      "teachingTip": "Tricky word! It looks like it should say 'air' but we say 'ar'. Learn it by sight."
+    },
+    "story": "We are going to meet at the jeep. We have been told to keep the jeep safe!"
+  },
+  {
+    "id": "p3-ee-003",
+    "phase": 3,
+    "pattern": "ee",
+    "teachingHint": "Your child is learning the /ee/ sound (as in 'bee'). When two 'e's sit together, they make one sound: /ee/. Help your child spot 'ee' and blend: b-ee → bee. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "keen",
+        "teachingTip": "k-ee-n → Spot the 'ee' digraph. Blend: k-ee-n → keen",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "deep",
+        "teachingTip": "d-ee-p → Spot the 'ee' digraph. Blend: d-ee-p → deep",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "weed",
+        "teachingTip": "w-ee-d → Spot the 'ee' digraph. Blend: w-ee-d → weed",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "feed",
+        "teachingTip": "f-ee-d → Spot the 'ee' digraph. Blend: f-ee-d → feed",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "my",
+      "teachingTip": "Tricky word! The 'y' says /ie/ in this word. We say 'mie'. Learn it by sight."
+    },
+    "story": "My keen dog dug deep in the weed patch. I had to feed him after he pulled up all the weed!"
+  },
+  {
+    "id": "p3-ee-004",
+    "phase": 3,
+    "pattern": "ee",
+    "teachingHint": "Your child is learning the /ee/ sound (as in 'bee'). When two 'e's sit together, they make one sound: /ee/. Help your child spot 'ee' and blend: b-ee → bee. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "need",
+        "teachingTip": "n-ee-d → Spot the 'ee' digraph. Blend: n-ee-d → need",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "seed",
+        "teachingTip": "s-ee-d → Spot the 'ee' digraph. Blend: s-ee-d → seed",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "bee",
+        "teachingTip": "b-ee → Spot the 'ee' digraph. Blend: b-ee → bee",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ee", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "see",
+        "teachingTip": "s-ee → Spot the 'ee' digraph. Blend: s-ee → see",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ee", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "her",
+      "teachingTip": "Tricky word! The 'er' makes one sound /er/. We say 'her'. Learn it by sight."
+    },
+    "story": "I need a seed for her garden. I can see a bee on the seed! The bee will help her seed grow."
+  },
+  {
+    "id": "p3-ee-005",
+    "phase": 3,
+    "pattern": "ee",
+    "teachingHint": "Your child is learning the /ee/ sound (as in 'bee'). When two 'e's sit together, they make one sound: /ee/. Help your child spot 'ee' and blend: b-ee → bee. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "feet",
+        "teachingTip": "f-ee-t → Spot the 'ee' digraph. Blend: f-ee-t → feet",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "meet",
+        "teachingTip": "m-ee-t → Spot the 'ee' digraph. Blend: m-ee-t → meet",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "keen",
+        "teachingTip": "k-ee-n → Spot the 'ee' digraph. Blend: k-ee-n → keen",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "deep",
+        "teachingTip": "d-ee-p → Spot the 'ee' digraph. Blend: d-ee-p → deep",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "he",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'hee'. Learn it by sight."
+    },
+    "story": "He got his feet wet in the deep pond. He was keen to meet his pal, so he ran with wet feet!"
+  },
+  {
+    "id": "p3-ee-006",
+    "phase": 3,
+    "pattern": "ee",
+    "teachingHint": "Your child is learning the /ee/ sound (as in 'bee'). When two 'e's sit together, they make one sound: /ee/. Help your child spot 'ee' and blend: b-ee → bee. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "seem",
+        "teachingTip": "s-ee-m → Spot the 'ee' digraph. Blend: s-ee-m → seem",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "jeep",
+        "teachingTip": "j-ee-p → Spot the 'ee' digraph. Blend: j-ee-p → jeep",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "weed",
+        "teachingTip": "w-ee-d → Spot the 'ee' digraph. Blend: w-ee-d → weed",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "need",
+        "teachingTip": "n-ee-d → Spot the 'ee' digraph. Blend: n-ee-d → need",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "she",
+      "teachingTip": "Tricky word! We know 'sh' but the 'e' says its name 'ee'. We say 'shee'."
+    },
+    "story": "She did seem to need a jeep to pull the weed. The weed was so big it did not seem to end!"
+  },
+  {
+    "id": "p3-ee-007",
+    "phase": 3,
+    "pattern": "ee",
+    "teachingHint": "Your child is learning the /ee/ sound (as in 'bee'). When two 'e's sit together, they make one sound: /ee/. Help your child spot 'ee' and blend: b-ee → bee. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "keep",
+        "teachingTip": "k-ee-p → Spot the 'ee' digraph. Blend: k-ee-p → keep",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "been",
+        "teachingTip": "b-ee-n → Spot the 'ee' digraph. Blend: b-ee-n → been",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "feed",
+        "teachingTip": "f-ee-d → Spot the 'ee' digraph. Blend: f-ee-d → feed",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "seed",
+        "teachingTip": "s-ee-d → Spot the 'ee' digraph. Blend: s-ee-d → seed",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "was",
+      "teachingTip": "Tricky word! It looks like it should say 'wass' but we say 'woz'. Learn it by sight."
+    },
+    "story": "The seed was in the pot. We have been told to keep it wet and feed it. It has been a good seed!"
+  },
+  {
+    "id": "p3-ee-008",
+    "phase": 3,
+    "pattern": "ee",
+    "teachingHint": "Your child is learning the /ee/ sound (as in 'bee'). When two 'e's sit together, they make one sound: /ee/. Help your child spot 'ee' and blend: b-ee → bee. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "see",
+        "teachingTip": "s-ee → Spot the 'ee' digraph. Blend: s-ee → see",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ee", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "seem",
+        "teachingTip": "s-ee-m → Spot the 'ee' digraph. Blend: s-ee-m → seem",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "meet",
+        "teachingTip": "m-ee-t → Spot the 'ee' digraph. Blend: m-ee-t → meet",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "bee",
+        "teachingTip": "b-ee → Spot the 'ee' digraph. Blend: b-ee → bee",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ee", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "we",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'wee'. Learn it by sight."
+    },
+    "story": "We can see a bee! It did seem to meet us in the park. We like to see the bee buzz and hum!"
+  },
+  {
+    "id": "p3-igh-001",
+    "phase": 3,
+    "pattern": "igh",
+    "teachingHint": "Your child is learning the /igh/ sound (a long 'eye' sound, as in 'high'). The letters 'i', 'g', and 'h' sit together to make one sound: /igh/. Help your child spot 'igh' and blend: h-igh → high. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "high",
+        "teachingTip": "h-igh → Spot the 'igh' trigraph. Blend: h-igh → high",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "igh", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "sigh",
+        "teachingTip": "s-igh → Spot the 'igh' trigraph. Blend: s-igh → sigh",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "igh", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "might",
+        "teachingTip": "m-igh-t → Spot the 'igh' trigraph. Blend: m-igh-t → might",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "night",
+        "teachingTip": "n-igh-t → Spot the 'igh' trigraph. Blend: n-igh-t → night",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "me",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'mee'. Learn it by sight."
+    },
+    "story": "At night I sigh and look up high. It might be a star! The night sky is high and dark."
+  },
+  {
+    "id": "p3-igh-002",
+    "phase": 3,
+    "pattern": "igh",
+    "teachingHint": "Your child is learning the /igh/ sound (a long 'eye' sound, as in 'high'). The letters 'i', 'g', and 'h' sit together to make one sound: /igh/. Help your child spot 'igh' and blend: h-igh → high. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "light",
+        "teachingTip": "l-igh-t → Spot the 'igh' trigraph. Blend: l-igh-t → light",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "right",
+        "teachingTip": "r-igh-t → Spot the 'igh' trigraph. Blend: r-igh-t → right",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "fight",
+        "teachingTip": "f-igh-t → Spot the 'igh' trigraph. Blend: f-igh-t → fight",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sight",
+        "teachingTip": "s-igh-t → Spot the 'igh' trigraph. Blend: s-igh-t → sight",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "be",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'bee'. Learn it by sight."
+    },
+    "story": "Turn right and you will see a light. It must be a good sight! The fight for the right light is on!"
+  },
+  {
+    "id": "p3-igh-003",
+    "phase": 3,
+    "pattern": "igh",
+    "teachingHint": "Your child is learning the /igh/ sound (a long 'eye' sound, as in 'high'). The letters 'i', 'g', and 'h' sit together to make one sound: /igh/. Help your child spot 'igh' and blend: h-igh → high. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "tight",
+        "teachingTip": "t-igh-t → Spot the 'igh' trigraph. Blend: t-igh-t → tight",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "thigh",
+        "teachingTip": "th-igh → Spot the 'th' digraph and 'igh' trigraph. Blend: th-igh → thigh",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "igh", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "high",
+        "teachingTip": "h-igh → Spot the 'igh' trigraph. Blend: h-igh → high",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "igh", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "night",
+        "teachingTip": "n-igh-t → Spot the 'igh' trigraph. Blend: n-igh-t → night",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "all",
+      "teachingTip": "Tricky word! The 'a' says /or/ in this word. We say 'orl'. Learn it by sight."
+    },
+    "story": "At night the lid was on tight. He bumped his thigh up high! All of it hurt, but it was all right."
+  },
+  {
+    "id": "p3-igh-004",
+    "phase": 3,
+    "pattern": "igh",
+    "teachingHint": "Your child is learning the /igh/ sound (a long 'eye' sound, as in 'high'). The letters 'i', 'g', and 'h' sit together to make one sound: /igh/. Help your child spot 'igh' and blend: h-igh → high. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "might",
+        "teachingTip": "m-igh-t → Spot the 'igh' trigraph. Blend: m-igh-t → might",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sight",
+        "teachingTip": "s-igh-t → Spot the 'igh' trigraph. Blend: s-igh-t → sight",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "light",
+        "teachingTip": "l-igh-t → Spot the 'igh' trigraph. Blend: l-igh-t → light",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sigh",
+        "teachingTip": "s-igh → Spot the 'igh' trigraph. Blend: s-igh → sigh",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "igh", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "they",
+      "teachingTip": "Tricky word! The 'ey' makes an /ai/ sound here. We say 'thay'. Learn it by sight."
+    },
+    "story": "They might see a sight in the light! With a sigh, they said the light was a lovely sight."
+  },
+  {
+    "id": "p3-igh-005",
+    "phase": 3,
+    "pattern": "igh",
+    "teachingHint": "Your child is learning the /igh/ sound (a long 'eye' sound, as in 'high'). The letters 'i', 'g', and 'h' sit together to make one sound: /igh/. Help your child spot 'igh' and blend: h-igh → high. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "right",
+        "teachingTip": "r-igh-t → Spot the 'igh' trigraph. Blend: r-igh-t → right",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "fight",
+        "teachingTip": "f-igh-t → Spot the 'igh' trigraph. Blend: f-igh-t → fight",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "tight",
+        "teachingTip": "t-igh-t → Spot the 'igh' trigraph. Blend: t-igh-t → tight",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "thigh",
+        "teachingTip": "th-igh → Spot the 'th' digraph and 'igh' trigraph. Blend: th-igh → thigh",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "igh", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "my",
+      "teachingTip": "Tricky word! The 'y' says /ie/ in this word. We say 'mie'. Learn it by sight."
+    },
+    "story": "My lid is on tight! Turn right and do not fight. I bumped my thigh but it was all right."
+  },
+  {
+    "id": "p3-igh-006",
+    "phase": 3,
+    "pattern": "igh",
+    "teachingHint": "Your child is learning the /igh/ sound (a long 'eye' sound, as in 'high'). The letters 'i', 'g', and 'h' sit together to make one sound: /igh/. Help your child spot 'igh' and blend: h-igh → high. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "night",
+        "teachingTip": "n-igh-t → Spot the 'igh' trigraph. Blend: n-igh-t → night",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "high",
+        "teachingTip": "h-igh → Spot the 'igh' trigraph. Blend: h-igh → high",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "igh", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "might",
+        "teachingTip": "m-igh-t → Spot the 'igh' trigraph. Blend: m-igh-t → might",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sight",
+        "teachingTip": "s-igh-t → Spot the 'igh' trigraph. Blend: s-igh-t → sight",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "are",
+      "teachingTip": "Tricky word! It looks like it should say 'air' but we say 'ar'. Learn it by sight."
+    },
+    "story": "The stars are high at night. You might see a lovely sight! Night time and the stars are the best sight of all."
+  }
+]

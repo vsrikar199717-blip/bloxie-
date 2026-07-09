@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "scheme": "Letters and Sounds",
+    "version": "1.0",
+    "generated": "2026-01-12",
+    "notes": "Requires teacher verification. Words with flags need review.",
+    "phases_covered": [2, 3, 4, 5]
+  },
+  "graphemeReference": {
+    "phase2": {
+      "set1": ["s", "a", "t", "p"],
+      "set2": ["i", "n", "m", "d"],
+      "set3": ["g", "o", "c", "k"],
+      "set4": ["ck", "e", "u", "r"],
+      "set5": ["h", "b", "f", "ff", "l", "ll", "ss"]
+    },
+    "phase3": {
+      "set6": ["j", "v", "w", "x"],
+      "set7": ["y", "z", "zz", "qu"],
+      "consonantDigraphs": ["ch", "sh", "th", "ng"],
+      "vowelDigraphs": ["ai", "ee", "igh", "oa", "oo", "ar", "or", "ur", "ow", "oi"],
+      "trigraphs": ["ear", "air", "ure", "er"]
+    },
+    "phase5": {
+      "newGraphemes": ["ay", "ou", "ie", "ea", "oy", "ir", "ue", "aw", "wh", "ph", "ew", "oe", "au"],
+      "splitDigraphs": ["a-e", "e-e", "i-e", "o-e", "u-e"]
+    }
+  },
+  "trickyWords": {
+    "phase2": ["the", "to", "no", "go", "I", "into"],
+    "phase3": ["he", "she", "we", "me", "be", "was", "you", "they", "all", "are", "my", "her"],
+    "phase4": ["said", "have", "like", "so", "do", "some", "come", "were", "there", "little", "one", "when", "out", "what"],
+    "phase5": ["oh", "their", "people", "Mr", "Mrs", "looked", "called", "asked", "could"]
+  },
+  "phase2": {
+    "set1": {
+      "graphemes": ["s", "a", "t", "p"],
+      "words": {
+        "s": ["sat", "sap", "sip", "sit", "sad"],
+        "a": ["at", "as", "apt", "pat", "tap"],
+        "t": ["tap", "tat", "pat", "sat", "at"],
+        "p": ["pat", "tap", "sap", "pap", "apt"]
+      },
+      "story": {"text": "Pat sat. Pat sat at a tap.", "trickyWord": "a"}
+    },
+    "set2": {
+      "graphemes": ["i", "n", "m", "d"],
+      "words": {
+        "i": ["it", "is", "sit", "pit", "tip", "sip", "pip", "nip", "in", "tin"],
+        "n": ["an", "in", "nip", "pan", "nap", "pin", "tan", "tin", "nan"],
+        "m": ["am", "man", "mat", "map", "mam", "Tim", "Sam", "Pam"],
+        "d": ["dad", "and", "sad", "dim", "Sid", "did", "dip", "din", "dam", "mid"]
+      },
+      "story": {"text": "Tim and Sid sat in the pit. Dad did a nap.", "trickyWord": "the"}
+    },
+    "set3": {
+      "graphemes": ["g", "o", "c", "k"],
+      "words": {
+        "g": ["tag", "gag", "sag", "gas", "pig", "dig", "gig", "nag", "gap"],
+        "o": ["got", "on", "not", "top", "dog", "pot", "pop", "mop", "cot"],
+        "c": ["can", "cot", "cop", "cap", "cod", "cat", "cog", "cad", "cam"],
+        "k": ["kid", "kit", "Kim", "kin", "kip", "ink"]
+      },
+      "story": {"text": "A cat got on top. The dog can not go up.", "trickyWord": "go"}
+    },
+    "set4": {
+      "graphemes": ["ck", "e", "u", "r"],
+      "words": {
+        "ck": ["kick", "sack", "dock", "sick", "pack", "tack", "pick", "tick", "sock", "duck", "muck", "tuck", "rock"],
+        "e": ["get", "pet", "ten", "net", "pen", "peg", "met", "set", "men", "den", "red", "Ted", "Ken", "keg"],
+        "u": ["up", "mum", "run", "mug", "cup", "sun", "pup", "tug", "nut", "cut", "dug", "mud"],
+        "r": ["rip", "ram", "rat", "rag", "rot", "rug", "run", "red", "ran"]
+      },
+      "story": {"text": "A duck ran up to get a nut. Mum put it in a red cup.", "trickyWord": "to"}
+    },
+    "set5": {
+      "graphemes": ["h", "b", "f", "ff", "l", "ll", "ss"],
+      "words": {
+        "h": ["had", "him", "his", "hot", "hut", "hat", "hen", "hop", "hug", "hit"],
+        "b": ["but", "big", "back", "bed", "bus", "bat", "bin", "bud", "bit", "bun"],
+        "f": ["if", "fit", "fog", "fat", "fan", "fun", "fin", "fed", "fig"],
+        "ff": ["off", "puff", "huff", "buff", "cuff", "tiff"],
+        "l": ["let", "leg", "lot", "lit", "lap", "lip", "log", "lug", "lid"],
+        "ll": ["bell", "doll", "tell", "sell", "fell", "hill", "fill", "mill", "pill", "dull", "full", "pull"],
+        "ss": ["less", "hiss", "mass", "mess", "boss", "fuss", "miss", "loss", "pass", "toss", "kiss"]
+      },
+      "story": {"text": "I hid in a big hut on a hill. A bell fell off and hit the dog.", "trickyWord": "I"}
+    }
+  },
+  "phase3": {
+    "set6": {
+      "graphemes": ["j", "v", "w", "x"],
+      "words": {
+        "j": ["jet", "jam", "jog", "Jan", "jot", "jab", "jug", "job", "Jim"],
+        "v": ["van", "vet", "vat", "vim", "vex"],
+        "w": ["wig", "will", "web", "win", "wit", "wag", "wed", "wet", "wax", "well"],
+        "x": ["fox", "box", "six", "mix", "fix", "tax", "wax", "Rex", "hex", "vex"]
+      },
+      "story": {"text": "A fox sat in a box. Jan got six jam jars.", "trickyWord": "he"}
+    },
+    "set7": {
+      "graphemes": ["y", "z", "zz", "qu"],
+      "words": {
+        "y": ["yes", "yet", "yell", "yap", "yam", "yak"],
+        "z": ["zip", "zap", "zig", "zag", "zen", "zed"],
+        "zz": ["buzz", "jazz", "fizz", "fuzz"],
+        "qu": ["quit", "quick", "quiz", "quin", "quill"]
+      },
+      "story": {"text": "A quick quiz! Yes, the bug did buzz and fizz.", "trickyWord": "was"}
+    },
+    "consonantDigraphs": {
+      "graphemes": ["ch", "sh", "th", "ng"],
+      "words": {
+        "ch": ["chip", "chat", "rich", "chin", "chop", "chug", "much", "such", "check", "chess"],
+        "sh": ["shop", "shed", "fish", "ship", "shut", "shell", "shin", "shot", "dash", "mash", "gush", "rush", "hush", "wish", "mesh"],
+        "th": ["thin", "moth", "that", "them", "then", "this", "with", "thud", "thick", "path", "bath", "math"],
+        "ng": ["ring", "thing", "song", "king", "sing", "bang", "gang", "hang", "long", "gong", "bung", "lung", "rung", "hung", "wing"]
+      },
+      "story": {"text": "She shut the shop and ran to chat with the king. He was singing a long song.", "trickyWord": "she"}
+    },
+    "vowelDigraphs": {
+      "graphemes": ["ai", "ee", "igh", "oa", "oo", "ar", "or", "ur", "ow", "oi", "ear", "air", "ure", "er"],
+      "words": {
+        "ai": ["rain", "tail", "aim", "paid", "mail", "sail", "main", "pain", "gain", "wait", "fail", "nail", "rail", "jail", "hail"],
+        "ee": ["bee", "see", "feet", "seem", "meet", "jeep", "keep", "been", "keen", "deep", "weed", "feed", "need", "seed"],
+        "igh": ["high", "sigh", "might", "night", "light", "right", "fight", "sight", "tight", "thigh"],
+        "oa": ["boat", "toad", "foal", "coat", "goat", "road", "load", "loaf", "soap", "moan", "oak", "coal"],
+        "oo_long": ["boot", "food", "moon", "zoo", "too", "cool", "pool", "tool", "room", "boom", "roof", "hoop", "loop", "soon", "noon"],
+        "oo_short": ["book", "wood", "foot", "look", "cook", "hook", "took", "good", "hood", "wool", "nook", "shook"],
+        "ar": ["park", "art", "car", "jar", "far", "bar", "tar", "arm", "farm", "harm", "card", "hard", "dark", "mark", "bark"],
+        "or": ["for", "torn", "fork", "corn", "horn", "born", "worn", "sort", "port", "fort", "cord", "lord", "pork", "cork"],
+        "ur": ["hurt", "fur", "surf", "burn", "turn", "curl", "burp", "curb", "turf", "murk", "lurk", "urn"],
+        "ow": ["cow", "owl", "town", "now", "how", "bow", "wow", "down", "gown", "howl", "fowl", "pow", "vow"],
+        "oi": ["coin", "boil", "oil", "foil", "coil", "soil", "toil", "join", "void", "oink"],
+        "ear": ["dear", "year", "hear", "fear", "near", "tear", "gear", "rear", "ear", "beard"],
+        "air": ["fair", "pair", "hair", "air", "chair", "lair"],
+        "ure": ["sure", "pure", "cure", "lure"],
+        "er": ["dinner", "summer", "letter", "better", "her", "hammer", "matter", "bigger", "runner"]
+      },
+      "story": {"text": "We see a bee in a tree. The goat and the toad sail in a boat on the pool.", "trickyWord": "we"}
+    }
+  },
+  "phase4": {
+    "description": "Consonant clusters - CVCC, CCVC, CCVCC patterns",
+    "initialClusters": ["bl", "br", "cl", "cr", "dr", "fl", "fr", "gl", "gr", "pl", "pr", "sc", "sk", "sl", "sm", "sn", "sp", "st", "sw", "tr", "tw", "scr", "spr", "str", "spl"],
+    "finalClusters": ["ct", "ft", "lf", "lk", "lm", "lp", "lt", "mp", "nd", "ng", "nk", "nt", "pt", "sk", "sp", "st", "xt"],
+    "exampleWords": {
+      "CVCC": ["band", "belt", "bent", "bump", "camp", "damp", "desk", "dust", "fact", "fast", "felt", "gift", "gulp", "hand", "help", "hint", "jump", "just", "kept", "lamp", "land", "last", "left", "lift", "list", "lost", "lump", "melt", "mend", "milk", "mint", "mist", "must", "nest", "next", "pond", "pump", "raft", "rest", "sand", "self", "send", "sent", "silk", "soft", "task", "tent", "test"],
+      "CCVC": ["black", "brag", "clam", "crab", "drag", "flag", "frog", "glad", "grab", "plan", "pram", "scab", "skid", "slam", "snap", "span", "spot", "stop", "swim", "trap", "twig", "twin"],
+      "CCVCC": ["blast", "blend", "brand", "cramp", "crisp", "drift", "front", "frost", "grand", "grant", "grasp", "print", "spent", "stamp", "stand", "stomp", "swept", "trend", "trust", "twist"]
+    }
+  },
+  "phase5": {
+    "splitDigraphs": {
+      "a-e": {
+        "phoneme": "/ai/",
+        "words": ["make", "game", "snake", "cake", "lake", "take", "wake", "name", "same", "shape", "bake", "date", "fate", "gate", "late", "mate", "rate", "save", "wave", "brave"]
+      },
+      "e-e": {
+        "phoneme": "/ee/",
+        "words": ["these", "Eve", "extreme", "Pete", "Steve", "theme", "scene"]
+      },
+      "i-e": {
+        "phoneme": "/igh/",
+        "words": ["like", "time", "slide", "bike", "kite", "hide", "ride", "side", "wide", "mine", "nine", "pine", "vine", "wine", "bite", "site", "white", "tribe", "prize", "smile"]
+      },
+      "o-e": {
+        "phoneme": "/oa/",
+        "words": ["home", "bone", "pole", "hole", "mole", "note", "vote", "woke", "joke", "poke", "smoke", "stone", "throne", "zone", "cone", "lone", "tone", "rose", "nose", "chose"]
+      },
+      "u-e": {
+        "phoneme": "/oo/",
+        "words": ["rule", "June", "flute", "tube", "cube", "cute", "huge", "fuse", "muse", "use", "mute", "rude", "dune", "tune", "prune"]
+      }
+    },
+    "newGraphemes": {
+      "ay": ["day", "play", "crayon", "stay", "way", "say", "may", "pay", "ray", "hay", "clay", "gray", "spray", "today", "away"],
+      "ou": ["cloud", "sound", "about", "out", "loud", "proud", "round", "found", "ground", "pound", "count", "mount", "house", "mouse", "south"],
+      "ie": ["pie", "tie", "cried", "lie", "die", "tried", "fried", "dried"],
+      "ea": ["sea", "meat", "read", "beat", "heat", "seat", "team", "bean", "lean", "mean", "clean", "dream", "steam", "cream", "speak"],
+      "oy": ["toy", "enjoy", "boy", "joy", "coy", "ploy", "annoy", "destroy"],
+      "ir": ["bird", "shirt", "first", "girl", "dirt", "firm", "sir", "stir", "third", "skirt", "twirl", "chirp"],
+      "ue": ["blue", "true", "glue", "clue", "sue", "due", "hue", "cue"],
+      "aw": ["paw", "claw", "yawn", "saw", "jaw", "raw", "law", "draw", "straw", "crawl", "shawl", "dawn", "fawn", "lawn"],
+      "wh": ["wheel", "whisper", "when", "what", "where", "which", "while", "white", "whip", "whale"],
+      "ph": ["photo", "dolphin", "alphabet", "phone", "phantom", "phrase", "graph"],
+      "ew": ["new", "crew", "flew", "blew", "chew", "drew", "grew", "threw", "stew", "knew"],
+      "oe": ["toe", "foe", "tomatoes", "doe", "hoe", "Joe", "woe"],
+      "au": ["Paul", "launch", "haul", "cause", "pause", "sauce", "fault", "vault", "August"]
+    }
+  },
+  "segmentationExamples": {
+    "single": {
+      "word": "cat",
+      "segments": [
+        {"chars": "c", "type": "single"},
+        {"chars": "a", "type": "single"},
+        {"chars": "t", "type": "single"}
+      ],
+      "phonemes": ["k", "a", "t"]
+    },
+    "digraph": {
+      "word": "ship",
+      "segments": [
+        {"chars": "sh", "type": "digraph"},
+        {"chars": "i", "type": "single"},
+        {"chars": "p", "type": "single"}
+      ],
+      "phonemes": ["sh", "i", "p"]
+    },
+    "trigraph": {
+      "word": "fair",
+      "segments": [
+        {"chars": "f", "type": "single"},
+        {"chars": "air", "type": "trigraph"}
+      ],
+      "phonemes": ["f", "air"]
+    },
+    "split_digraph": {
+      "word": "make",
+      "segments": [
+        {"chars": "m", "type": "single"},
+        {"chars": "a-e", "type": "split", "positions": [1, 3]},
+        {"chars": "k", "type": "single"}
+      ],
+      "phonemes": ["m", "ai", "k"]
+    },
+    "consonant_cluster": {
+      "word": "splash",
+      "segments": [
+        {"chars": "s", "type": "single"},
+        {"chars": "p", "type": "single"},
+        {"chars": "l", "type": "single"},
+        {"chars": "a", "type": "single"},
+        {"chars": "sh", "type": "digraph"}
+      ],
+      "phonemes": ["s", "p", "l", "a", "sh"]
+    },
+    "tricky_word": {
+      "word": "said",
+      "type": "tricky",
+      "phase": 4,
+      "segments": [
+        {"chars": "s", "type": "single", "decodable": true},
+        {"chars": "ai", "type": "digraph", "decodable": false, "note": "ai makes /e/ not /ai/"},
+        {"chars": "d", "type": "single", "decodable": true}
+      ],
+      "phonemes": ["s", "e", "d"]
+    }
+  }
+}

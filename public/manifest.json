@@ -1,0 +1,22 @@
+{
+  "name": "Robot Reading",
+  "short_name": "Robot Reading",
+  "description": "Learn to read while building robots!",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#FFFFCC",
+  "theme_color": "#FFFFCC",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

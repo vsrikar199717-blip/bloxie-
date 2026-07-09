@@ -1,0 +1,184 @@
+@import "tailwindcss";
+
+/* Custom theme for Henry's App */
+@theme {
+  --color-reading-bg: #FFFFCC;
+  --color-reading-guide: #3B82F6;
+}
+
+/* Force landscape orientation hint */
+@media (orientation: portrait) {
+  .landscape-only::before {
+    content: "Please rotate your iPad to landscape mode";
+  }
+}
+
+/* Dyslexia-friendly text defaults */
+.dyslexia-text {
+  font-family: system-ui, -apple-system, sans-serif;
+  letter-spacing: 2.5px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+/* OpenDyslexic — dyslexia-friendly font, self-hosted from /public/fonts */
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/opendyslexic-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/opendyslexic-700.woff2') format('woff2');
+}
+
+/* Reset body styles — Inter for sub/context text, CTAs and general UI */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Headings use OpenDyslexic. Swap the first family here to re-skin in one place. */
+:root {
+  --font-display: 'OpenDyslexic', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Word highlight for story reading - dyslexia accessibility */
+.word-highlight {
+  background-color: #FEF08A;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+/* Onboarding floating decoration animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+/* Character preview cross-fade on theme selection */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Loading screen: bloxie hops above the hole (used as its ground shadow) */
+@keyframes peek-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-16px); }
+}
+.loading-bloxie {
+  animation: peek-bob 1.4s ease-in-out infinite;
+}
+/* Shadow shrinks as bloxie rises */
+@keyframes hole-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.9; }
+  50% { transform: scale(0.82); opacity: 0.6; }
+}
+.loading-hole {
+  transform-origin: center;
+  animation: hole-pulse 1.4s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .loading-bloxie,
+  .loading-hole {
+    animation: none;
+  }
+}
+
+/* Game-style character swap: two characters ride a conveyor track in
+   side-by-side cells (never overlapping). Direction depends on the card tapped. */
+@keyframes trackLeft {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+@keyframes trackRight {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.anim-track-left {
+  animation: trackLeft 0.42s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.anim-track-right {
+  animation: trackRight 0.42s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Landing squash when the new character settles in */
+@keyframes landSquash {
+  0% { transform: scale(1, 1); }
+  32% { transform: scale(1.06, 0.94); }
+  62% { transform: scale(0.98, 1.02); }
+  100% { transform: scale(1, 1); }
+}
+.anim-land {
+  transform-origin: 50% 92%;
+  animation: landSquash 0.34s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-track-left,
+  .anim-track-right,
+  .anim-land {
+    animation: fadeIn 0.2s ease both;
+  }
+}
+
+/* Dance mode animations - use translate only to preserve user transforms */
+@keyframes head-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes body-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+@keyframes limb-wave {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(6px); }
+  75% { transform: translateX(-6px); }
+}
+
+@keyframes accessory-wiggle {
+  0%, 100% { transform: translateX(-3px); }
+  50% { transform: translateX(3px); }
+}
+
+@keyframes joint-spin {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  25% { transform: translateY(-3px) translateX(3px); }
+  50% { transform: translateY(0) translateX(0); }
+  75% { transform: translateY(3px) translateX(-3px); }
+}
+
+.animate-head-bob {
+  animation: head-bob 0.4s ease-in-out infinite;
+}
+
+.animate-body-bounce {
+  animation: body-bounce 0.5s ease-in-out infinite;
+}
+
+.animate-limb-wave {
+  animation: limb-wave 0.3s ease-in-out infinite;
+}
+
+.animate-accessory-wiggle {
+  animation: accessory-wiggle 0.25s ease-in-out infinite;
+}
+
+.animate-joint-spin {
+  animation: joint-spin 0.6s ease-in-out infinite;
+}

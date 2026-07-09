@@ -1,0 +1,963 @@
+[
+  {
+    "id": "p4-nd-001",
+    "phase": 4,
+    "pattern": "nd",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /nd/. Two consonant sounds sit next to each other at the end: n then d. Help them blend all the way through: b-a-n-d → band. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "band",
+        "teachingTip": "b-a-n-d → Blend through the ending cluster: ban-d → band",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "hand",
+        "teachingTip": "h-a-n-d → Say each sound: /h/, /a/, /n/, /d/. Blend: hand",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "sand",
+        "teachingTip": "s-a-n-d → Say each sound: /s/, /a/, /n/, /d/. Blend: sand",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "land",
+        "teachingTip": "l-a-n-d → Say each sound: /l/, /a/, /n/, /d/. Blend: land",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "said",
+      "teachingTip": "Tricky word! 'Said' looks like s-ai-d but we say 'sed'. Learn it by sight."
+    },
+    "story": "The band played on the sand. A hand popped out of the land and said hello!"
+  },
+  {
+    "id": "p4-nd-002",
+    "phase": 4,
+    "pattern": "nd",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /nd/. Two consonant sounds sit next to each other at the end: n then d. Help them blend all the way through: s-e-n-d → send. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "send",
+        "teachingTip": "s-e-n-d → Say each sound: /s/, /e/, /n/, /d/. Blend: send",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "mend",
+        "teachingTip": "m-e-n-d → Say each sound: /m/, /e/, /n/, /d/. Blend: mend",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "bend",
+        "teachingTip": "b-e-n-d → Say each sound: /b/, /e/, /n/, /d/. Blend: bend",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "band",
+        "teachingTip": "b-a-n-d → Four sounds: /b/, /a/, /n/, /d/. Blend them together: band",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "have",
+      "teachingTip": "Tricky word! The 'a' in 'have' says /a/ not /ai/. The 'e' is silent. Learn it by sight."
+    },
+    "story": "Can you send the band to mend the bend in the road? They have a plan!"
+  },
+  {
+    "id": "p4-nd-003",
+    "phase": 4,
+    "pattern": "nd",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /nd/. Two consonant sounds sit next to each other at the end: n then d. Help them blend all the way through: p-o-n-d → pond. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pond",
+        "teachingTip": "p-o-n-d → Say each sound: /p/, /o/, /n/, /d/. Blend: pond",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "bond",
+        "teachingTip": "b-o-n-d → Say each sound: /b/, /o/, /n/, /d/. Blend: bond",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "fund",
+        "teachingTip": "f-u-n-d → Say each sound: /f/, /u/, /n/, /d/. Blend: fund",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "wand",
+        "teachingTip": "w-a-n-d → Say each sound: /w/, /a/, /n/, /d/. Blend: wand",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "some",
+      "teachingTip": "Tricky word! 'Some' looks like it should rhyme with 'home' but we say 'sum'. Learn it by sight."
+    },
+    "story": "I waved my wand at the pond. Some frogs made a bond and started a fund for a big pond party!"
+  },
+  {
+    "id": "p4-nd-004",
+    "phase": 4,
+    "pattern": "nd",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /nd/. Two consonant sounds sit next to each other at the end: n then d. Help them blend all the way through: w-i-n-d → wind. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "wind",
+        "teachingTip": "w-i-n-d → Say each sound: /w/, /i/, /n/, /d/. Blend: wind",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "find",
+        "teachingTip": "f-i-n-d → Say each sound: /f/, /i/, /n/, /d/. Blend: find",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "kind",
+        "teachingTip": "k-i-n-d → Say each sound: /k/, /i/, /n/, /d/. Blend: kind",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "mind",
+        "teachingTip": "m-i-n-d → Say each sound: /m/, /i/, /n/, /d/. Blend: mind",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "like",
+      "teachingTip": "Tricky word! The 'i' in 'like' says its name /ie/ and the 'e' is silent. Learn it by sight."
+    },
+    "story": "The wind helped me find a kind little bug. I like bugs — I don't mind the wind at all!"
+  },
+  {
+    "id": "p4-nd-005",
+    "phase": 4,
+    "pattern": "nd",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /nd/. Two consonant sounds sit next to each other at the end: n then d. Help them blend all the way through: h-a-n-d → hand. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hand",
+        "teachingTip": "h-a-n-d → Say each sound: /h/, /a/, /n/, /d/. Blend: hand",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "sand",
+        "teachingTip": "s-a-n-d → Say each sound: /s/, /a/, /n/, /d/. Blend: sand",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "send",
+        "teachingTip": "s-e-n-d → Say each sound: /s/, /e/, /n/, /d/. Blend: send",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "pond",
+        "teachingTip": "p-o-n-d → Say each sound: /p/, /o/, /n/, /d/. Blend: pond",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "were",
+      "teachingTip": "Tricky word! 'Were' doesn't sound like it looks — we say 'wur'. Learn it by sight."
+    },
+    "story": "We put our hand in the sand and found a shell. We were so happy we sent it to the pond!"
+  },
+  {
+    "id": "p4-nk-001",
+    "phase": 4,
+    "pattern": "nk",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /nk/. Two consonant sounds sit next to each other at the end: n then k. Help them blend all the way through: b-a-n-k → bank. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "bank",
+        "teachingTip": "b-a-n-k → Say each sound: /b/, /a/, /n/, /k/. Blend: bank",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "rank",
+        "teachingTip": "r-a-n-k → Say each sound: /r/, /a/, /n/, /k/. Blend: rank",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "tank",
+        "teachingTip": "t-a-n-k → Say each sound: /t/, /a/, /n/, /k/. Blend: tank",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "sank",
+        "teachingTip": "s-a-n-k → Say each sound: /s/, /a/, /n/, /k/. Blend: sank",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "so",
+      "teachingTip": "Tricky word! 'So' has a long /oa/ sound. Learn it by sight."
+    },
+    "story": "The toy tank was by the bank. It was so heavy it sank! Now it is the top rank in the mud."
+  },
+  {
+    "id": "p4-nk-002",
+    "phase": 4,
+    "pattern": "nk",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /nk/. Two consonant sounds sit next to each other at the end: n then k. Help them blend all the way through: s-i-n-k → sink. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sink",
+        "teachingTip": "s-i-n-k → Say each sound: /s/, /i/, /n/, /k/. Blend: sink",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "pink",
+        "teachingTip": "p-i-n-k → Say each sound: /p/, /i/, /n/, /k/. Blend: pink",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "rink",
+        "teachingTip": "r-i-n-k → Say each sound: /r/, /i/, /n/, /k/. Blend: rink",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "link",
+        "teachingTip": "l-i-n-k → Say each sound: /l/, /i/, /n/, /k/. Blend: link",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "do",
+      "teachingTip": "Tricky word! 'Do' looks like it should rhyme with 'go' but we say 'doo'. Learn it by sight."
+    },
+    "story": "The pink sink had a link to the rink. What do you think of a pink ice rink?"
+  },
+  {
+    "id": "p4-nk-003",
+    "phase": 4,
+    "pattern": "nk",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /nk/. Two consonant sounds sit next to each other at the end: n then k. Help them blend all the way through: w-i-n-k → wink. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "wink",
+        "teachingTip": "w-i-n-k → Say each sound: /w/, /i/, /n/, /k/. Blend: wink",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "think",
+        "teachingTip": "th-i-n-k → The 'th' is a digraph (one sound). Then /i/, /n/, /k/. Blend: think",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "sink",
+        "teachingTip": "s-i-n-k → Say each sound: /s/, /i/, /n/, /k/. Blend: sink",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "bank",
+        "teachingTip": "b-a-n-k → Say each sound: /b/, /a/, /n/, /k/. Blend: bank",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "come",
+      "teachingTip": "Tricky word! 'Come' looks like it should rhyme with 'home' but we say 'cum'. Learn it by sight."
+    },
+    "story": "I think I saw the sink wink at me! Come to the bank and think about it."
+  },
+  {
+    "id": "p4-nk-004",
+    "phase": 4,
+    "pattern": "nk",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /nk/. Two consonant sounds sit next to each other at the end: n then k. Help them blend all the way through: d-r-i-n-k → drink. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "drink",
+        "teachingTip": "d-r-i-n-k → Five sounds: /d/, /r/, /i/, /n/, /k/. Blend: drink",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "trunk",
+        "teachingTip": "t-r-u-n-k → Five sounds: /t/, /r/, /u/, /n/, /k/. Blend: trunk",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "dunk",
+        "teachingTip": "d-u-n-k → Say each sound: /d/, /u/, /n/, /k/. Blend: dunk",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "sunk",
+        "teachingTip": "s-u-n-k → Say each sound: /s/, /u/, /n/, /k/. Blend: sunk",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "there",
+      "teachingTip": "Tricky word! 'There' tells us where something is. The 'ere' says /air/. Learn it by sight."
+    },
+    "story": "The trunk sunk in the pond! I had to dunk my hand in there to get my drink back."
+  },
+  {
+    "id": "p4-nk-005",
+    "phase": 4,
+    "pattern": "nk",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /nk/. Two consonant sounds sit next to each other at the end: n then k. Help them blend all the way through: b-u-n-k → bunk. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "bunk",
+        "teachingTip": "b-u-n-k → Say each sound: /b/, /u/, /n/, /k/. Blend: bunk",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "pink",
+        "teachingTip": "p-i-n-k → Say each sound: /p/, /i/, /n/, /k/. Blend: pink",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "tank",
+        "teachingTip": "t-a-n-k → Say each sound: /t/, /a/, /n/, /k/. Blend: tank",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "think",
+        "teachingTip": "th-i-n-k → The 'th' is a digraph (one sound). Then /i/, /n/, /k/. Blend: think",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "little",
+      "teachingTip": "Tricky word! 'Little' has a tricky ending — the 'le' says /ul/. Learn it by sight."
+    },
+    "story": "I think the little pink tank is on my bunk! It is only a little tank, but I think it is fun."
+  },
+  {
+    "id": "p4-mp-001",
+    "phase": 4,
+    "pattern": "mp",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /mp/. Two consonant sounds sit next to each other at the end: m then p. Help them blend all the way through: c-a-m-p → camp. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "camp",
+        "teachingTip": "c-a-m-p → Say each sound: /k/, /a/, /m/, /p/. Blend: camp",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "damp",
+        "teachingTip": "d-a-m-p → Say each sound: /d/, /a/, /m/, /p/. Blend: damp",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "lamp",
+        "teachingTip": "l-a-m-p → Say each sound: /l/, /a/, /m/, /p/. Blend: lamp",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "ramp",
+        "teachingTip": "r-a-m-p → Say each sound: /r/, /a/, /m/, /p/. Blend: ramp",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "one",
+      "teachingTip": "Tricky word! 'One' looks like it starts with /o/ but we say 'wun'. Learn it by sight."
+    },
+    "story": "We took one lamp to camp. The ramp was damp, so we put the lamp on the ramp to help us see!"
+  },
+  {
+    "id": "p4-mp-002",
+    "phase": 4,
+    "pattern": "mp",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /mp/. Two consonant sounds sit next to each other at the end: m then p. Help them blend all the way through: b-u-m-p → bump. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "bump",
+        "teachingTip": "b-u-m-p → Say each sound: /b/, /u/, /m/, /p/. Blend: bump",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "dump",
+        "teachingTip": "d-u-m-p → Say each sound: /d/, /u/, /m/, /p/. Blend: dump",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "jump",
+        "teachingTip": "j-u-m-p → Say each sound: /j/, /u/, /m/, /p/. Blend: jump",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "lump",
+        "teachingTip": "l-u-m-p → Say each sound: /l/, /u/, /m/, /p/. Blend: lump",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "when",
+      "teachingTip": "Tricky word! The 'wh' in 'when' just says /w/. Learn it by sight."
+    },
+    "story": "When I jump over the bump, I land on a lump! Don't dump the lump — jump over it!"
+  },
+  {
+    "id": "p4-mp-003",
+    "phase": 4,
+    "pattern": "mp",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /mp/. Two consonant sounds sit next to each other at the end: m then p. Help them blend all the way through: p-u-m-p → pump. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pump",
+        "teachingTip": "p-u-m-p → Say each sound: /p/, /u/, /m/, /p/. Blend: pump",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "stamp",
+        "teachingTip": "s-t-a-m-p → Five sounds: /s/, /t/, /a/, /m/, /p/. Blend: stamp",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "camp",
+        "teachingTip": "c-a-m-p → Say each sound: /k/, /a/, /m/, /p/. Blend: camp",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "bump",
+        "teachingTip": "b-u-m-p → Four sounds: /b/, /u/, /m/, /p/. Blend them together: bump",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "out",
+      "teachingTip": "Tricky word! The 'ou' in 'out' makes a special sound. Learn it by sight."
+    },
+    "story": "At camp we use a pump to get water out. I stamp my feet when I bump into the pump!"
+  },
+  {
+    "id": "p4-mp-004",
+    "phase": 4,
+    "pattern": "mp",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /mp/. Two consonant sounds sit next to each other at the end: m then p. Help them blend all the way through: c-l-a-m-p → clamp. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "clamp",
+        "teachingTip": "c-l-a-m-p → Five sounds: /k/, /l/, /a/, /m/, /p/. Blend: clamp",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "cramp",
+        "teachingTip": "c-r-a-m-p → Five sounds: /k/, /r/, /a/, /m/, /p/. Blend: cramp",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "jump",
+        "teachingTip": "j-u-m-p → Say each sound: /j/, /u/, /m/, /p/. Blend: jump",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "lamp",
+        "teachingTip": "l-a-m-p → Say each sound: /l/, /a/, /m/, /p/. Blend: lamp",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "what",
+      "teachingTip": "Tricky word! 'What' looks like 'w-hat' but we say 'wot'. Learn it by sight."
+    },
+    "story": "What is that clamp on the lamp? I got a cramp when I tried to jump over it!"
+  },
+  {
+    "id": "p4-nt-001",
+    "phase": 4,
+    "pattern": "nt",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /nt/. Two consonant sounds sit next to each other at the end: n then t. Help them blend all the way through: t-e-n-t → tent. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "tent",
+        "teachingTip": "t-e-n-t → Say each sound: /t/, /e/, /n/, /t/. Blend: tent",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "bent",
+        "teachingTip": "b-e-n-t → Say each sound: /b/, /e/, /n/, /t/. Blend: bent",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sent",
+        "teachingTip": "s-e-n-t → Say each sound: /s/, /e/, /n/, /t/. Blend: sent",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "dent",
+        "teachingTip": "d-e-n-t → Say each sound: /d/, /e/, /n/, /t/. Blend: dent",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "have",
+      "teachingTip": "Tricky word! The 'a' in 'have' says /a/ not /ai/. The 'e' is silent. Learn it by sight."
+    },
+    "story": "We have a tent that is bent! Dad sent it back because it had a dent in it too."
+  },
+  {
+    "id": "p4-nt-002",
+    "phase": 4,
+    "pattern": "nt",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /nt/. Two consonant sounds sit next to each other at the end: n then t. Help them blend all the way through: m-i-n-t → mint. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "mint",
+        "teachingTip": "m-i-n-t → Say each sound: /m/, /i/, /n/, /t/. Blend: mint",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "hint",
+        "teachingTip": "h-i-n-t → Say each sound: /h/, /i/, /n/, /t/. Blend: hint",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "hunt",
+        "teachingTip": "h-u-n-t → Say each sound: /h/, /u/, /n/, /t/. Blend: hunt",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "punt",
+        "teachingTip": "p-u-n-t → Say each sound: /p/, /u/, /n/, /t/. Blend: punt",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "like",
+      "teachingTip": "Tricky word! The 'i' in 'like' says its name /ie/ and the 'e' is silent. Learn it by sight."
+    },
+    "story": "I like to hunt for mint! Here is a hint: you can punt a ball and find mint on the way."
+  },
+  {
+    "id": "p4-nt-003",
+    "phase": 4,
+    "pattern": "nt",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /nt/. Two consonant sounds sit next to each other at the end: n then t. Help them blend all the way through: w-e-n-t → went. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "went",
+        "teachingTip": "w-e-n-t → Say each sound: /w/, /e/, /n/, /t/. Blend: went",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "rant",
+        "teachingTip": "r-a-n-t → Say each sound: /r/, /a/, /n/, /t/. Blend: rant",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "bunt",
+        "teachingTip": "b-u-n-t → Say each sound: /b/, /u/, /n/, /t/. Blend: bunt",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "tent",
+        "teachingTip": "t-e-n-t → Four sounds: /t/, /e/, /n/, /t/. Blend them together: tent",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "were",
+      "teachingTip": "Tricky word! 'Were' doesn't sound like it looks — we say 'wur'. Learn it by sight."
+    },
+    "story": "We went to the tent and had a rant! The bugs were everywhere. I did a bunt with my hat to shoo them away."
+  },
+  {
+    "id": "p4-nt-004",
+    "phase": 4,
+    "pattern": "nt",
+    "teachingHint": "Your child is practising words ending in the consonant cluster /nt/. Two consonant sounds sit next to each other at the end: n then t. Help them blend all the way through: f-r-o-n-t → front. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "front",
+        "teachingTip": "f-r-o-n-t → Five sounds: /f/, /r/, /o/, /n/, /t/. Blend: front",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "plant",
+        "teachingTip": "p-l-a-n-t → Five sounds: /p/, /l/, /a/, /n/, /t/. Blend: plant",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "want",
+        "teachingTip": "w-a-n-t → Say each sound: /w/, /a/, /n/, /t/. Blend: want",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sent",
+        "teachingTip": "s-e-n-t → Say each sound: /s/, /e/, /n/, /t/. Blend: sent",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "some",
+      "teachingTip": "Tricky word! 'Some' looks like it should rhyme with 'home' but we say 'sum'. Learn it by sight."
+    },
+    "story": "I want to plant some seeds at the front of the house. Mum sent me to get the pot — now the plant is at the front!"
+  }
+]

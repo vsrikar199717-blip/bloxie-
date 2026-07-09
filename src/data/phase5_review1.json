@@ -1,0 +1,537 @@
+[
+  {
+    "id": "p5-ee-001",
+    "phase": 5,
+    "pattern": "ee",
+    "teachingHint": "This is Phase 5 review of the /ee/ sound your child learned in Phase 3. These are longer, more challenging words. Help your child spot 'ee' and blend the sounds: s-t-r-ee-t → street. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "street",
+        "teachingTip": "s-t-r-ee-t → Spot the 'ee' digraph. Blend: str-ee-t → street",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "three",
+        "teachingTip": "th-r-ee → Spot the 'ee' digraph and 'th' digraph. Blend: thr-ee → three",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ee", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "sweet",
+        "teachingTip": "s-w-ee-t → Spot the 'ee' digraph. Blend: sw-ee-t → sweet",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sleep",
+        "teachingTip": "s-l-ee-p → Spot the 'ee' digraph. Blend: sl-ee-p → sleep",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "oh",
+      "teachingTip": "Tricky word! 'Oh' doesn't follow normal rules. The 'h' is silent. We say 'oh'. Learn it by sight."
+    },
+    "story": "Oh! Look at the street! Three sweet cats sleep on the wall. Can you see all three?"
+  },
+  {
+    "id": "p5-ee-002",
+    "phase": 5,
+    "pattern": "ee",
+    "teachingHint": "More Phase 5 review of the /ee/ sound with even trickier words. Help your child spot 'ee' and blend carefully: s-p-ee-d → speed. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "teeth",
+        "teachingTip": "t-ee-th → Spot the 'ee' digraph and 'th' digraph. Blend: t-ee-th → teeth",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "th", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "speed",
+        "teachingTip": "s-p-ee-d → Spot the 'ee' digraph. Blend: sp-ee-d → speed",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "cheese",
+        "teachingTip": "ch-ee-s-e → Spot the 'ee' digraph and 'ch' digraph. Blend: ch-ee-se → cheese",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "squeeze",
+        "teachingTip": "s-qu-ee-z-e → Spot the 'ee' digraph and 'qu' digraph. Blend: squ-ee-ze → squeeze",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "z", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "their",
+      "teachingTip": "Tricky word! 'Their' doesn't sound like it looks. We say 'thair'. It means belonging to them. Learn it by sight."
+    },
+    "story": "Their teeth need a clean! No more cheese at speed. Squeeze the toothpaste and brush those teeth!"
+  },
+  {
+    "id": "p5-oa-001",
+    "phase": 5,
+    "pattern": "oa",
+    "teachingHint": "This is Phase 5 review of the /oa/ sound your child learned in Phase 3. These are longer words. Help your child spot 'oa' and blend: f-l-oa-t → float. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "float",
+        "teachingTip": "f-l-oa-t → Spot the 'oa' digraph. Blend: fl-oa-t → float",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "toast",
+        "teachingTip": "t-oa-s-t → Spot the 'oa' digraph. Blend: t-oa-st → toast",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "coach",
+        "teachingTip": "c-oa-ch → Spot the 'oa' digraph and 'ch' digraph. Blend: c-oa-ch → coach",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "roast",
+        "teachingTip": "r-oa-s-t → Spot the 'oa' digraph. Blend: r-oa-st → roast",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "people",
+      "teachingTip": "Tricky word! 'People' doesn't sound like it looks. We say 'pee-pul'. Learn it by sight."
+    },
+    "story": "People love toast! The coach said to roast it, then let it float in the air to cool down."
+  },
+  {
+    "id": "p5-oa-002",
+    "phase": 5,
+    "pattern": "oa",
+    "teachingHint": "More Phase 5 review of the /oa/ sound with trickier words. Help your child spot 'oa' and blend: th-r-oa-t → throat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "throat",
+        "teachingTip": "th-r-oa-t → Spot the 'oa' digraph and 'th' digraph. Blend: thr-oa-t → throat",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "r", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "groan",
+        "teachingTip": "g-r-oa-n → Spot the 'oa' digraph. Blend: gr-oa-n → groan",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "foam",
+        "teachingTip": "f-oa-m → Spot the 'oa' digraph. Blend: f-oa-m → foam",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "soak",
+        "teachingTip": "s-oa-k → Spot the 'oa' digraph. Blend: s-oa-k → soak",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mr",
+      "teachingTip": "Tricky word! 'Mr' is short for 'Mister'. We say 'mis-ter'. Learn it by sight."
+    },
+    "story": "Mr Toad had a sore throat. He let out a groan! He had a soak in the foam bath to feel better."
+  },
+  {
+    "id": "p5-ai-001",
+    "phase": 5,
+    "pattern": "ai",
+    "teachingHint": "This is Phase 5 review of the /ai/ sound your child learned in Phase 3. These are longer, more advanced words. Help your child spot 'ai' and blend: s-n-ai-l → snail. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "snail",
+        "teachingTip": "s-n-ai-l → Spot the 'ai' digraph. Blend: sn-ai-l → snail",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "chain",
+        "teachingTip": "ch-ai-n → Spot the 'ai' digraph and 'ch' digraph. Blend: ch-ai-n → chain",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "brain",
+        "teachingTip": "b-r-ai-n → Spot the 'ai' digraph. Blend: br-ai-n → brain",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "plain",
+        "teachingTip": "p-l-ai-n → Spot the 'ai' digraph. Blend: pl-ai-n → plain",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mrs",
+      "teachingTip": "Tricky word! 'Mrs' is short for 'Missus'. We say 'mis-iz'. Learn it by sight."
+    },
+    "story": "Mrs Snail had a big brain! She used a chain to pull a plain box. What could be inside?"
+  },
+  {
+    "id": "p5-ai-002",
+    "phase": 5,
+    "pattern": "ai",
+    "teachingHint": "More Phase 5 review of the /ai/ sound with multi-syllable words. Help your child spot 'ai' in longer words: a-f-r-ai-d → afraid. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "claim",
+        "teachingTip": "c-l-ai-m → Spot the 'ai' digraph. Blend: cl-ai-m → claim",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "afraid",
+        "teachingTip": "a-f-r-ai-d → Spot the 'ai' digraph. Blend: a-fr-ai-d → afraid",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "complain",
+        "teachingTip": "c-o-m-p-l-ai-n → Spot the 'ai' digraph in this long word. Blend: com-pl-ai-n → complain",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "explain",
+        "teachingTip": "e-x-p-l-ai-n → Spot the 'ai' digraph in this long word. Blend: ex-pl-ai-n → explain",
+        "segments": [
+          { "chars": "e", "type": "single" },
+          { "chars": "x", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "looked",
+      "teachingTip": "Tricky word! The 'ed' ending sounds like /t/ here. We say 'lookt'. Learn it by sight."
+    },
+    "story": "She looked afraid! \"I claim this is not fair!\" she said. \"Let me explain why I complain.\""
+  },
+  {
+    "id": "p5-igh-001",
+    "phase": 5,
+    "pattern": "igh",
+    "teachingHint": "This is Phase 5 review of the /igh/ sound your child learned in Phase 3. These words use consonant clusters with the 'igh' trigraph. Help your child blend: f-l-igh-t → flight. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "flight",
+        "teachingTip": "f-l-igh-t → Spot the 'igh' trigraph. Blend: fl-igh-t → flight",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "bright",
+        "teachingTip": "b-r-igh-t → Spot the 'igh' trigraph. Blend: br-igh-t → bright",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "fright",
+        "teachingTip": "f-r-igh-t → Spot the 'igh' trigraph. Blend: fr-igh-t → fright",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "knight",
+        "teachingTip": "k-n-igh-t → The 'k' is silent! Spot the 'igh' trigraph. Blend: n-igh-t → knight",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "called",
+      "teachingTip": "Tricky word! The 'ed' ending sounds like /d/ here. We say 'calld'. Learn it by sight."
+    },
+    "story": "The knight called out from the bright flight deck. \"What a fright!\" he said as the flight took off."
+  },
+  {
+    "id": "p5-igh-002",
+    "phase": 5,
+    "pattern": "igh",
+    "teachingHint": "More Phase 5 review of the /igh/ trigraph with longer words. Help your child spot 'igh' and blend: m-i-d-n-igh-t → midnight. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "midnight",
+        "teachingTip": "m-i-d-n-igh-t → Spot the 'igh' trigraph in this long word. Blend: mid-n-igh-t → midnight",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "d", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "highlight",
+        "teachingTip": "h-igh-l-igh-t → Two 'igh' trigraphs! Blend: h-igh-l-igh-t → highlight",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "l", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "might",
+        "teachingTip": "m-igh-t → Spot the 'igh' trigraph. Blend: m-igh-t → might",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sight",
+        "teachingTip": "s-igh-t → Spot the 'igh' trigraph. Blend: s-igh-t → sight",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "igh", "type": "trigraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "asked",
+      "teachingTip": "Tricky word! The 'ed' ending sounds like /t/ here. We say 'askt'. Learn it by sight."
+    },
+    "story": "She asked if they might see a sight at midnight. \"I will highlight it for you!\" she said with delight."
+  },
+  {
+    "id": "p5-oi-001",
+    "phase": 5,
+    "pattern": "oi",
+    "teachingHint": "This is Phase 5 review of the /oi/ sound your child learned in Phase 3. These are more advanced words. Help your child spot 'oi' and blend: ch-oi-c-e → choice. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "choice",
+        "teachingTip": "ch-oi-c-e → Spot the 'oi' digraph and 'ch' digraph. Blend: ch-oi-ce → choice",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "c", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "voice",
+        "teachingTip": "v-oi-c-e → Spot the 'oi' digraph. Blend: v-oi-ce → voice",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "c", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "moist",
+        "teachingTip": "m-oi-s-t → Spot the 'oi' digraph. Blend: m-oi-st → moist",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "noise",
+        "teachingTip": "n-oi-s-e → Spot the 'oi' digraph. Blend: n-oi-se → noise",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "could",
+      "teachingTip": "Tricky word! The 'oul' sounds like /oo/. We say 'cud'. The 'l' is silent. Learn it by sight."
+    },
+    "story": "\"Could you keep the noise down?\" said a moist voice. \"It is my choice to be quiet!\""
+  },
+  {
+    "id": "p5-oi-002",
+    "phase": 5,
+    "pattern": "oi",
+    "teachingHint": "More Phase 5 review of the /oi/ sound with multi-syllable words. Help your child spot 'oi' in longer words: p-oi-s-o-n → poison. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "poison",
+        "teachingTip": "p-oi-s-o-n → Spot the 'oi' digraph in this two-syllable word. Blend: p-oi-son → poison",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "boiling",
+        "teachingTip": "b-oi-l-i-ng → Spot the 'oi' digraph and 'ng' digraph. Blend: b-oi-l-i-ng → boiling",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "choice",
+        "teachingTip": "ch-oi-c-e → Spot the 'oi' digraph and 'ch' digraph. Blend: ch-oi-ce → choice",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "c", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "noise",
+        "teachingTip": "n-oi-s-e → Spot the 'oi' digraph. Blend: n-oi-se → noise",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "people",
+      "teachingTip": "Tricky word! 'People' doesn't sound like it looks. We say 'pee-pul'. Learn it by sight."
+    },
+    "story": "People made a big noise! The water was boiling and the poison had to go. \"Good choice!\" they said."
+  }
+]

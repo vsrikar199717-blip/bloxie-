@@ -1,0 +1,984 @@
+[
+  {
+    "id": "p5-ay-001",
+    "phase": 5,
+    "pattern": "ay",
+    "teachingHint": "Your child already knows the /ai/ sound from Phase 3 (as in 'rain'). Now they're learning that 'ay' makes the same sound, usually at the end of a word: d-ay → day, p-l-ay → play. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "day",
+        "teachingTip": "d-ay → 'ay' makes the /ai/ sound. Blend: d-ay → day",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "play",
+        "teachingTip": "p-l-ay → 'ay' makes the /ai/ sound. Blend: pl-ay → play",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "say",
+        "teachingTip": "s-ay → 'ay' makes the /ai/ sound. Blend: s-ay → say",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "stay",
+        "teachingTip": "s-t-ay → 'ay' makes the /ai/ sound. Blend: st-ay → stay",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "oh",
+      "teachingTip": "Tricky word! 'Oh' doesn't follow normal rules. The 'h' is silent. We say 'oh'. Learn it by sight."
+    },
+    "story": "Oh! What a fun day! Let's play and say hello. We can stay out and play all day!"
+  },
+  {
+    "id": "p5-ay-002",
+    "phase": 5,
+    "pattern": "ay",
+    "teachingHint": "Your child already knows the /ai/ sound from Phase 3 (as in 'rain'). Now they're learning that 'ay' makes the same sound, usually at the end of a word: d-ay → day, p-l-ay → play. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "way",
+        "teachingTip": "w-ay → 'ay' makes the /ai/ sound. Blend: w-ay → way",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "may",
+        "teachingTip": "m-ay → 'ay' makes the /ai/ sound. Blend: m-ay → may",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "pay",
+        "teachingTip": "p-ay → 'ay' makes the /ai/ sound. Blend: p-ay → pay",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "ray",
+        "teachingTip": "r-ay → 'ay' makes the /ai/ sound. Blend: r-ay → ray",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "their",
+      "teachingTip": "Tricky word! 'Their' doesn't follow normal rules. We say 'thair'. Learn it by sight."
+    },
+    "story": "Which way may we go? Their mum will pay for the trip. A ray of sun lit the way."
+  },
+  {
+    "id": "p5-ay-003",
+    "phase": 5,
+    "pattern": "ay",
+    "teachingHint": "Your child already knows the /ai/ sound from Phase 3 (as in 'rain'). Now they're learning that 'ay' makes the same sound, usually at the end of a word: d-ay → day, p-l-ay → play. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hay",
+        "teachingTip": "h-ay → 'ay' makes the /ai/ sound. Blend: h-ay → hay",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "clay",
+        "teachingTip": "c-l-ay → 'ay' makes the /ai/ sound. Blend: cl-ay → clay",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "gray",
+        "teachingTip": "g-r-ay → 'ay' makes the /ai/ sound. Blend: gr-ay → gray",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "spray",
+        "teachingTip": "s-p-r-ay → 'ay' makes the /ai/ sound. Blend: spr-ay → spray",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "people",
+      "teachingTip": "Tricky word! 'People' doesn't follow normal rules. We say 'pee-pul'. Learn it by sight."
+    },
+    "story": "Some people play with clay. They spray it gray and put it on the hay to dry."
+  },
+  {
+    "id": "p5-ay-004",
+    "phase": 5,
+    "pattern": "ay",
+    "teachingHint": "Your child already knows the /ai/ sound from Phase 3 (as in 'rain'). Now they're learning that 'ay' makes the same sound, usually at the end of a word: d-ay → day, p-l-ay → play. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "today",
+        "teachingTip": "t-o-d-ay → 'ay' makes the /ai/ sound. Blend: to-d-ay → today",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "d", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "away",
+        "teachingTip": "a-w-ay → 'ay' makes the /ai/ sound. Blend: a-w-ay → away",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "crayon",
+        "teachingTip": "c-r-ay-o-n → 'ay' makes the /ai/ sound. Blend: cr-ay-on → crayon",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ay", "type": "digraph" },
+          { "chars": "o", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "day",
+        "teachingTip": "d-ay → 'ay' makes the /ai/ sound. Blend: d-ay → day",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "ay", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "called",
+      "teachingTip": "Tricky word! 'Called' has a tricky spelling. We say 'korld'. Learn it by sight."
+    },
+    "story": "Today she called for her crayon. She put it away at the end of the day."
+  },
+  {
+    "id": "p5-ea-001",
+    "phase": 5,
+    "pattern": "ea",
+    "teachingHint": "Your child already knows the /ee/ sound from Phase 3 (as in 'tree'). Now they're learning that 'ea' makes the same sound: s-ea → sea, m-ea-t → meat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sea",
+        "teachingTip": "s-ea → 'ea' makes the /ee/ sound. Blend: s-ea → sea",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ea", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "meat",
+        "teachingTip": "m-ea-t → 'ea' makes the /ee/ sound. Blend: m-ea-t → meat",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ea", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "read",
+        "teachingTip": "r-ea-d → 'ea' makes the /ee/ sound. Blend: r-ea-d → read",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "ea", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "beat",
+        "teachingTip": "b-ea-t → 'ea' makes the /ee/ sound. Blend: b-ea-t → beat",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ea", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mr",
+      "teachingTip": "Tricky word! 'Mr' is short for 'Mister'. We say 'mis-ter'. Learn it by sight."
+    },
+    "story": "Mr Fox went to the sea. He had some meat to read about and he could not beat the heat!"
+  },
+  {
+    "id": "p5-ea-002",
+    "phase": 5,
+    "pattern": "ea",
+    "teachingHint": "Your child already knows the /ee/ sound from Phase 3 (as in 'tree'). Now they're learning that 'ea' makes the same sound: s-ea → sea, m-ea-t → meat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "heat",
+        "teachingTip": "h-ea-t → 'ea' makes the /ee/ sound. Blend: h-ea-t → heat",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ea", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "seat",
+        "teachingTip": "s-ea-t → 'ea' makes the /ee/ sound. Blend: s-ea-t → seat",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ea", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "team",
+        "teachingTip": "t-ea-m → 'ea' makes the /ee/ sound. Blend: t-ea-m → team",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ea", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "bean",
+        "teachingTip": "b-ea-n → 'ea' makes the /ee/ sound. Blend: b-ea-n → bean",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ea", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mrs",
+      "teachingTip": "Tricky word! 'Mrs' is short for 'Missus'. We say 'mis-iz'. Learn it by sight."
+    },
+    "story": "Mrs Hen felt the heat. She took a seat with her team and had a bean for lunch."
+  },
+  {
+    "id": "p5-ea-003",
+    "phase": 5,
+    "pattern": "ea",
+    "teachingHint": "Your child already knows the /ee/ sound from Phase 3 (as in 'tree'). Now they're learning that 'ea' makes the same sound: s-ea → sea, m-ea-t → meat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lean",
+        "teachingTip": "l-ea-n → 'ea' makes the /ee/ sound. Blend: l-ea-n → lean",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "ea", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "mean",
+        "teachingTip": "m-ea-n → 'ea' makes the /ee/ sound. Blend: m-ea-n → mean",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ea", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "clean",
+        "teachingTip": "c-l-ea-n → 'ea' makes the /ee/ sound. Blend: cl-ea-n → clean",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ea", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "dream",
+        "teachingTip": "d-r-ea-m → 'ea' makes the /ee/ sound. Blend: dr-ea-m → dream",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ea", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "looked",
+      "teachingTip": "Tricky word! 'Looked' has the tricky '-ed' ending. We say 'lukt'. Learn it by sight."
+    },
+    "story": "She looked at the lean, mean cat. It liked to keep clean and dream about fish!"
+  },
+  {
+    "id": "p5-ea-004",
+    "phase": 5,
+    "pattern": "ea",
+    "teachingHint": "Your child already knows the /ee/ sound from Phase 3 (as in 'tree'). Now they're learning that 'ea' makes the same sound: s-ea → sea, m-ea-t → meat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "steam",
+        "teachingTip": "s-t-ea-m → 'ea' makes the /ee/ sound. Blend: st-ea-m → steam",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "ea", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "cream",
+        "teachingTip": "c-r-ea-m → 'ea' makes the /ee/ sound. Blend: cr-ea-m → cream",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ea", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "speak",
+        "teachingTip": "s-p-ea-k → 'ea' makes the /ee/ sound. Blend: sp-ea-k → speak",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "ea", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "sea",
+        "teachingTip": "s-ea → 'ea' makes the /ee/ sound. Blend: s-ea → sea",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ea", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "asked",
+      "teachingTip": "Tricky word! 'Asked' has the tricky '-ed' ending. We say 'arskt'. Learn it by sight."
+    },
+    "story": "She asked for cream in her steam cup. Then she went to speak by the sea."
+  },
+  {
+    "id": "p5-oy-001",
+    "phase": 5,
+    "pattern": "oy",
+    "teachingHint": "Your child already knows the /oi/ sound from Phase 3 (as in 'coin'). Now they're learning that 'oy' makes the same sound, usually at the end of a word: t-oy → toy, b-oy → boy. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "toy",
+        "teachingTip": "t-oy → 'oy' makes the /oi/ sound. Blend: t-oy → toy",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oy", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "boy",
+        "teachingTip": "b-oy → 'oy' makes the /oi/ sound. Blend: b-oy → boy",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "oy", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "joy",
+        "teachingTip": "j-oy → 'oy' makes the /oi/ sound. Blend: j-oy → joy",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "oy", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "enjoy",
+        "teachingTip": "e-n-j-oy → 'oy' makes the /oi/ sound. Blend: en-j-oy → enjoy",
+        "segments": [
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "j", "type": "single" },
+          { "chars": "oy", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "their",
+      "teachingTip": "Tricky word! 'Their' doesn't follow normal rules. We say 'thair'. Learn it by sight."
+    },
+    "story": "The boy got a toy. It was their best toy and it gave him such joy. He will enjoy it all day!"
+  },
+  {
+    "id": "p5-oy-002",
+    "phase": 5,
+    "pattern": "oy",
+    "teachingHint": "Your child already knows the /oi/ sound from Phase 3 (as in 'coin'). Now they're learning that 'oy' makes the same sound, usually at the end of a word: t-oy → toy, b-oy → boy. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "coy",
+        "teachingTip": "c-oy → 'oy' makes the /oi/ sound. Blend: c-oy → coy",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "oy", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "ploy",
+        "teachingTip": "p-l-oy → 'oy' makes the /oi/ sound. Blend: pl-oy → ploy",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "oy", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "annoy",
+        "teachingTip": "a-nn-oy → 'oy' makes the /oi/ sound. Blend: a-nn-oy → annoy",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "nn", "type": "digraph" },
+          { "chars": "oy", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "toy",
+        "teachingTip": "t-oy → 'oy' makes the /oi/ sound. Blend: t-oy → toy",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oy", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "people",
+      "teachingTip": "Tricky word! 'People' doesn't follow normal rules. We say 'pee-pul'. Learn it by sight."
+    },
+    "story": "Some people think it is a ploy to annoy them with a toy. But the coy cat just wants to play!"
+  },
+  {
+    "id": "p5-oy-003",
+    "phase": 5,
+    "pattern": "oy",
+    "teachingHint": "Your child already knows the /oi/ sound from Phase 3 (as in 'coin'). Now they're learning that 'oy' makes the same sound, usually at the end of a word: t-oy → toy, b-oy → boy. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "destroy",
+        "teachingTip": "d-e-s-t-r-oy → 'oy' makes the /oi/ sound. Blend: de-str-oy → destroy",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "oy", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "boy",
+        "teachingTip": "b-oy → 'oy' makes the /oi/ sound. Blend: b-oy → boy",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "oy", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "joy",
+        "teachingTip": "j-oy → 'oy' makes the /oi/ sound. Blend: j-oy → joy",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "oy", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "enjoy",
+        "teachingTip": "e-n-j-oy → 'oy' makes the /oi/ sound. Blend: en-j-oy → enjoy",
+        "segments": [
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "j", "type": "single" },
+          { "chars": "oy", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "oh",
+      "teachingTip": "Tricky word! 'Oh' doesn't follow normal rules. The 'h' is silent. We say 'oh'. Learn it by sight."
+    },
+    "story": "Oh no! The boy did not want to destroy his toy. He felt such joy and wanted to enjoy it."
+  },
+  {
+    "id": "p5-ou-001",
+    "phase": 5,
+    "pattern": "ou",
+    "teachingHint": "Your child already knows the /ow/ sound from Phase 3 (as in 'cow'). Now they're learning that 'ou' makes the same sound: c-l-ou-d → cloud, l-ou-d → loud. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "cloud",
+        "teachingTip": "c-l-ou-d → 'ou' makes the /ow/ sound. Blend: cl-ou-d → cloud",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "loud",
+        "teachingTip": "l-ou-d → 'ou' makes the /ow/ sound. Blend: l-ou-d → loud",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "sound",
+        "teachingTip": "s-ou-n-d → 'ou' makes the /ow/ sound. Blend: s-ou-nd → sound",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "out",
+        "teachingTip": "ou-t → 'ou' makes the /ow/ sound. Blend: ou-t → out",
+        "segments": [
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "could",
+      "teachingTip": "Tricky word! 'Could' has a silent 'l'. We say 'kud'. Learn it by sight."
+    },
+    "story": "A loud sound came from the cloud. Could it be thunder? We ran out to see!"
+  },
+  {
+    "id": "p5-ou-002",
+    "phase": 5,
+    "pattern": "ou",
+    "teachingHint": "Your child already knows the /ow/ sound from Phase 3 (as in 'cow'). Now they're learning that 'ou' makes the same sound: c-l-ou-d → cloud, l-ou-d → loud. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "about",
+        "teachingTip": "a-b-ou-t → 'ou' makes the /ow/ sound. Blend: a-b-ou-t → about",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "b", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "proud",
+        "teachingTip": "p-r-ou-d → 'ou' makes the /ow/ sound. Blend: pr-ou-d → proud",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "round",
+        "teachingTip": "r-ou-n-d → 'ou' makes the /ow/ sound. Blend: r-ou-nd → round",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "found",
+        "teachingTip": "f-ou-n-d → 'ou' makes the /ow/ sound. Blend: f-ou-nd → found",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mr",
+      "teachingTip": "Tricky word! 'Mr' is short for 'Mister'. We say 'mis-ter'. Learn it by sight."
+    },
+    "story": "Mr Bear was proud about the round stone he found. He told everyone all about it!"
+  },
+  {
+    "id": "p5-ou-003",
+    "phase": 5,
+    "pattern": "ou",
+    "teachingHint": "Your child already knows the /ow/ sound from Phase 3 (as in 'cow'). Now they're learning that 'ou' makes the same sound: c-l-ou-d → cloud, l-ou-d → loud. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "ground",
+        "teachingTip": "g-r-ou-n-d → 'ou' makes the /ow/ sound. Blend: gr-ou-nd → ground",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "pound",
+        "teachingTip": "p-ou-n-d → 'ou' makes the /ow/ sound. Blend: p-ou-nd → pound",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "count",
+        "teachingTip": "c-ou-n-t → 'ou' makes the /ow/ sound. Blend: c-ou-nt → count",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "mount",
+        "teachingTip": "m-ou-n-t → 'ou' makes the /ow/ sound. Blend: m-ou-nt → mount",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "called",
+      "teachingTip": "Tricky word! 'Called' has a tricky spelling. We say 'korld'. Learn it by sight."
+    },
+    "story": "She called out and began to count. A pound coin sat on the ground near the mount."
+  },
+  {
+    "id": "p5-ou-004",
+    "phase": 5,
+    "pattern": "ou",
+    "teachingHint": "Your child already knows the /ow/ sound from Phase 3 (as in 'cow'). Now they're learning that 'ou' makes the same sound: c-l-ou-d → cloud, l-ou-d → loud. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "house",
+        "teachingTip": "h-ou-s-e → 'ou' makes the /ow/ sound. Blend: h-ou-se → house",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "mouse",
+        "teachingTip": "m-ou-s-e → 'ou' makes the /ow/ sound. Blend: m-ou-se → mouse",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "south",
+        "teachingTip": "s-ou-th → 'ou' makes the /ow/ sound. Blend: s-ou-th → south",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "th", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "cloud",
+        "teachingTip": "c-l-ou-d → 'ou' makes the /ow/ sound. Blend: cl-ou-d → cloud",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ou", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "looked",
+      "teachingTip": "Tricky word! 'Looked' has the tricky '-ed' ending. We say 'lukt'. Learn it by sight."
+    },
+    "story": "A mouse looked out of the house. A cloud drifted south and the mouse ran back in!"
+  },
+  {
+    "id": "p5-ew-001",
+    "phase": 5,
+    "pattern": "ew",
+    "teachingHint": "Your child already knows the /oo/ sound from Phase 3 (as in 'moon'). Now they're learning that 'ew' makes the same sound: n-ew → new, fl-ew → flew. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "new",
+        "teachingTip": "n-ew → 'ew' makes the /oo/ sound. Blend: n-ew → new",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "ew", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "flew",
+        "teachingTip": "f-l-ew → 'ew' makes the /oo/ sound. Blend: fl-ew → flew",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ew", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "blew",
+        "teachingTip": "b-l-ew → 'ew' makes the /oo/ sound. Blend: bl-ew → blew",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ew", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "crew",
+        "teachingTip": "c-r-ew → 'ew' makes the /oo/ sound. Blend: cr-ew → crew",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ew", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mrs",
+      "teachingTip": "Tricky word! 'Mrs' is short for 'Missus'. We say 'mis-iz'. Learn it by sight."
+    },
+    "story": "Mrs Owl flew with her new crew. The wind blew and they all flew up high!"
+  },
+  {
+    "id": "p5-ew-002",
+    "phase": 5,
+    "pattern": "ew",
+    "teachingHint": "Your child already knows the /oo/ sound from Phase 3 (as in 'moon'). Now they're learning that 'ew' makes the same sound: n-ew → new, fl-ew → flew. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "chew",
+        "teachingTip": "ch-ew → 'ew' makes the /oo/ sound. Blend: ch-ew → chew",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "ew", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "drew",
+        "teachingTip": "d-r-ew → 'ew' makes the /oo/ sound. Blend: dr-ew → drew",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ew", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "grew",
+        "teachingTip": "g-r-ew → 'ew' makes the /oo/ sound. Blend: gr-ew → grew",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ew", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "threw",
+        "teachingTip": "th-r-ew → 'ew' makes the /oo/ sound. Blend: thr-ew → threw",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ew", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "asked",
+      "teachingTip": "Tricky word! 'Asked' has the tricky '-ed' ending. We say 'arskt'. Learn it by sight."
+    },
+    "story": "She asked if the plant grew. He drew it and threw seeds about. Then he had a chew on his lunch."
+  },
+  {
+    "id": "p5-ew-003",
+    "phase": 5,
+    "pattern": "ew",
+    "teachingHint": "Your child already knows the /oo/ sound from Phase 3 (as in 'moon'). Now they're learning that 'ew' makes the same sound: n-ew → new, fl-ew → flew. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "stew",
+        "teachingTip": "s-t-ew → 'ew' makes the /oo/ sound. Blend: st-ew → stew",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "ew", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "knew",
+        "teachingTip": "k-n-ew → 'ew' makes the /oo/ sound. The 'k' is silent! Blend: n-ew → knew",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "ew", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "new",
+        "teachingTip": "n-ew → 'ew' makes the /oo/ sound. Blend: n-ew → new",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "ew", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "chew",
+        "teachingTip": "ch-ew → 'ew' makes the /oo/ sound. Blend: ch-ew → chew",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "ew", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "could",
+      "teachingTip": "Tricky word! 'Could' has a silent 'l'. We say 'kud'. Learn it by sight."
+    },
+    "story": "She knew she could make a new stew. She had a chew and said it was the best stew yet!"
+  },
+  {
+    "id": "p5-ue-001",
+    "phase": 5,
+    "pattern": "ue",
+    "teachingHint": "Your child already knows the /oo/ sound from Phase 3 (as in 'moon'). Now they're learning that 'ue' makes the same sound, usually at the end of a word: b-l-ue → blue, t-r-ue → true. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "blue",
+        "teachingTip": "b-l-ue → 'ue' makes the /oo/ sound. Blend: bl-ue → blue",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ue", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "true",
+        "teachingTip": "t-r-ue → 'ue' makes the /oo/ sound. Blend: tr-ue → true",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ue", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "glue",
+        "teachingTip": "g-l-ue → 'ue' makes the /oo/ sound. Blend: gl-ue → glue",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ue", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "clue",
+        "teachingTip": "c-l-ue → 'ue' makes the /oo/ sound. Blend: cl-ue → clue",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ue", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "their",
+      "teachingTip": "Tricky word! 'Their' doesn't follow normal rules. We say 'thair'. Learn it by sight."
+    },
+    "story": "It is true! Their blue hat had a clue on it. They used glue to stick the clue back on."
+  },
+  {
+    "id": "p5-ue-002",
+    "phase": 5,
+    "pattern": "ue",
+    "teachingHint": "Your child already knows the /oo/ sound from Phase 3 (as in 'moon'). Now they're learning that 'ue' makes the same sound, usually at the end of a word: b-l-ue → blue, t-r-ue → true. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sue",
+        "teachingTip": "s-ue → 'ue' makes the /oo/ sound. Blend: s-ue → sue",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ue", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "due",
+        "teachingTip": "d-ue → 'ue' makes the /oo/ sound. Blend: d-ue → due",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "ue", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "hue",
+        "teachingTip": "h-ue → 'ue' makes the /oo/ sound. Blend: h-ue → hue",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ue", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "cue",
+        "teachingTip": "c-ue → 'ue' makes the /oo/ sound. Blend: c-ue → cue",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ue", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "people",
+      "teachingTip": "Tricky word! 'People' doesn't follow normal rules. We say 'pee-pul'. Learn it by sight."
+    },
+    "story": "Some people like the hue of blue. Sue said it was due to the light. That was her cue to paint!"
+  }
+]

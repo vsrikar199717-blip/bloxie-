@@ -1,0 +1,440 @@
+[
+  {
+    "id": "p2-set4-015",
+    "phase": 2,
+    "pattern": "u",
+    "teachingHint": "Your child is learning the /u/ sound (as in 'up'). It's a short sound, like the start of 'umbrella'. Help them point to each letter, say its sound, then blend: c-u-p \u2192 cup, s-u-n \u2192 sun. The underlined words are for your child to read \u2014 you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "cup",
+        "teachingTip": "c-u-p \u2192 Say each sound: c, u, p. Blend: cup",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "sun",
+        "teachingTip": "s-u-n \u2192 Say each sound: s, u, n. Blend: sun",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "mum",
+        "teachingTip": "m-u-m \u2192 Say each sound: m, u, m. Blend: mum",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! 'I' says its letter name, not its sound. We say 'eye'. Learn it by sight."
+    },
+    "story": "I got a cup in the sun. Mum said I can run to get it!"
+  },
+  {
+    "id": "p2-set4-016",
+    "phase": 2,
+    "pattern": "u",
+    "teachingHint": "Your child is learning the /u/ sound (as in 'up'). It's a short sound, like the start of 'umbrella'. Help them point to each letter, say its sound, then blend: m-u-g \u2192 mug, p-u-p \u2192 pup. The underlined words are for your child to read \u2014 you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "up",
+        "teachingTip": "u-p \u2192 Say each sound: u, p. Blend: up",
+        "segments": [
+          { "chars": "u", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "mug",
+        "teachingTip": "m-u-g \u2192 Say each sound: m, u, g. Blend: mug",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "pup",
+        "teachingTip": "p-u-p \u2192 Say each sound: p, u, p. Blend: pup",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "The pup got up on the mug. It is up on top!"
+  },
+  {
+    "id": "p2-set4-017",
+    "phase": 2,
+    "pattern": "u",
+    "teachingHint": "Your child is learning the /u/ sound (as in 'up'). It's a short sound, like the start of 'umbrella'. Help them point to each letter, say its sound, then blend: r-u-n \u2192 run, t-u-g \u2192 tug. The underlined words are for your child to read \u2014 you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "run",
+        "teachingTip": "r-u-n \u2192 Say each sound: r, u, n. Blend: run",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "tug",
+        "teachingTip": "t-u-g \u2192 Say each sound: t, u, g. Blend: tug",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "nut",
+        "teachingTip": "n-u-t \u2192 Say each sound: n, u, t. Blend: nut",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "I run to tug the nut. It is not an odd nut!"
+  },
+  {
+    "id": "p2-set4-018",
+    "phase": 2,
+    "pattern": "u",
+    "teachingHint": "Your child is learning the /u/ sound (as in 'up'). It's a short sound, like the start of 'umbrella'. Help them point to each letter, say its sound, then blend: c-u-t \u2192 cut, d-u-g \u2192 dug. The underlined words are for your child to read \u2014 you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "cut",
+        "teachingTip": "c-u-t \u2192 Say each sound: c, u, t. Blend: cut",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "dug",
+        "teachingTip": "d-u-g \u2192 Say each sound: d, u, g. Blend: dug",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "mud",
+        "teachingTip": "m-u-d \u2192 Say each sound: m, u, d. Blend: mud",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' in 'no' makes a long sound. We say 'noh'. Learn it by sight."
+    },
+    "story": "I dug in the mud. No, do not cut into the mud!"
+  },
+  {
+    "id": "p2-set4-019",
+    "phase": 2,
+    "pattern": "u",
+    "teachingHint": "Your child is learning the /u/ sound (as in 'up'). It's a short sound, like the start of 'umbrella'. Help them point to each letter, say its sound, then blend: s-u-n \u2192 sun, c-u-p \u2192 cup. The underlined words are for your child to read \u2014 you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sun",
+        "teachingTip": "s-u-n \u2192 Say each sound: s, u, n. Blend: sun",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "cup",
+        "teachingTip": "c-u-p \u2192 Say each sound: c, u, p. Blend: cup",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "run",
+        "teachingTip": "r-u-n \u2192 Say each sound: r, u, n. Blend: run",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! The 'o' in 'go' makes a long sound. We say 'goh'. Learn it by sight."
+    },
+    "story": "The sun is up! I run to go get a cup."
+  },
+  {
+    "id": "p2-set4-020",
+    "phase": 2,
+    "pattern": "u",
+    "teachingHint": "Your child is learning the /u/ sound (as in 'up'). It's a short sound, like the start of 'umbrella'. Help them point to each letter, say its sound, then blend: m-u-m \u2192 mum, t-u-g \u2192 tug. The underlined words are for your child to read \u2014 you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "mum",
+        "teachingTip": "m-u-m \u2192 Say each sound: m, u, m. Blend: mum",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "up",
+        "teachingTip": "u-p \u2192 Say each sound: u, p. Blend: up",
+        "segments": [
+          { "chars": "u", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "tug",
+        "teachingTip": "t-u-g \u2192 Say each sound: t, u, g. Blend: tug",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "into",
+      "teachingTip": "Tricky word! 'Into' is two parts: 'in' and 'to'. The 'to' part says 'too'. Learn it by sight."
+    },
+    "story": "Mum got up to tug the pup into the den."
+  },
+  {
+    "id": "p2-set4-021",
+    "phase": 2,
+    "pattern": "u",
+    "teachingHint": "Your child is learning the /u/ sound (as in 'up'). It's a short sound, like the start of 'umbrella'. Help them point to each letter, say its sound, then blend: p-u-p \u2192 pup, n-u-t \u2192 nut. The underlined words are for your child to read \u2014 you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pup",
+        "teachingTip": "p-u-p \u2192 Say each sound: p, u, p. Blend: pup",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "nut",
+        "teachingTip": "n-u-t \u2192 Say each sound: n, u, t. Blend: nut",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "mug",
+        "teachingTip": "m-u-g \u2192 Say each sound: m, u, g. Blend: mug",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! 'I' says its letter name, not its sound. We say 'eye'. Learn it by sight."
+    },
+    "story": "I got a pup and a nut in a mug. The pup dug it up!"
+  },
+  {
+    "id": "p2-set4-022",
+    "phase": 2,
+    "pattern": "r",
+    "teachingHint": "Your child is learning the /r/ sound (as in 'run'). It's the sound at the start of 'robot'. Help them point to each letter, say its sound, then blend: r-a-t \u2192 rat, r-i-p \u2192 rip. The underlined words are for your child to read \u2014 you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "rip",
+        "teachingTip": "r-i-p \u2192 Say each sound: r, i, p. Blend: rip",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "ram",
+        "teachingTip": "r-a-m \u2192 Say each sound: r, a, m. Blend: ram",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "rat",
+        "teachingTip": "r-a-t \u2192 Say each sound: r, a, t. Blend: rat",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "The rat ran to the ram. The ram can rip and run!"
+  },
+  {
+    "id": "p2-set4-023",
+    "phase": 2,
+    "pattern": "r",
+    "teachingHint": "Your child is learning the /r/ sound (as in 'run'). It's the sound at the start of 'robot'. Help them point to each letter, say its sound, then blend: r-a-g \u2192 rag, r-o-t \u2192 rot. The underlined words are for your child to read \u2014 you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "rag",
+        "teachingTip": "r-a-g \u2192 Say each sound: r, a, g. Blend: rag",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "rot",
+        "teachingTip": "r-o-t \u2192 Say each sound: r, o, t. Blend: rot",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "rug",
+        "teachingTip": "r-u-g \u2192 Say each sound: r, u, g. Blend: rug",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "I got a rag to mop the rug. Do not let it rot!"
+  },
+  {
+    "id": "p2-set4-024",
+    "phase": 2,
+    "pattern": "r",
+    "teachingHint": "Your child is learning the /r/ sound (as in 'run'). It's the sound at the start of 'robot'. Help them point to each letter, say its sound, then blend: r-u-n \u2192 run, r-e-d \u2192 red. The underlined words are for your child to read \u2014 you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "run",
+        "teachingTip": "r-u-n \u2192 Say each sound: r, u, n. Blend: run",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "red",
+        "teachingTip": "r-e-d \u2192 Say each sound: r, e, d. Blend: red",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "ran",
+        "teachingTip": "r-a-n \u2192 Say each sound: r, a, n. Blend: ran",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' in 'no' makes a long sound. We say 'noh'. Learn it by sight."
+    },
+    "story": "I ran to the red cup. No, run to the big red mug!"
+  },
+  {
+    "id": "p2-set4-025",
+    "phase": 2,
+    "pattern": "r",
+    "teachingHint": "Your child is learning the /r/ sound (as in 'run'). It's the sound at the start of 'robot'. Help them point to each letter, say its sound, then blend: r-i-p \u2192 rip, r-a-m \u2192 ram. The underlined words are for your child to read \u2014 you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "rip",
+        "teachingTip": "r-i-p \u2192 Say each sound: r, i, p. Blend: rip",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "ram",
+        "teachingTip": "r-a-m \u2192 Say each sound: r, a, m. Blend: ram",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "rug",
+        "teachingTip": "r-u-g \u2192 Say each sound: r, u, g. Blend: rug",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! The 'o' in 'go' makes a long sound. We say 'goh'. Learn it by sight."
+    },
+    "story": "The ram can rip the rug! Go and get it on the mat."
+  }
+]

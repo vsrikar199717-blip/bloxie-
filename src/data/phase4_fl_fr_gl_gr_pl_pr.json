@@ -1,0 +1,973 @@
+[
+  {
+    "id": "p4-fl-001",
+    "phase": 4,
+    "pattern": "fl",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /fl/. Two consonant sounds sit next to each other at the start: f then l. Help them blend through: f-l-a-g → flag. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "flag",
+        "teachingTip": "f-l-a-g → Blend the opening cluster: fl-a-g → flag",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "flat",
+        "teachingTip": "f-l-a-t → Blend the opening cluster: fl-a-t → flat",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "flap",
+        "teachingTip": "f-l-a-p → Say each sound: /f/-/l/-/a/-/p/. Blend: flap",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "flip",
+        "teachingTip": "f-l-i-p → Say each sound: /f/-/l/-/i/-/p/. Blend: flip",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "some",
+      "teachingTip": "Tricky word! The 'o' says 'u' and the 'e' is silent. We say 'sum'. Learn it by sight."
+    },
+    "story": "Some flags were flat on the floor. One flag did a flip and landed with a flap!"
+  },
+  {
+    "id": "p4-fl-002",
+    "phase": 4,
+    "pattern": "fl",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /fl/. Two consonant sounds sit next to each other at the start: f then l. Help them blend through: f-l-o-ck → flock. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "flock",
+        "teachingTip": "f-l-o-ck → The 'ck' makes one sound at the end. Blend: flock",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "flog",
+        "teachingTip": "f-l-o-g → Say each sound: /f/-/l/-/o/-/g/. Blend: flog",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "flung",
+        "teachingTip": "f-l-u-ng → The 'ng' makes one sound at the end. Blend: flung",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "flash",
+        "teachingTip": "f-l-a-sh → The 'sh' makes one sound at the end. Blend: flash",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "said",
+      "teachingTip": "Tricky word! It looks like 'paid' but we say 'sed'. Learn it by sight."
+    },
+    "story": "A flock of hens flung mud in a flash! One hen said it was time to flog the rug clean."
+  },
+  {
+    "id": "p4-fl-003",
+    "phase": 4,
+    "pattern": "fl",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /fl/. Two consonant sounds sit next to each other at the start: f then l. Help them blend through: f-l-e-sh → flesh. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "flesh",
+        "teachingTip": "f-l-e-sh → The 'sh' makes one sound at the end. Blend: flesh",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "floss",
+        "teachingTip": "f-l-o-ss → The 'ss' makes one sound at the end. Blend: floss",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "fling",
+        "teachingTip": "f-l-i-ng → The 'ng' makes one sound at the end. Blend: fling",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "flit",
+        "teachingTip": "f-l-i-t → Say each sound: /f/-/l/-/i/-/t/. Blend: flit",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "have",
+      "teachingTip": "Tricky word! The 'a' says its short sound and the 'e' is silent. We say 'hav'. Learn it by sight."
+    },
+    "story": "I have some floss to fling at the cat! The cat did flit past the flesh on the dish."
+  },
+  {
+    "id": "p4-fr-001",
+    "phase": 4,
+    "pattern": "fr",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /fr/. Two consonant sounds sit next to each other at the start: f then r. Help them blend through: f-r-o-g → frog. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "frog",
+        "teachingTip": "f-r-o-g → Blend the opening cluster: fr-o-g → frog",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "from",
+        "teachingTip": "f-r-o-m → Blend the opening cluster: fr-o-m → from",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "fret",
+        "teachingTip": "f-r-e-t → Say each sound: /f/-/r/-/e/-/t/. Blend: fret",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "frill",
+        "teachingTip": "f-r-i-ll → The 'll' makes one sound at the end. Blend: frill",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "like",
+      "teachingTip": "Tricky word! The 'i' says its name /ie/ and the 'e' is silent. We say 'like'. Learn it by sight."
+    },
+    "story": "A frog from the pond did not like the frill on his hat. Do not fret, frog!"
+  },
+  {
+    "id": "p4-fr-002",
+    "phase": 4,
+    "pattern": "fr",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /fr/. Two consonant sounds sit next to each other at the start: f then r. Help them blend through: f-r-e-sh → fresh. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "fresh",
+        "teachingTip": "f-r-e-sh → The 'sh' makes one sound at the end. Blend: fresh",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "front",
+        "teachingTip": "f-r-o-n-t → Five sounds! Blend: fr-o-n-t → front",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "frost",
+        "teachingTip": "f-r-o-s-t → Five sounds! Blend: fr-o-s-t → frost",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "frizz",
+        "teachingTip": "f-r-i-zz → The 'zz' makes one sound at the end. Blend: frizz",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "zz", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "so",
+      "teachingTip": "Tricky word! The 'o' says its name /oh/. We say 'so'. Learn it by sight."
+    },
+    "story": "It was so cold there was frost at the front of the shed. The fresh air made my hair frizz!"
+  },
+  {
+    "id": "p4-fr-003",
+    "phase": 4,
+    "pattern": "fr",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /fr/. Two consonant sounds sit next to each other at the start: f then r. Help them blend through: f-r-a-n-k → frank. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "frank",
+        "teachingTip": "f-r-a-n-k → Five sounds! Blend: fr-a-n-k → frank",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "frisk",
+        "teachingTip": "f-r-i-s-k → Five sounds! Blend: fr-i-s-k → frisk",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "frown",
+        "teachingTip": "f-r-o-w-n → Five sounds! Blend: fr-o-w-n → frown",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "frog",
+        "teachingTip": "f-r-o-g → Say each sound: /f/-/r/-/o/-/g/. Blend: frog",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "do",
+      "teachingTip": "Tricky word! The 'o' says 'oo'. We say 'doo'. Learn it by sight."
+    },
+    "story": "Do not frown at the frog! Frank let the frog frisk about in the grass."
+  },
+  {
+    "id": "p4-gl-001",
+    "phase": 4,
+    "pattern": "gl",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /gl/. Two consonant sounds sit next to each other at the start: g then l. Help them blend through: g-l-a-d → glad. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "glad",
+        "teachingTip": "g-l-a-d → Blend the opening cluster: gl-a-d → glad",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "glen",
+        "teachingTip": "g-l-e-n → Blend the opening cluster: gl-e-n → glen",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "glib",
+        "teachingTip": "g-l-i-b → Say each sound: /g/-/l/-/i/-/b/. Blend: glib",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      },
+      {
+        "word": "glob",
+        "teachingTip": "g-l-o-b → Say each sound: /g/-/l/-/o/-/b/. Blend: glob",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "come",
+      "teachingTip": "Tricky word! The 'o' says 'u' and the 'e' is silent. We say 'cum'. Learn it by sight."
+    },
+    "story": "Come to the glen! I am glad to see a big glob of mud. The glib fox ran past us."
+  },
+  {
+    "id": "p4-gl-002",
+    "phase": 4,
+    "pattern": "gl",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /gl/. Two consonant sounds sit next to each other at the start: g then l. Help them blend through: g-l-o-ss → gloss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "gloss",
+        "teachingTip": "g-l-o-ss → The 'ss' makes one sound at the end. Blend: gloss",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "glum",
+        "teachingTip": "g-l-u-m → Say each sound: /g/-/l/-/u/-/m/. Blend: glum",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "glass",
+        "teachingTip": "g-l-a-ss → The 'ss' makes one sound at the end. Blend: glass",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "glint",
+        "teachingTip": "g-l-i-n-t → Five sounds! Blend: gl-i-n-t → glint",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "were",
+      "teachingTip": "Tricky word! It looks like 'here' but we say 'wur'. Learn it by sight."
+    },
+    "story": "The glasses were full of gloss. A glint of sun hit the glass and the glum cat sat up!"
+  },
+  {
+    "id": "p4-gl-003",
+    "phase": 4,
+    "pattern": "gl",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /gl/. Two consonant sounds sit next to each other at the start: g then l. Help them blend through: g-l-i-m-p-s-e → glimpse. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "glimpse",
+        "teachingTip": "g-l-i-m-p-s-e → A longer word! Blend: gl-i-m-p-s → glimpse",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "glow",
+        "teachingTip": "g-l-o-w → Say each sound: /g/-/l/-/o/-/w/. Blend: glow",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "w", "type": "single" }
+        ]
+      },
+      {
+        "word": "glad",
+        "teachingTip": "g-l-a-d → Say each sound: /g/-/l/-/a/-/d/. Blend: glad",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "glen",
+        "teachingTip": "g-l-e-n → Say each sound: /g/-/l/-/e/-/n/. Blend: glen",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "there",
+      "teachingTip": "Tricky word! The 'th' says /th/ and the 'ere' says 'air'. We say 'thair'. Learn it by sight."
+    },
+    "story": "There was a glow in the glen. I was glad to get a glimpse of the fox up on the hill!"
+  },
+  {
+    "id": "p4-gr-001",
+    "phase": 4,
+    "pattern": "gr",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /gr/. Two consonant sounds sit next to each other at the start: g then r. Help them blend through: g-r-a-b → grab. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "grab",
+        "teachingTip": "g-r-a-b → Blend the opening cluster: gr-a-b → grab",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      },
+      {
+        "word": "gram",
+        "teachingTip": "g-r-a-m → Blend the opening cluster: gr-a-m → gram",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "grin",
+        "teachingTip": "g-r-i-n → Say each sound: /g/-/r/-/i/-/n/. Blend: grin",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "grip",
+        "teachingTip": "g-r-i-p → Say each sound: /g/-/r/-/i/-/p/. Blend: grip",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "little",
+      "teachingTip": "Tricky word! The 'le' at the end says 'ul'. We say 'lit-ul'. Learn it by sight."
+    },
+    "story": "A little bug had a big grin. It did grab a gram of jam and grip the pot!"
+  },
+  {
+    "id": "p4-gr-002",
+    "phase": 4,
+    "pattern": "gr",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /gr/. Two consonant sounds sit next to each other at the start: g then r. Help them blend through: g-r-i-t → grit. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "grit",
+        "teachingTip": "g-r-i-t → Blend the opening cluster: gr-i-t → grit",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "grog",
+        "teachingTip": "g-r-o-g → Say each sound: /g/-/r/-/o/-/g/. Blend: grog",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "grub",
+        "teachingTip": "g-r-u-b → Say each sound: /g/-/r/-/u/-/b/. Blend: grub",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      },
+      {
+        "word": "grill",
+        "teachingTip": "g-r-i-ll → The 'll' makes one sound at the end. Blend: grill",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "one",
+      "teachingTip": "Tricky word! It looks like 'on' with an 'e' but we say 'wun'. Learn it by sight."
+    },
+    "story": "One grub sat on the grit. We put the grog on the grill and had some grub!"
+  },
+  {
+    "id": "p4-gr-003",
+    "phase": 4,
+    "pattern": "gr",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /gr/. Two consonant sounds sit next to each other at the start: g then r. Help them blend through: g-r-a-n-d → grand. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "grand",
+        "teachingTip": "g-r-a-n-d → Five sounds! Blend: gr-a-n-d → grand",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "grant",
+        "teachingTip": "g-r-a-n-t → Five sounds! Blend: gr-a-n-t → grant",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "grasp",
+        "teachingTip": "g-r-a-s-p → Five sounds! Blend: gr-a-s-p → grasp",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "green",
+        "teachingTip": "g-r-ee-n → The 'ee' makes one long sound. Blend: gr-ee-n → green",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "when",
+      "teachingTip": "Tricky word! The 'wh' says /w/. We say 'wen'. Learn it by sight."
+    },
+    "story": "When we got to the grand green hill, we had to grasp the rocks. Grant ran up to the top!"
+  },
+  {
+    "id": "p4-pl-001",
+    "phase": 4,
+    "pattern": "pl",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /pl/. Two consonant sounds sit next to each other at the start: p then l. Help them blend through: p-l-a-n → plan. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "plan",
+        "teachingTip": "p-l-a-n → Blend the opening cluster: pl-a-n → plan",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "plod",
+        "teachingTip": "p-l-o-d → Blend the opening cluster: pl-o-d → plod",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "plop",
+        "teachingTip": "p-l-o-p → Say each sound: /p/-/l/-/o/-/p/. Blend: plop",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "plot",
+        "teachingTip": "p-l-o-t → Say each sound: /p/-/l/-/o/-/t/. Blend: plot",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "what",
+      "teachingTip": "Tricky word! The 'wh' says /w/ and the 'a' says /o/. We say 'wot'. Learn it by sight."
+    },
+    "story": "What is the plan? We plod to the plot and plop down in the mud!"
+  },
+  {
+    "id": "p4-pl-002",
+    "phase": 4,
+    "pattern": "pl",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /pl/. Two consonant sounds sit next to each other at the start: p then l. Help them blend through: p-l-u-g → plug. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "plug",
+        "teachingTip": "p-l-u-g → Blend the opening cluster: pl-u-g → plug",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "plum",
+        "teachingTip": "p-l-u-m → Say each sound: /p/-/l/-/u/-/m/. Blend: plum",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "pluck",
+        "teachingTip": "p-l-u-ck → The 'ck' makes one sound at the end. Blend: pluck",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "plank",
+        "teachingTip": "p-l-a-n-k → Five sounds! Blend: pl-a-n-k → plank",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "out",
+      "teachingTip": "Tricky word! The 'ou' makes the /ow/ sound. We say 'owt'. Learn it by sight."
+    },
+    "story": "I went out to pluck a plum from the tree. I put the plug on the plank and sat down."
+  },
+  {
+    "id": "p4-pl-003",
+    "phase": 4,
+    "pattern": "pl",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /pl/. Two consonant sounds sit next to each other at the start: p then l. Help them blend through: p-l-u-m-p → plump. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "plump",
+        "teachingTip": "p-l-u-m-p → Five sounds! Blend: pl-u-m-p → plump",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "plus",
+        "teachingTip": "p-l-u-s → Say each sound: /p/-/l/-/u/-/s/. Blend: plus",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "s", "type": "single" }
+        ]
+      },
+      {
+        "word": "plan",
+        "teachingTip": "p-l-a-n → Say each sound: /p/-/l/-/a/-/n/. Blend: plan",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "plod",
+        "teachingTip": "p-l-o-d → Say each sound: /p/-/l/-/o/-/d/. Blend: plod",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "some",
+      "teachingTip": "Tricky word! The 'o' says 'u' and the 'e' is silent. We say 'sum'. Learn it by sight."
+    },
+    "story": "The plan was to plod up the hill and pick some plump plums, plus a big red one for Dad!"
+  },
+  {
+    "id": "p4-pr-001",
+    "phase": 4,
+    "pattern": "pr",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /pr/. Two consonant sounds sit next to each other at the start: p then r. Help them blend through: p-r-a-m → pram. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pram",
+        "teachingTip": "p-r-a-m → Blend the opening cluster: pr-a-m → pram",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "prick",
+        "teachingTip": "p-r-i-ck → The 'ck' makes one sound at the end. Blend: prick",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "prod",
+        "teachingTip": "p-r-o-d → Say each sound: /p/-/r/-/o/-/d/. Blend: prod",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "prop",
+        "teachingTip": "p-r-o-p → Say each sound: /p/-/r/-/o/-/p/. Blend: prop",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "little",
+      "teachingTip": "Tricky word! The 'le' at the end says 'ul'. We say 'lit-ul'. Learn it by sight."
+    },
+    "story": "A little pram got a prick on the path. I had to prod it and prop it up on a rock!"
+  },
+  {
+    "id": "p4-pr-002",
+    "phase": 4,
+    "pattern": "pr",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /pr/. Two consonant sounds sit next to each other at the start: p then r. Help them blend through: p-r-e-ss → press. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "press",
+        "teachingTip": "p-r-e-ss → The 'ss' makes one sound at the end. Blend: press",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "print",
+        "teachingTip": "p-r-i-n-t → Five sounds! Blend: pr-i-n-t → print",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "prank",
+        "teachingTip": "p-r-a-n-k → Five sounds! Blend: pr-a-n-k → prank",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "prong",
+        "teachingTip": "p-r-o-ng → The 'ng' makes one sound at the end. Blend: prong",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "were",
+      "teachingTip": "Tricky word! It looks like 'here' but we say 'wur'. Learn it by sight."
+    },
+    "story": "The kids were up to a prank! They did press a print on the wall with a prong."
+  },
+  {
+    "id": "p4-pr-003",
+    "phase": 4,
+    "pattern": "pr",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /pr/. Two consonant sounds sit next to each other at the start: p then r. Help them blend through: p-r-i-s-m → prism. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "prism",
+        "teachingTip": "p-r-i-s-m → Five sounds! Blend: pr-i-s-m → prism",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "prig",
+        "teachingTip": "p-r-i-g → Say each sound: /p/-/r/-/i/-/g/. Blend: prig",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "pram",
+        "teachingTip": "p-r-a-m → Say each sound: /p/-/r/-/a/-/m/. Blend: pram",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "prod",
+        "teachingTip": "p-r-o-d → Say each sound: /p/-/r/-/o/-/d/. Blend: prod",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "like",
+      "teachingTip": "Tricky word! The 'i' says its name /ie/ and the 'e' is silent. We say 'like'. Learn it by sight."
+    },
+    "story": "I like to look at a prism! I put it in the pram and did prod it. Even the prig next door had a look!"
+  }
+]

@@ -1,0 +1,1034 @@
+[
+  {
+    "id": "p2-set1-001",
+    "phase": 2,
+    "pattern": "s, a, t, p",
+    "teachingHint": "Your child is learning the sounds s, a, t and p. Each letter makes one sound: 's' says sss (like a snake), 'a' says aaa (like the start of 'apple'), 't' says t (a short sharp sound), 'p' says p (a little puff of air). Help your child point to each letter, say the sound, then blend them together: s-a-t → sat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sat",
+        "teachingTip": "s-a-t → Say each sound: sss, aaa, t. Blend: sat",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "tap",
+        "teachingTip": "t-a-p → Say each sound: t, aaa, p. Blend: tap",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "pat",
+        "teachingTip": "p-a-t → Say each sound: p, aaa, t. Blend: pat",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "A cat sat on a hat. Dad gave the cat a pat!"
+  },
+  {
+    "id": "p2-set1-002",
+    "phase": 2,
+    "pattern": "s, a, t, p",
+    "teachingHint": "Your child is learning the sounds s, a, t and p. Each letter makes one sound: 's' says sss (like a snake), 'a' says aaa (like the start of 'apple'), 't' says t (a short sharp sound), 'p' says p (a little puff of air). Help your child point to each letter, say the sound, then blend them together: s-a-t → sat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "at",
+        "teachingTip": "a-t → Say each sound: aaa, t. Blend: at",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sap",
+        "teachingTip": "s-a-p → Say each sound: sss, aaa, p. Blend: sap",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "tap",
+        "teachingTip": "t-a-p → Say each sound: t, aaa, p. Blend: tap",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "I like to tap tap tap! Can you tap at a cup of sap?"
+  },
+  {
+    "id": "p2-set1-003",
+    "phase": 2,
+    "pattern": "s, a, t, p",
+    "teachingHint": "Your child is learning the sounds s, a, t and p. Each letter makes one sound: 's' says sss (like a snake), 'a' says aaa (like the start of 'apple'), 't' says t (a short sharp sound), 'p' says p (a little puff of air). Help your child point to each letter, say the sound, then blend them together: s-a-t → sat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pat",
+        "teachingTip": "p-a-t → Say each sound: p, aaa, t. Blend: pat",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "apt",
+        "teachingTip": "a-p-t → Say each sound: aaa, p, t. Blend: apt",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sat",
+        "teachingTip": "s-a-t → Say each sound: sss, aaa, t. Blend: sat",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "I sat on a big red rug. I gave the dog a pat pat pat!"
+  },
+  {
+    "id": "p2-set1-004",
+    "phase": 2,
+    "pattern": "s, a, t, p",
+    "teachingHint": "Your child is learning the sounds s, a, t and p. Each letter makes one sound: 's' says sss (like a snake), 'a' says aaa (like the start of 'apple'), 't' says t (a short sharp sound), 'p' says p (a little puff of air). Help your child point to each letter, say the sound, then blend them together: s-a-t → sat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "at",
+        "teachingTip": "a-t → Say each sound: aaa, t. Blend: at",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sap",
+        "teachingTip": "s-a-p → Say each sound: sss, aaa, p. Blend: sap",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "apt",
+        "teachingTip": "a-p-t → Say each sound: aaa, p, t. Blend: apt",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'noh'. Learn it by sight."
+    },
+    "story": "Look at the sap on that tree! No, do not lick it!"
+  },
+  {
+    "id": "p2-set1-005",
+    "phase": 2,
+    "pattern": "s, a, t, p",
+    "teachingHint": "Your child is learning the sounds s, a, t and p. Each letter makes one sound: 's' says sss (like a snake), 'a' says aaa (like the start of 'apple'), 't' says t (a short sharp sound), 'p' says p (a little puff of air). Help your child point to each letter, say the sound, then blend them together: s-a-t → sat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sat",
+        "teachingTip": "s-a-t → Say each sound: sss, aaa, t. Blend: sat",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "at",
+        "teachingTip": "a-t → Say each sound: aaa, t. Blend: at",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "tap",
+        "teachingTip": "t-a-p → Say each sound: t, aaa, p. Blend: tap",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'goh'. Learn it by sight."
+    },
+    "story": "The frog sat on a log. Go and look at him go hop hop hop!"
+  },
+  {
+    "id": "p2-set1-006",
+    "phase": 2,
+    "pattern": "s, a, t, p",
+    "teachingHint": "Your child is learning the sounds s, a, t and p. Each letter makes one sound: 's' says sss (like a snake), 'a' says aaa (like the start of 'apple'), 't' says t (a short sharp sound), 'p' says p (a little puff of air). Help your child point to each letter, say the sound, then blend them together: s-a-t → sat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pat",
+        "teachingTip": "p-a-t → Say each sound: p, aaa, t. Blend: pat",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sap",
+        "teachingTip": "s-a-p → Say each sound: sss, aaa, p. Blend: sap",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "apt",
+        "teachingTip": "a-p-t → Say each sound: aaa, p, t. Blend: apt",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "into",
+      "teachingTip": "Tricky word! It's made of 'in' and 'to' put together. Say 'into'. Learn it by sight."
+    },
+    "story": "The bee got into the sap! Give the bee a little pat to help it out."
+  },
+  {
+    "id": "p2-set2-001",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sit",
+        "teachingTip": "s-i-t → Say each sound: sss, ih, t. Blend: sit",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "pin",
+        "teachingTip": "p-i-n → Say each sound: p, ih, n. Blend: pin",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "it",
+        "teachingTip": "i-t → Say each sound: ih, t. Blend: it",
+        "segments": [
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "Can you sit on it? The pin is on the big red mat!"
+  },
+  {
+    "id": "p2-set2-002",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "an",
+        "teachingTip": "a-n → Say each sound: aaa, n. Blend: an",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "man",
+        "teachingTip": "m-a-n → Say each sound: mmm, aaa, n. Blend: man",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "map",
+        "teachingTip": "m-a-p → Say each sound: mmm, aaa, p. Blend: map",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "A man had a big map. He looked at the map and got lost!"
+  },
+  {
+    "id": "p2-set2-003",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "tip",
+        "teachingTip": "t-i-p → Say each sound: t, ih, p. Blend: tip",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "tin",
+        "teachingTip": "t-i-n → Say each sound: t, ih, n. Blend: tin",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "in",
+        "teachingTip": "i-n → Say each sound: ih, n. Blend: in",
+        "segments": [
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "Look at the tip of the tin! I want to put my toy in it."
+  },
+  {
+    "id": "p2-set2-004",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "dad",
+        "teachingTip": "d-a-d → Say each sound: d, aaa, d. Blend: dad",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "did",
+        "teachingTip": "d-i-d → Say each sound: d, ih, d. Blend: did",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "nap",
+        "teachingTip": "n-a-p → Say each sound: nnn, aaa, p. Blend: nap",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "Dad did a big silly nap. I jumped on dad and he woke up!"
+  },
+  {
+    "id": "p2-set2-005",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pit",
+        "teachingTip": "p-i-t → Say each sound: p, ih, t. Blend: pit",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "dip",
+        "teachingTip": "d-i-p → Say each sound: d, ih, p. Blend: dip",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "sip",
+        "teachingTip": "s-i-p → Say each sound: sss, ih, p. Blend: sip",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'noh'. Learn it by sight."
+    },
+    "story": "The pig fell in a mud pit! No, do not dip and sip the mud!"
+  },
+  {
+    "id": "p2-set2-006",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "mat",
+        "teachingTip": "m-a-t → Say each sound: mmm, aaa, t. Blend: mat",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "tan",
+        "teachingTip": "t-a-n → Say each sound: t, aaa, n. Blend: tan",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "pip",
+        "teachingTip": "p-i-p → Say each sound: p, ih, p. Blend: pip",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'goh'. Learn it by sight."
+    },
+    "story": "The tan mat had a little pip on it. Let's go and jump on the mat!"
+  },
+  {
+    "id": "p2-set2-007",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "nip",
+        "teachingTip": "n-i-p → Say each sound: nnn, ih, p. Blend: nip",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "sand",
+        "teachingTip": "s-a-n-d → Say each sound: sss, aaa, n, d. Blend: sand",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "dam",
+        "teachingTip": "d-a-m → Say each sound: d, aaa, mmm. Blend: dam",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "A crab gave me a nip in the sand! I ran to the dam to hide."
+  },
+  {
+    "id": "p2-set2-008",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "dim",
+        "teachingTip": "d-i-m → Say each sound: d, ih, mmm. Blend: dim",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "din",
+        "teachingTip": "d-i-n → Say each sound: d, ih, n. Blend: din",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "is",
+        "teachingTip": "i-s → Say each sound: ih, sss. Blend: is",
+        "segments": [
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "It is very dim in here! What a din — I need to cover my ears!"
+  },
+  {
+    "id": "p2-set2-009",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "mist",
+        "teachingTip": "m-i-s-t → Say each sound: mmm, ih, sss, t. Blend: mist",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "mint",
+        "teachingTip": "m-i-n-t → Say each sound: mmm, ih, n, t. Blend: mint",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "and",
+        "teachingTip": "a-n-d → Say each sound: aaa, n, d. Blend: and",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "I walked in the mist and found a mint! It was cold and yummy."
+  },
+  {
+    "id": "p2-set2-010",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "am",
+        "teachingTip": "a-m → Say each sound: aaa, mmm. Blend: am",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "sit",
+        "teachingTip": "s-i-t → Say each sound: sss, ih, t. Blend: sit",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "man",
+        "teachingTip": "m-a-n → Say each sound: mmm, aaa, n. Blend: man",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'noh'. Learn it by sight."
+    },
+    "story": "I am a silly man who cannot sit still. No, I cannot stop wiggling!"
+  },
+  {
+    "id": "p2-set2-011",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "tip",
+        "teachingTip": "t-i-p → Say each sound: t, ih, p. Blend: tip",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "it",
+        "teachingTip": "i-t → Say each sound: ih, t. Blend: it",
+        "segments": [
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "dam",
+        "teachingTip": "d-a-m → Say each sound: d, aaa, mmm. Blend: dam",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "into",
+      "teachingTip": "Tricky word! It's made of 'in' and 'to' put together. Say 'into'. Learn it by sight."
+    },
+    "story": "I put the tip of my toe into the dam. It was so cold!"
+  },
+  {
+    "id": "p2-set2-012",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "nap",
+        "teachingTip": "n-a-p → Say each sound: nnn, aaa, p. Blend: nap",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "did",
+        "teachingTip": "d-i-d → Say each sound: d, ih, d. Blend: did",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "pin",
+        "teachingTip": "p-i-n → Say each sound: p, ih, n. Blend: pin",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "The cat did a long nap on the rug. A pin fell and woke her up!"
+  },
+  {
+    "id": "p2-set2-013",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "dip",
+        "teachingTip": "d-i-p → Say each sound: d, ih, p. Blend: dip",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "mat",
+        "teachingTip": "m-a-t → Say each sound: mmm, aaa, t. Blend: mat",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "an",
+        "teachingTip": "a-n → Say each sound: aaa, n. Blend: an",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'goh'. Learn it by sight."
+    },
+    "story": "Let's go dip an apple! Put it on the mat to dry."
+  },
+  {
+    "id": "p2-set2-014",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sip",
+        "teachingTip": "s-i-p → Say each sound: sss, ih, p. Blend: sip",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "sand",
+        "teachingTip": "s-a-n-d → Say each sound: sss, aaa, n, d. Blend: sand",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "tan",
+        "teachingTip": "t-a-n → Say each sound: t, aaa, n. Blend: tan",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "I had a sip of water on the tan sand. The sun made the sand feel warm!"
+  },
+  {
+    "id": "p2-set2-015",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pit",
+        "teachingTip": "p-i-t → Say each sound: p, ih, t. Blend: pit",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "dim",
+        "teachingTip": "d-i-m → Say each sound: d, ih, mmm. Blend: dim",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "nip",
+        "teachingTip": "n-i-p → Say each sound: nnn, ih, p. Blend: nip",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "The pit was very dim inside. A little mouse ran to nip my cheese!"
+  },
+  {
+    "id": "p2-set2-016",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "in",
+        "teachingTip": "i-n → Say each sound: ih, n. Blend: in",
+        "segments": [
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "pip",
+        "teachingTip": "p-i-p → Say each sound: p, ih, p. Blend: pip",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "dad",
+        "teachingTip": "d-a-d → Say each sound: d, aaa, d. Blend: dad",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'noh'. Learn it by sight."
+    },
+    "story": "There is a pip in my apple! Dad said no, that is just a seed."
+  },
+  {
+    "id": "p2-set2-017",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "tin",
+        "teachingTip": "t-i-n → Say each sound: t, ih, n. Blend: tin",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "map",
+        "teachingTip": "m-a-p → Say each sound: mmm, aaa, p. Blend: map",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "is",
+        "teachingTip": "i-s → Say each sound: ih, sss. Blend: is",
+        "segments": [
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "into",
+      "teachingTip": "Tricky word! It's made of 'in' and 'to' put together. Say 'into'. Learn it by sight."
+    },
+    "story": "Where is the tin? Look at the map and go into the garden to find it!"
+  },
+  {
+    "id": "p2-set2-018",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "mist",
+        "teachingTip": "m-i-s-t → Say each sound: mmm, ih, sss, t. Blend: mist",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "am",
+        "teachingTip": "a-m → Say each sound: aaa, mmm. Blend: am",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "din",
+        "teachingTip": "d-i-n → Say each sound: d, ih, n. Blend: din",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "I am lost in the mist! What a din the birds are making."
+  },
+  {
+    "id": "p2-set2-019",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "mint",
+        "teachingTip": "m-i-n-t → Say each sound: mmm, ih, n, t. Blend: mint",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "and",
+        "teachingTip": "a-n-d → Say each sound: aaa, n, d. Blend: and",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "pit",
+        "teachingTip": "p-i-t → Say each sound: p, ih, t. Blend: pit",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'goh'. Learn it by sight."
+    },
+    "story": "I found a mint and a plum in the pit! Let's go and eat them up."
+  },
+  {
+    "id": "p2-set2-020",
+    "phase": 2,
+    "pattern": "i, n, m, d",
+    "teachingHint": "Your child is learning four new sounds: 'i' says ih (like the start of 'itch'), 'n' says nnn (hum through your nose), 'm' says mmm (hum with lips together), 'd' says d (tongue taps behind top teeth). They can now combine these with s, a, t, p to read more words. Help them sound out each letter then blend: p-i-n → pin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "dad",
+        "teachingTip": "d-a-d → Say each sound: d, aaa, d. Blend: dad",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "sit",
+        "teachingTip": "s-i-t → Say each sound: sss, ih, t. Blend: sit",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "in",
+        "teachingTip": "i-n → Say each sound: ih, n. Blend: in",
+        "segments": [
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "Dad likes to sit in his big chair. I like to sit in it too!"
+  }
+]

@@ -1,0 +1,427 @@
+[
+  {
+    "id": "p5-oo-long-001",
+    "phase": 5,
+    "pattern": "oo (long)",
+    "teachingHint": "Your child learned 'oo' in Phase 3. Now they're reviewing the long /oo/ sound (as in 'moon') in more advanced words: s-p-oo-n → spoon, s-ch-oo-l → school. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "spoon",
+        "teachingTip": "s-p-oo-n → 'oo' makes the long /oo/ sound. Blend: sp-oo-n → spoon",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "school",
+        "teachingTip": "s-ch-oo-l → 'ch' is a digraph, 'oo' makes the long /oo/ sound. Blend: s-ch-oo-l → school",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "tooth",
+        "teachingTip": "t-oo-th → 'oo' makes the long /oo/ sound, 'th' is a digraph. Blend: t-oo-th → tooth",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "th", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "proof",
+        "teachingTip": "p-r-oo-f → 'oo' makes the long /oo/ sound. Blend: pr-oo-f → proof",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "f", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "oh",
+      "teachingTip": "Tricky word! 'Oh' doesn't follow normal rules. The 'h' is silent. We say 'oh'. Learn it by sight."
+    },
+    "story": "Oh! I left my spoon at school! I need proof that I brushed each tooth. Can you see my clean tooth?"
+  },
+  {
+    "id": "p5-oo-long-002",
+    "phase": 5,
+    "pattern": "oo (long)",
+    "teachingHint": "Your child learned 'oo' in Phase 3. Now they're reviewing the long /oo/ sound in longer, more advanced words: b-a-ll-oo-n → balloon, s-c-oo-t-er → scooter. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "scooter",
+        "teachingTip": "s-c-oo-t-er → 'oo' makes the long /oo/ sound, 'er' is a digraph. Blend: sc-oo-t-er → scooter",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "t", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "balloon",
+        "teachingTip": "b-a-ll-oo-n → 'll' is a digraph, 'oo' makes the long /oo/ sound. Blend: b-a-ll-oo-n → balloon",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ll", "type": "digraph" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "cartoon",
+        "teachingTip": "c-ar-t-oo-n → 'ar' is a digraph, 'oo' makes the long /oo/ sound. Blend: c-ar-t-oo-n → cartoon",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "t", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "mushroom",
+        "teachingTip": "m-u-sh-r-oo-m → 'sh' is a digraph, 'oo' makes the long /oo/ sound. Blend: m-u-sh-r-oo-m → mushroom",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "r", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "their",
+      "teachingTip": "Tricky word! 'Their' doesn't follow normal rules. The 'ei' makes an /air/ sound. We say 'their'. Learn it by sight."
+    },
+    "story": "Look at their cartoon balloon! It floats past the scooter and over the mushroom patch. What a sight!"
+  },
+  {
+    "id": "p5-oo-short-001",
+    "phase": 5,
+    "pattern": "oo (short)",
+    "teachingHint": "Your child learned 'oo' in Phase 3. Now they're reviewing the short /oo/ sound (as in 'book') in more advanced words: sh-oo-k → shook, b-r-oo-k → brook. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "stood",
+        "teachingTip": "s-t-oo-d → 'oo' makes the short /oo/ sound (like 'book'). Blend: st-oo-d → stood",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "shook",
+        "teachingTip": "sh-oo-k → 'sh' is a digraph, 'oo' makes the short /oo/ sound. Blend: sh-oo-k → shook",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "brook",
+        "teachingTip": "b-r-oo-k → 'oo' makes the short /oo/ sound. Blend: br-oo-k → brook",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "hook",
+        "teachingTip": "h-oo-k → 'oo' makes the short /oo/ sound. Blend: h-oo-k → hook",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "looked",
+      "teachingTip": "Tricky word! 'Looked' has the short /oo/ sound in 'look' plus '-ed'. The '-ed' says /t/. Learn it by sight."
+    },
+    "story": "I looked at the brook and stood still. A fish shook on the hook! What a catch!"
+  },
+  {
+    "id": "p5-oo-short-002",
+    "phase": 5,
+    "pattern": "oo (short)",
+    "teachingHint": "Your child learned 'oo' in Phase 3. Now they're reviewing the short /oo/ sound in more advanced words: c-r-oo-k-e-d → crooked, w-oo-l → wool. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "crooked",
+        "teachingTip": "c-r-oo-k-e-d → 'oo' makes the short /oo/ sound. Blend: cr-oo-k-e-d → crooked",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "hood",
+        "teachingTip": "h-oo-d → 'oo' makes the short /oo/ sound. Blend: h-oo-d → hood",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "wool",
+        "teachingTip": "w-oo-l → 'oo' makes the short /oo/ sound. Blend: w-oo-l → wool",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "stood",
+        "teachingTip": "s-t-oo-d → 'oo' makes the short /oo/ sound. Blend: st-oo-d → stood",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "could",
+      "teachingTip": "Tricky word! 'Could' doesn't follow normal rules. The 'ou' makes a short /oo/ sound and the 'l' is silent. Learn it by sight."
+    },
+    "story": "I could see a crooked path. I stood and pulled up my hood. The wool coat kept me warm in the wind."
+  },
+  {
+    "id": "p5-ow-loud-001",
+    "phase": 5,
+    "pattern": "ow (loud)",
+    "teachingHint": "Your child learned 'ow' in Phase 3. Now they're reviewing the loud /ow/ sound (as in 'cow') in more advanced words: c-r-ow-d → crowd, f-l-ow-er → flower. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "crowd",
+        "teachingTip": "c-r-ow-d → 'ow' makes the loud /ow/ sound. Blend: cr-ow-d → crowd",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "brown",
+        "teachingTip": "b-r-ow-n → 'ow' makes the loud /ow/ sound. Blend: br-ow-n → brown",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "flower",
+        "teachingTip": "f-l-ow-er → 'ow' makes the loud /ow/ sound, 'er' is a digraph. Blend: fl-ow-er → flower",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "power",
+        "teachingTip": "p-ow-er → 'ow' makes the loud /ow/ sound, 'er' is a digraph. Blend: p-ow-er → power",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "people",
+      "teachingTip": "Tricky word! 'People' doesn't follow normal rules. The 'eo' makes an /ee/ sound and the 'le' says /l/. Learn it by sight."
+    },
+    "story": "A crowd of people stood by the brown flower. It had the power to grow so tall and bright!"
+  },
+  {
+    "id": "p5-ow-loud-002",
+    "phase": 5,
+    "pattern": "ow (loud)",
+    "teachingHint": "Your child learned 'ow' in Phase 3. Now they're reviewing the loud /ow/ sound in more advanced words: t-ow-er → tower, sh-ow-er → shower. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "tower",
+        "teachingTip": "t-ow-er → 'ow' makes the loud /ow/ sound, 'er' is a digraph. Blend: t-ow-er → tower",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "shower",
+        "teachingTip": "sh-ow-er → 'sh' is a digraph, 'ow' makes the loud /ow/ sound, 'er' is a digraph. Blend: sh-ow-er → shower",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "vowel",
+        "teachingTip": "v-ow-e-l → 'ow' makes the loud /ow/ sound. Blend: v-ow-e-l → vowel",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "crowd",
+        "teachingTip": "c-r-ow-d → 'ow' makes the loud /ow/ sound. Blend: cr-ow-d → crowd",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "called",
+      "teachingTip": "Tricky word! 'Called' has 'a' making an /or/ sound and '-ed' says /d/. Learn it by sight."
+    },
+    "story": "Mr Fox called from the tower. A shower of rain fell on the crowd. Can you spot the vowel in each word?"
+  },
+  {
+    "id": "p5-ow-slow-001",
+    "phase": 5,
+    "pattern": "ow (slow)",
+    "teachingHint": "Your child learned 'ow' in Phase 3. Now they're reviewing the slow /ow/ sound (as in 'snow') in more advanced words: f-o-ll-ow → follow, w-i-n-d-ow → window. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "follow",
+        "teachingTip": "f-o-ll-ow → 'll' is a digraph, 'ow' makes the slow /oh/ sound. Blend: f-o-ll-ow → follow",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ll", "type": "digraph" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "window",
+        "teachingTip": "w-i-n-d-ow → 'ow' makes the slow /oh/ sound. Blend: w-i-n-d-ow → window",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "d", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "shadow",
+        "teachingTip": "sh-a-d-ow → 'sh' is a digraph, 'ow' makes the slow /oh/ sound. Blend: sh-a-d-ow → shadow",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "d", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "elbow",
+        "teachingTip": "e-l-b-ow → 'ow' makes the slow /oh/ sound. Blend: e-l-b-ow → elbow",
+        "segments": [
+          { "chars": "e", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "b", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "asked",
+      "teachingTip": "Tricky word! 'Asked' has '-ed' that says /t/. The 'a' says /ah/. Learn it by sight."
+    },
+    "story": "Mrs Bee asked me to follow her shadow. I bumped my elbow on the window! Ouch!"
+  },
+  {
+    "id": "p5-ow-slow-002",
+    "phase": 5,
+    "pattern": "ow (slow)",
+    "teachingHint": "Your child learned 'ow' in Phase 3. Now they're reviewing the slow /ow/ sound in more advanced words: r-ai-n-b-ow → rainbow, p-i-ll-ow → pillow. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "rainbow",
+        "teachingTip": "r-ai-n-b-ow → 'ai' is a digraph, 'ow' makes the slow /oh/ sound. Blend: r-ai-n-b-ow → rainbow",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "ai", "type": "digraph" },
+          { "chars": "n", "type": "single" },
+          { "chars": "b", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "yellow",
+        "teachingTip": "y-e-ll-ow → 'll' is a digraph, 'ow' makes the slow /oh/ sound. Blend: y-e-ll-ow → yellow",
+        "segments": [
+          { "chars": "y", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ll", "type": "digraph" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "pillow",
+        "teachingTip": "p-i-ll-ow → 'll' is a digraph, 'ow' makes the slow /oh/ sound. Blend: p-i-ll-ow → pillow",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ll", "type": "digraph" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "follow",
+        "teachingTip": "f-o-ll-ow → 'll' is a digraph, 'ow' makes the slow /oh/ sound. Blend: f-o-ll-ow → follow",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ll", "type": "digraph" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mr",
+      "teachingTip": "Tricky word! 'Mr' is short for 'Mister'. We say 'mister' but write 'Mr'. Learn it by sight."
+    },
+    "story": "Mr Fox saw a yellow rainbow from his pillow. He got up to follow it across the meadow!"
+  }
+]

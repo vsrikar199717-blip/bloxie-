@@ -1,0 +1,842 @@
+[
+  {
+    "id": "p2-set5-025",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lap",
+        "teachingTip": "l-a-p → Say each sound: lll, aaa, p. Blend: lap",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "bell",
+        "teachingTip": "b-e-ll → The 'll' makes one /l/ sound. Blend: bell",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "miss",
+        "teachingTip": "m-i-ss → The 'ss' makes one /s/ sound. Blend: miss",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "I rang the bell in my lap. I did not miss it!"
+  },
+  {
+    "id": "p2-set5-026",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "let",
+        "teachingTip": "l-e-t → Say each sound: lll, eee, t. Blend: let",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "bill",
+        "teachingTip": "b-i-ll → The 'll' makes one /l/ sound. Blend: bill",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "less",
+        "teachingTip": "l-e-ss → The 'ss' makes one /s/ sound. Blend: less",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "Let me get the bill. It is less than I had to pay!"
+  },
+  {
+    "id": "p2-set5-027",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "leg",
+        "teachingTip": "l-e-g → Say each sound: lll, eee, g. Blend: leg",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "tell",
+        "teachingTip": "t-e-ll → The 'll' makes one /l/ sound. Blend: tell",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "loss",
+        "teachingTip": "l-o-ss → The 'ss' makes one /s/ sound. Blend: loss",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "I fell and hit my leg. Tell Mum it is not a big loss!"
+  },
+  {
+    "id": "p2-set5-028",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lot",
+        "teachingTip": "l-o-t → Say each sound: lll, ooo, t. Blend: lot",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "doll",
+        "teachingTip": "d-o-ll → The 'll' makes one /l/ sound. Blend: doll",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "mass",
+        "teachingTip": "m-a-ss → The 'ss' makes one /s/ sound. Blend: mass",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'noh'. Learn it by sight."
+    },
+    "story": "The doll has a lot of mass. No, it is not a big doll!"
+  },
+  {
+    "id": "p2-set5-029",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lit",
+        "teachingTip": "l-i-t → Say each sound: lll, iii, t. Blend: lit",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "fell",
+        "teachingTip": "f-e-ll → The 'll' makes one /l/ sound. Blend: fell",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "mess",
+        "teachingTip": "m-e-ss → The 'ss' makes one /s/ sound. Blend: mess",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! Like 'no', the 'o' says its name: 'goh'. Learn it by sight."
+    },
+    "story": "I lit a lamp and it fell. Go and tidy up the mess!"
+  },
+  {
+    "id": "p2-set5-030",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lip",
+        "teachingTip": "l-i-p → Say each sound: lll, iii, p. Blend: lip",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "fill",
+        "teachingTip": "f-i-ll → The 'll' makes one /l/ sound. Blend: fill",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "kiss",
+        "teachingTip": "k-i-ss → The 'ss' makes one /s/ sound. Blend: kiss",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "into",
+      "teachingTip": "Tricky word! It's two parts: 'in' + 'to'. Your child can sound out 'in' but 'to' is tricky."
+    },
+    "story": "Give a kiss on the lip! Fill the cup and dip into it."
+  },
+  {
+    "id": "p2-set5-031",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lid",
+        "teachingTip": "l-i-d → Say each sound: lll, iii, d. Blend: lid",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "full",
+        "teachingTip": "f-u-ll → The 'll' makes one /l/ sound. Blend: full",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "hiss",
+        "teachingTip": "h-i-ss → The 'ss' makes one /s/ sound. Blend: hiss",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "Put the lid on! The pot is full and the cat will hiss."
+  },
+  {
+    "id": "p2-set5-032",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "log",
+        "teachingTip": "l-o-g → Say each sound: lll, ooo, g. Blend: log",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "bull",
+        "teachingTip": "b-u-ll → The 'll' makes one /l/ sound. Blend: bull",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "boss",
+        "teachingTip": "b-o-ss → The 'ss' makes one /s/ sound. Blend: boss",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "The bull sat on a log. The boss had to tell him to get off!"
+  },
+  {
+    "id": "p2-set5-033",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lap",
+        "teachingTip": "l-a-p → Say each sound: lll, aaa, p. Blend: lap",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "pull",
+        "teachingTip": "p-u-ll → The 'll' makes one /l/ sound. Blend: pull",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "toss",
+        "teachingTip": "t-o-ss → The 'ss' makes one /s/ sound. Blend: toss",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "I toss a ball in my lap. Pull it back and toss it again!"
+  },
+  {
+    "id": "p2-set5-034",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "let",
+        "teachingTip": "l-e-t → Say each sound: lll, eee, t. Blend: let",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "bell",
+        "teachingTip": "b-e-ll → The 'll' makes one /l/ sound. Blend: bell",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "fuss",
+        "teachingTip": "f-u-ss → The 'ss' makes one /s/ sound. Blend: fuss",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'noh'. Learn it by sight."
+    },
+    "story": "Let the bell ring! No need to fuss about it."
+  },
+  {
+    "id": "p2-set5-035",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "leg",
+        "teachingTip": "l-e-g → Say each sound: lll, eee, g. Blend: leg",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "tell",
+        "teachingTip": "t-e-ll → The 'll' makes one /l/ sound. Blend: tell",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "kiss",
+        "teachingTip": "k-i-ss → The 'ss' makes one /s/ sound. Blend: kiss",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! Like 'no', the 'o' says its name: 'goh'. Learn it by sight."
+    },
+    "story": "Kiss my leg and go! Tell Mum I got a bump."
+  },
+  {
+    "id": "p2-set5-036",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lot",
+        "teachingTip": "l-o-t → Say each sound: lll, ooo, t. Blend: lot",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "doll",
+        "teachingTip": "d-o-ll → The 'll' makes one /l/ sound. Blend: doll",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "hiss",
+        "teachingTip": "h-i-ss → The 'ss' makes one /s/ sound. Blend: hiss",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "into",
+      "teachingTip": "Tricky word! It's two parts: 'in' + 'to'. Your child can sound out 'in' but 'to' is tricky."
+    },
+    "story": "The doll fell into a lot of mud. The cat began to hiss!"
+  },
+  {
+    "id": "p2-set5-037",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lit",
+        "teachingTip": "l-i-t → Say each sound: lll, iii, t. Blend: lit",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "bill",
+        "teachingTip": "b-i-ll → The 'll' makes one /l/ sound. Blend: bill",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "loss",
+        "teachingTip": "l-o-ss → The 'ss' makes one /s/ sound. Blend: loss",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "I lit the lamp. The bill was not a big loss!"
+  },
+  {
+    "id": "p2-set5-038",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lip",
+        "teachingTip": "l-i-p → Say each sound: lll, iii, p. Blend: lip",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "fell",
+        "teachingTip": "f-e-ll → The 'll' makes one /l/ sound. Blend: fell",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "miss",
+        "teachingTip": "m-i-ss → The 'ss' makes one /s/ sound. Blend: miss",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "I fell and bit my lip. I miss going to the park!"
+  },
+  {
+    "id": "p2-set5-039",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lid",
+        "teachingTip": "l-i-d → Say each sound: lll, iii, d. Blend: lid",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "fill",
+        "teachingTip": "f-i-ll → The 'll' makes one /l/ sound. Blend: fill",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "mass",
+        "teachingTip": "m-a-ss → The 'ss' makes one /s/ sound. Blend: mass",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "I fill the pot and put on the lid. It has a big mass!"
+  },
+  {
+    "id": "p2-set5-040",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "log",
+        "teachingTip": "l-o-g → Say each sound: lll, ooo, g. Blend: log",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "full",
+        "teachingTip": "f-u-ll → The 'll' makes one /l/ sound. Blend: full",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "mess",
+        "teachingTip": "m-e-ss → The 'ss' makes one /s/ sound. Blend: mess",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'noh'. Learn it by sight."
+    },
+    "story": "The log is full of bugs. No, it is not a mess!"
+  },
+  {
+    "id": "p2-set5-041",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "less",
+        "teachingTip": "l-e-ss → The 'ss' makes one /s/ sound. Blend: less",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "bull",
+        "teachingTip": "b-u-ll → The 'll' makes one /l/ sound. Blend: bull",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "lap",
+        "teachingTip": "l-a-p → Say each sound: lll, aaa, p. Blend: lap",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! Like 'no', the 'o' says its name: 'goh'. Learn it by sight."
+    },
+    "story": "The bull did a lap of the pen. Go and get less mud on him!"
+  },
+  {
+    "id": "p2-set5-042",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "boss",
+        "teachingTip": "b-o-ss → The 'ss' makes one /s/ sound. Blend: boss",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "pull",
+        "teachingTip": "p-u-ll → The 'll' makes one /l/ sound. Blend: pull",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "let",
+        "teachingTip": "l-e-t → Say each sound: lll, eee, t. Blend: let",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "into",
+      "teachingTip": "Tricky word! It's two parts: 'in' + 'to'. Your child can sound out 'in' but 'to' is tricky."
+    },
+    "story": "The boss let me pull the rope. We fell into a big heap!"
+  },
+  {
+    "id": "p2-set5-043",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "toss",
+        "teachingTip": "t-o-ss → The 'ss' makes one /s/ sound. Blend: toss",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "leg",
+        "teachingTip": "l-e-g → Say each sound: lll, eee, g. Blend: leg",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "bell",
+        "teachingTip": "b-e-ll → The 'll' makes one /l/ sound. Blend: bell",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "Toss the ball at my leg! Ring the bell if you hit it."
+  },
+  {
+    "id": "p2-set5-044",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "fuss",
+        "teachingTip": "f-u-ss → The 'ss' makes one /s/ sound. Blend: fuss",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "lot",
+        "teachingTip": "l-o-t → Say each sound: lll, ooo, t. Blend: lot",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "doll",
+        "teachingTip": "d-o-ll → The 'll' makes one /l/ sound. Blend: doll",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "Do not fuss! I have a lot of fun with my doll to play with."
+  },
+  {
+    "id": "p2-set5-045",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning the sounds 'l' (tongue behind top teeth) and that double letters make one sound: 'll' says lll (same as 'l'), 'ss' says sss (same as 's'). Help your child spot double letters as one sound: be-ll → bell, mi-ss → miss. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lit",
+        "teachingTip": "l-i-t → Say each sound: lll, iii, t. Blend: lit",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "tell",
+        "teachingTip": "t-e-ll → The 'll' makes one /l/ sound. Blend: tell",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "fuss",
+        "teachingTip": "f-u-ss → The 'ss' makes one /s/ sound. Blend: fuss",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "I lit a big fire. Tell Dad not to fuss about it!"
+  }
+]

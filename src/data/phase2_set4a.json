@@ -1,0 +1,562 @@
+[
+  {
+    "id": "p2-set4-001",
+    "phase": 2,
+    "pattern": "ck",
+    "teachingHint": "Your child is learning the /k/ sound spelled 'ck'. When 'c' and 'k' sit together at the end of a short word, they make one sound: /k/. Help them spot the 'ck' and blend: k-i-ck → kick, d-u-ck → duck. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "kick",
+        "teachingTip": "k-i-ck → Spot the 'ck' digraph at the end. Blend: k-i-ck → kick",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "sick",
+        "teachingTip": "s-i-ck → Spot the 'ck' digraph at the end. Blend: s-i-ck → sick",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "duck",
+        "teachingTip": "d-u-ck → Spot the 'ck' digraph at the end. Blend: d-u-ck → duck",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "The duck got a kick from a sick hen. The duck said 'No!'"
+  },
+  {
+    "id": "p2-set4-002",
+    "phase": 2,
+    "pattern": "ck",
+    "teachingHint": "Your child is learning the /k/ sound spelled 'ck'. When 'c' and 'k' sit together at the end of a short word, they make one sound: /k/. Help them spot the 'ck' and blend: s-a-ck → sack, p-a-ck → pack. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sack",
+        "teachingTip": "s-a-ck → Spot the 'ck' digraph at the end. Blend: s-a-ck → sack",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "pack",
+        "teachingTip": "p-a-ck → Spot the 'ck' digraph at the end. Blend: p-a-ck → pack",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "tack",
+        "teachingTip": "t-a-ck → Spot the 'ck' digraph at the end. Blend: t-a-ck → tack",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "I got a sack. I had to pack it. Put a tack in to pin it up!"
+  },
+  {
+    "id": "p2-set4-003",
+    "phase": 2,
+    "pattern": "ck",
+    "teachingHint": "Your child is learning the /k/ sound spelled 'ck'. When 'c' and 'k' sit together at the end of a short word, they make one sound: /k/. Help them spot the 'ck' and blend: d-o-ck → dock, r-o-ck → rock. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "dock",
+        "teachingTip": "d-o-ck → Spot the 'ck' digraph at the end. Blend: d-o-ck → dock",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "rock",
+        "teachingTip": "r-o-ck → Spot the 'ck' digraph at the end. Blend: r-o-ck → rock",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "sock",
+        "teachingTip": "s-o-ck → Spot the 'ck' digraph at the end. Blend: s-o-ck → sock",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' makes a long sound here. Look at the word and say 'no'. Try to remember it."
+    },
+    "story": "I sat on the dock. No rock in my sock!"
+  },
+  {
+    "id": "p2-set4-004",
+    "phase": 2,
+    "pattern": "ck",
+    "teachingHint": "Your child is learning the /k/ sound spelled 'ck'. When 'c' and 'k' sit together at the end of a short word, they make one sound: /k/. Help them spot the 'ck' and blend: p-i-ck → pick, t-i-ck → tick. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pick",
+        "teachingTip": "p-i-ck → Spot the 'ck' digraph at the end. Blend: p-i-ck → pick",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "tick",
+        "teachingTip": "t-i-ck → Spot the 'ck' digraph at the end. Blend: t-i-ck → tick",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "muck",
+        "teachingTip": "m-u-ck → Spot the 'ck' digraph at the end. Blend: m-u-ck → muck",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! The 'o' makes a long sound here. Look at the word and say 'go'. Try to remember it."
+    },
+    "story": "I pick up a tick in the muck. Go and get rid of it!"
+  },
+  {
+    "id": "p2-set4-005",
+    "phase": 2,
+    "pattern": "ck",
+    "teachingHint": "Your child is learning the /k/ sound spelled 'ck'. When 'c' and 'k' sit together at the end of a short word, they make one sound: /k/. Help them spot the 'ck' and blend: t-u-ck → tuck, k-i-ck → kick. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "tuck",
+        "teachingTip": "t-u-ck → Spot the 'ck' digraph at the end. Blend: t-u-ck → tuck",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "kick",
+        "teachingTip": "k-i-ck → Spot the 'ck' digraph at the end. Blend: k-i-ck → kick",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "sack",
+        "teachingTip": "s-a-ck → Spot the 'ck' digraph at the end. Blend: s-a-ck → sack",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. We say 'I' (like 'eye')."
+    },
+    "story": "I tuck the sack in. No kick! I got it into the gap."
+  },
+  {
+    "id": "p2-set4-006",
+    "phase": 2,
+    "pattern": "ck",
+    "teachingHint": "Your child is learning the /k/ sound spelled 'ck'. When 'c' and 'k' sit together at the end of a short word, they make one sound: /k/. Help them spot the 'ck' and blend: d-u-ck → duck, p-a-ck → pack. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "duck",
+        "teachingTip": "d-u-ck → Spot the 'ck' digraph at the end. Blend: d-u-ck → duck",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "pack",
+        "teachingTip": "p-a-ck → Spot the 'ck' digraph at the end. Blend: p-a-ck → pack",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "rock",
+        "teachingTip": "r-o-ck → Spot the 'ck' digraph at the end. Blend: r-o-ck → rock",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "into",
+      "teachingTip": "Tricky word! This word is made of 'in' and 'to'. Look at the word and say 'into'. Try to remember it."
+    },
+    "story": "The duck ran into a rock. Pack it into the sack!"
+  },
+  {
+    "id": "p2-set4-007",
+    "phase": 2,
+    "pattern": "ck",
+    "teachingHint": "Your child is learning the /k/ sound spelled 'ck'. When 'c' and 'k' sit together at the end of a short word, they make one sound: /k/. Help them spot the 'ck' and blend: s-i-ck → sick, s-o-ck → sock. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sick",
+        "teachingTip": "s-i-ck → Spot the 'ck' digraph at the end. Blend: s-i-ck → sick",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "sock",
+        "teachingTip": "s-o-ck → Spot the 'ck' digraph at the end. Blend: s-o-ck → sock",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "tack",
+        "teachingTip": "t-a-ck → Spot the 'ck' digraph at the end. Blend: t-a-ck → tack",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "I got the sick sock on a tack. The tack is on the mat."
+  },
+  {
+    "id": "p2-set4-008",
+    "phase": 2,
+    "pattern": "e",
+    "teachingHint": "Your child is learning the short /e/ sound, as in 'egg'. Help them spot the 'e' in each word and blend: g-e-t → get, p-e-t → pet. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "get",
+        "teachingTip": "g-e-t → Say each sound: g, e, t. Blend: get",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "pet",
+        "teachingTip": "p-e-t → Say each sound: p, e, t. Blend: pet",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "ten",
+        "teachingTip": "t-e-n → Say each sound: t, e, n. Blend: ten",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "I get to pet ten dogs. I got to pat the big dog!"
+  },
+  {
+    "id": "p2-set4-009",
+    "phase": 2,
+    "pattern": "e",
+    "teachingHint": "Your child is learning the short /e/ sound, as in 'egg'. Help them spot the 'e' in each word and blend: n-e-t → net, p-e-n → pen. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "net",
+        "teachingTip": "n-e-t → Say each sound: n, e, t. Blend: net",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "pen",
+        "teachingTip": "p-e-n → Say each sound: p, e, n. Blend: pen",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "peg",
+        "teachingTip": "p-e-g → Say each sound: p, e, g. Blend: peg",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' makes a long sound here. Look at the word and say 'no'. Try to remember it."
+    },
+    "story": "No net on the peg! Get the pen and the net. Put it on the peg."
+  },
+  {
+    "id": "p2-set4-010",
+    "phase": 2,
+    "pattern": "e",
+    "teachingHint": "Your child is learning the short /e/ sound, as in 'egg'. Help them spot the 'e' in each word and blend: m-e-t → met, s-e-t → set. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "met",
+        "teachingTip": "m-e-t → Say each sound: m, e, t. Blend: met",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "set",
+        "teachingTip": "s-e-t → Say each sound: s, e, t. Blend: set",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "men",
+        "teachingTip": "m-e-n → Say each sound: m, e, n. Blend: men",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! The 'o' makes a long sound here. Look at the word and say 'go'. Try to remember it."
+    },
+    "story": "The men met and set off. Go, go, go!"
+  },
+  {
+    "id": "p2-set4-011",
+    "phase": 2,
+    "pattern": "e",
+    "teachingHint": "Your child is learning the short /e/ sound, as in 'egg'. Help them spot the 'e' in each word and blend: d-e-n → den, r-e-d → red. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "den",
+        "teachingTip": "d-e-n → Say each sound: d, e, n. Blend: den",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "red",
+        "teachingTip": "r-e-d → Say each sound: r, e, d. Blend: red",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "Ted",
+        "teachingTip": "T-e-d → Say each sound: t, e, d. Blend: Ted (a name — it starts with a capital letter!)",
+        "segments": [
+          { "chars": "T", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. We say 'I' (like 'eye')."
+    },
+    "story": "I met Ted in the den. The den is red. I like it!"
+  },
+  {
+    "id": "p2-set4-012",
+    "phase": 2,
+    "pattern": "e",
+    "teachingHint": "Your child is learning the short /e/ sound, as in 'egg'. Help them spot the 'e' in each word and blend: K-e-n → Ken, k-e-g → keg. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "Ken",
+        "teachingTip": "K-e-n → Say each sound: k, e, n. Blend: Ken (a name — it starts with a capital letter!)",
+        "segments": [
+          { "chars": "K", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "keg",
+        "teachingTip": "k-e-g → Say each sound: k, e, g. Blend: keg",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "get",
+        "teachingTip": "g-e-t → Say each sound: g, e, t. Blend: get",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "Ken sat on the keg. Get off, Ken! The keg is not a seat!"
+  },
+  {
+    "id": "p2-set4-013",
+    "phase": 2,
+    "pattern": "e",
+    "teachingHint": "Your child is learning the short /e/ sound, as in 'egg'. Help them spot the 'e' in each word and blend: p-e-t → pet, n-e-t → net. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pet",
+        "teachingTip": "p-e-t → Say each sound: p, e, t. Blend: pet",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "net",
+        "teachingTip": "n-e-t → Say each sound: n, e, t. Blend: net",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "pen",
+        "teachingTip": "p-e-n → Say each sound: p, e, n. Blend: pen",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "into",
+      "teachingTip": "Tricky word! This word is made of 'in' and 'to'. Look at the word and say 'into'. Try to remember it."
+    },
+    "story": "The pet got into the net! Get the pen and poke it. The pet ran off."
+  },
+  {
+    "id": "p2-set4-014",
+    "phase": 2,
+    "pattern": "e",
+    "teachingHint": "Your child is learning the short /e/ sound, as in 'egg'. Help them spot the 'e' in each word and blend: t-e-n → ten, s-e-t → set. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "ten",
+        "teachingTip": "t-e-n → Say each sound: t, e, n. Blend: ten",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "set",
+        "teachingTip": "s-e-t → Say each sound: s, e, t. Blend: set",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "red",
+        "teachingTip": "r-e-d → Say each sound: r, e, d. Blend: red",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "I set ten red cups on the mat. I got to pick the red pen!"
+  }
+]

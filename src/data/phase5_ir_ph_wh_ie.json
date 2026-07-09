@@ -1,0 +1,672 @@
+[
+  {
+    "id": "p5-ir-001",
+    "phase": 5,
+    "pattern": "ir",
+    "teachingHint": "Your child already knows the /ur/ sound from Phase 3 (as in 'fur'). Now they're learning that 'ir' makes the same sound: b-ir-d → bird, g-ir-l → girl. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "bird",
+        "teachingTip": "b-ir-d → 'ir' makes the /ur/ sound. Blend: b-ir-d → bird",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ir", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "shirt",
+        "teachingTip": "sh-ir-t → 'ir' makes the /ur/ sound. Blend: sh-ir-t → shirt",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "ir", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "first",
+        "teachingTip": "f-ir-s-t → 'ir' makes the /ur/ sound. Blend: f-ir-st → first",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ir", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "girl",
+        "teachingTip": "g-ir-l → 'ir' makes the /ur/ sound. Blend: g-ir-l → girl",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "ir", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "oh",
+      "teachingTip": "Tricky word! 'Oh' doesn't follow normal rules. The 'h' is silent. We say 'oh'. Learn it by sight."
+    },
+    "story": "Oh! A bird sat on the girl's shirt. It was the first bird she had ever seen so close!"
+  },
+  {
+    "id": "p5-ir-002",
+    "phase": 5,
+    "pattern": "ir",
+    "teachingHint": "Your child already knows the /ur/ sound from Phase 3 (as in 'fur'). Now they're learning that 'ir' makes the same sound: b-ir-d → bird, g-ir-l → girl. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "dirt",
+        "teachingTip": "d-ir-t → 'ir' makes the /ur/ sound. Blend: d-ir-t → dirt",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "ir", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "firm",
+        "teachingTip": "f-ir-m → 'ir' makes the /ur/ sound. Blend: f-ir-m → firm",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ir", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "sir",
+        "teachingTip": "s-ir → 'ir' makes the /ur/ sound. Blend: s-ir → sir",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ir", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "stir",
+        "teachingTip": "s-t-ir → 'ir' makes the /ur/ sound. Blend: st-ir → stir",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "ir", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "their",
+      "teachingTip": "Tricky word! 'Their' doesn't follow normal rules. We say 'thair'. Learn it by sight."
+    },
+    "story": "Sir, can you stir the dirt? Their garden must be firm and ready for planting."
+  },
+  {
+    "id": "p5-ir-003",
+    "phase": 5,
+    "pattern": "ir",
+    "teachingHint": "Your child already knows the /ur/ sound from Phase 3 (as in 'fur'). Now they're learning that 'ir' makes the same sound: b-ir-d → bird, g-ir-l → girl. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "third",
+        "teachingTip": "th-ir-d → 'ir' makes the /ur/ sound. Blend: th-ir-d → third",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "ir", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "skirt",
+        "teachingTip": "s-k-ir-t → 'ir' makes the /ur/ sound. Blend: sk-ir-t → skirt",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" },
+          { "chars": "ir", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "twirl",
+        "teachingTip": "t-w-ir-l → 'ir' makes the /ur/ sound. Blend: tw-ir-l → twirl",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "ir", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "chirp",
+        "teachingTip": "ch-ir-p → 'ir' makes the /ur/ sound. Blend: ch-ir-p → chirp",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "ir", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "people",
+      "teachingTip": "Tricky word! 'People' doesn't follow normal rules. We say 'pee-pul'. Learn it by sight."
+    },
+    "story": "People clapped as the girl in the skirt did a twirl. The third bird began to chirp!"
+  },
+  {
+    "id": "p5-ir-004",
+    "phase": 5,
+    "pattern": "ir",
+    "teachingHint": "Your child already knows the /ur/ sound from Phase 3 (as in 'fur'). Now they're learning that 'ir' makes the same sound: b-ir-d → bird, g-ir-l → girl. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "bird",
+        "teachingTip": "b-ir-d → 'ir' makes the /ur/ sound. Blend: b-ir-d → bird",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ir", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "dirt",
+        "teachingTip": "d-ir-t → 'ir' makes the /ur/ sound. Blend: d-ir-t → dirt",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "ir", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "stir",
+        "teachingTip": "s-t-ir → 'ir' makes the /ur/ sound. Blend: st-ir → stir",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "ir", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "twirl",
+        "teachingTip": "t-w-ir-l → 'ir' makes the /ur/ sound. Blend: tw-ir-l → twirl",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "ir", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mr",
+      "teachingTip": "Tricky word! 'Mr' is short for 'Mister'. We say 'mis-ter'. Learn it by sight."
+    },
+    "story": "Mr Fox saw a bird in the dirt. He gave it a stir and a twirl with his tail!"
+  },
+  {
+    "id": "p5-ph-001",
+    "phase": 5,
+    "pattern": "ph",
+    "teachingHint": "Your child already knows the /f/ sound (as in 'fish'). Now they're learning that 'ph' makes the same /f/ sound: ph-o-t-o → photo, ph-o-n-e → phone. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "photo",
+        "teachingTip": "ph-o-t-o → 'ph' makes the /f/ sound. Blend: ph-o-t-o → photo",
+        "segments": [
+          { "chars": "ph", "type": "digraph" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "o", "type": "single" }
+        ]
+      },
+      {
+        "word": "dolphin",
+        "teachingTip": "d-o-l-ph-i-n → 'ph' makes the /f/ sound. Blend: d-o-l-ph-i-n → dolphin",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ph", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "phone",
+        "teachingTip": "ph-o-n-e → 'ph' makes the /f/ sound. Blend: ph-o-n-e → phone",
+        "segments": [
+          { "chars": "ph", "type": "digraph" },
+          { "chars": "o", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "phantom",
+        "teachingTip": "ph-a-n-t-o-m → 'ph' makes the /f/ sound. Blend: ph-a-n-t-o-m → phantom",
+        "segments": [
+          { "chars": "ph", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mrs",
+      "teachingTip": "Tricky word! 'Mrs' is short for 'Missus'. We say 'mis-iz'. Learn it by sight."
+    },
+    "story": "Mrs Hill took a photo of a dolphin. She called on the phone to tell us about the phantom splash!"
+  },
+  {
+    "id": "p5-ph-002",
+    "phase": 5,
+    "pattern": "ph",
+    "teachingHint": "Your child already knows the /f/ sound (as in 'fish'). Now they're learning that 'ph' makes the same /f/ sound: ph-o-t-o → photo, ph-o-n-e → phone. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "phrase",
+        "teachingTip": "ph-r-a-s-e → 'ph' makes the /f/ sound. Blend: ph-r-a-se → phrase",
+        "segments": [
+          { "chars": "ph", "type": "digraph" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "graph",
+        "teachingTip": "g-r-a-ph → 'ph' makes the /f/ sound. Blend: gr-a-ph → graph",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ph", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "photo",
+        "teachingTip": "ph-o-t-o → 'ph' makes the /f/ sound. Blend: ph-o-t-o → photo",
+        "segments": [
+          { "chars": "ph", "type": "digraph" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "o", "type": "single" }
+        ]
+      },
+      {
+        "word": "phone",
+        "teachingTip": "ph-o-n-e → 'ph' makes the /f/ sound. Blend: ph-o-n-e → phone",
+        "segments": [
+          { "chars": "ph", "type": "digraph" },
+          { "chars": "o", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "looked",
+      "teachingTip": "Tricky word! 'Looked' has the /ed/ ending that sounds like /t/. We say 'lookt'. Learn it by sight."
+    },
+    "story": "She looked at the graph and read the phrase. Then she picked up the phone to take a photo."
+  },
+  {
+    "id": "p5-ph-003",
+    "phase": 5,
+    "pattern": "ph",
+    "teachingHint": "Your child already knows the /f/ sound (as in 'fish'). Now they're learning that 'ph' makes the same /f/ sound: ph-o-t-o → photo, ph-o-n-e → phone. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "alphabet",
+        "teachingTip": "a-l-ph-a-b-e-t → 'ph' makes the /f/ sound. Blend: a-l-ph-a-b-e-t → alphabet",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ph", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "dolphin",
+        "teachingTip": "d-o-l-ph-i-n → 'ph' makes the /f/ sound. Blend: d-o-l-ph-i-n → dolphin",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ph", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "phantom",
+        "teachingTip": "ph-a-n-t-o-m → 'ph' makes the /f/ sound. Blend: ph-a-n-t-o-m → phantom",
+        "segments": [
+          { "chars": "ph", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "graph",
+        "teachingTip": "g-r-a-ph → 'ph' makes the /f/ sound. Blend: gr-a-ph → graph",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ph", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "called",
+      "teachingTip": "Tricky word! 'Called' has the /ed/ ending that sounds like /d/. We say 'calld'. Learn it by sight."
+    },
+    "story": "The phantom called out the alphabet! A dolphin drew a graph on the sand."
+  },
+  {
+    "id": "p5-wh-001",
+    "phase": 5,
+    "pattern": "wh",
+    "teachingHint": "Your child already knows the /w/ sound (as in 'wet'). Now they're learning that 'wh' makes the same /w/ sound: wh-ee-l → wheel, wh-e-n → when. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "wheel",
+        "teachingTip": "wh-ee-l → 'wh' makes the /w/ sound. Blend: wh-ee-l → wheel",
+        "segments": [
+          { "chars": "wh", "type": "digraph" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "whisper",
+        "teachingTip": "wh-i-s-p-er → 'wh' makes the /w/ sound. Blend: wh-i-sp-er → whisper",
+        "segments": [
+          { "chars": "wh", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "when",
+        "teachingTip": "wh-e-n → 'wh' makes the /w/ sound. Blend: wh-e-n → when",
+        "segments": [
+          { "chars": "wh", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "what",
+        "teachingTip": "wh-a-t → 'wh' makes the /w/ sound. Blend: wh-a-t → what",
+        "segments": [
+          { "chars": "wh", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "asked",
+      "teachingTip": "Tricky word! 'Asked' has the /ed/ ending that sounds like /t/. We say 'askt'. Learn it by sight."
+    },
+    "story": "She asked, 'What is that wheel?' 'Whisper,' he said. 'Tell me when you see it spin!'"
+  },
+  {
+    "id": "p5-wh-002",
+    "phase": 5,
+    "pattern": "wh",
+    "teachingHint": "Your child already knows the /w/ sound (as in 'wet'). Now they're learning that 'wh' makes the same /w/ sound: wh-ee-l → wheel, wh-e-n → when. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "where",
+        "teachingTip": "wh-e-r-e → 'wh' makes the /w/ sound. Blend: wh-e-r-e → where",
+        "segments": [
+          { "chars": "wh", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "which",
+        "teachingTip": "wh-i-ch → 'wh' makes the /w/ sound. Blend: wh-i-ch → which",
+        "segments": [
+          { "chars": "wh", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "while",
+        "teachingTip": "wh-i-l-e → 'wh' makes the /w/ sound. Blend: wh-i-l-e → while",
+        "segments": [
+          { "chars": "wh", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "white",
+        "teachingTip": "wh-i-t-e → 'wh' makes the /w/ sound. Blend: wh-i-t-e → white",
+        "segments": [
+          { "chars": "wh", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "could",
+      "teachingTip": "Tricky word! 'Could' has a silent 'l'. We say 'cud'. Learn it by sight."
+    },
+    "story": "Where is the white cat? Which one could it be? Wait a while and you will see!"
+  },
+  {
+    "id": "p5-wh-003",
+    "phase": 5,
+    "pattern": "wh",
+    "teachingHint": "Your child already knows the /w/ sound (as in 'wet'). Now they're learning that 'wh' makes the same /w/ sound: wh-ee-l → wheel, wh-e-n → when. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "whip",
+        "teachingTip": "wh-i-p → 'wh' makes the /w/ sound. Blend: wh-i-p → whip",
+        "segments": [
+          { "chars": "wh", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "whale",
+        "teachingTip": "wh-a-l-e → 'wh' makes the /w/ sound. Blend: wh-a-l-e → whale",
+        "segments": [
+          { "chars": "wh", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "when",
+        "teachingTip": "wh-e-n → 'wh' makes the /w/ sound. Blend: wh-e-n → when",
+        "segments": [
+          { "chars": "wh", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "wheel",
+        "teachingTip": "wh-ee-l → 'wh' makes the /w/ sound. Blend: wh-ee-l → wheel",
+        "segments": [
+          { "chars": "wh", "type": "digraph" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "people",
+      "teachingTip": "Tricky word! 'People' doesn't follow normal rules. We say 'pee-pul'. Learn it by sight."
+    },
+    "story": "When people see a whale, they whip out a camera. The wheel of the boat goes round and round!"
+  },
+  {
+    "id": "p5-ie-001",
+    "phase": 5,
+    "pattern": "ie",
+    "teachingHint": "Your child already knows the /igh/ sound from Phase 3 (as in 'night'). Now they're learning that 'ie' makes the same sound: p-ie → pie, t-ie → tie. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pie",
+        "teachingTip": "p-ie → 'ie' makes the /igh/ sound. Blend: p-ie → pie",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ie", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "tie",
+        "teachingTip": "t-ie → 'ie' makes the /igh/ sound. Blend: t-ie → tie",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ie", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "cried",
+        "teachingTip": "c-r-ie-d → 'ie' makes the /igh/ sound. Blend: cr-ie-d → cried",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ie", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "lie",
+        "teachingTip": "l-ie → 'ie' makes the /igh/ sound. Blend: l-ie → lie",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "ie", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "oh",
+      "teachingTip": "Tricky word! 'Oh' doesn't follow normal rules. The 'h' is silent. We say 'oh'. Learn it by sight."
+    },
+    "story": "Oh no! The pie fell on his tie! He cried, but it was no lie — it was a big mess!"
+  },
+  {
+    "id": "p5-ie-002",
+    "phase": 5,
+    "pattern": "ie",
+    "teachingHint": "Your child already knows the /igh/ sound from Phase 3 (as in 'night'). Now they're learning that 'ie' makes the same sound: p-ie → pie, t-ie → tie. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "die",
+        "teachingTip": "d-ie → 'ie' makes the /igh/ sound. Blend: d-ie → die",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "ie", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "tried",
+        "teachingTip": "t-r-ie-d → 'ie' makes the /igh/ sound. Blend: tr-ie-d → tried",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ie", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "fried",
+        "teachingTip": "f-r-ie-d → 'ie' makes the /igh/ sound. Blend: fr-ie-d → fried",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ie", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "dried",
+        "teachingTip": "d-r-ie-d → 'ie' makes the /igh/ sound. Blend: dr-ie-d → dried",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ie", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "looked",
+      "teachingTip": "Tricky word! 'Looked' has the /ed/ ending that sounds like /t/. We say 'lookt'. Learn it by sight."
+    },
+    "story": "She looked at the pan and tried the fried egg. It dried up! 'Don't let it die!' she said."
+  },
+  {
+    "id": "p5-ie-003",
+    "phase": 5,
+    "pattern": "ie",
+    "teachingHint": "Your child already knows the /igh/ sound from Phase 3 (as in 'night'). Now they're learning that 'ie' makes the same sound: p-ie → pie, t-ie → tie. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pie",
+        "teachingTip": "p-ie → 'ie' makes the /igh/ sound. Blend: p-ie → pie",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ie", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "tried",
+        "teachingTip": "t-r-ie-d → 'ie' makes the /igh/ sound. Blend: tr-ie-d → tried",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ie", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "tie",
+        "teachingTip": "t-ie → 'ie' makes the /igh/ sound. Blend: t-ie → tie",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ie", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "cried",
+        "teachingTip": "c-r-ie-d → 'ie' makes the /igh/ sound. Blend: cr-ie-d → cried",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "ie", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "their",
+      "teachingTip": "Tricky word! 'Their' doesn't follow normal rules. We say 'thair'. Learn it by sight."
+    },
+    "story": "They tried their best to bake a pie. He put on a tie and cried, 'It looks so good!'"
+  }
+]

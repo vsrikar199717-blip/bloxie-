@@ -1,0 +1,1034 @@
+[
+  {
+    "id": "p3-ar-001",
+    "phase": 3,
+    "pattern": "ar",
+    "teachingHint": "Your child is learning the /ar/ sound (as in 'car'). When 'a' and 'r' sit together, they make one sound: /ar/. Help your child spot 'ar' and blend: c-ar → car, p-ar-k → park. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "car",
+        "teachingTip": "c-ar → Spot the 'ar' digraph. Blend: c-ar → car",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ar", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "bar",
+        "teachingTip": "b-ar → Spot the 'ar' digraph. Blend: b-ar → bar",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ar", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "far",
+        "teachingTip": "f-ar → Spot the 'ar' digraph. Blend: f-ar → far",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ar", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "jar",
+        "teachingTip": "j-ar → Spot the 'ar' digraph. Blend: j-ar → jar",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "ar", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "he",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'hee'. Learn it by sight."
+    },
+    "story": "He put a jar on the bar. The car was far away, so he ran to get it!"
+  },
+  {
+    "id": "p3-ar-002",
+    "phase": 3,
+    "pattern": "ar",
+    "teachingHint": "Your child is learning the /ar/ sound (as in 'car'). When 'a' and 'r' sit together, they make one sound: /ar/. Help your child spot 'ar' and blend: c-ar → car, p-ar-k → park. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "star",
+        "teachingTip": "s-t-ar → Spot the 'ar' digraph. Blend: s-t-ar → star",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "ar", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "park",
+        "teachingTip": "p-ar-k → Spot the 'ar' digraph. Blend: p-ar-k → park",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "dark",
+        "teachingTip": "d-ar-k → Spot the 'ar' digraph. Blend: d-ar-k → dark",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "bark",
+        "teachingTip": "b-ar-k → Spot the 'ar' digraph. Blend: b-ar-k → bark",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "she",
+      "teachingTip": "Tricky word! We know 'sh' but the 'e' says its name 'ee'. We say 'shee'."
+    },
+    "story": "She saw a star in the dark park. A dog let out a big bark at it!"
+  },
+  {
+    "id": "p3-ar-003",
+    "phase": 3,
+    "pattern": "ar",
+    "teachingHint": "Your child is learning the /ar/ sound (as in 'car'). When 'a' and 'r' sit together, they make one sound: /ar/. Help your child spot 'ar' and blend: c-ar → car, p-ar-k → park. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "card",
+        "teachingTip": "c-ar-d → Spot the 'ar' digraph. Blend: c-ar-d → card",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "cart",
+        "teachingTip": "c-ar-t → Spot the 'ar' digraph. Blend: c-ar-t → cart",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "farm",
+        "teachingTip": "f-ar-m → Spot the 'ar' digraph. Blend: f-ar-m → farm",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "hard",
+        "teachingTip": "h-ar-d → Spot the 'ar' digraph. Blend: h-ar-d → hard",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "we",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'wee'."
+    },
+    "story": "We put a card in the cart at the farm. It was hard to push it up the hill!"
+  },
+  {
+    "id": "p3-ar-004",
+    "phase": 3,
+    "pattern": "ar",
+    "teachingHint": "Your child is learning the /ar/ sound (as in 'car'). When 'a' and 'r' sit together, they make one sound: /ar/. Help your child spot 'ar' and blend: c-ar → car, p-ar-k → park. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "harm",
+        "teachingTip": "h-ar-m → Spot the 'ar' digraph. Blend: h-ar-m → harm",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "march",
+        "teachingTip": "m-ar-ch → Spot the 'ar' digraph and the 'ch' digraph. Blend: m-ar-ch → march",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "shark",
+        "teachingTip": "sh-ar-k → Spot the 'sh' and 'ar' digraphs. Blend: sh-ar-k → shark",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "start",
+        "teachingTip": "s-t-ar-t → Spot the 'ar' digraph. Blend: s-t-ar-t → start",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "me",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'mee'."
+    },
+    "story": "A shark tried to march up to me! I had to start running so it could not harm me!"
+  },
+  {
+    "id": "p3-ar-005",
+    "phase": 3,
+    "pattern": "ar",
+    "teachingHint": "Your child is learning the /ar/ sound (as in 'car'). When 'a' and 'r' sit together, they make one sound: /ar/. Help your child spot 'ar' and blend: c-ar → car, p-ar-k → park. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "part",
+        "teachingTip": "p-ar-t → Spot the 'ar' digraph. Blend: p-ar-t → part",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "art",
+        "teachingTip": "ar-t → Spot the 'ar' digraph. Blend: ar-t → art",
+        "segments": [
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "arm",
+        "teachingTip": "ar-m → Spot the 'ar' digraph. Blend: ar-m → arm",
+        "segments": [
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "barn",
+        "teachingTip": "b-ar-n → Spot the 'ar' digraph. Blend: b-ar-n → barn",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "be",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'bee'."
+    },
+    "story": "The best part of art class was painting an arm on a robot. It could be in the barn!"
+  },
+  {
+    "id": "p3-ar-006",
+    "phase": 3,
+    "pattern": "ar",
+    "teachingHint": "Your child is learning the /ar/ sound (as in 'car'). When 'a' and 'r' sit together, they make one sound: /ar/. Help your child spot 'ar' and blend: c-ar → car, p-ar-k → park. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "charm",
+        "teachingTip": "ch-ar-m → Spot the 'ch' and 'ar' digraphs. Blend: ch-ar-m → charm",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "spark",
+        "teachingTip": "s-p-ar-k → Spot the 'ar' digraph. Blend: s-p-ar-k → spark",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "sharp",
+        "teachingTip": "sh-ar-p → Spot the 'sh' and 'ar' digraphs. Blend: sh-ar-p → sharp",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "smart",
+        "teachingTip": "s-m-ar-t → Spot the 'ar' digraph. Blend: s-m-ar-t → smart",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "was",
+      "teachingTip": "Tricky word! It looks like it should rhyme with 'has' but we say 'woz'. Learn it by sight."
+    },
+    "story": "The smart fox had a charm that made a spark. It was so sharp it lit up the dark!"
+  },
+  {
+    "id": "p3-ar-007",
+    "phase": 3,
+    "pattern": "ar",
+    "teachingHint": "Your child is learning the /ar/ sound (as in 'car'). When 'a' and 'r' sit together, they make one sound: /ar/. Help your child spot 'ar' and blend: c-ar → car, p-ar-k → park. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "car",
+        "teachingTip": "c-ar → Spot the 'ar' digraph. Blend: c-ar → car",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ar", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "star",
+        "teachingTip": "s-t-ar → Spot the 'ar' digraph. Blend: s-t-ar → star",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "ar", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "farm",
+        "teachingTip": "f-ar-m → Spot the 'ar' digraph. Blend: f-ar-m → farm",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "charm",
+        "teachingTip": "ch-ar-m → Spot the 'ch' and 'ar' digraphs. Blend: ch-ar-m → charm",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "you",
+      "teachingTip": "Tricky word! We can't sound this one out normally. Look at the word and say 'you'."
+    },
+    "story": "Can you see a star from the car? The farm has a charm that makes you want to visit!"
+  },
+  {
+    "id": "p3-ar-008",
+    "phase": 3,
+    "pattern": "ar",
+    "teachingHint": "Your child is learning the /ar/ sound (as in 'car'). When 'a' and 'r' sit together, they make one sound: /ar/. Help your child spot 'ar' and blend: c-ar → car, p-ar-k → park. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "dark",
+        "teachingTip": "d-ar-k → Spot the 'ar' digraph. Blend: d-ar-k → dark",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "shark",
+        "teachingTip": "sh-ar-k → Spot the 'sh' and 'ar' digraphs. Blend: sh-ar-k → shark",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "part",
+        "teachingTip": "p-ar-t → Spot the 'ar' digraph. Blend: p-ar-t → part",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "march",
+        "teachingTip": "m-ar-ch → Spot the 'ar' digraph and the 'ch' digraph. Blend: m-ar-ch → march",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "they",
+      "teachingTip": "Tricky word! The 'ey' sounds like 'ay'. We say 'thay'. Learn it by sight."
+    },
+    "story": "They saw a shark in the dark! The best part was when they had to march away fast!"
+  },
+  {
+    "id": "p3-ar-009",
+    "phase": 3,
+    "pattern": "ar",
+    "teachingHint": "Your child is learning the /ar/ sound (as in 'car'). When 'a' and 'r' sit together, they make one sound: /ar/. Help your child spot 'ar' and blend: c-ar → car, p-ar-k → park. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "jar",
+        "teachingTip": "j-ar → Spot the 'ar' digraph. Blend: j-ar → jar",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "ar", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "barn",
+        "teachingTip": "b-ar-n → Spot the 'ar' digraph. Blend: b-ar-n → barn",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "smart",
+        "teachingTip": "s-m-ar-t → Spot the 'ar' digraph. Blend: s-m-ar-t → smart",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "spark",
+        "teachingTip": "s-p-ar-k → Spot the 'ar' digraph. Blend: s-p-ar-k → spark",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "all",
+      "teachingTip": "Tricky word! The 'a' makes an 'or' sound here. We say 'orl'. Learn it by sight."
+    },
+    "story": "A smart cat hid a jar in the barn. All the little sparks flew out when it fell off the shelf!"
+  },
+  {
+    "id": "p3-or-001",
+    "phase": 3,
+    "pattern": "or",
+    "teachingHint": "Your child is learning the /or/ sound (as in 'fork'). When 'o' and 'r' sit together, they make one sound: /or/. Help your child spot 'or' and blend: f-or-k → fork. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "for",
+        "teachingTip": "f-or → Spot the 'or' digraph. Blend: f-or → for",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "or", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "fork",
+        "teachingTip": "f-or-k → Spot the 'or' digraph. Blend: f-or-k → fork",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "corn",
+        "teachingTip": "c-or-n → Spot the 'or' digraph. Blend: c-or-n → corn",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "cord",
+        "teachingTip": "c-or-d → Spot the 'or' digraph. Blend: c-or-d → cord",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "are",
+      "teachingTip": "Tricky word! It looks like it should rhyme with 'care' but we say 'ar'. Learn it by sight."
+    },
+    "story": "The corn and the fork are on a cord. What for? That is just how things are on this silly farm!"
+  },
+  {
+    "id": "p3-or-002",
+    "phase": 3,
+    "pattern": "or",
+    "teachingHint": "Your child is learning the /or/ sound (as in 'fork'). When 'o' and 'r' sit together, they make one sound: /or/. Help your child spot 'or' and blend: f-or-k → fork. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sort",
+        "teachingTip": "s-or-t → Spot the 'or' digraph. Blend: s-or-t → sort",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "cork",
+        "teachingTip": "c-or-k → Spot the 'or' digraph. Blend: c-or-k → cork",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "born",
+        "teachingTip": "b-or-n → Spot the 'or' digraph. Blend: b-or-n → born",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "torn",
+        "teachingTip": "t-or-n → Spot the 'or' digraph. Blend: t-or-n → torn",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "my",
+      "teachingTip": "Tricky word! The 'y' says 'eye' here. We say 'my' (like 'eye' with an 'm')."
+    },
+    "story": "I had to sort the cork from my torn bag. A lamb was born just as I got it done!"
+  },
+  {
+    "id": "p3-or-003",
+    "phase": 3,
+    "pattern": "or",
+    "teachingHint": "Your child is learning the /or/ sound (as in 'fork'). When 'o' and 'r' sit together, they make one sound: /or/. Help your child spot 'or' and blend: f-or-k → fork. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "worn",
+        "teachingTip": "w-or-n → Spot the 'or' digraph. Blend: w-or-n → worn",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "lord",
+        "teachingTip": "l-or-d → Spot the 'or' digraph. Blend: l-or-d → lord",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "form",
+        "teachingTip": "f-or-m → Spot the 'or' digraph. Blend: f-or-m → form",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "fort",
+        "teachingTip": "f-or-t → Spot the 'or' digraph. Blend: f-or-t → fort",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "her",
+      "teachingTip": "Tricky word! Your child will learn the 'er' sound soon, but for now learn 'her' by sight."
+    },
+    "story": "The lord had a worn hat on her head. She sat in the fort to fill in a form!"
+  },
+  {
+    "id": "p3-or-004",
+    "phase": 3,
+    "pattern": "or",
+    "teachingHint": "Your child is learning the /or/ sound (as in 'fork'). When 'o' and 'r' sit together, they make one sound: /or/. Help your child spot 'or' and blend: f-or-k → fork. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "horn",
+        "teachingTip": "h-or-n → Spot the 'or' digraph. Blend: h-or-n → horn",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "north",
+        "teachingTip": "n-or-th → Spot the 'or' and 'th' digraphs. Blend: n-or-th → north",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "th", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "short",
+        "teachingTip": "sh-or-t → Spot the 'sh' and 'or' digraphs. Blend: sh-or-t → short",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sport",
+        "teachingTip": "s-p-or-t → Spot the 'or' digraph. Blend: s-p-or-t → sport",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "he",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'hee'. Learn it by sight."
+    },
+    "story": "He blew a horn and went north for a short sport. It was too cold, so he ran back!"
+  },
+  {
+    "id": "p3-or-005",
+    "phase": 3,
+    "pattern": "or",
+    "teachingHint": "Your child is learning the /or/ sound (as in 'fork'). When 'o' and 'r' sit together, they make one sound: /or/. Help your child spot 'or' and blend: f-or-k → fork. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "storm",
+        "teachingTip": "s-t-or-m → Spot the 'or' digraph. Blend: s-t-or-m → storm",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "torch",
+        "teachingTip": "t-or-ch → Spot the 'or' and 'ch' digraphs. Blend: t-or-ch → torch",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "horse",
+        "teachingTip": "h-or-s → Spot the 'or' digraph. The 'e' is silent. Blend: h-or-s → horse",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "silent" }
+        ]
+      },
+      {
+        "word": "porch",
+        "teachingTip": "p-or-ch → Spot the 'or' and 'ch' digraphs. Blend: p-or-ch → porch",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "was",
+      "teachingTip": "Tricky word! It looks like it should rhyme with 'has' but we say 'woz'. Learn it by sight."
+    },
+    "story": "There was a big storm, so I got a torch. The horse hid on the porch until it was over!"
+  },
+  {
+    "id": "p3-or-006",
+    "phase": 3,
+    "pattern": "or",
+    "teachingHint": "Your child is learning the /or/ sound (as in 'fork'). When 'o' and 'r' sit together, they make one sound: /or/. Help your child spot 'or' and blend: f-or-k → fork. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "for",
+        "teachingTip": "f-or → Spot the 'or' digraph. Blend: f-or → for",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "or", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "sort",
+        "teachingTip": "s-or-t → Spot the 'or' digraph. Blend: s-or-t → sort",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "horn",
+        "teachingTip": "h-or-n → Spot the 'or' digraph. Blend: h-or-n → horn",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "storm",
+        "teachingTip": "s-t-or-m → Spot the 'or' digraph. Blend: s-t-or-m → storm",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "they",
+      "teachingTip": "Tricky word! The 'ey' sounds like 'ay'. We say 'thay'. Learn it by sight."
+    },
+    "story": "They had to sort out a horn for the band. A big storm blew in, but they kept on playing!"
+  },
+  {
+    "id": "p3-or-007",
+    "phase": 3,
+    "pattern": "or",
+    "teachingHint": "Your child is learning the /or/ sound (as in 'fork'). When 'o' and 'r' sit together, they make one sound: /or/. Help your child spot 'or' and blend: f-or-k → fork. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "cork",
+        "teachingTip": "c-or-k → Spot the 'or' digraph. Blend: c-or-k → cork",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "torn",
+        "teachingTip": "t-or-n → Spot the 'or' digraph. Blend: t-or-n → torn",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "short",
+        "teachingTip": "sh-or-t → Spot the 'sh' and 'or' digraphs. Blend: sh-or-t → short",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "horse",
+        "teachingTip": "h-or-s → Spot the 'or' digraph. The 'e' is silent. Blend: h-or-s → horse",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "silent" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "all",
+      "teachingTip": "Tricky word! The 'a' makes an 'or' sound here. We say 'orl'. Learn it by sight."
+    },
+    "story": "The short horse bit the cork and it got all torn up. Now we need a new one for the bottle!"
+  },
+  {
+    "id": "p3-ur-001",
+    "phase": 3,
+    "pattern": "ur",
+    "teachingHint": "Your child is learning the /ur/ sound (as in 'hurt'). When 'u' and 'r' sit together, they make one sound: /ur/. Help your child spot 'ur' and blend: h-ur-t → hurt. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "fur",
+        "teachingTip": "f-ur → Spot the 'ur' digraph. Blend: f-ur → fur",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ur", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "burn",
+        "teachingTip": "b-ur-n → Spot the 'ur' digraph. Blend: b-ur-n → burn",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "hurt",
+        "teachingTip": "h-ur-t → Spot the 'ur' digraph. Blend: h-ur-t → hurt",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "turn",
+        "teachingTip": "t-ur-n → Spot the 'ur' digraph. Blend: t-ur-n → turn",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "she",
+      "teachingTip": "Tricky word! We know 'sh' but the 'e' says its name 'ee'. We say 'shee'."
+    },
+    "story": "She found a cat with soft fur. It had a burn that hurt, so she gave it a turn in the bath!"
+  },
+  {
+    "id": "p3-ur-002",
+    "phase": 3,
+    "pattern": "ur",
+    "teachingHint": "Your child is learning the /ur/ sound (as in 'hurt'). When 'u' and 'r' sit together, they make one sound: /ur/. Help your child spot 'ur' and blend: h-ur-t → hurt. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "curl",
+        "teachingTip": "c-ur-l → Spot the 'ur' digraph. Blend: c-ur-l → curl",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "burst",
+        "teachingTip": "b-ur-s-t → Spot the 'ur' digraph. Blend: b-ur-s-t → burst",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "church",
+        "teachingTip": "ch-ur-ch → Spot the 'ch' and 'ur' digraphs. Blend: ch-ur-ch → church",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "nurse",
+        "teachingTip": "n-ur-s → Spot the 'ur' digraph. The 'e' is silent. Blend: n-ur-s → nurse",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "silent" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "we",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'wee'."
+    },
+    "story": "We saw a curl of smoke burst from the church. The nurse ran out to see what was going on!"
+  },
+  {
+    "id": "p3-ur-003",
+    "phase": 3,
+    "pattern": "ur",
+    "teachingHint": "Your child is learning the /ur/ sound (as in 'hurt'). When 'u' and 'r' sit together, they make one sound: /ur/. Help your child spot 'ur' and blend: h-ur-t → hurt. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "purse",
+        "teachingTip": "p-ur-s → Spot the 'ur' digraph. The 'e' is silent. Blend: p-ur-s → purse",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "silent" }
+        ]
+      },
+      {
+        "word": "surf",
+        "teachingTip": "s-ur-f → Spot the 'ur' digraph. Blend: s-ur-f → surf",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "f", "type": "single" }
+        ]
+      },
+      {
+        "word": "turf",
+        "teachingTip": "t-ur-f → Spot the 'ur' digraph. Blend: t-ur-f → turf",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "f", "type": "single" }
+        ]
+      },
+      {
+        "word": "curb",
+        "teachingTip": "c-ur-b → Spot the 'ur' digraph. Blend: c-ur-b → curb",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "b", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "my",
+      "teachingTip": "Tricky word! The 'y' says 'eye' here. We say 'my' (like 'eye' with an 'm')."
+    },
+    "story": "I left my purse on the turf when I went to surf. It slid off the curb and into a puddle!"
+  },
+  {
+    "id": "p3-ur-004",
+    "phase": 3,
+    "pattern": "ur",
+    "teachingHint": "Your child is learning the /ur/ sound (as in 'hurt'). When 'u' and 'r' sit together, they make one sound: /ur/. Help your child spot 'ur' and blend: h-ur-t → hurt. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "curve",
+        "teachingTip": "c-ur-v → Spot the 'ur' digraph. The 'e' is silent. Blend: c-ur-v → curve",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "v", "type": "single" },
+          { "chars": "e", "type": "silent" }
+        ]
+      },
+      {
+        "word": "fur",
+        "teachingTip": "f-ur → Spot the 'ur' digraph. Blend: f-ur → fur",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ur", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "hurt",
+        "teachingTip": "h-ur-t → Spot the 'ur' digraph. Blend: h-ur-t → hurt",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "church",
+        "teachingTip": "ch-ur-ch → Spot the 'ch' and 'ur' digraphs. Blend: ch-ur-ch → church",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "you",
+      "teachingTip": "Tricky word! We can't sound this one out normally. Look at the word and say 'you'."
+    },
+    "story": "Can you see the curve in the road by the church? A dog with soft fur hurt its paw there!"
+  },
+  {
+    "id": "p3-ur-005",
+    "phase": 3,
+    "pattern": "ur",
+    "teachingHint": "Your child is learning the /ur/ sound (as in 'hurt'). When 'u' and 'r' sit together, they make one sound: /ur/. Help your child spot 'ur' and blend: h-ur-t → hurt. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "burn",
+        "teachingTip": "b-ur-n → Spot the 'ur' digraph. Blend: b-ur-n → burn",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "turn",
+        "teachingTip": "t-ur-n → Spot the 'ur' digraph. Blend: t-ur-n → turn",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "surf",
+        "teachingTip": "s-ur-f → Spot the 'ur' digraph. Blend: s-ur-f → surf",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "f", "type": "single" }
+        ]
+      },
+      {
+        "word": "purse",
+        "teachingTip": "p-ur-s → Spot the 'ur' digraph. The 'e' is silent. Blend: p-ur-s → purse",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "silent" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "be",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'bee'."
+    },
+    "story": "Do not burn the toast or it will turn black! I had to surf with my purse so it would not be left behind!"
+  }
+]

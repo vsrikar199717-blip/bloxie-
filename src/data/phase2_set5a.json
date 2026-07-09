@@ -1,0 +1,920 @@
+[
+  {
+    "id": "p2-set5-001",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "had",
+        "teachingTip": "h-a-d → Say each sound: h, aaa, d. Blend: had",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "bat",
+        "teachingTip": "b-a-t → Say each sound: b, aaa, t. Blend: bat",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "fan",
+        "teachingTip": "f-a-n → Say each sound: fff, aaa, n. Blend: fan",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "A bat had a big fan. The bat sat and got cool!"
+  },
+  {
+    "id": "p2-set5-002",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "him",
+        "teachingTip": "h-i-m → Say each sound: h, iii, m. Blend: him",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "bag",
+        "teachingTip": "b-a-g → Say each sound: b, aaa, g. Blend: bag",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "fat",
+        "teachingTip": "f-a-t → Say each sound: fff, aaa, t. Blend: fat",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "I ran to him with a bag. A fat cat sat on the bag!"
+  },
+  {
+    "id": "p2-set5-003",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "his",
+        "teachingTip": "h-i-s → Say each sound: h, iii, sss. Blend: his",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" }
+        ]
+      },
+      {
+        "word": "bet",
+        "teachingTip": "b-e-t → Say each sound: b, eee, t. Blend: bet",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "fig",
+        "teachingTip": "f-i-g → Say each sound: fff, iii, g. Blend: fig",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "I bet his fig is big. It is the best fig I can get!"
+  },
+  {
+    "id": "p2-set5-004",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hot",
+        "teachingTip": "h-o-t → Say each sound: h, ooo, t. Blend: hot",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "bit",
+        "teachingTip": "b-i-t → Say each sound: b, iii, t. Blend: bit",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "fog",
+        "teachingTip": "f-o-g → Say each sound: fff, ooo, g. Blend: fog",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'noh'. Learn it by sight."
+    },
+    "story": "It is hot and the fog is thick. No, I can not see a bit!"
+  },
+  {
+    "id": "p2-set5-005",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hut",
+        "teachingTip": "h-u-t → Say each sound: h, uuu, t. Blend: hut",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "big",
+        "teachingTip": "b-i-g → Say each sound: b, iii, g. Blend: big",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "fun",
+        "teachingTip": "f-u-n → Say each sound: fff, uuu, n. Blend: fun",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! Like 'no', the 'o' says its name: 'goh'. Learn it by sight."
+    },
+    "story": "A big hut is fun to go in. Can we go back to the big hut?"
+  },
+  {
+    "id": "p2-set5-006",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hop",
+        "teachingTip": "h-o-p → Say each sound: h, ooo, p. Blend: hop",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "but",
+        "teachingTip": "b-u-t → Say each sound: b, uuu, t. Blend: but",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "fit",
+        "teachingTip": "f-i-t → Say each sound: fff, iii, t. Blend: fit",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "into",
+      "teachingTip": "Tricky word! It's two parts: 'in' + 'to'. Your child can sound out 'in' but 'to' is tricky."
+    },
+    "story": "I can hop into the hat, but it does not fit. The hat is too thin!"
+  },
+  {
+    "id": "p2-set5-007",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hit",
+        "teachingTip": "h-i-t → Say each sound: h, iii, t. Blend: hit",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "bed",
+        "teachingTip": "b-e-d → Say each sound: b, eee, d. Blend: bed",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "fin",
+        "teachingTip": "f-i-n → Say each sound: fff, iii, n. Blend: fin",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "The fin hit the bed with a tap. I hid in the bed and had a nap!"
+  },
+  {
+    "id": "p2-set5-008",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hat",
+        "teachingTip": "h-a-t → Say each sound: h, aaa, t. Blend: hat",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "ban",
+        "teachingTip": "b-a-n → Say each sound: b, aaa, n. Blend: ban",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "fed",
+        "teachingTip": "f-e-d → Say each sound: fff, eee, d. Blend: fed",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "Mum fed the cat in a hat. Dad had to ban him from the bed!"
+  },
+  {
+    "id": "p2-set5-009",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hug",
+        "teachingTip": "h-u-g → Say each sound: h, uuu, g. Blend: hug",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "bin",
+        "teachingTip": "b-i-n → Say each sound: b, iii, n. Blend: bin",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "off",
+        "teachingTip": "o-ff → The 'ff' makes one /f/ sound. Blend: off",
+        "segments": [
+          { "chars": "o", "type": "single" },
+          { "chars": "ff", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "I got a hug and ran off to the bin. The bin is not for hugs!"
+  },
+  {
+    "id": "p2-set5-010",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hen",
+        "teachingTip": "h-e-n → Say each sound: h, eee, n. Blend: hen",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "bus",
+        "teachingTip": "b-u-s → Say each sound: b, uuu, sss. Blend: bus",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "s", "type": "single" }
+        ]
+      },
+      {
+        "word": "huff",
+        "teachingTip": "h-u-ff → The 'ff' makes one /f/ sound. Blend: huff",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ff", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'noh'. Learn it by sight."
+    },
+    "story": "The hen got on the bus in a huff. No, a hen can not sit on a bus!"
+  },
+  {
+    "id": "p2-set5-011",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "had",
+        "teachingTip": "h-a-d → Say each sound: h, aaa, d. Blend: had",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "back",
+        "teachingTip": "b-a-ck → The 'ck' makes one /k/ sound. Blend: back",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "buff",
+        "teachingTip": "b-u-ff → The 'ff' makes one /f/ sound. Blend: buff",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ff", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! Like 'no', the 'o' says its name: 'goh'. Learn it by sight."
+    },
+    "story": "I had to go back and get the buff dog. The dog had run off!"
+  },
+  {
+    "id": "p2-set5-012",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "him",
+        "teachingTip": "h-i-m → Say each sound: h, iii, m. Blend: him",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "bat",
+        "teachingTip": "b-a-t → Say each sound: b, aaa, t. Blend: bat",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "cuff",
+        "teachingTip": "c-u-ff → The 'ff' makes one /f/ sound. Blend: cuff",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ff", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "into",
+      "teachingTip": "Tricky word! It's two parts: 'in' + 'to'. Your child can sound out 'in' but 'to' is tricky."
+    },
+    "story": "The bat ran into him and got stuck on his cuff. I had to tug it off!"
+  },
+  {
+    "id": "p2-set5-013",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "his",
+        "teachingTip": "h-i-s → Say each sound: h, iii, sss. Blend: his",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" }
+        ]
+      },
+      {
+        "word": "bag",
+        "teachingTip": "b-a-g → Say each sound: b, aaa, g. Blend: bag",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "puff",
+        "teachingTip": "p-u-ff → The 'ff' makes one /f/ sound. Blend: puff",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ff", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "His bag had a puff of dust in it. The dust got on his hat!"
+  },
+  {
+    "id": "p2-set5-014",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hot",
+        "teachingTip": "h-o-t → Say each sound: h, ooo, t. Blend: hot",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "bet",
+        "teachingTip": "b-e-t → Say each sound: b, eee, t. Blend: bet",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "fan",
+        "teachingTip": "f-a-n → Say each sound: fff, aaa, n. Blend: fan",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "I bet it is hot! Run to get the fan. The fan can cool us off!"
+  },
+  {
+    "id": "p2-set5-015",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hut",
+        "teachingTip": "h-u-t → Say each sound: h, uuu, t. Blend: hut",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "bit",
+        "teachingTip": "b-i-t → Say each sound: b, iii, t. Blend: bit",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "fog",
+        "teachingTip": "f-o-g → Say each sound: fff, ooo, g. Blend: fog",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "I sat in the hut in a bit of fog. The fog hid the hut from us!"
+  },
+  {
+    "id": "p2-set5-016",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hop",
+        "teachingTip": "h-o-p → Say each sound: h, ooo, p. Blend: hop",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "big",
+        "teachingTip": "b-i-g → Say each sound: b, iii, g. Blend: big",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "fun",
+        "teachingTip": "f-u-n → Say each sound: fff, uuu, n. Blend: fun",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'noh'. Learn it by sight."
+    },
+    "story": "It is fun to hop on a big log. No, do not hop off the top!"
+  },
+  {
+    "id": "p2-set5-017",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hit",
+        "teachingTip": "h-i-t → Say each sound: h, iii, t. Blend: hit",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "but",
+        "teachingTip": "b-u-t → Say each sound: b, uuu, t. Blend: but",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "fit",
+        "teachingTip": "f-i-t → Say each sound: fff, iii, t. Blend: fit",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! Like 'no', the 'o' says its name: 'goh'. Learn it by sight."
+    },
+    "story": "I hit the drum, but it did not fit in the bag. Can we go get a big bag?"
+  },
+  {
+    "id": "p2-set5-018",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hat",
+        "teachingTip": "h-a-t → Say each sound: h, aaa, t. Blend: hat",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "bed",
+        "teachingTip": "b-e-d → Say each sound: b, eee, d. Blend: bed",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "fig",
+        "teachingTip": "f-i-g → Say each sound: fff, iii, g. Blend: fig",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "into",
+      "teachingTip": "Tricky word! It's two parts: 'in' + 'to'. Your child can sound out 'in' but 'to' is tricky."
+    },
+    "story": "I put a fig and a hat into the bed. The fig got squished into a mess!"
+  },
+  {
+    "id": "p2-set5-019",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hug",
+        "teachingTip": "h-u-g → Say each sound: h, uuu, g. Blend: hug",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "ban",
+        "teachingTip": "b-a-n → Say each sound: b, aaa, n. Blend: ban",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "fat",
+        "teachingTip": "f-a-t → Say each sound: fff, aaa, t. Blend: fat",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "the",
+      "teachingTip": "Tricky word! We can't sound this one out. Look at the word and say 'the'. Try to remember what it looks like."
+    },
+    "story": "The fat cat got a hug. Can we ban the cat from napping on us?"
+  },
+  {
+    "id": "p2-set5-020",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hen",
+        "teachingTip": "h-e-n → Say each sound: h, eee, n. Blend: hen",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "bin",
+        "teachingTip": "b-i-n → Say each sound: b, iii, n. Blend: bin",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "fed",
+        "teachingTip": "f-e-d → Say each sound: fff, eee, d. Blend: fed",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "to",
+      "teachingTip": "Tricky word! It looks like it should say 'toh' but we say 'too'. Learn it by sight."
+    },
+    "story": "I fed the hen next to the bin. The hen had a peck at the bin too!"
+  },
+  {
+    "id": "p2-set5-021",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "back",
+        "teachingTip": "b-a-ck → The 'ck' makes one /k/ sound. Blend: back",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "off",
+        "teachingTip": "o-ff → The 'ff' makes one /f/ sound. Blend: off",
+        "segments": [
+          { "chars": "o", "type": "single" },
+          { "chars": "ff", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "fin",
+        "teachingTip": "f-i-n → Say each sound: fff, iii, n. Blend: fin",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "I",
+      "teachingTip": "Tricky word! This is just one letter but it says its name, not its sound. 'I' says 'eye'."
+    },
+    "story": "I saw a fin pop up and then go back off. The fish swam off into the fog!"
+  },
+  {
+    "id": "p2-set5-022",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "bus",
+        "teachingTip": "b-u-s → Say each sound: b, uuu, sss. Blend: bus",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "s", "type": "single" }
+        ]
+      },
+      {
+        "word": "huff",
+        "teachingTip": "h-u-ff → The 'ff' makes one /f/ sound. Blend: huff",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ff", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "cuff",
+        "teachingTip": "c-u-ff → The 'ff' makes one /f/ sound. Blend: cuff",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ff", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "go",
+      "teachingTip": "Tricky word! Like 'no', the 'o' says its name: 'goh'. Learn it by sight."
+    },
+    "story": "I had to huff and puff to go get the bus. My cuff got stuck on the door!"
+  },
+  {
+    "id": "p2-set5-023",
+    "phase": 2,
+    "pattern": "h, b, f, ff, l, ll, ss",
+    "teachingHint": "Your child is learning several new sounds: 'h' says h (a breathy sound), 'b' says b (lips pop apart), 'f' says fff (top teeth on bottom lip). They're also learning that some sounds are written with double letters: 'ff' says fff (same as 'f'). The double letters still make just ONE sound. Help your child spot them: hu-ff → huff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "buff",
+        "teachingTip": "b-u-ff → The 'ff' makes one /f/ sound. Blend: buff",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ff", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "puff",
+        "teachingTip": "p-u-ff → The 'ff' makes one /f/ sound. Blend: puff",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ff", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "hot",
+        "teachingTip": "h-o-t → Say each sound: h, ooo, t. Blend: hot",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "no",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'noh'. Learn it by sight."
+    },
+    "story": "I huff and puff in the hot sun. No, I do not want to buff the car!"
+  }
+]

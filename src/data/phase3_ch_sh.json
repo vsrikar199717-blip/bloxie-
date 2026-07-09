@@ -1,0 +1,595 @@
+[
+  {
+    "id": "p3-ch-001",
+    "phase": 3,
+    "pattern": "ch",
+    "teachingHint": "Your child is learning the /ch/ sound. When 'c' and 'h' sit together, they make one new sound: /ch/ (like the start of 'cheese'). It's not a /c/ then /h/ — it's one sound! Help your child spot 'ch' and blend: ch-i-p → chip. 'ch' can be at the start OR end of words: 'rich' ends with /ch/. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "chip",
+        "teachingTip": "ch-i-p → The 'ch' makes one sound: /ch/. Blend: chip",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "chop",
+        "teachingTip": "ch-o-p → The 'ch' makes one sound: /ch/. Blend: chop",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "o", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "chin",
+        "teachingTip": "ch-i-n → The 'ch' makes one sound: /ch/. Blend: chin",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "chat",
+        "teachingTip": "ch-a-t → The 'ch' makes one sound: /ch/. Blend: chat",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "he",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'hee'. Learn it by sight."
+    },
+    "story": "He had a chip on his chin and a chat with a frog. The frog did chop the chip, chop chop, and had a chat on his chin!"
+  },
+  {
+    "id": "p3-ch-002",
+    "phase": 3,
+    "pattern": "ch",
+    "teachingHint": "Your child is learning the /ch/ sound. When 'c' and 'h' sit together, they make one new sound: /ch/ (like the start of 'cheese'). It's not a /c/ then /h/ — it's one sound! Help your child spot 'ch' and blend: ch-i-p → chip. 'ch' can be at the start OR end of words: 'rich' ends with /ch/. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "check",
+        "teachingTip": "ch-e-ck → The 'ch' makes one sound and 'ck' makes one sound. Blend: check",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "chest",
+        "teachingTip": "ch-e-s-t → The 'ch' makes one sound: /ch/. Blend: chest",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "chick",
+        "teachingTip": "ch-i-ck → The 'ch' makes one sound and 'ck' makes one sound. Blend: chick",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "chip",
+        "teachingTip": "ch-i-p → The 'ch' makes one sound: /ch/. Blend: chip",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "she",
+      "teachingTip": "Tricky word! We know 'sh' but the 'e' says its name 'ee'. We say 'shee'."
+    },
+    "story": "A chick had a chip on a chest and she did a check. The chick did check the chest and got a chip!"
+  },
+  {
+    "id": "p3-ch-003",
+    "phase": 3,
+    "pattern": "ch",
+    "teachingHint": "Your child is learning the /ch/ sound. When 'c' and 'h' sit together, they make one new sound: /ch/ (like the start of 'cheese'). It's not a /c/ then /h/ — it's one sound! Help your child spot 'ch' and blend: ch-i-p → chip. 'ch' can be at the start OR end of words: 'rich' ends with /ch/. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "rich",
+        "teachingTip": "r-i-ch → The 'ch' at the end makes one sound: /ch/. Blend: rich",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "much",
+        "teachingTip": "m-u-ch → The 'ch' at the end makes one sound: /ch/. Blend: much",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "such",
+        "teachingTip": "s-u-ch → The 'ch' at the end makes one sound: /ch/. Blend: such",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "chin",
+        "teachingTip": "ch-i-n → The 'ch' makes one sound: /ch/. Blend: chin",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "we",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'wee'."
+    },
+    "story": "We met a rich bug with much jam on his chin. He was such a rich bug with such much jam on his chin!"
+  },
+  {
+    "id": "p3-ch-004",
+    "phase": 3,
+    "pattern": "ch",
+    "teachingHint": "Your child is learning the /ch/ sound. When 'c' and 'h' sit together, they make one new sound: /ch/ (like the start of 'cheese'). It's not a /c/ then /h/ — it's one sound! Help your child spot 'ch' and blend: ch-i-p → chip. 'ch' can be at the start OR end of words: 'rich' ends with /ch/. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lunch",
+        "teachingTip": "l-u-n-ch → The 'ch' at the end makes one sound: /ch/. Blend: lunch",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "bench",
+        "teachingTip": "b-e-n-ch → The 'ch' at the end makes one sound: /ch/. Blend: bench",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "chop",
+        "teachingTip": "ch-o-p → The 'ch' makes one sound: /ch/. Blend: chop",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "o", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "chat",
+        "teachingTip": "ch-a-t → The 'ch' makes one sound: /ch/. Blend: chat",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "me",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'mee'."
+    },
+    "story": "I sat on a bench to chop up my lunch and had a chat. Let me chop this lunch on the bench and chat!"
+  },
+  {
+    "id": "p3-ch-005",
+    "phase": 3,
+    "pattern": "ch",
+    "teachingHint": "Your child is learning the /ch/ sound. When 'c' and 'h' sit together, they make one new sound: /ch/ (like the start of 'cheese'). It's not a /c/ then /h/ — it's one sound! Help your child spot 'ch' and blend: ch-i-p → chip. 'ch' can be at the start OR end of words: 'rich' ends with /ch/. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "bunch",
+        "teachingTip": "b-u-n-ch → The 'ch' at the end makes one sound: /ch/. Blend: bunch",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "much",
+        "teachingTip": "m-u-ch → The 'ch' at the end makes one sound: /ch/. Blend: much",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "check",
+        "teachingTip": "ch-e-ck → The 'ch' makes one sound and 'ck' makes one sound. Blend: check",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "chest",
+        "teachingTip": "ch-e-s-t → The 'ch' makes one sound: /ch/. Blend: chest",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "be",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'bee'."
+    },
+    "story": "A bunch of bugs had so much jam on a chest, it had to be a mess. We had to check the bunch and check the much jam on the chest!"
+  },
+  {
+    "id": "p3-sh-001",
+    "phase": 3,
+    "pattern": "sh",
+    "teachingHint": "Your child is learning the /sh/ sound. When 's' and 'h' sit together, they make one new sound: /sh/ (like when we say 'shhh!'). It's not a /s/ then /h/ — it's one sound! Help your child spot 'sh' and blend: sh-o-p → shop. 'sh' can be at the start OR end of words: 'fish' ends with /sh/. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "shop",
+        "teachingTip": "sh-o-p → The 'sh' makes one sound: /sh/. Blend: shop",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "o", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "ship",
+        "teachingTip": "sh-i-p → The 'sh' makes one sound: /sh/. Blend: ship",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "shed",
+        "teachingTip": "sh-e-d → The 'sh' makes one sound: /sh/. Blend: shed",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "fish",
+        "teachingTip": "f-i-sh → The 'sh' at the end makes one sound: /sh/. Blend: fish",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "was",
+      "teachingTip": "Tricky word! It looks like it should rhyme with 'has' but we say 'woz'. Learn it by sight."
+    },
+    "story": "A fish was in a shop on a ship. The fish ran to the shed, but the shop was on the ship and the shed was not!"
+  },
+  {
+    "id": "p3-sh-002",
+    "phase": 3,
+    "pattern": "sh",
+    "teachingHint": "Your child is learning the /sh/ sound. When 's' and 'h' sit together, they make one new sound: /sh/ (like when we say 'shhh!'). It's not a /s/ then /h/ — it's one sound! Help your child spot 'sh' and blend: sh-o-p → shop. 'sh' can be at the start OR end of words: 'fish' ends with /sh/. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "shell",
+        "teachingTip": "sh-e-ll → The 'sh' makes one sound and 'll' makes one sound. Blend: shell",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "shin",
+        "teachingTip": "sh-i-n → The 'sh' makes one sound: /sh/. Blend: shin",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "shock",
+        "teachingTip": "sh-o-ck → The 'sh' makes one sound and 'ck' makes one sound. Blend: shock",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "dash",
+        "teachingTip": "d-a-sh → The 'sh' at the end makes one sound: /sh/. Blend: dash",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "you",
+      "teachingTip": "Tricky word! We can't sound this one out normally. Look at the word and say 'you'."
+    },
+    "story": "A shell hit his shin and it was a shock, so he did dash. You should dash if a shell hits your shin, what a shock!"
+  },
+  {
+    "id": "p3-sh-003",
+    "phase": 3,
+    "pattern": "sh",
+    "teachingHint": "Your child is learning the /sh/ sound. When 's' and 'h' sit together, they make one new sound: /sh/ (like when we say 'shhh!'). It's not a /s/ then /h/ — it's one sound! Help your child spot 'sh' and blend: sh-o-p → shop. 'sh' can be at the start OR end of words: 'fish' ends with /sh/. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "shut",
+        "teachingTip": "sh-u-t → The 'sh' makes one sound: /sh/. Blend: shut",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "u", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "dish",
+        "teachingTip": "d-i-sh → The 'sh' at the end makes one sound: /sh/. Blend: dish",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "gash",
+        "teachingTip": "g-a-sh → The 'sh' at the end makes one sound: /sh/. Blend: gash",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "shop",
+        "teachingTip": "sh-o-p → The 'sh' makes one sound: /sh/. Blend: shop",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "o", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "they",
+      "teachingTip": "Tricky word! The 'ey' sounds like 'ay'. We say 'thay'. Learn it by sight."
+    },
+    "story": "They shut a dish in the shop and the dish got a gash. They had to shut the shop and fix the gash!"
+  },
+  {
+    "id": "p3-sh-004",
+    "phase": 3,
+    "pattern": "sh",
+    "teachingHint": "Your child is learning the /sh/ sound. When 's' and 'h' sit together, they make one new sound: /sh/ (like when we say 'shhh!'). It's not a /s/ then /h/ — it's one sound! Help your child spot 'sh' and blend: sh-o-p → shop. 'sh' can be at the start OR end of words: 'fish' ends with /sh/. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "gush",
+        "teachingTip": "g-u-sh → The 'sh' at the end makes one sound: /sh/. Blend: gush",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "mash",
+        "teachingTip": "m-a-sh → The 'sh' at the end makes one sound: /sh/. Blend: mash",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "mesh",
+        "teachingTip": "m-e-sh → The 'sh' at the end makes one sound: /sh/. Blend: mesh",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "rush",
+        "teachingTip": "r-u-sh → The 'sh' at the end makes one sound: /sh/. Blend: rush",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "all",
+      "teachingTip": "Tricky word! The 'a' makes an 'or' sound here. We say 'orl'. Learn it by sight."
+    },
+    "story": "All the mash did gush into a mesh bag, so we had to rush. We got the mash and the mesh, but the gush made us rush!"
+  },
+  {
+    "id": "p3-sh-005",
+    "phase": 3,
+    "pattern": "sh",
+    "teachingHint": "Your child is learning the /sh/ sound. When 's' and 'h' sit together, they make one new sound: /sh/ (like when we say 'shhh!'). It's not a /s/ then /h/ — it's one sound! Help your child spot 'sh' and blend: sh-o-p → shop. 'sh' can be at the start OR end of words: 'fish' ends with /sh/. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "wish",
+        "teachingTip": "w-i-sh → The 'sh' at the end makes one sound: /sh/. Blend: wish",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "cash",
+        "teachingTip": "c-a-sh → The 'sh' at the end makes one sound: /sh/. Blend: cash",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "fish",
+        "teachingTip": "f-i-sh → The 'sh' at the end makes one sound: /sh/. Blend: fish",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "shell",
+        "teachingTip": "sh-e-ll → The 'sh' makes one sound and 'll' makes one sound. Blend: shell",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "are",
+      "teachingTip": "Tricky word! It looks like it should rhyme with 'care' but we say 'ar'. Learn it by sight."
+    },
+    "story": "A fish did wish for cash to get a shell. The fish got the cash and the shell, but are you sure a fish can wish for cash?"
+  },
+  {
+    "id": "p3-sh-006",
+    "phase": 3,
+    "pattern": "sh",
+    "teachingHint": "Your child is learning the /sh/ sound. When 's' and 'h' sit together, they make one new sound: /sh/ (like when we say 'shhh!'). It's not a /s/ then /h/ — it's one sound! Help your child spot 'sh' and blend: sh-o-p → shop. 'sh' can be at the start OR end of words: 'fish' ends with /sh/. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "push",
+        "teachingTip": "p-u-sh → The 'sh' at the end makes one sound: /sh/. Blend: push",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "hush",
+        "teachingTip": "h-u-sh → The 'sh' at the end makes one sound: /sh/. Blend: hush",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "ship",
+        "teachingTip": "sh-i-p → The 'sh' makes one sound: /sh/. Blend: ship",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "shed",
+        "teachingTip": "sh-e-d → The 'sh' makes one sound: /sh/. Blend: shed",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "my",
+      "teachingTip": "Tricky word! The 'y' says 'eye' here. We say 'my' (like 'eye' with an 'm')."
+    },
+    "story": "Hush! My ship is in the shed, so push it out. Hush now, push the ship from the shed!"
+  },
+  {
+    "id": "p3-sh-007",
+    "phase": 3,
+    "pattern": "sh",
+    "teachingHint": "Your child is learning the /sh/ sound. When 's' and 'h' sit together, they make one new sound: /sh/ (like when we say 'shhh!'). It's not a /s/ then /h/ — it's one sound! Help your child spot 'sh' and blend: sh-o-p → shop. 'sh' can be at the start OR end of words: 'fish' ends with /sh/. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "shock",
+        "teachingTip": "sh-o-ck → The 'sh' makes one sound and 'ck' makes one sound. Blend: shock",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "shut",
+        "teachingTip": "sh-u-t → The 'sh' makes one sound: /sh/. Blend: shut",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "u", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "dash",
+        "teachingTip": "d-a-sh → The 'sh' at the end makes one sound: /sh/. Blend: dash",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "wish",
+        "teachingTip": "w-i-sh → The 'sh' at the end makes one sound: /sh/. Blend: wish",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "her",
+      "teachingTip": "Tricky word! Your child will learn the 'er' sound soon, but for now learn 'her' by sight."
+    },
+    "story": "Her dog got a shock and did dash to shut the door, what a shock! I wish he did not dash, I wish he did not shut it!"
+  }
+]

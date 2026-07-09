@@ -1,0 +1,750 @@
+[
+  {
+    "id": "p3-ow-001",
+    "phase": 3,
+    "pattern": "ow",
+    "teachingHint": "Your child is learning the /ow/ sound (as in 'cow'). When 'o' and 'w' sit together, they make one sound: /ow/. Help your child spot 'ow' and blend: c-ow → cow, t-ow-n → town. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "cow",
+        "teachingTip": "c-ow → Spot the 'ow' digraph. Blend: c-ow → cow",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "owl",
+        "teachingTip": "ow-l → The 'ow' makes one sound: /ow/. Blend: owl",
+        "segments": [
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "town",
+        "teachingTip": "t-ow-n → The 'ow' makes one sound: /ow/. Blend: town",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "now",
+        "teachingTip": "n-ow → The 'ow' makes one sound: /ow/. Blend: now",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "they",
+      "teachingTip": "Tricky word! 'They' has an unusual 'ey' at the end. We say 'thay'. Learn it by sight."
+    },
+    "story": "They saw a cow in the town. The owl said wow and flew down to see the cow now!"
+  },
+  {
+    "id": "p3-ow-002",
+    "phase": 3,
+    "pattern": "ow",
+    "teachingHint": "Your child is learning the /ow/ sound (as in 'cow'). When 'o' and 'w' sit together, they make one sound: /ow/. Help your child spot 'ow' and blend: c-ow → cow, t-ow-n → town. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "how",
+        "teachingTip": "h-ow → The 'ow' makes one sound: /ow/. Blend: how",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "bow",
+        "teachingTip": "b-ow → The 'ow' makes one sound: /ow/. Blend: bow",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "wow",
+        "teachingTip": "w-ow → The 'ow' makes one sound: /ow/. Blend: wow",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "down",
+        "teachingTip": "d-ow-n → The 'ow' makes one sound: /ow/. Blend: down",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "was",
+      "teachingTip": "Tricky word! 'Was' doesn't sound like it looks. The 'a' says /o/. We say 'woz'. Learn it by sight."
+    },
+    "story": "How did the clown get down? He was on a box and took a bow. Wow!"
+  },
+  {
+    "id": "p3-ow-003",
+    "phase": 3,
+    "pattern": "ow",
+    "teachingHint": "Your child is learning the /ow/ sound (as in 'cow'). When 'o' and 'w' sit together, they make one sound: /ow/. Help your child spot 'ow' and blend: c-ow → cow, t-ow-n → town. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "gown",
+        "teachingTip": "g-ow-n → The 'ow' makes one sound: /ow/. Blend: gown",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "howl",
+        "teachingTip": "h-ow-l → The 'ow' makes one sound: /ow/. Blend: howl",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "cow",
+        "teachingTip": "c-ow → Spot the 'ow' digraph. Blend: c-ow → cow",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "pow",
+        "teachingTip": "p-ow → The 'ow' makes one sound: /ow/. Blend: pow",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "she",
+      "teachingTip": "Tricky word! We know 'sh' but the 'e' says its name 'ee'. We say 'shee'."
+    },
+    "story": "She put on a gown and heard a howl. A cow went pow! The owl gave a big howl too!"
+  },
+  {
+    "id": "p3-ow-004",
+    "phase": 3,
+    "pattern": "ow",
+    "teachingHint": "Your child is learning the /ow/ sound (as in 'cow'). When 'o' and 'w' sit together, they make one sound: /ow/. Help your child spot 'ow' and blend: c-ow → cow, t-ow-n → town. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "fowl",
+        "teachingTip": "f-ow-l → The 'ow' makes one sound: /ow/. Blend: fowl",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "vow",
+        "teachingTip": "v-ow → The 'ow' makes one sound: /ow/. Blend: vow",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "now",
+        "teachingTip": "n-ow → The 'ow' makes one sound: /ow/. Blend: now",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "owl",
+        "teachingTip": "ow-l → The 'ow' makes one sound: /ow/. Blend: owl",
+        "segments": [
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "he",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'hee'. Learn it by sight."
+    },
+    "story": "He saw a fowl and an owl. The owl said now I will vow to be pals with the fowl!"
+  },
+  {
+    "id": "p3-ow-005",
+    "phase": 3,
+    "pattern": "ow",
+    "teachingHint": "Your child is learning the /ow/ sound (as in 'cow'). When 'o' and 'w' sit together, they make one sound: /ow/. Help your child spot 'ow' and blend: c-ow → cow, t-ow-n → town. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "down",
+        "teachingTip": "d-ow-n → The 'ow' makes one sound: /ow/. Blend: down",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "town",
+        "teachingTip": "t-ow-n → The 'ow' makes one sound: /ow/. Blend: town",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "how",
+        "teachingTip": "h-ow → The 'ow' makes one sound: /ow/. Blend: how",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "gown",
+        "teachingTip": "g-ow-n → The 'ow' makes one sound: /ow/. Blend: gown",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "all",
+      "teachingTip": "Tricky word! The 'a' in 'all' says /or/. We say 'orl'. Learn it by sight."
+    },
+    "story": "How did all of them get down to the town? They put on a gown and ran down the hill!"
+  },
+  {
+    "id": "p3-ow-006",
+    "phase": 3,
+    "pattern": "ow",
+    "teachingHint": "Your child is learning the /ow/ sound (as in 'cow'). When 'o' and 'w' sit together, they make one sound: /ow/. Help your child spot 'ow' and blend: c-ow → cow, t-ow-n → town. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "wow",
+        "teachingTip": "w-ow → The 'ow' makes one sound: /ow/. Blend: wow",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "bow",
+        "teachingTip": "b-ow → The 'ow' makes one sound: /ow/. Blend: bow",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ow", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "howl",
+        "teachingTip": "h-ow-l → The 'ow' makes one sound: /ow/. Blend: howl",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "fowl",
+        "teachingTip": "f-ow-l → The 'ow' makes one sound: /ow/. Blend: fowl",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ow", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "you",
+      "teachingTip": "Tricky word! 'You' doesn't sound like it looks. We say 'yoo'. Learn it by sight."
+    },
+    "story": "Wow! Can you see the fowl? It gave a big howl and took a bow. What a wow!"
+  },
+  {
+    "id": "p3-oi-001",
+    "phase": 3,
+    "pattern": "oi",
+    "teachingHint": "Your child is learning the /oi/ sound (as in 'coin'). When 'o' and 'i' sit together, they make one sound: /oi/. Help your child spot 'oi' and blend: c-oi-n → coin, b-oi-l → boil. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "coin",
+        "teachingTip": "c-oi-n → Spot the 'oi' digraph. Blend: c-oi-n → coin",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "boil",
+        "teachingTip": "b-oi-l → The 'oi' makes one sound: /oi/. Blend: boil",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "oil",
+        "teachingTip": "oi-l → The 'oi' makes one sound: /oi/. Blend: oil",
+        "segments": [
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "foil",
+        "teachingTip": "f-oi-l → The 'oi' makes one sound: /oi/. Blend: foil",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "we",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'wee'. Learn it by sight."
+    },
+    "story": "We found a coin in the oil! Let us boil it in foil and see if it is real!"
+  },
+  {
+    "id": "p3-oi-002",
+    "phase": 3,
+    "pattern": "oi",
+    "teachingHint": "Your child is learning the /oi/ sound (as in 'coin'). When 'o' and 'i' sit together, they make one sound: /oi/. Help your child spot 'oi' and blend: c-oi-n → coin, b-oi-l → boil. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "coil",
+        "teachingTip": "c-oi-l → The 'oi' makes one sound: /oi/. Blend: coil",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "soil",
+        "teachingTip": "s-oi-l → The 'oi' makes one sound: /oi/. Blend: soil",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "toil",
+        "teachingTip": "t-oi-l → The 'oi' makes one sound: /oi/. Blend: toil",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "join",
+        "teachingTip": "j-oi-n → The 'oi' makes one sound: /oi/. Blend: join",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "me",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'mee'. Learn it by sight."
+    },
+    "story": "Join me to toil in the soil! We can coil up the hose and dig in the soil all day!"
+  },
+  {
+    "id": "p3-oi-003",
+    "phase": 3,
+    "pattern": "oi",
+    "teachingHint": "Your child is learning the /oi/ sound (as in 'coin'). When 'o' and 'i' sit together, they make one sound: /oi/. Help your child spot 'oi' and blend: c-oi-n → coin, b-oi-l → boil. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "void",
+        "teachingTip": "v-oi-d → The 'oi' makes one sound: /oi/. Blend: void",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "oink",
+        "teachingTip": "oi-n-k → The 'oi' makes one sound: /oi/. Blend: oink",
+        "segments": [
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "coin",
+        "teachingTip": "c-oi-n → Spot the 'oi' digraph. Blend: c-oi-n → coin",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "oil",
+        "teachingTip": "oi-l → The 'oi' makes one sound: /oi/. Blend: oil",
+        "segments": [
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "be",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'bee'. Learn it by sight."
+    },
+    "story": "Do not be sad! The pig said oink and found a coin in the oil. The void was full of fun!"
+  },
+  {
+    "id": "p3-oi-004",
+    "phase": 3,
+    "pattern": "oi",
+    "teachingHint": "Your child is learning the /oi/ sound (as in 'coin'). When 'o' and 'i' sit together, they make one sound: /oi/. Help your child spot 'oi' and blend: c-oi-n → coin, b-oi-l → boil. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "foil",
+        "teachingTip": "f-oi-l → The 'oi' makes one sound: /oi/. Blend: foil",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "join",
+        "teachingTip": "j-oi-n → The 'oi' makes one sound: /oi/. Blend: join",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "boil",
+        "teachingTip": "b-oi-l → The 'oi' makes one sound: /oi/. Blend: boil",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "coil",
+        "teachingTip": "c-oi-l → The 'oi' makes one sound: /oi/. Blend: coil",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "are",
+      "teachingTip": "Tricky word! 'Are' doesn't sound like it looks. We say 'ar'. Learn it by sight."
+    },
+    "story": "Are you going to join in? Let us boil the foil and coil it up. What fun we are having!"
+  },
+  {
+    "id": "p3-oi-005",
+    "phase": 3,
+    "pattern": "oi",
+    "teachingHint": "Your child is learning the /oi/ sound (as in 'coin'). When 'o' and 'i' sit together, they make one sound: /oi/. Help your child spot 'oi' and blend: c-oi-n → coin, b-oi-l → boil. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "soil",
+        "teachingTip": "s-oi-l → The 'oi' makes one sound: /oi/. Blend: soil",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "toil",
+        "teachingTip": "t-oi-l → The 'oi' makes one sound: /oi/. Blend: toil",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "void",
+        "teachingTip": "v-oi-d → The 'oi' makes one sound: /oi/. Blend: void",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "oink",
+        "teachingTip": "oi-n-k → The 'oi' makes one sound: /oi/. Blend: oink",
+        "segments": [
+          { "chars": "oi", "type": "digraph" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "my",
+      "teachingTip": "Tricky word! The 'y' says /igh/. We say 'migh'. Learn it by sight."
+    },
+    "story": "My pig said oink and ran to toil in the soil. It fell in a void but got up and kept on going!"
+  },
+  {
+    "id": "p3-ear-001",
+    "phase": 3,
+    "pattern": "ear",
+    "teachingHint": "Your child is learning the /ear/ sound (as in 'hear'). When 'e', 'a', and 'r' sit together, they make one sound: /ear/. Help your child spot 'ear' and blend: h-ear → hear, d-ear → dear. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "dear",
+        "teachingTip": "d-ear → Spot the 'ear' trigraph. Blend: d-ear → dear",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "year",
+        "teachingTip": "y-ear → The 'ear' makes one sound: /ear/. Blend: year",
+        "segments": [
+          { "chars": "y", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "hear",
+        "teachingTip": "h-ear → The 'ear' makes one sound: /ear/. Blend: hear",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "fear",
+        "teachingTip": "f-ear → The 'ear' makes one sound: /ear/. Blend: fear",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "her",
+      "teachingTip": "Tricky word! The 'er' sounds like /ur/. We say 'hur'. Learn it by sight."
+    },
+    "story": "Dear me! Can you hear her? This year she has no fear. She is so near!"
+  },
+  {
+    "id": "p3-ear-002",
+    "phase": 3,
+    "pattern": "ear",
+    "teachingHint": "Your child is learning the /ear/ sound (as in 'hear'). When 'e', 'a', and 'r' sit together, they make one sound: /ear/. Help your child spot 'ear' and blend: h-ear → hear, d-ear → dear. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "near",
+        "teachingTip": "n-ear → The 'ear' makes one sound: /ear/. Blend: near",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "tear",
+        "teachingTip": "t-ear → The 'ear' makes one sound: /ear/. Blend: tear",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "gear",
+        "teachingTip": "g-ear → The 'ear' makes one sound: /ear/. Blend: gear",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "rear",
+        "teachingTip": "r-ear → The 'ear' makes one sound: /ear/. Blend: rear",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "he",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'hee'. Learn it by sight."
+    },
+    "story": "He got his gear and went to the rear. It was near and he shed a tear of joy!"
+  },
+  {
+    "id": "p3-ear-003",
+    "phase": 3,
+    "pattern": "ear",
+    "teachingHint": "Your child is learning the /ear/ sound (as in 'hear'). When 'e', 'a', and 'r' sit together, they make one sound: /ear/. Help your child spot 'ear' and blend: h-ear → hear, d-ear → dear. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "ear",
+        "teachingTip": "ear → This whole word is the 'ear' trigraph! One sound: ear",
+        "segments": [
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "beard",
+        "teachingTip": "b-ear-d → The 'ear' makes one sound: /ear/. Blend: beard",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ear", "type": "trigraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "dear",
+        "teachingTip": "d-ear → Spot the 'ear' trigraph. Blend: d-ear → dear",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "near",
+        "teachingTip": "n-ear → The 'ear' makes one sound: /ear/. Blend: near",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "was",
+      "teachingTip": "Tricky word! 'Was' doesn't sound like it looks. The 'a' says /o/. We say 'woz'. Learn it by sight."
+    },
+    "story": "The man with a beard was near. Dear me, look at his ear! His beard was so long it was near his ear!"
+  },
+  {
+    "id": "p3-ear-004",
+    "phase": 3,
+    "pattern": "ear",
+    "teachingHint": "Your child is learning the /ear/ sound (as in 'hear'). When 'e', 'a', and 'r' sit together, they make one sound: /ear/. Help your child spot 'ear' and blend: h-ear → hear, d-ear → dear. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hear",
+        "teachingTip": "h-ear → The 'ear' makes one sound: /ear/. Blend: hear",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "fear",
+        "teachingTip": "f-ear → The 'ear' makes one sound: /ear/. Blend: fear",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "year",
+        "teachingTip": "y-ear → The 'ear' makes one sound: /ear/. Blend: year",
+        "segments": [
+          { "chars": "y", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "gear",
+        "teachingTip": "g-ear → The 'ear' makes one sound: /ear/. Blend: gear",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "all",
+      "teachingTip": "Tricky word! The 'a' in 'all' says /or/. We say 'orl'. Learn it by sight."
+    },
+    "story": "Can you hear that? All year long there is no fear. Get your gear and let us all cheer!"
+  },
+  {
+    "id": "p3-ear-005",
+    "phase": 3,
+    "pattern": "ear",
+    "teachingHint": "Your child is learning the /ear/ sound (as in 'hear'). When 'e', 'a', and 'r' sit together, they make one sound: /ear/. Help your child spot 'ear' and blend: h-ear → hear, d-ear → dear. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "tear",
+        "teachingTip": "t-ear → The 'ear' makes one sound: /ear/. Blend: tear",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "rear",
+        "teachingTip": "r-ear → The 'ear' makes one sound: /ear/. Blend: rear",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "beard",
+        "teachingTip": "b-ear-d → The 'ear' makes one sound: /ear/. Blend: beard",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "ear", "type": "trigraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "ear",
+        "teachingTip": "ear → This whole word is the 'ear' trigraph! One sound: ear",
+        "segments": [
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "they",
+      "teachingTip": "Tricky word! 'They' has an unusual 'ey' at the end. We say 'thay'. Learn it by sight."
+    },
+    "story": "They saw a tear at the rear of the beard! The man with the big ear and the big beard said do not fear!"
+  }
+]

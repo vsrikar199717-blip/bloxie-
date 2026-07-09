@@ -1,0 +1,81 @@
+/* Parent Guide Cards */
+.guide-cards-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.guide-cards-track {
+  display: flex;
+  transition: transform 0.3s ease;
+  will-change: transform;
+}
+
+.guide-card {
+  min-width: 100%;
+  padding: 0.5rem 1.5rem 1rem 1.5rem;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .guide-card {
+    padding: 0.5rem 2rem 1rem 2rem;
+  }
+}
+
+/* Dot indicators */
+.guide-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0 1.5rem;
+}
+
+.guide-dot {
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.guide-dot-active {
+  background-color: #4A90D9;
+  transform: scale(1.2);
+}
+
+.guide-dot-inactive {
+  background-color: #D1D5DB;
+}
+
+.guide-dot-inactive:hover {
+  background-color: #9CA3AF;
+}
+
+/* Feature list items */
+.guide-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.625rem 0;
+}
+
+.guide-feature-icon {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  flex-shrink: 0;
+}
+
+.guide-feature-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #374151;
+}
+
+.guide-feature-name {
+  font-weight: 600;
+  color: #111827;
+}

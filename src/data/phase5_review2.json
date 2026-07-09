@@ -1,0 +1,601 @@
+[
+  {
+    "id": "p5-ar-001",
+    "phase": 5,
+    "pattern": "ar",
+    "teachingHint": "Your child learned the /ar/ sound in Phase 3. Now they're reading longer, more advanced words with 'ar': ch-ar-t → chart, sh-ar-p → sharp. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "chart",
+        "teachingTip": "ch-ar-t → 'ch' and 'ar' are digraphs. Blend: ch-ar-t → chart",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sharp",
+        "teachingTip": "sh-ar-p → 'sh' and 'ar' are digraphs. Blend: sh-ar-p → sharp",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "spark",
+        "teachingTip": "s-p-ar-k → 'ar' is a digraph. Blend: sp-ar-k → spark",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "shark",
+        "teachingTip": "sh-ar-k → 'sh' and 'ar' are digraphs. Blend: sh-ar-k → shark",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "oh",
+      "teachingTip": "Tricky word! 'Oh' doesn't follow normal rules. The 'h' is silent. We say 'oh'. Learn it by sight."
+    },
+    "story": "Oh! Look at the chart. A sharp shark swam past with a spark in its eye!"
+  },
+  {
+    "id": "p5-ar-002",
+    "phase": 5,
+    "pattern": "ar",
+    "teachingHint": "More practice with the /ar/ sound in longer words: m-ar-k-e-t → market, g-ar-d-e-n → garden. Help your child sound out each part carefully. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "market",
+        "teachingTip": "m-ar-k-e-t → 'ar' is a digraph. Blend: m-ar-k-e-t → market",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "k", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "garden",
+        "teachingTip": "g-ar-d-e-n → 'ar' is a digraph. Blend: g-ar-d-e-n → garden",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "d", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "carpet",
+        "teachingTip": "c-ar-p-e-t → 'ar' is a digraph. Blend: c-ar-p-e-t → carpet",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "p", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "harvest",
+        "teachingTip": "h-ar-v-e-s-t → 'ar' is a digraph. Blend: h-ar-v-e-s-t → harvest",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "ar", "type": "digraph" },
+          { "chars": "v", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "their",
+      "teachingTip": "Tricky word! 'Their' doesn't follow normal rules. It sounds like 'there'. Learn it by sight."
+    },
+    "story": "Their garden has a red carpet and a market stall. It is time for the harvest!"
+  },
+  {
+    "id": "p5-or-001",
+    "phase": 5,
+    "pattern": "or",
+    "teachingHint": "Your child learned the /or/ sound in Phase 3. Now they're reading more advanced words with 'or': s-p-or-t → sport, s-t-or-m → storm. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sport",
+        "teachingTip": "s-p-or-t → 'or' is a digraph. Blend: sp-or-t → sport",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "storm",
+        "teachingTip": "s-t-or-m → 'or' is a digraph. Blend: st-or-m → storm",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "corner",
+        "teachingTip": "c-or-n-er → 'or' and 'er' are digraphs. Blend: c-or-n-er → corner",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "n", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "morning",
+        "teachingTip": "m-or-n-i-ng → 'or' and 'ng' are digraphs. Blend: m-or-n-i-ng → morning",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "n", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "people",
+      "teachingTip": "Tricky word! 'People' doesn't follow normal rules. The 'eo' makes an /ee/ sound and the 'le' at the end is tricky. Learn it by sight."
+    },
+    "story": "People love sport! One morning a storm hit the corner of the pitch."
+  },
+  {
+    "id": "p5-or-002",
+    "phase": 5,
+    "pattern": "or",
+    "teachingHint": "More practice with the /or/ sound in longer words: f-or-t-y → forty, or-d-er → order. Help your child spot the 'or' digraph in each word. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "forty",
+        "teachingTip": "f-or-t-y → 'or' is a digraph. Blend: f-or-t-y → forty",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "t", "type": "single" },
+          { "chars": "y", "type": "single" }
+        ]
+      },
+      {
+        "word": "important",
+        "teachingTip": "i-m-p-or-t-a-n-t → 'or' is a digraph. A long word — take it slowly! Blend: i-m-p-or-t-a-n-t → important",
+        "segments": [
+          { "chars": "i", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "t", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "order",
+        "teachingTip": "or-d-er → 'or' and 'er' are digraphs. Blend: or-d-er → order",
+        "segments": [
+          { "chars": "or", "type": "digraph" },
+          { "chars": "d", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "sport",
+        "teachingTip": "s-p-or-t → 'or' is a digraph. Blend: sp-or-t → sport",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mr",
+      "teachingTip": "Tricky word! 'Mr' is short for 'Mister'. We say 'mister' but write 'Mr'. Learn it by sight."
+    },
+    "story": "Mr Fox called out forty important rules. \"Keep them in order!\" he said about sport."
+  },
+  {
+    "id": "p5-ur-001",
+    "phase": 5,
+    "pattern": "ur",
+    "teachingHint": "Your child learned the /ur/ sound in Phase 3. Now they're reading more advanced words with 'ur': ch-ur-ch → church, p-ur-p-l-e → purple. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "church",
+        "teachingTip": "ch-ur-ch → 'ch' is a digraph and 'ur' is a digraph. Blend: ch-ur-ch → church",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "purple",
+        "teachingTip": "p-ur-p-l-e → 'ur' is a digraph. Blend: p-ur-p-l-e → purple",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "turtle",
+        "teachingTip": "t-ur-t-l-e → 'ur' is a digraph. Blend: t-ur-t-l-e → turtle",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "t", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "disturb",
+        "teachingTip": "d-i-s-t-ur-b → 'ur' is a digraph. A long word — take it slowly! Blend: d-i-s-t-ur-b → disturb",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "b", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mrs",
+      "teachingTip": "Tricky word! 'Mrs' is short for 'Missus'. We say 'missus' but write 'Mrs'. Learn it by sight."
+    },
+    "story": "Mrs Plum saw a purple turtle near the church. \"Do not disturb it!\" she said."
+  },
+  {
+    "id": "p5-ur-002",
+    "phase": 5,
+    "pattern": "ur",
+    "teachingHint": "More practice with the /ur/ sound in longer words: r-e-t-ur-n → return, s-ur-p-r-i-s-e → surprise. Help your child spot the 'ur' digraph in each word. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "return",
+        "teachingTip": "r-e-t-ur-n → 'ur' is a digraph. Blend: r-e-t-ur-n → return",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "surprise",
+        "teachingTip": "s-ur-p-r-i-s-e → 'ur' is a digraph. A long word — take it slowly! Blend: s-ur-p-r-i-s-e → surprise",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "church",
+        "teachingTip": "ch-ur-ch → 'ch' and 'ur' are digraphs. Blend: ch-ur-ch → church",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "turtle",
+        "teachingTip": "t-ur-t-l-e → 'ur' is a digraph. Blend: t-ur-t-l-e → turtle",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "ur", "type": "digraph" },
+          { "chars": "t", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "looked",
+      "teachingTip": "Tricky word! 'Looked' has the /ed/ ending that sounds like /t/. The 'oo' makes the /u/ sound. Learn it by sight."
+    },
+    "story": "We looked for the turtle and got a surprise! It had come back. \"It will return to the church,\" she said."
+  },
+  {
+    "id": "p5-er-001",
+    "phase": 5,
+    "pattern": "er",
+    "teachingHint": "Your child learned the /er/ sound in Phase 3. Now they're reading more advanced words with 'er': n-e-v-er → never, r-i-v-er → river. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "never",
+        "teachingTip": "n-e-v-er → 'er' is a digraph. Blend: n-e-v-er → never",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "v", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "river",
+        "teachingTip": "r-i-v-er → 'er' is a digraph. Blend: r-i-v-er → river",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "v", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "winter",
+        "teachingTip": "w-i-n-t-er → 'er' is a digraph. Blend: w-i-n-t-er → winter",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "after",
+        "teachingTip": "a-f-t-er → 'er' is a digraph. Blend: a-f-t-er → after",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "called",
+      "teachingTip": "Tricky word! 'Called' has a tricky /ed/ ending that sounds like /d/. The 'a' makes an /or/ sound. Learn it by sight."
+    },
+    "story": "After winter, we called out to the river. \"It will never stop flowing!\" we said."
+  },
+  {
+    "id": "p5-er-002",
+    "phase": 5,
+    "pattern": "er",
+    "teachingHint": "More practice with the /er/ sound in longer words: t-i-g-er → tiger, c-l-e-v-er → clever. Help your child spot the 'er' digraph at the end of each word. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "over",
+        "teachingTip": "o-v-er → 'er' is a digraph. Blend: o-v-er → over",
+        "segments": [
+          { "chars": "o", "type": "single" },
+          { "chars": "v", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "tiger",
+        "teachingTip": "t-i-g-er → 'er' is a digraph. Blend: t-i-g-er → tiger",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "cover",
+        "teachingTip": "c-o-v-er → 'er' is a digraph. Blend: c-o-v-er → cover",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "v", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "clever",
+        "teachingTip": "c-l-e-v-er → 'er' is a digraph. Blend: c-l-e-v-er → clever",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "v", "type": "single" },
+          { "chars": "er", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "asked",
+      "teachingTip": "Tricky word! 'Asked' has a tricky /ed/ ending that sounds like /t/. Learn it by sight."
+    },
+    "story": "\"Can a clever tiger jump over that cover?\" asked the boy. The tiger was too clever to try!"
+  },
+  {
+    "id": "p5-air-001",
+    "phase": 5,
+    "pattern": "air",
+    "teachingHint": "Your child learned the /air/ sound in Phase 3. Now they're reading more advanced words with 'air': r-e-p-air → repair, u-n-f-air → unfair. The 'air' is a trigraph — three letters making one sound. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "repair",
+        "teachingTip": "r-e-p-air → 'air' is a trigraph (three letters, one sound). Blend: r-e-p-air → repair",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "airport",
+        "teachingTip": "air-p-or-t → 'air' is a trigraph and 'or' is a digraph. Blend: air-p-or-t → airport",
+        "segments": [
+          { "chars": "air", "type": "trigraph" },
+          { "chars": "p", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "upstairs",
+        "teachingTip": "u-p-s-t-air-s → 'air' is a trigraph. A long word — take it slowly! Blend: u-p-st-air-s → upstairs",
+        "segments": [
+          { "chars": "u", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "air", "type": "trigraph" },
+          { "chars": "s", "type": "single" }
+        ]
+      },
+      {
+        "word": "unfair",
+        "teachingTip": "u-n-f-air → 'air' is a trigraph. Blend: u-n-f-air → unfair",
+        "segments": [
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "could",
+      "teachingTip": "Tricky word! 'Could' has a silent 'l' and the 'ou' doesn't make its usual sound. We say /cud/. Learn it by sight."
+    },
+    "story": "\"It is unfair!\" she said. \"I could not get upstairs at the airport to repair my bag!\""
+  },
+  {
+    "id": "p5-air-002",
+    "phase": 5,
+    "pattern": "air",
+    "teachingHint": "More practice with the /air/ trigraph in advanced words. This set revisits 'air' words to build fluency and confidence. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "unfair",
+        "teachingTip": "u-n-f-air → 'air' is a trigraph. Blend: u-n-f-air → unfair",
+        "segments": [
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "repair",
+        "teachingTip": "r-e-p-air → 'air' is a trigraph. Blend: r-e-p-air → repair",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "air", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "upstairs",
+        "teachingTip": "u-p-s-t-air-s → 'air' is a trigraph. Blend: u-p-st-air-s → upstairs",
+        "segments": [
+          { "chars": "u", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "air", "type": "trigraph" },
+          { "chars": "s", "type": "single" }
+        ]
+      },
+      {
+        "word": "airport",
+        "teachingTip": "air-p-or-t → 'air' is a trigraph and 'or' is a digraph. Blend: air-p-or-t → airport",
+        "segments": [
+          { "chars": "air", "type": "trigraph" },
+          { "chars": "p", "type": "single" },
+          { "chars": "or", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "people",
+      "teachingTip": "Tricky word! 'People' doesn't follow normal rules. The 'eo' makes an /ee/ sound and the 'le' at the end is tricky. Learn it by sight."
+    },
+    "story": "People said it was unfair. They had to go upstairs at the airport to repair the door."
+  },
+  {
+    "id": "p5-ear-001",
+    "phase": 5,
+    "pattern": "ear",
+    "teachingHint": "Your child learned the /ear/ sound in Phase 3. Now they're reading more advanced words with 'ear': c-l-ear → clear, a-pp-ear → appear. The 'ear' is a trigraph — three letters making one sound. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "clear",
+        "teachingTip": "c-l-ear → 'ear' is a trigraph (three letters, one sound). Blend: c-l-ear → clear",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "appear",
+        "teachingTip": "a-p-p-ear → 'ear' is a trigraph. The two p's are sounded separately. Blend: a-p-p-ear → appear",
+        "segments": [
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      },
+      {
+        "word": "nearly",
+        "teachingTip": "n-ear-l-y → 'ear' is a trigraph. Blend: n-ear-l-y → nearly",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "ear", "type": "trigraph" },
+          { "chars": "l", "type": "single" },
+          { "chars": "y", "type": "single" }
+        ]
+      },
+      {
+        "word": "clear",
+        "teachingTip": "c-l-ear → 'ear' is a trigraph. Blend: c-l-ear → clear. Can you read it quickly this time?",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "ear", "type": "trigraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "their",
+      "teachingTip": "Tricky word! 'Their' doesn't follow normal rules. It sounds like 'there'. Learn it by sight."
+    },
+    "story": "It was nearly clear outside. Their dog would appear from behind the tree any moment!"
+  }
+]

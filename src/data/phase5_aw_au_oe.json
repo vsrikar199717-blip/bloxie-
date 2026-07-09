@@ -1,0 +1,439 @@
+[
+  {
+    "id": "p5-aw-001",
+    "phase": 5,
+    "pattern": "aw",
+    "teachingHint": "Your child is learning that 'aw' makes the /or/ sound (as in 'paw'). This is a new way to spell a sound they already know from Phase 3. Help them spot 'aw' and blend: p-aw → paw, d-r-aw → draw. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "paw",
+        "teachingTip": "p-aw → 'aw' makes the /or/ sound. Blend: p-aw → paw",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "aw", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "saw",
+        "teachingTip": "s-aw → 'aw' makes the /or/ sound. Blend: s-aw → saw",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "aw", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "claw",
+        "teachingTip": "c-l-aw → 'aw' makes the /or/ sound. Blend: cl-aw → claw",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "aw", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "raw",
+        "teachingTip": "r-aw → 'aw' makes the /or/ sound. Blend: r-aw → raw",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "aw", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "called",
+      "teachingTip": "Tricky word! The 'ed' sounds like /d/. We say 'calld'. Learn it by sight."
+    },
+    "story": "The cat called out and held up a paw. It saw a claw mark on the raw fish!"
+  },
+  {
+    "id": "p5-aw-002",
+    "phase": 5,
+    "pattern": "aw",
+    "teachingHint": "Your child is learning that 'aw' makes the /or/ sound (as in 'paw'). This is a new way to spell a sound they already know from Phase 3. Help them spot 'aw' and blend: p-aw → paw, d-r-aw → draw. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "jaw",
+        "teachingTip": "j-aw → 'aw' makes the /or/ sound. Blend: j-aw → jaw",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "aw", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "law",
+        "teachingTip": "l-aw → 'aw' makes the /or/ sound. Blend: l-aw → law",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "aw", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "draw",
+        "teachingTip": "d-r-aw → 'aw' makes the /or/ sound. Blend: dr-aw → draw",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "aw", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "yawn",
+        "teachingTip": "y-aw-n → 'aw' makes the /or/ sound. Blend: y-aw-n → yawn",
+        "segments": [
+          { "chars": "y", "type": "single" },
+          { "chars": "aw", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "looked",
+      "teachingTip": "Tricky word! The 'ed' sounds like /t/. We say 'lookt'. Learn it by sight."
+    },
+    "story": "He looked at the jaw of the big shark. Can you draw it with a yawn? It is the law of the sea!"
+  },
+  {
+    "id": "p5-aw-003",
+    "phase": 5,
+    "pattern": "aw",
+    "teachingHint": "Your child is learning that 'aw' makes the /or/ sound (as in 'paw'). This is a new way to spell a sound they already know from Phase 3. Help them spot 'aw' and blend: p-aw → paw, d-r-aw → draw. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "dawn",
+        "teachingTip": "d-aw-n → 'aw' makes the /or/ sound. Blend: d-aw-n → dawn",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "aw", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "fawn",
+        "teachingTip": "f-aw-n → 'aw' makes the /or/ sound. Blend: f-aw-n → fawn",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "aw", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "lawn",
+        "teachingTip": "l-aw-n → 'aw' makes the /or/ sound. Blend: l-aw-n → lawn",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "aw", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "straw",
+        "teachingTip": "s-t-r-aw → 'aw' makes the /or/ sound. Blend: str-aw → straw",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "aw", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mr",
+      "teachingTip": "Tricky word! 'Mr' is short for 'Mister'. We say 'mister'. Learn it by sight."
+    },
+    "story": "At dawn, Mr Fox saw a fawn on the lawn. It was drinking from a cup with a straw!"
+  },
+  {
+    "id": "p5-aw-004",
+    "phase": 5,
+    "pattern": "aw",
+    "teachingHint": "Your child is learning that 'aw' makes the /or/ sound (as in 'paw'). This is a new way to spell a sound they already know from Phase 3. Help them spot 'aw' and blend: p-aw → paw, d-r-aw → draw. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "crawl",
+        "teachingTip": "c-r-aw-l → 'aw' makes the /or/ sound. Blend: cr-aw-l → crawl",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "aw", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "shawl",
+        "teachingTip": "sh-aw-l → 'aw' makes the /or/ sound. Blend: sh-aw-l → shawl",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "aw", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "paw",
+        "teachingTip": "p-aw → 'aw' makes the /or/ sound. Blend: p-aw → paw",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "aw", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "claw",
+        "teachingTip": "c-l-aw → 'aw' makes the /or/ sound. Blend: cl-aw → claw",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "aw", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mrs",
+      "teachingTip": "Tricky word! 'Mrs' is short for 'Missus'. We say 'missiz'. Learn it by sight."
+    },
+    "story": "Mrs Bear put on her shawl and began to crawl. She held up a paw and showed her claw!"
+  },
+  {
+    "id": "p5-au-001",
+    "phase": 5,
+    "pattern": "au",
+    "teachingHint": "Your child is learning that 'au' makes the /or/ sound (as in 'launch'). This is another new way to spell the /or/ sound. Help them spot 'au' and blend: h-au-l → haul, l-au-n-ch → launch. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "haul",
+        "teachingTip": "h-au-l → 'au' makes the /or/ sound. Blend: h-au-l → haul",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "au", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "launch",
+        "teachingTip": "l-au-n-ch → 'au' makes the /or/ sound. Blend: l-au-n-ch → launch",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "au", "type": "digraph" },
+          { "chars": "n", "type": "single" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "Paul",
+        "teachingTip": "P-au-l → 'au' makes the /or/ sound. Blend: P-au-l → Paul",
+        "segments": [
+          { "chars": "P", "type": "single" },
+          { "chars": "au", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "cause",
+        "teachingTip": "c-au-s-e → 'au' makes the /or/ sound. Blend: c-au-se → cause",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "au", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "asked",
+      "teachingTip": "Tricky word! The 'ed' sounds like /t/. We say 'arskt'. Learn it by sight."
+    },
+    "story": "Paul asked if he could launch the boat. He had to haul it to the water. What was the cause of the delay?"
+  },
+  {
+    "id": "p5-au-002",
+    "phase": 5,
+    "pattern": "au",
+    "teachingHint": "Your child is learning that 'au' makes the /or/ sound (as in 'launch'). This is another new way to spell the /or/ sound. Help them spot 'au' and blend: h-au-l → haul, l-au-n-ch → launch. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pause",
+        "teachingTip": "p-au-s-e → 'au' makes the /or/ sound. Blend: p-au-se → pause",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "au", "type": "digraph" },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "sauce",
+        "teachingTip": "s-au-c-e → 'au' makes the /or/ sound. Blend: s-au-ce → sauce",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "au", "type": "digraph" },
+          { "chars": "c", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "fault",
+        "teachingTip": "f-au-l-t → 'au' makes the /or/ sound. Blend: f-au-lt → fault",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "au", "type": "digraph" },
+          { "chars": "l", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "vault",
+        "teachingTip": "v-au-l-t → 'au' makes the /or/ sound. Blend: v-au-lt → vault",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "au", "type": "digraph" },
+          { "chars": "l", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "people",
+      "teachingTip": "Tricky word! 'People' doesn't follow normal rules. We say 'pee-pul'. Learn it by sight."
+    },
+    "story": "Some people like sauce on their chips. Let's pause — it's not my fault the vault is shut!"
+  },
+  {
+    "id": "p5-au-003",
+    "phase": 5,
+    "pattern": "au",
+    "teachingHint": "Your child is learning that 'au' makes the /or/ sound (as in 'launch'). This is another new way to spell the /or/ sound. Help them spot 'au' and blend: h-au-l → haul, l-au-n-ch → launch. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "Paul",
+        "teachingTip": "P-au-l → 'au' makes the /or/ sound. Blend: P-au-l → Paul",
+        "segments": [
+          { "chars": "P", "type": "single" },
+          { "chars": "au", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "haul",
+        "teachingTip": "h-au-l → 'au' makes the /or/ sound. Blend: h-au-l → haul",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "au", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "sauce",
+        "teachingTip": "s-au-c-e → 'au' makes the /or/ sound. Blend: s-au-ce → sauce",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "au", "type": "digraph" },
+          { "chars": "c", "type": "single" },
+          { "chars": "e", "type": "single" }
+        ]
+      },
+      {
+        "word": "launch",
+        "teachingTip": "l-au-n-ch → 'au' makes the /or/ sound. Blend: l-au-n-ch → launch",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "au", "type": "digraph" },
+          { "chars": "n", "type": "single" },
+          { "chars": "ch", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "could",
+      "teachingTip": "Tricky word! The 'oul' sounds like /oo/. We say 'cud'. Learn it by sight."
+    },
+    "story": "Paul could not haul the big box. Inside was sauce and a rocket to launch into space!"
+  },
+  {
+    "id": "p5-oe-001",
+    "phase": 5,
+    "pattern": "oe",
+    "teachingHint": "Your child already knows the /oa/ sound from Phase 3 (as in 'boat'). Now they're learning that 'oe' makes the same sound, usually at the end of a word: t-oe → toe, f-oe → foe. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "toe",
+        "teachingTip": "t-oe → 'oe' makes the /oa/ sound. Blend: t-oe → toe",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oe", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "foe",
+        "teachingTip": "f-oe → 'oe' makes the /oa/ sound. Blend: f-oe → foe",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "oe", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "doe",
+        "teachingTip": "d-oe → 'oe' makes the /oa/ sound. Blend: d-oe → doe",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "oe", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "hoe",
+        "teachingTip": "h-oe → 'oe' makes the /oa/ sound. Blend: h-oe → hoe",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "oe", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "oh",
+      "teachingTip": "Tricky word! 'Oh' doesn't follow normal rules. The 'h' is silent. We say 'oh'. Learn it by sight."
+    },
+    "story": "Oh no! I stubbed my toe! A doe ran past and a foe grabbed the hoe from the shed."
+  },
+  {
+    "id": "p5-oe-002",
+    "phase": 5,
+    "pattern": "oe",
+    "teachingHint": "Your child already knows the /oa/ sound from Phase 3 (as in 'boat'). Now they're learning that 'oe' makes the same sound, usually at the end of a word: t-oe → toe, f-oe → foe. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "Joe",
+        "teachingTip": "J-oe → 'oe' makes the /oa/ sound. Blend: J-oe → Joe",
+        "segments": [
+          { "chars": "J", "type": "single" },
+          { "chars": "oe", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "woe",
+        "teachingTip": "w-oe → 'oe' makes the /oa/ sound. Blend: w-oe → woe",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "oe", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "toe",
+        "teachingTip": "t-oe → 'oe' makes the /oa/ sound. Blend: t-oe → toe",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oe", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "foe",
+        "teachingTip": "f-oe → 'oe' makes the /oa/ sound. Blend: f-oe → foe",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "oe", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "their",
+      "teachingTip": "Tricky word! 'Their' doesn't follow normal rules. We say 'thair'. Learn it by sight."
+    },
+    "story": "Joe felt such woe! Their toe got stuck. Was a foe to blame? No, it was just a bump!"
+  }
+]

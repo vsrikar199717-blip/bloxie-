@@ -1,0 +1,734 @@
+[
+  {
+    "id": "p4-scr-001",
+    "phase": 4,
+    "pattern": "scr",
+    "teachingHint": "Your child is learning words that start with three consonant sounds together: /s/, /c/, /r/ as in 'scrap'. These are tricky — take it slowly. Help them say each sound then blend: s-c-r-a-p → scrap. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "scrub",
+        "teachingTip": "s-c-r-u-b → Three sounds at the start: /s/, /c/, /r/, then /u/, then /b/. Blend: scrub",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      },
+      {
+        "word": "scrap",
+        "teachingTip": "s-c-r-a-p → Three sounds at the start: /s/, /c/, /r/, then /a/, then /p/. Blend: scrap",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "scrub",
+        "teachingTip": "s-c-r-u-b → Say each sound slowly: /s/-/c/-/r/-/u/-/b/. Blend: scrub",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      },
+      {
+        "word": "scrap",
+        "teachingTip": "s-c-r-a-p → Say each sound slowly: /s/-/c/-/r/-/a/-/p/. Blend: scrap",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "said",
+      "teachingTip": "Tricky word! It looks like 'paid' but we say 'sed'. Learn it by sight."
+    },
+    "story": "The dog got mud on the rug, so Mum had to scrub and scrub. She said the scrap of mud was as big as a cat!"
+  },
+  {
+    "id": "p4-scr-002",
+    "phase": 4,
+    "pattern": "scr",
+    "teachingHint": "Your child is learning words that start with three consonant sounds together: /s/, /c/, /r/ as in 'scrap'. These are tricky — take it slowly. Help them say each sound then blend: s-c-r-a-p → scrap. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "scrap",
+        "teachingTip": "s-c-r-a-p → Three sounds at the start: /s/, /c/, /r/, then /a/, then /p/. Blend: scrap",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "scrub",
+        "teachingTip": "s-c-r-u-b → Three sounds at the start: /s/, /c/, /r/, then /u/, then /b/. Blend: scrub",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      },
+      {
+        "word": "scrap",
+        "teachingTip": "s-c-r-a-p → Say each sound slowly: /s/-/c/-/r/-/a/-/p/. Blend: scrap",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "scrub",
+        "teachingTip": "s-c-r-u-b → Say each sound slowly: /s/-/c/-/r/-/u/-/b/. Blend: scrub",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "have",
+      "teachingTip": "Tricky word! The 'a' doesn't say its usual sound and the 'e' is silent. We say 'hav'. Learn it by sight."
+    },
+    "story": "I have a scrap of cloth to scrub the pot. Let me scrub and scrub until the scrap falls off!"
+  },
+  {
+    "id": "p4-spr-001",
+    "phase": 4,
+    "pattern": "spr",
+    "teachingHint": "Your child is learning words starting with /s/, /p/, /r/ as in 'spring'. Three sounds at the start! Take it slowly: s-p-r-i-ng → spring. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "spring",
+        "teachingTip": "s-p-r-i-ng → Three sounds at the start, then /i/, then /ng/. Blend: spring",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "sprint",
+        "teachingTip": "s-p-r-i-n-t → Three sounds at the start, then /i/, /n/, /t/. Blend: sprint",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sprung",
+        "teachingTip": "s-p-r-u-ng → Three sounds at the start, then /u/, then /ng/. Blend: sprung",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "spring",
+        "teachingTip": "s-p-r-i-ng → Say each sound slowly: /s/-/p/-/r/-/i/-/ng/. Blend: spring",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "like",
+      "teachingTip": "Tricky word! Your child will learn the 'i-e' split later. For now, learn 'like' by sight."
+    },
+    "story": "A frog sprung off a spring and did a sprint. He said he would like to spring all day long!"
+  },
+  {
+    "id": "p4-spr-002",
+    "phase": 4,
+    "pattern": "spr",
+    "teachingHint": "Your child is learning words starting with /s/, /p/, /r/ as in 'spring'. Three sounds at the start! Take it slowly: s-p-r-i-ng → spring. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "sprint",
+        "teachingTip": "s-p-r-i-n-t → Three sounds at the start, then /i/, /n/, /t/. Blend: sprint",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sprung",
+        "teachingTip": "s-p-r-u-ng → Three sounds at the start, then /u/, then /ng/. Blend: sprung",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "spring",
+        "teachingTip": "s-p-r-i-ng → Three sounds at the start, then /i/, then /ng/. Blend: spring",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "sprint",
+        "teachingTip": "s-p-r-i-n-t → Say each sound slowly: /s/-/p/-/r/-/i/-/n/-/t/. Blend: sprint",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "so",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'soh'. Learn it by sight."
+    },
+    "story": "The cat sprung up so fast and did a sprint to the bed. In spring, the cat had sprung on a bug too!"
+  },
+  {
+    "id": "p4-str-001",
+    "phase": 4,
+    "pattern": "str",
+    "teachingHint": "Your child is learning words starting with /s/, /t/, /r/ as in 'string'. Three sounds at the start! Help them blend: s-t-r-i-ng → string. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "string",
+        "teachingTip": "s-t-r-i-ng → Three sounds at the start, then /i/, then /ng/. Blend: string",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "strip",
+        "teachingTip": "s-t-r-i-p → Three sounds at the start, then /i/, then /p/. Blend: strip",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "strong",
+        "teachingTip": "s-t-r-o-ng → Three sounds at the start, then /o/, then /ng/. Blend: strong",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "strap",
+        "teachingTip": "s-t-r-a-p → Three sounds at the start, then /a/, then /p/. Blend: strap",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "do",
+      "teachingTip": "Tricky word! It looks like 'go' but sounds different: 'doo'. Learn it by sight."
+    },
+    "story": "A strong bug held a strip of string. What do you think he did? He tied a strap with it!"
+  },
+  {
+    "id": "p4-str-002",
+    "phase": 4,
+    "pattern": "str",
+    "teachingHint": "Your child is learning words starting with /s/, /t/, /r/ as in 'string'. Three sounds at the start! Help them blend: s-t-r-i-ng → string. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "struck",
+        "teachingTip": "s-t-r-u-ck → Three sounds at the start, then /u/, then /ck/. Blend: struck",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "stress",
+        "teachingTip": "s-t-r-e-ss → Three sounds at the start, then /e/, then /ss/. Blend: stress",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "string",
+        "teachingTip": "s-t-r-i-ng → Three sounds at the start, then /i/, then /ng/. Blend: string",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "strong",
+        "teachingTip": "s-t-r-o-ng → Three sounds at the start, then /o/, then /ng/. Blend: strong",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "some",
+      "teachingTip": "Tricky word! The 'o' sounds like 'u' and the 'e' is silent. We say 'sum'. Learn it by sight."
+    },
+    "story": "A strong bell struck and made some stress! The string on the bell shook and shook."
+  },
+  {
+    "id": "p4-str-003",
+    "phase": 4,
+    "pattern": "str",
+    "teachingHint": "Your child is learning words starting with /s/, /t/, /r/ as in 'string'. Three sounds at the start! Help them blend: s-t-r-i-ng → string. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "strap",
+        "teachingTip": "s-t-r-a-p → Three sounds at the start, then /a/, then /p/. Blend: strap",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "strip",
+        "teachingTip": "s-t-r-i-p → Three sounds at the start, then /i/, then /p/. Blend: strip",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "struck",
+        "teachingTip": "s-t-r-u-ck → Three sounds at the start, then /u/, then /ck/. Blend: struck",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "stress",
+        "teachingTip": "s-t-r-e-ss → Three sounds at the start, then /e/, then /ss/. Blend: stress",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "ss", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "come",
+      "teachingTip": "Tricky word! Like 'some', the 'o' sounds like 'u': 'cum'. Learn it by sight."
+    },
+    "story": "Come and get the strap for the bag! A strip of it struck the bench and now it is a stress to fix."
+  },
+  {
+    "id": "p4-spl-001",
+    "phase": 4,
+    "pattern": "spl",
+    "teachingHint": "Your child is learning words starting with /s/, /p/, /l/ as in 'splash'. Three sounds before the vowel! Help them blend: s-p-l-a-sh → splash. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "split",
+        "teachingTip": "s-p-l-i-t → Three sounds at the start, then /i/, then /t/. Blend: split",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "splash",
+        "teachingTip": "s-p-l-a-sh → Three sounds at the start, then /a/, then /sh/. Blend: splash",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "splat",
+        "teachingTip": "s-p-l-a-t → Three sounds at the start, then /a/, then /t/. Blend: splat",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "splash",
+        "teachingTip": "s-p-l-a-sh → Say each sound slowly: /s/-/p/-/l/-/a/-/sh/. Blend: splash",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "were",
+      "teachingTip": "Tricky word! We say 'wur'. The letters don't match the sounds. Learn it by sight."
+    },
+    "story": "The eggs were on the shelf and went splat on the mat! Then they did a big splash and split in two."
+  },
+  {
+    "id": "p4-spl-002",
+    "phase": 4,
+    "pattern": "spl",
+    "teachingHint": "Your child is learning words starting with /s/, /p/, /l/ as in 'splash'. Three sounds before the vowel! Help them blend: s-p-l-a-sh → splash. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "splat",
+        "teachingTip": "s-p-l-a-t → Three sounds at the start, then /a/, then /t/. Blend: splat",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "split",
+        "teachingTip": "s-p-l-i-t → Three sounds at the start, then /i/, then /t/. Blend: split",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "splash",
+        "teachingTip": "s-p-l-a-sh → Three sounds at the start, then /a/, then /sh/. Blend: splash",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "splat",
+        "teachingTip": "s-p-l-a-t → Say each sound slowly: /s/-/p/-/l/-/a/-/t/. Blend: splat",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "there",
+      "teachingTip": "Tricky word! We say 'thair'. Learn it by sight."
+    },
+    "story": "Look over there! A big blob went splat and then split the cup. What a splash it made!"
+  },
+  {
+    "id": "p4-shr-001",
+    "phase": 4,
+    "pattern": "shr",
+    "teachingHint": "Your child is learning words starting with /sh/ then /r/, as in 'shred'. The 'sh' is one sound they already know, then /r/: sh-r-e-d → shred. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "shrub",
+        "teachingTip": "sh-r-u-b → The 'sh' is one sound, then /r/, /u/, /b/. Blend: shrub",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      },
+      {
+        "word": "shred",
+        "teachingTip": "sh-r-e-d → The 'sh' is one sound, then /r/, /e/, /d/. Blend: shred",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "shrink",
+        "teachingTip": "sh-r-i-n-k → The 'sh' is one sound, then /r/, /i/, /n/, /k/. Blend: shrink",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "shrug",
+        "teachingTip": "sh-r-u-g → The 'sh' is one sound, then /r/, /u/, /g/. Blend: shrug",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "little",
+      "teachingTip": "Tricky word! The 'le' at the end makes a 'ul' sound. We say 'lit-ul'. Learn it by sight."
+    },
+    "story": "A little shrub began to shrink! The man gave a shrug and went to shred the leaves."
+  },
+  {
+    "id": "p4-shr-002",
+    "phase": 4,
+    "pattern": "shr",
+    "teachingHint": "Your child is learning words starting with /sh/ then /r/, as in 'shred'. The 'sh' is one sound they already know, then /r/: sh-r-e-d → shred. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "shred",
+        "teachingTip": "sh-r-e-d → The 'sh' is one sound, then /r/, /e/, /d/. Blend: shred",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "shrug",
+        "teachingTip": "sh-r-u-g → The 'sh' is one sound, then /r/, /u/, /g/. Blend: shrug",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "shrub",
+        "teachingTip": "sh-r-u-b → The 'sh' is one sound, then /r/, /u/, /b/. Blend: shrub",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      },
+      {
+        "word": "shrink",
+        "teachingTip": "sh-r-i-n-k → The 'sh' is one sound, then /r/, /i/, /n/, /k/. Blend: shrink",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "one",
+      "teachingTip": "Tricky word! We say 'wun' — nothing like it looks! Learn it by sight."
+    },
+    "story": "One shrub began to shred in the wind. The dog gave a shrug and hid as it began to shrink!"
+  },
+  {
+    "id": "p4-squ-001",
+    "phase": 4,
+    "pattern": "squ",
+    "teachingHint": "Your child is learning words starting with /s/ then /qu/ (which says /kw/), as in 'squid'. Help them blend: s-qu-i-d → squid. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "squid",
+        "teachingTip": "s-qu-i-d → /s/ then /qu/ (which says /kw/), then /i/, then /d/. Blend: squid",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "squash",
+        "teachingTip": "s-qu-a-sh → /s/ then /qu/ (which says /kw/), then /a/, then /sh/. Blend: squash",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "squint",
+        "teachingTip": "s-qu-i-n-t → /s/ then /qu/ (which says /kw/), then /i/, /n/, /t/. Blend: squint",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "squid",
+        "teachingTip": "s-qu-i-d → Say each sound slowly: /s/-/qu/-/i/-/d/. Blend: squid",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "when",
+      "teachingTip": "Tricky word! The 'wh' sounds like 'w'. We say 'wen'. Your child can nearly sound this out."
+    },
+    "story": "When the squid swam past, he had to squint to see it. The squid did a big squash on a shell!"
+  },
+  {
+    "id": "p4-squ-002",
+    "phase": 4,
+    "pattern": "squ",
+    "teachingHint": "Your child is learning words starting with /s/ then /qu/ (which says /kw/), as in 'squid'. Help them blend: s-qu-i-d → squid. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "squash",
+        "teachingTip": "s-qu-a-sh → /s/ then /qu/ (which says /kw/), then /a/, then /sh/. Blend: squash",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "squint",
+        "teachingTip": "s-qu-i-n-t → /s/ then /qu/ (which says /kw/), then /i/, /n/, /t/. Blend: squint",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "squid",
+        "teachingTip": "s-qu-i-d → /s/ then /qu/ (which says /kw/), then /i/, then /d/. Blend: squid",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "squash",
+        "teachingTip": "s-qu-a-sh → Say each sound slowly: /s/-/qu/-/a/-/sh/. Blend: squash",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "qu", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "sh", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "out",
+      "teachingTip": "Tricky word! The 'ou' makes an 'ow' sound. Your child will learn this in Phase 5."
+    },
+    "story": "The squid shot out of the sea and went squash on the sand. We had to squint to spot him!"
+  }
+]

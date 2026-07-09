@@ -1,0 +1,593 @@
+[
+  {
+    "id": "p5-o_e-001",
+    "phase": 5,
+    "teachingHint": "Your child is learning the split digraph 'o-e' (as in 'home'). The 'e' at the end of the word jumps over the consonant to make the 'o' say its name — the long /oa/ sound. Help your child spot 'o_e' and blend: h-o-m-e → home, b-o-n-e → bone. The underlined words are for your child to read — you can help with the rest!",
+    "pattern": "o-e",
+    "phonicsWords": [
+      {
+        "word": "bone",
+        "teachingTip": "b-o-ne → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "pole",
+        "teachingTip": "p-o-le → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "mole",
+        "teachingTip": "m-o-le → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "note",
+        "teachingTip": "n-o-te → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "oh",
+      "teachingTip": "Tricky word! The 'oh' is a special way to say /o/. Learn by sight."
+    },
+    "story": "A mole dug a hole near a pole. He left a note on a bone. OH NO!"
+  },
+  {
+    "id": "p5-o_e-002",
+    "phase": 5,
+    "teachingHint": "Your child is learning the split digraph 'o-e' (as in 'home'). The 'e' at the end of the word jumps over the consonant to make the 'o' say its name — the long /oa/ sound. Help your child spot 'o_e' and blend: v-o-t-e → vote, j-o-k-e → joke. The underlined words are for your child to read — you can help with the rest!",
+    "pattern": "o-e",
+    "phonicsWords": [
+      {
+        "word": "vote",
+        "teachingTip": "v-o-te → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "v", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "joke",
+        "teachingTip": "j-o-ke → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "k", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "poke",
+        "teachingTip": "p-o-ke → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "k", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "woke",
+        "teachingTip": "w-o-ke → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "k", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "their",
+      "teachingTip": "Tricky word! The 'eir' makes an /air/ sound. Learn by sight."
+    },
+    "story": "I woke up and told a joke. Dad gave me a poke. \"Go vote for their team!\" he said."
+  },
+  {
+    "id": "p5-o_e-003",
+    "phase": 5,
+    "teachingHint": "Your child is learning the split digraph 'o-e' (as in 'home'). The 'e' at the end of the word jumps over the consonant to make the 'o' say its name — the long /oa/ sound. Help your child spot 'o_e' and blend: sm-o-k-e → smoke, st-o-n-e → stone. The underlined words are for your child to read — you can help with the rest!",
+    "pattern": "o-e",
+    "phonicsWords": [
+      {
+        "word": "smoke",
+        "teachingTip": "s-m-o-ke → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "m", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [2, 4] },
+          { "chars": "k", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [2, 4] }
+        ]
+      },
+      {
+        "word": "stone",
+        "teachingTip": "s-t-o-ne → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [2, 4] },
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [2, 4] }
+        ]
+      },
+      {
+        "word": "zone",
+        "teachingTip": "z-o-ne → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "z", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "cone",
+        "teachingTip": "c-o-ne → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "people",
+      "teachingTip": "Tricky word! The 'eo' makes an /ee/ sound. Learn by sight."
+    },
+    "story": "People saw smoke near the stone zone. It was just a cone of ice cream on a hot rock!"
+  },
+  {
+    "id": "p5-o_e-004",
+    "phase": 5,
+    "teachingHint": "Your child is learning the split digraph 'o-e' (as in 'home'). The 'e' at the end of the word jumps over the consonant to make the 'o' say its name — the long /oa/ sound. Help your child spot 'o_e' and blend: th-r-o-n-e → throne, l-o-n-e → lone. The underlined words are for your child to read — you can help with the rest!",
+    "pattern": "o-e",
+    "phonicsWords": [
+      {
+        "word": "throne",
+        "teachingTip": "th-r-o-ne → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [2, 4] },
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [2, 4] }
+        ]
+      },
+      {
+        "word": "lone",
+        "teachingTip": "l-o-ne → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "tone",
+        "teachingTip": "t-o-ne → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "home",
+        "teachingTip": "h-o-me → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "m", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mr",
+      "teachingTip": "Tricky word! This is short for 'Mister'. Learn by sight."
+    },
+    "story": "Mr King sat on his throne all alone. He sang in a deep tone. \"I just want to go home!\""
+  },
+  {
+    "id": "p5-o_e-005",
+    "phase": 5,
+    "teachingHint": "Your child is learning the split digraph 'o-e' (as in 'home'). The 'e' at the end of the word jumps over the consonant to make the 'o' say its name — the long /oa/ sound. Help your child spot 'o_e' and blend: r-o-s-e → rose, n-o-s-e → nose. The underlined words are for your child to read — you can help with the rest!",
+    "pattern": "o-e",
+    "phonicsWords": [
+      {
+        "word": "rose",
+        "teachingTip": "r-o-se → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "nose",
+        "teachingTip": "n-o-se → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "chose",
+        "teachingTip": "ch-o-se → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "ch", "type": "digraph" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "hole",
+        "teachingTip": "h-o-le → the 'e' at the end makes the 'o' say its name",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "o", "type": "split", "positions": [1, 3] },
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "Mrs",
+      "teachingTip": "Tricky word! This is short for 'Missus'. Learn by sight."
+    },
+    "story": "Mrs Fox chose a rose and sniffed it with her nose. Then she fell in a hole. OOPS!"
+  },
+  {
+    "id": "p5-u_e-001",
+    "phase": 5,
+    "teachingHint": "Your child is learning the split digraph 'u-e' (as in 'cube'). The 'e' at the end of the word jumps over the consonant to make the 'u' say its name — the long /oo/ sound. Help your child spot 'u_e' and blend: r-u-l-e → rule, t-u-b-e → tube. The underlined words are for your child to read — you can help with the rest!",
+    "pattern": "u-e",
+    "phonicsWords": [
+      {
+        "word": "rule",
+        "teachingTip": "r-u-le → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [1, 3] },
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "tube",
+        "teachingTip": "t-u-be → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [1, 3] },
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "cube",
+        "teachingTip": "c-u-be → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [1, 3] },
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "June",
+        "teachingTip": "J-u-ne → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "J", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [1, 3] },
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "looked",
+      "teachingTip": "Tricky word! The 'oo' makes the short /oo/ sound and '-ed' says /t/. Learn by sight."
+    },
+    "story": "In June, I looked at a cube and a tube. The rule is: do not lick them. I DID."
+  },
+  {
+    "id": "p5-u_e-002",
+    "phase": 5,
+    "teachingHint": "Your child is learning the split digraph 'u-e' (as in 'cute'). The 'e' at the end of the word jumps over the consonant to make the 'u' say its name — the long /oo/ sound. Help your child spot 'u_e' and blend: c-u-t-e → cute, h-u-g-e → huge. The underlined words are for your child to read — you can help with the rest!",
+    "pattern": "u-e",
+    "phonicsWords": [
+      {
+        "word": "cute",
+        "teachingTip": "c-u-te → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [1, 3] },
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "huge",
+        "teachingTip": "h-u-ge → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [1, 3] },
+          { "chars": "g", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "fuse",
+        "teachingTip": "f-u-se → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [1, 3] },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "muse",
+        "teachingTip": "m-u-se → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [1, 3] },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "called",
+      "teachingTip": "Tricky word! The '-ed' says /d/ and the 'a' sounds like /or/. Learn by sight."
+    },
+    "story": "I called my cute hamster a muse. He blew a huge fuse. He bit my toe. RUDE!"
+  },
+  {
+    "id": "p5-u_e-003",
+    "phase": 5,
+    "teachingHint": "Your child is learning the split digraph 'u-e' (as in 'flute'). The 'e' at the end of the word jumps over the consonant to make the 'u' say its name — the long /oo/ sound. Help your child spot 'u_e' and blend: fl-u-t-e → flute, m-u-t-e → mute. The underlined words are for your child to read — you can help with the rest!",
+    "pattern": "u-e",
+    "phonicsWords": [
+      {
+        "word": "flute",
+        "teachingTip": "f-l-u-te → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [2, 4] },
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [2, 4] }
+        ]
+      },
+      {
+        "word": "mute",
+        "teachingTip": "m-u-te → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [1, 3] },
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "rude",
+        "teachingTip": "r-u-de → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [1, 3] },
+          { "chars": "d", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "dune",
+        "teachingTip": "d-u-ne → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [1, 3] },
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "asked",
+      "teachingTip": "Tricky word! The '-ed' says /t/. Learn by sight."
+    },
+    "story": "I asked if I could play my flute on the dune. \"Don't be rude!\" said a crab. So I went mute."
+  },
+  {
+    "id": "p5-u_e-004",
+    "phase": 5,
+    "teachingHint": "Your child is learning the split digraph 'u-e' (as in 'tune'). The 'e' at the end of the word jumps over the consonant to make the 'u' say its name — the long /oo/ sound. Help your child spot 'u_e' and blend: t-u-n-e → tune, pr-u-n-e → prune. The underlined words are for your child to read — you can help with the rest!",
+    "pattern": "u-e",
+    "phonicsWords": [
+      {
+        "word": "tune",
+        "teachingTip": "t-u-ne → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [1, 3] },
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "prune",
+        "teachingTip": "p-r-u-ne → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [2, 4] },
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [2, 4] }
+        ]
+      },
+      {
+        "word": "use",
+        "teachingTip": "u-se → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "u", "type": "split", "positions": [0, 2] },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [0, 2] }
+        ]
+      },
+      {
+        "word": "tube",
+        "teachingTip": "t-u-be → the 'e' at the end makes the 'u' say its name",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "u", "type": "split", "positions": [1, 3] },
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "could",
+      "teachingTip": "Tricky word! The 'oul' makes an /oo/ sound and the 'd' is silent-ish. Learn by sight."
+    },
+    "story": "I could use a prune to play a tune. I squeezed it into a tube. SPLAT!"
+  },
+  {
+    "id": "p5-e_e-001",
+    "phase": 5,
+    "teachingHint": "Your child is learning the split digraph 'e-e' (as in 'these'). The 'e' at the end of the word jumps over the consonant to make the first 'e' say its name — the long /ee/ sound. Help your child spot 'e_e' and blend: th-e-s-e → these, P-e-t-e → Pete. The underlined words are for your child to read — you can help with the rest!",
+    "pattern": "e-e",
+    "phonicsWords": [
+      {
+        "word": "these",
+        "teachingTip": "th-e-se → the 'e' at the end makes the first 'e' say its name",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "e", "type": "split", "positions": [1, 3] },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "Eve",
+        "teachingTip": "E-ve → the 'e' at the end makes the first 'E' say its name",
+        "segments": [
+          { "chars": "E", "type": "split", "positions": [0, 2] },
+          { "chars": "v", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [0, 2] }
+        ]
+      },
+      {
+        "word": "Pete",
+        "teachingTip": "P-e-te → the 'e' at the end makes the first 'e' say its name",
+        "segments": [
+          { "chars": "P", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] },
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      },
+      {
+        "word": "theme",
+        "teachingTip": "th-e-me → the 'e' at the end makes the first 'e' say its name",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "e", "type": "split", "positions": [1, 3] },
+          { "chars": "m", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "people",
+      "teachingTip": "Tricky word! The 'eo' makes an /ee/ sound. Learn by sight."
+    },
+    "story": "Pete and Eve had a theme for their party. These people came dressed as cats. MEOW!"
+  },
+  {
+    "id": "p5-e_e-002",
+    "phase": 5,
+    "teachingHint": "Your child is learning the split digraph 'e-e' (as in 'scene'). The 'e' at the end of the word jumps over the consonant to make the first 'e' say its name — the long /ee/ sound. Help your child spot 'e_e' and blend: sc-e-n-e → scene, St-e-v-e → Steve. The underlined words are for your child to read — you can help with the rest!",
+    "pattern": "e-e",
+    "phonicsWords": [
+      {
+        "word": "Steve",
+        "teachingTip": "S-t-e-ve → the 'e' at the end makes the first 'e' say its name",
+        "segments": [
+          { "chars": "S", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [2, 4] },
+          { "chars": "v", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [2, 4] }
+        ]
+      },
+      {
+        "word": "scene",
+        "teachingTip": "sc-e-ne → the 'e' at the end makes the first 'e' say its name",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [2, 4] },
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [2, 4] }
+        ]
+      },
+      {
+        "word": "extreme",
+        "teachingTip": "e-x-t-r-e-me → the 'e' at the end makes the second 'e' say its name",
+        "segments": [
+          { "chars": "e", "type": "single" },
+          { "chars": "x", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [4, 6] },
+          { "chars": "m", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [4, 6] }
+        ]
+      },
+      {
+        "word": "these",
+        "teachingTip": "th-e-se → the 'e' at the end makes the first 'e' say its name",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "e", "type": "split", "positions": [1, 3] },
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "split", "positions": [1, 3] }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "oh",
+      "teachingTip": "Tricky word! The 'oh' is a special way to say /o/. Learn by sight."
+    },
+    "story": "\"Oh no!\" said Steve. He made a scene. These tricks were extreme. He fell off the trampoline!"
+  }
+]

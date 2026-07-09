@@ -1,0 +1,956 @@
+[
+  {
+    "id": "p4-lt-001",
+    "phase": 4,
+    "pattern": "lt",
+    "teachingHint": "Your child is learning words ending with /l/ then /t/, as in 'belt'. Help them blend: b-e-l-t → belt. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "belt",
+        "teachingTip": "b-e-l-t → Say each sound: /b/, /e/, /l/, /t/. Blend: belt",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "melt",
+        "teachingTip": "m-e-l-t → Say each sound: /m/, /e/, /l/, /t/. Blend: melt",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "bolt",
+        "teachingTip": "b-o-l-t → Say each sound: /b/, /o/, /l/, /t/. Blend: bolt",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "belt",
+        "teachingTip": "b-e-l-t → Four sounds: /b/, /e/, /l/, /t/. Blend them together: belt",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "said",
+      "teachingTip": "Tricky word! It looks like 'paid' but we say 'sed'. Learn it by sight."
+    },
+    "story": "The belt fell in the sun and began to melt! Dad said the bolt on the belt would melt too — what a silly bolt!"
+  },
+  {
+    "id": "p4-lt-002",
+    "phase": 4,
+    "pattern": "lt",
+    "teachingHint": "Your child is learning words ending with /l/ then /t/, as in 'belt'. Help them blend: b-e-l-t → belt. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "jolt",
+        "teachingTip": "j-o-l-t → Say each sound: /j/, /o/, /l/, /t/. Blend: jolt",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "halt",
+        "teachingTip": "h-a-l-t → Say each sound: /h/, /a/, /l/, /t/. Blend: halt",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "jolt",
+        "teachingTip": "j-o-l-t → Four sounds: /j/, /o/, /l/, /t/. Blend them together: jolt",
+        "segments": [
+          { "chars": "j", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "halt",
+        "teachingTip": "h-a-l-t → Four sounds: /h/, /a/, /l/, /t/. Blend them together: halt",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "have",
+      "teachingTip": "Tricky word! The 'a' doesn't say its usual sound and the 'e' is silent. We say 'hav'. Learn it by sight."
+    },
+    "story": "The bus gave a big jolt and had to halt! I have never felt such a jolt — we had to halt at the top of the hill."
+  },
+  {
+    "id": "p4-lt-003",
+    "phase": 4,
+    "pattern": "lt",
+    "teachingHint": "Your child is learning words ending with /l/ then /t/, as in 'belt'. Help them blend: b-e-l-t → belt. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "salt",
+        "teachingTip": "s-a-l-t → Say each sound: /s/, /a/, /l/, /t/. Blend: salt",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "melt",
+        "teachingTip": "m-e-l-t → Say each sound: /m/, /e/, /l/, /t/. Blend: melt",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "salt",
+        "teachingTip": "s-a-l-t → Four sounds: /s/, /a/, /l/, /t/. Blend them together: salt",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "bolt",
+        "teachingTip": "b-o-l-t → Say each sound: /b/, /o/, /l/, /t/. Blend: bolt",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "like",
+      "teachingTip": "Tricky word! Your child will learn the 'i-e' split later. For now, learn 'like' by sight."
+    },
+    "story": "I like to put salt on chips and watch the ice melt. Mum put salt on the bolt too, but the bolt did not melt!"
+  },
+  {
+    "id": "p4-ft-001",
+    "phase": 4,
+    "pattern": "ft",
+    "teachingHint": "Your child is learning words ending with /f/ then /t/, as in 'left'. Help them blend: l-e-f-t → left. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "left",
+        "teachingTip": "l-e-f-t → Say each sound: /l/, /e/, /f/, /t/. Blend: left",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "lift",
+        "teachingTip": "l-i-f-t → Say each sound: /l/, /i/, /f/, /t/. Blend: lift",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "left",
+        "teachingTip": "l-e-f-t → Four sounds: /l/, /e/, /f/, /t/. Blend them together: left",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "lift",
+        "teachingTip": "l-i-f-t → Four sounds: /l/, /i/, /f/, /t/. Blend them together: lift",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "so",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'soh'. Learn it by sight."
+    },
+    "story": "I left my bag in the lift, so I had to go back. The lift went up and I left it on the top!"
+  },
+  {
+    "id": "p4-ft-002",
+    "phase": 4,
+    "pattern": "ft",
+    "teachingHint": "Your child is learning words ending with /f/ then /t/, as in 'left'. Help them blend: l-e-f-t → left. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "loft",
+        "teachingTip": "l-o-f-t → Say each sound: /l/, /o/, /f/, /t/. Blend: loft",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "soft",
+        "teachingTip": "s-o-f-t → Say each sound: /s/, /o/, /f/, /t/. Blend: soft",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "loft",
+        "teachingTip": "l-o-f-t → Four sounds: /l/, /o/, /f/, /t/. Blend them together: loft",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "soft",
+        "teachingTip": "s-o-f-t → Four sounds: /s/, /o/, /f/, /t/. Blend them together: soft",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "do",
+      "teachingTip": "Tricky word! It looks like 'go' but sounds different: 'doo'. Learn it by sight."
+    },
+    "story": "Do you have a soft bed in the loft? The loft is full of soft rugs and big soft cushions!"
+  },
+  {
+    "id": "p4-ft-003",
+    "phase": 4,
+    "pattern": "ft",
+    "teachingHint": "Your child is learning words ending with /f/ then /t/, as in 'left'. Help them blend: l-e-f-t → left. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "raft",
+        "teachingTip": "r-a-f-t → Say each sound: /r/, /a/, /f/, /t/. Blend: raft",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "deft",
+        "teachingTip": "d-e-f-t → Say each sound: /d/, /e/, /f/, /t/. Blend: deft",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "raft",
+        "teachingTip": "r-a-f-t → Four sounds: /r/, /a/, /f/, /t/. Blend them together: raft",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "deft",
+        "teachingTip": "d-e-f-t → Four sounds: /d/, /e/, /f/, /t/. Blend them together: deft",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "some",
+      "teachingTip": "Tricky word! The 'o' sounds like 'u' and the 'e' is silent. We say 'sum'. Learn it by sight."
+    },
+    "story": "A deft fox got on the raft with some fish. The raft went left and the deft fox held on tight!"
+  },
+  {
+    "id": "p4-st-final-001",
+    "phase": 4,
+    "pattern": "st (final)",
+    "teachingHint": "Your child is learning words ending with /s/ then /t/, as in 'best'. Help them blend: b-e-s-t → best. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "nest",
+        "teachingTip": "n-e-s-t → Say each sound: /n/, /e/, /s/, /t/. Blend: nest",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "best",
+        "teachingTip": "b-e-s-t → Say each sound: /b/, /e/, /s/, /t/. Blend: best",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "nest",
+        "teachingTip": "n-e-s-t → Four sounds: /n/, /e/, /s/, /t/. Blend them together: nest",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "best",
+        "teachingTip": "b-e-s-t → Four sounds: /b/, /e/, /s/, /t/. Blend them together: best",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "come",
+      "teachingTip": "Tricky word! Like 'some', the 'o' sounds like 'u': 'cum'. Learn it by sight."
+    },
+    "story": "Come and look at the best nest in the garden! The nest is the best one — a robin sits in the nest all day."
+  },
+  {
+    "id": "p4-st-final-002",
+    "phase": 4,
+    "pattern": "st (final)",
+    "teachingHint": "Your child is learning words ending with /s/ then /t/, as in 'best'. Help them blend: b-e-s-t → best. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "rest",
+        "teachingTip": "r-e-s-t → Say each sound: /r/, /e/, /s/, /t/. Blend: rest",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "test",
+        "teachingTip": "t-e-s-t → Say each sound: /t/, /e/, /s/, /t/. Blend: test",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "rest",
+        "teachingTip": "r-e-s-t → Four sounds: /r/, /e/, /s/, /t/. Blend them together: rest",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "west",
+        "teachingTip": "w-e-s-t → Say each sound: /w/, /e/, /s/, /t/. Blend: west",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "were",
+      "teachingTip": "Tricky word! We say 'wur'. The letters don't match the sounds. Learn it by sight."
+    },
+    "story": "We were going west to have a rest and a test. The test was the best, and then we had a rest in the west."
+  },
+  {
+    "id": "p4-st-final-003",
+    "phase": 4,
+    "pattern": "st (final)",
+    "teachingHint": "Your child is learning words ending with /s/ then /t/, as in 'best'. Help them blend: b-e-s-t → best. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pest",
+        "teachingTip": "p-e-s-t → Say each sound: /p/, /e/, /s/, /t/. Blend: pest",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "must",
+        "teachingTip": "m-u-s-t → Say each sound: /m/, /u/, /s/, /t/. Blend: must",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "pest",
+        "teachingTip": "p-e-s-t → Four sounds: /p/, /e/, /s/, /t/. Blend them together: pest",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "must",
+        "teachingTip": "m-u-s-t → Four sounds: /m/, /u/, /s/, /t/. Blend them together: must",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "there",
+      "teachingTip": "Tricky word! We say 'thair'. Learn it by sight."
+    },
+    "story": "There is a pest in the shed — we must get rid of it! The pest must go, and I must set a trap over there."
+  },
+  {
+    "id": "p4-st-final-004",
+    "phase": 4,
+    "pattern": "st (final)",
+    "teachingHint": "Your child is learning words ending with /s/ then /t/, as in 'best'. Help them blend: b-e-s-t → best. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "bust",
+        "teachingTip": "b-u-s-t → Say each sound: /b/, /u/, /s/, /t/. Blend: bust",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "dust",
+        "teachingTip": "d-u-s-t → Say each sound: /d/, /u/, /s/, /t/. Blend: dust",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "gust",
+        "teachingTip": "g-u-s-t → Say each sound: /g/, /u/, /s/, /t/. Blend: gust",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "rust",
+        "teachingTip": "r-u-s-t → Say each sound: /r/, /u/, /s/, /t/. Blend: rust",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "little",
+      "teachingTip": "Tricky word! The 'le' at the end makes a 'ul' sound. We say 'lit-ul'. Learn it by sight."
+    },
+    "story": "A big gust of wind blew dust and rust on the little bust. The gust left dust and rust all over the bust!"
+  },
+  {
+    "id": "p4-sk-final-001",
+    "phase": 4,
+    "pattern": "sk (final)",
+    "teachingHint": "Your child is learning words ending with /s/ then /k/, as in 'desk'. Help them blend: d-e-s-k → desk. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "desk",
+        "teachingTip": "d-e-s-k → Say each sound: /d/, /e/, /s/, /k/. Blend: desk",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "risk",
+        "teachingTip": "r-i-s-k → Say each sound: /r/, /i/, /s/, /k/. Blend: risk",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "desk",
+        "teachingTip": "d-e-s-k → Four sounds: /d/, /e/, /s/, /k/. Blend them together: desk",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "risk",
+        "teachingTip": "r-i-s-k → Four sounds: /r/, /i/, /s/, /k/. Blend them together: risk",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "one",
+      "teachingTip": "Tricky word! We say 'wun' — nothing like it looks! Learn it by sight."
+    },
+    "story": "I left one pen on the desk — it was a risk! The desk had a gap and the risk was that the pen fell in."
+  },
+  {
+    "id": "p4-sk-final-002",
+    "phase": 4,
+    "pattern": "sk (final)",
+    "teachingHint": "Your child is learning words ending with /s/ then /k/, as in 'desk'. Help them blend: d-e-s-k → desk. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "disk",
+        "teachingTip": "d-i-s-k → Say each sound: /d/, /i/, /s/, /k/. Blend: disk",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "dusk",
+        "teachingTip": "d-u-s-k → Say each sound: /d/, /u/, /s/, /k/. Blend: dusk",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "disk",
+        "teachingTip": "d-i-s-k → Four sounds: /d/, /i/, /s/, /k/. Blend them together: disk",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "dusk",
+        "teachingTip": "d-u-s-k → Four sounds: /d/, /u/, /s/, /k/. Blend them together: dusk",
+        "segments": [
+          { "chars": "d", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "when",
+      "teachingTip": "Tricky word! The 'wh' sounds like 'w'. We say 'wen'. Your child can nearly sound this out."
+    },
+    "story": "When it gets to dusk, I put the disk away. The disk sat on the shelf until dusk came again."
+  },
+  {
+    "id": "p4-sk-final-003",
+    "phase": 4,
+    "pattern": "sk (final)",
+    "teachingHint": "Your child is learning words ending with /s/ then /k/, as in 'desk'. Help them blend: d-e-s-k → desk. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "mask",
+        "teachingTip": "m-a-s-k → Say each sound: /m/, /a/, /s/, /k/. Blend: mask",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "task",
+        "teachingTip": "t-a-s-k → Say each sound: /t/, /a/, /s/, /k/. Blend: task",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "tusk",
+        "teachingTip": "t-u-s-k → Say each sound: /t/, /u/, /s/, /k/. Blend: tusk",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "mask",
+        "teachingTip": "m-a-s-k → Four sounds: /m/, /a/, /s/, /k/. Blend them together: mask",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "out",
+      "teachingTip": "Tricky word! The 'ou' makes an 'ow' sound. Your child will learn this in Phase 5."
+    },
+    "story": "The task was to cut out a mask with a big tusk on it. The mask had a long tusk and the task took all day!"
+  },
+  {
+    "id": "p4-lklf-001",
+    "phase": 4,
+    "pattern": "lk, lf",
+    "teachingHint": "Your child is learning words ending with /l/ then /k/ or /l/ then /f/. Help them blend: m-i-l-k → milk, sh-e-l-f → shelf. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "milk",
+        "teachingTip": "m-i-l-k → Say each sound: /m/, /i/, /l/, /k/. Blend: milk",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "silk",
+        "teachingTip": "s-i-l-k → Say each sound: /s/, /i/, /l/, /k/. Blend: silk",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "milk",
+        "teachingTip": "m-i-l-k → Four sounds: /m/, /i/, /l/, /k/. Blend them together: milk",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "shelf",
+        "teachingTip": "sh-e-l-f → The 'sh' is one sound, then /e/, /l/, /f/. Blend: shelf",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "f", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "what",
+      "teachingTip": "Tricky word! The 'wh' sounds like 'w' and the 'a' sounds like 'o'. We say 'wot'. Learn it by sight."
+    },
+    "story": "What is on the shelf? It is milk and a silk cloth! The milk sat on the shelf next to the silk."
+  },
+  {
+    "id": "p4-lklf-002",
+    "phase": 4,
+    "pattern": "lk, lf",
+    "teachingHint": "Your child is learning words ending with /l/ then /k/ or /l/ then /f/. Help them blend: m-i-l-k → milk, sh-e-l-f → shelf. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hulk",
+        "teachingTip": "h-u-l-k → Say each sound: /h/, /u/, /l/, /k/. Blend: hulk",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "bulk",
+        "teachingTip": "b-u-l-k → Say each sound: /b/, /u/, /l/, /k/. Blend: bulk",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "hulk",
+        "teachingTip": "h-u-l-k → Four sounds: /h/, /u/, /l/, /k/. Blend them together: hulk",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "self",
+        "teachingTip": "s-e-l-f → Say each sound: /s/, /e/, /l/, /f/. Blend: self",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "f", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "said",
+      "teachingTip": "Tricky word! It looks like 'paid' but we say 'sed'. Learn it by sight."
+    },
+    "story": "The big hulk of a dog got a bulk bag all by his self. He said to his self, 'I am a hulk and I need bulk!'"
+  },
+  {
+    "id": "p4-lklf-003",
+    "phase": 4,
+    "pattern": "lk, lf",
+    "teachingHint": "Your child is learning words ending with /l/ then /k/ or /l/ then /f/. Help them blend: m-i-l-k → milk, sh-e-l-f → shelf. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "golf",
+        "teachingTip": "g-o-l-f → Say each sound: /g/, /o/, /l/, /f/. Blend: golf",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "f", "type": "single" }
+        ]
+      },
+      {
+        "word": "silk",
+        "teachingTip": "s-i-l-k → Say each sound: /s/, /i/, /l/, /k/. Blend: silk",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "golf",
+        "teachingTip": "g-o-l-f → Four sounds: /g/, /o/, /l/, /f/. Blend them together: golf",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "f", "type": "single" }
+        ]
+      },
+      {
+        "word": "bulk",
+        "teachingTip": "b-u-l-k → Say each sound: /b/, /u/, /l/, /k/. Blend: bulk",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "have",
+      "teachingTip": "Tricky word! The 'a' doesn't say its usual sound and the 'e' is silent. We say 'hav'. Learn it by sight."
+    },
+    "story": "I have a bulk bag of silk golf tops. I play golf in silk and I got the bulk of them from the shop!"
+  },
+  {
+    "id": "p4-lp-001",
+    "phase": 4,
+    "pattern": "lp",
+    "teachingHint": "Your child is learning words ending with /l/ then /p/, as in 'help'. Help them blend: h-e-l-p → help. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "help",
+        "teachingTip": "h-e-l-p → Say each sound: /h/, /e/, /l/, /p/. Blend: help",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "yelp",
+        "teachingTip": "y-e-l-p → Say each sound: /y/, /e/, /l/, /p/. Blend: yelp",
+        "segments": [
+          { "chars": "y", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "help",
+        "teachingTip": "h-e-l-p → Four sounds: /h/, /e/, /l/, /p/. Blend them together: help",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "yelp",
+        "teachingTip": "y-e-l-p → Four sounds: /y/, /e/, /l/, /p/. Blend them together: yelp",
+        "segments": [
+          { "chars": "y", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "like",
+      "teachingTip": "Tricky word! Your child will learn the 'i-e' split later. For now, learn 'like' by sight."
+    },
+    "story": "The pup gave a yelp and needed help! I like to help the pup, so when it gave a yelp I ran to it."
+  },
+  {
+    "id": "p4-lp-002",
+    "phase": 4,
+    "pattern": "lp",
+    "teachingHint": "Your child is learning words ending with /l/ then /p/, as in 'help'. Help them blend: h-e-l-p → help. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "gulp",
+        "teachingTip": "g-u-l-p → Say each sound: /g/, /u/, /l/, /p/. Blend: gulp",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "pulp",
+        "teachingTip": "p-u-l-p → Say each sound: /p/, /u/, /l/, /p/. Blend: pulp",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "gulp",
+        "teachingTip": "g-u-l-p → Four sounds: /g/, /u/, /l/, /p/. Blend them together: gulp",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "pulp",
+        "teachingTip": "p-u-l-p → Four sounds: /p/, /u/, /l/, /p/. Blend them together: pulp",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "so",
+      "teachingTip": "Tricky word! The 'o' says its name here: 'soh'. Learn it by sight."
+    },
+    "story": "I had a big gulp of pulp from a cup. It was so thick I had to gulp and gulp to get all the pulp down!"
+  }
+]

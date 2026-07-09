@@ -1,0 +1,878 @@
+[
+  {
+    "id": "p3-oa-001",
+    "phase": 3,
+    "pattern": "oa",
+    "teachingHint": "Your child is learning the /oa/ sound (a long 'oh' sound, as in 'boat'). When 'o' and 'a' sit together, they make one sound: /oa/. Help your child spot 'oa' and blend: b-oa-t → boat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "boat",
+        "teachingTip": "b-oa-t → The 'oa' makes one sound: /oa/. Blend: boat",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "coat",
+        "teachingTip": "c-oa-t → The 'oa' makes one sound: /oa/. Blend: coat",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "goat",
+        "teachingTip": "g-oa-t → The 'oa' makes one sound: /oa/. Blend: goat",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "oak",
+        "teachingTip": "oa-k → The 'oa' makes one sound: /oa/. Blend: oak",
+        "segments": [
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "he",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'hee'. Learn it by sight."
+    },
+    "story": "He got in a boat in his coat and met a goat. The goat sat by the oak and he gave it a pat!"
+  },
+  {
+    "id": "p3-oa-002",
+    "phase": 3,
+    "pattern": "oa",
+    "teachingHint": "Your child is learning the /oa/ sound (a long 'oh' sound, as in 'boat'). When 'o' and 'a' sit together, they make one sound: /oa/. Help your child spot 'oa' and blend: b-oa-t → boat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "road",
+        "teachingTip": "r-oa-d → The 'oa' makes one sound: /oa/. Blend: road",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "toad",
+        "teachingTip": "t-oa-d → The 'oa' makes one sound: /oa/. Blend: toad",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "load",
+        "teachingTip": "l-oa-d → The 'oa' makes one sound: /oa/. Blend: load",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "moan",
+        "teachingTip": "m-oa-n → The 'oa' makes one sound: /oa/. Blend: moan",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "she",
+      "teachingTip": "Tricky word! We know 'sh' but the 'e' says its name 'ee'. We say 'shee'."
+    },
+    "story": "She saw a toad on the road with a big load. The toad let out a moan as the load was too big!"
+  },
+  {
+    "id": "p3-oa-003",
+    "phase": 3,
+    "pattern": "oa",
+    "teachingHint": "Your child is learning the /oa/ sound (a long 'oh' sound, as in 'boat'). When 'o' and 'a' sit together, they make one sound: /oa/. Help your child spot 'oa' and blend: b-oa-t → boat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "soap",
+        "teachingTip": "s-oa-p → The 'oa' makes one sound: /oa/. Blend: soap",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "coal",
+        "teachingTip": "c-oa-l → The 'oa' makes one sound: /oa/. Blend: coal",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "foal",
+        "teachingTip": "f-oa-l → The 'oa' makes one sound: /oa/. Blend: foal",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "loaf",
+        "teachingTip": "l-oa-f → The 'oa' makes one sound: /oa/. Blend: loaf",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "f", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "we",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'wee'. Learn it by sight."
+    },
+    "story": "We fed the foal a loaf and got soap on the coal. The foal liked the loaf and we had to get more soap!"
+  },
+  {
+    "id": "p3-oa-004",
+    "phase": 3,
+    "pattern": "oa",
+    "teachingHint": "Your child is learning the /oa/ sound (a long 'oh' sound, as in 'boat'). When 'o' and 'a' sit together, they make one sound: /oa/. Help your child spot 'oa' and blend: b-oa-t → boat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "goat",
+        "teachingTip": "g-oa-t → The 'oa' makes one sound: /oa/. Blend: goat",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "road",
+        "teachingTip": "r-oa-d → The 'oa' makes one sound: /oa/. Blend: road",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "loaf",
+        "teachingTip": "l-oa-f → The 'oa' makes one sound: /oa/. Blend: loaf",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "f", "type": "single" }
+        ]
+      },
+      {
+        "word": "soap",
+        "teachingTip": "s-oa-p → The 'oa' makes one sound: /oa/. Blend: soap",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "me",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'mee'. Learn it by sight."
+    },
+    "story": "A goat ran down the road and took a loaf from me. The goat got soap on the loaf and gave it back to me!"
+  },
+  {
+    "id": "p3-oa-005",
+    "phase": 3,
+    "pattern": "oa",
+    "teachingHint": "Your child is learning the /oa/ sound (a long 'oh' sound, as in 'boat'). When 'o' and 'a' sit together, they make one sound: /oa/. Help your child spot 'oa' and blend: b-oa-t → boat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "coat",
+        "teachingTip": "c-oa-t → The 'oa' makes one sound: /oa/. Blend: coat",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "moan",
+        "teachingTip": "m-oa-n → The 'oa' makes one sound: /oa/. Blend: moan",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "oak",
+        "teachingTip": "oa-k → The 'oa' makes one sound: /oa/. Blend: oak",
+        "segments": [
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "load",
+        "teachingTip": "l-oa-d → The 'oa' makes one sound: /oa/. Blend: load",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "be",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'bee'. Learn it by sight."
+    },
+    "story": "His coat fell off by the oak and he let out a moan. Do not be sad — the load of coats can be hung on the oak!"
+  },
+  {
+    "id": "p3-oa-006",
+    "phase": 3,
+    "pattern": "oa",
+    "teachingHint": "Your child is learning the /oa/ sound (a long 'oh' sound, as in 'boat'). When 'o' and 'a' sit together, they make one sound: /oa/. Help your child spot 'oa' and blend: b-oa-t → boat. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "toad",
+        "teachingTip": "t-oa-d → The 'oa' makes one sound: /oa/. Blend: toad",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "boat",
+        "teachingTip": "b-oa-t → The 'oa' makes one sound: /oa/. Blend: boat",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "foal",
+        "teachingTip": "f-oa-l → The 'oa' makes one sound: /oa/. Blend: foal",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "coal",
+        "teachingTip": "c-oa-l → The 'oa' makes one sound: /oa/. Blend: coal",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "oa", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "was",
+      "teachingTip": "Tricky word! It looks like it should say 'wass' but we say 'woz'. Learn it by sight."
+    },
+    "story": "A toad was in a boat with a foal. The boat was full of coal and the toad and the foal sat on top of it all!"
+  },
+  {
+    "id": "p3-oo-long-001",
+    "phase": 3,
+    "pattern": "oo (long)",
+    "teachingHint": "Your child is learning the long /oo/ sound (as in 'moon' — like saying 'ooooo'). When two 'o's sit together, they can make this long /oo/ sound. Help your child spot 'oo' and blend: m-oo-n → moon. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "moon",
+        "teachingTip": "m-oo-n → The 'oo' makes one long sound: /oo/. Blend: moon",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "food",
+        "teachingTip": "f-oo-d → The 'oo' makes one long sound: /oo/. Blend: food",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "boot",
+        "teachingTip": "b-oo-t → The 'oo' makes one long sound: /oo/. Blend: boot",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "cool",
+        "teachingTip": "c-oo-l → The 'oo' makes one long sound: /oo/. Blend: cool",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "you",
+      "teachingTip": "Tricky word! It looks like 'yow' but we say 'yoo'. Learn it by sight."
+    },
+    "story": "You left a boot on the moon with some cool food in it. The moon man put on the boot and ate all the cool food!"
+  },
+  {
+    "id": "p3-oo-long-002",
+    "phase": 3,
+    "pattern": "oo (long)",
+    "teachingHint": "Your child is learning the long /oo/ sound (as in 'moon' — like saying 'ooooo'). When two 'o's sit together, they can make this long /oo/ sound. Help your child spot 'oo' and blend: m-oo-n → moon. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hoop",
+        "teachingTip": "h-oo-p → The 'oo' makes one long sound: /oo/. Blend: hoop",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "loop",
+        "teachingTip": "l-oo-p → The 'oo' makes one long sound: /oo/. Blend: loop",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "zoo",
+        "teachingTip": "z-oo → The 'oo' makes one long sound: /oo/. Blend: zoo",
+        "segments": [
+          { "chars": "z", "type": "single" },
+          { "chars": "oo", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "moon",
+        "teachingTip": "m-oo-n → The 'oo' makes one long sound: /oo/. Blend: moon",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "they",
+      "teachingTip": "Tricky word! The 'ey' makes an 'ay' sound. We say 'thay'. Learn it by sight."
+    },
+    "story": "They went to the zoo and saw a seal jump through a hoop. The seal did a loop past the moon and they all did a big cheer!"
+  },
+  {
+    "id": "p3-oo-long-003",
+    "phase": 3,
+    "pattern": "oo (long)",
+    "teachingHint": "Your child is learning the long /oo/ sound (as in 'moon' — like saying 'ooooo'). When two 'o's sit together, they can make this long /oo/ sound. Help your child spot 'oo' and blend: m-oo-n → moon. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pool",
+        "teachingTip": "p-oo-l → The 'oo' makes one long sound: /oo/. Blend: pool",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "roof",
+        "teachingTip": "r-oo-f → The 'oo' makes one long sound: /oo/. Blend: roof",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "f", "type": "single" }
+        ]
+      },
+      {
+        "word": "room",
+        "teachingTip": "r-oo-m → The 'oo' makes one long sound: /oo/. Blend: room",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "too",
+        "teachingTip": "t-oo → The 'oo' makes one long sound: /oo/. Blend: too",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oo", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "all",
+      "teachingTip": "Tricky word! The 'a' says 'or' in this word. We say 'orl'. Learn it by sight."
+    },
+    "story": "All the fish swam from the pool to the room on the roof. The room was too small and all the fish had to swim back to the pool!"
+  },
+  {
+    "id": "p3-oo-long-004",
+    "phase": 3,
+    "pattern": "oo (long)",
+    "teachingHint": "Your child is learning the long /oo/ sound (as in 'moon' — like saying 'ooooo'). When two 'o's sit together, they can make this long /oo/ sound. Help your child spot 'oo' and blend: m-oo-n → moon. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "soon",
+        "teachingTip": "s-oo-n → The 'oo' makes one long sound: /oo/. Blend: soon",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "noon",
+        "teachingTip": "n-oo-n → The 'oo' makes one long sound: /oo/. Blend: noon",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "too",
+        "teachingTip": "t-oo → The 'oo' makes one long sound: /oo/. Blend: too",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oo", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "boom",
+        "teachingTip": "b-oo-m → The 'oo' makes one long sound: /oo/. Blend: boom",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "are",
+      "teachingTip": "Tricky word! It looks like it should rhyme with 'care' but we say 'ar'. Learn it by sight."
+    },
+    "story": "Soon at noon there was a big boom! It was too loud. The boom shook the room and noon was not so quiet after all!"
+  },
+  {
+    "id": "p3-oo-long-005",
+    "phase": 3,
+    "pattern": "oo (long)",
+    "teachingHint": "Your child is learning the long /oo/ sound (as in 'moon' — like saying 'ooooo'). When two 'o's sit together, they can make this long /oo/ sound. Help your child spot 'oo' and blend: m-oo-n → moon. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "tool",
+        "teachingTip": "t-oo-l → The 'oo' makes one long sound: /oo/. Blend: tool",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "boom",
+        "teachingTip": "b-oo-m → The 'oo' makes one long sound: /oo/. Blend: boom",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "boot",
+        "teachingTip": "b-oo-t → The 'oo' makes one long sound: /oo/. Blend: boot",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "hoop",
+        "teachingTip": "h-oo-p → The 'oo' makes one long sound: /oo/. Blend: hoop",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "my",
+      "teachingTip": "Tricky word! The 'y' says 'eye'. We say 'my'. Learn it by sight."
+    },
+    "story": "My boot got stuck in a hoop and then — boom! The tool fell off the shelf. I used my tool to pop the hoop off the boot!"
+  },
+  {
+    "id": "p3-oo-long-006",
+    "phase": 3,
+    "pattern": "oo (long)",
+    "teachingHint": "Your child is learning the long /oo/ sound (as in 'moon' — like saying 'ooooo'). When two 'o's sit together, they can make this long /oo/ sound. Help your child spot 'oo' and blend: m-oo-n → moon. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "pool",
+        "teachingTip": "p-oo-l → The 'oo' makes one long sound: /oo/. Blend: pool",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "soon",
+        "teachingTip": "s-oo-n → The 'oo' makes one long sound: /oo/. Blend: soon",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "loop",
+        "teachingTip": "l-oo-p → The 'oo' makes one long sound: /oo/. Blend: loop",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "roof",
+        "teachingTip": "r-oo-f → The 'oo' makes one long sound: /oo/. Blend: roof",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "f", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "her",
+      "teachingTip": "Tricky word! The 'er' makes one sound. We say 'her'. Learn it by sight."
+    },
+    "story": "Her ball did a loop and landed in the pool on the roof. She had to get it soon or the pool loop would send it off the roof!"
+  },
+  {
+    "id": "p3-oo-long-007",
+    "phase": 3,
+    "pattern": "oo (long)",
+    "teachingHint": "Your child is learning the long /oo/ sound (as in 'moon' — like saying 'ooooo'). When two 'o's sit together, they can make this long /oo/ sound. Help your child spot 'oo' and blend: m-oo-n → moon. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "zoo",
+        "teachingTip": "z-oo → The 'oo' makes one long sound: /oo/. Blend: zoo",
+        "segments": [
+          { "chars": "z", "type": "single" },
+          { "chars": "oo", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "room",
+        "teachingTip": "r-oo-m → The 'oo' makes one long sound: /oo/. Blend: room",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "noon",
+        "teachingTip": "n-oo-n → The 'oo' makes one long sound: /oo/. Blend: noon",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "tool",
+        "teachingTip": "t-oo-l → The 'oo' makes one long sound: /oo/. Blend: tool",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "he",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'hee'. Learn it by sight."
+    },
+    "story": "He went to the zoo at noon with a tool to fix the room. The zoo room was fixed and he had it all done by noon!"
+  },
+  {
+    "id": "p3-oo-short-001",
+    "phase": 3,
+    "pattern": "oo (short)",
+    "teachingHint": "Your child is learning the short /oo/ sound (as in 'book' — a shorter, rounder sound than 'moon'). The same 'oo' letters can make this shorter sound too. Help your child blend: b-oo-k → book. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "book",
+        "teachingTip": "b-oo-k → The 'oo' makes a short sound: /oo/. Blend: book",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "cook",
+        "teachingTip": "c-oo-k → The 'oo' makes a short sound: /oo/. Blend: cook",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "foot",
+        "teachingTip": "f-oo-t → The 'oo' makes a short sound: /oo/. Blend: foot",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "good",
+        "teachingTip": "g-oo-d → The 'oo' makes a short sound: /oo/. Blend: good",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "she",
+      "teachingTip": "Tricky word! We know 'sh' but the 'e' says its name 'ee'. We say 'shee'."
+    },
+    "story": "She is a good cook and she read a book with her foot up on a stool. The cook got a good tip from the book!"
+  },
+  {
+    "id": "p3-oo-short-002",
+    "phase": 3,
+    "pattern": "oo (short)",
+    "teachingHint": "Your child is learning the short /oo/ sound (as in 'book' — a shorter, rounder sound than 'moon'). The same 'oo' letters can make this shorter sound too. Help your child blend: b-oo-k → book. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "hood",
+        "teachingTip": "h-oo-d → The 'oo' makes a short sound: /oo/. Blend: hood",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "hook",
+        "teachingTip": "h-oo-k → The 'oo' makes a short sound: /oo/. Blend: hook",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "look",
+        "teachingTip": "l-oo-k → The 'oo' makes a short sound: /oo/. Blend: look",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "wood",
+        "teachingTip": "w-oo-d → The 'oo' makes a short sound: /oo/. Blend: wood",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "we",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'wee'. Learn it by sight."
+    },
+    "story": "We put a hood on the hook and had a look at the wood. The wood had a hook in it and we hung the hood on it!"
+  },
+  {
+    "id": "p3-oo-short-003",
+    "phase": 3,
+    "pattern": "oo (short)",
+    "teachingHint": "Your child is learning the short /oo/ sound (as in 'book' — a shorter, rounder sound than 'moon'). The same 'oo' letters can make this shorter sound too. Help your child blend: b-oo-k → book. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "wool",
+        "teachingTip": "w-oo-l → The 'oo' makes a short sound: /oo/. Blend: wool",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "l", "type": "single" }
+        ]
+      },
+      {
+        "word": "took",
+        "teachingTip": "t-oo-k → The 'oo' makes a short sound: /oo/. Blend: took",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "book",
+        "teachingTip": "b-oo-k → The 'oo' makes a short sound: /oo/. Blend: book",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "foot",
+        "teachingTip": "f-oo-t → The 'oo' makes a short sound: /oo/. Blend: foot",
+        "segments": [
+          { "chars": "f", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "they",
+      "teachingTip": "Tricky word! The 'ey' makes an 'ay' sound. We say 'thay'. Learn it by sight."
+    },
+    "story": "They took the wool and the book and set off on foot. They got wool on their foot and tripped over the book!"
+  },
+  {
+    "id": "p3-oo-short-004",
+    "phase": 3,
+    "pattern": "oo (short)",
+    "teachingHint": "Your child is learning the short /oo/ sound (as in 'book' — a shorter, rounder sound than 'moon'). The same 'oo' letters can make this shorter sound too. Help your child blend: b-oo-k → book. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "shook",
+        "teachingTip": "sh-oo-k → The 'sh' and 'oo' each make one sound. Blend: shook",
+        "segments": [
+          { "chars": "sh", "type": "digraph" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "nook",
+        "teachingTip": "n-oo-k → The 'oo' makes a short sound: /oo/. Blend: nook",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "cook",
+        "teachingTip": "c-oo-k → The 'oo' makes a short sound: /oo/. Blend: cook",
+        "segments": [
+          { "chars": "c", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "good",
+        "teachingTip": "g-oo-d → The 'oo' makes a short sound: /oo/. Blend: good",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "all",
+      "teachingTip": "Tricky word! The 'a' says 'or' in this word. We say 'orl'. Learn it by sight."
+    },
+    "story": "The cook shook the pan in the nook and all the good food fell out. She shook it so hard that all the nooks got full of good food!"
+  },
+  {
+    "id": "p3-oo-short-005",
+    "phase": 3,
+    "pattern": "oo (short)",
+    "teachingHint": "Your child is learning the short /oo/ sound (as in 'book' — a shorter, rounder sound than 'moon'). The same 'oo' letters can make this shorter sound too. Help your child blend: b-oo-k → book. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "nook",
+        "teachingTip": "n-oo-k → The 'oo' makes a short sound: /oo/. Blend: nook",
+        "segments": [
+          { "chars": "n", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "took",
+        "teachingTip": "t-oo-k → The 'oo' makes a short sound: /oo/. Blend: took",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "look",
+        "teachingTip": "l-oo-k → The 'oo' makes a short sound: /oo/. Blend: look",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "wood",
+        "teachingTip": "w-oo-d → The 'oo' makes a short sound: /oo/. Blend: wood",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "oo", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "my",
+      "teachingTip": "Tricky word! The 'y' says 'eye'. We say 'my'. Learn it by sight."
+    },
+    "story": "I took my book to a nook and had a look at the wood. The nook in the wood was the best spot to look at my book!"
+  }
+]

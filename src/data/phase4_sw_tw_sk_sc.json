@@ -1,0 +1,538 @@
+[
+  {
+    "id": "p4-sw-001",
+    "phase": 4,
+    "pattern": "sw",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /sw/. Two consonant sounds sit next to each other at the start: s then w. Help them blend through: s-w-i-m → swim. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "swim",
+        "teachingTip": "s-w-i-m → Blend the opening cluster: sw-i-m → swim",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "swam",
+        "teachingTip": "s-w-a-m → Say each sound: /s/-/w/-/a/-/m/. Blend: swam",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "swan",
+        "teachingTip": "s-w-a-n → Say each sound: /s/-/w/-/a/-/n/. Blend: swan",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "swat",
+        "teachingTip": "s-w-a-t → Say each sound: /s/-/w/-/a/-/t/. Blend: swat",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "were",
+      "teachingTip": "Tricky word! 'Were' doesn't follow normal rules. We say 'wur'. Learn it by sight."
+    },
+    "story": "The twins were at the pond for a swim. A swan swam past and they had to swat a bug!"
+  },
+  {
+    "id": "p4-sw-002",
+    "phase": 4,
+    "pattern": "sw",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /sw/. Two consonant sounds sit next to each other at the start: s then w. Help them blend through: s-w-i-ng → swing. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "swing",
+        "teachingTip": "s-w-i-ng → Blend the opening cluster: sw-i-ng → swing",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "swift",
+        "teachingTip": "s-w-i-f-t → Five sounds! Blend the opening cluster: sw-i-ft → swift",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "f", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "swig",
+        "teachingTip": "s-w-i-g → Say each sound: /s/-/w/-/i/-/g/. Blend: swig",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "swim",
+        "teachingTip": "s-w-i-m → Say each sound: /s/-/w/-/i/-/m/. Blend: swim",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "said",
+      "teachingTip": "Tricky word! 'Said' looks like s-ai-d but we say 'sed'. Learn it by sight."
+    },
+    "story": "She said the swing was swift! She had a swig of water and then a swim in the pool."
+  },
+  {
+    "id": "p4-sw-003",
+    "phase": 4,
+    "pattern": "sw",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /sw/. Two consonant sounds sit next to each other at the start: s then w. Help them blend through: s-w-e-p-t → swept. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "swept",
+        "teachingTip": "s-w-e-p-t → Five sounds! Blend the opening cluster: sw-e-pt → swept",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "e", "type": "single" },
+          { "chars": "p", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "sweet",
+        "teachingTip": "s-w-ee-t → The 'ee' makes one long sound. Blend: sw-ee-t → sweet",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "swan",
+        "teachingTip": "s-w-a-n → Say each sound: /s/-/w/-/a/-/n/. Blend: swan",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "swam",
+        "teachingTip": "s-w-a-m → Say each sound: /s/-/w/-/a/-/m/. Blend: swam",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "some",
+      "teachingTip": "Tricky word! The 'o' says 'u' and the 'e' is silent. We say 'sum'. Learn it by sight."
+    },
+    "story": "Mum swept up some sweet crumbs. The swan swam to the edge of the pond to get some too!"
+  },
+  {
+    "id": "p4-tw-001",
+    "phase": 4,
+    "pattern": "tw",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /tw/. Two consonant sounds sit next to each other at the start: t then w. Help them blend through: t-w-i-g → twig. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "twig",
+        "teachingTip": "t-w-i-g → Blend the opening cluster: tw-i-g → twig",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "twin",
+        "teachingTip": "t-w-i-n → Say each sound: /t/-/w/-/i/-/n/. Blend: twin",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "twit",
+        "teachingTip": "t-w-i-t → Say each sound: /t/-/w/-/i/-/t/. Blend: twit",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "twist",
+        "teachingTip": "t-w-i-s-t → Five sounds! Blend the opening cluster: tw-i-st → twist",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "have",
+      "teachingTip": "Tricky word! The 'a' in 'have' says /a/ not /ai/. The 'e' is silent. Learn it by sight."
+    },
+    "story": "The twin picked up a twig and gave it a twist. What a twit — he did not have a clue what to do with it!"
+  },
+  {
+    "id": "p4-tw-002",
+    "phase": 4,
+    "pattern": "tw",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /tw/. Two consonant sounds sit next to each other at the start: t then w. Help them blend through: t-w-ee-d → tweed. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "tweed",
+        "teachingTip": "t-w-ee-d → The 'ee' makes one long sound. Blend: tw-ee-d → tweed",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "ee", "type": "digraph" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "twin",
+        "teachingTip": "t-w-i-n → Say each sound: /t/-/w/-/i/-/n/. Blend: twin",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "twig",
+        "teachingTip": "t-w-i-g → Say each sound: /t/-/w/-/i/-/g/. Blend: twig",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "g", "type": "single" }
+        ]
+      },
+      {
+        "word": "twist",
+        "teachingTip": "t-w-i-s-t → Five sounds! Blend the opening cluster: tw-i-st → twist",
+        "segments": [
+          { "chars": "t", "type": "single" },
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "like",
+      "teachingTip": "Tricky word! The 'i' says its name /ie/ and the 'e' is silent. We say 'like'. Learn it by sight."
+    },
+    "story": "The twin had a tweed hat she did like. She put a twig in it and gave it a twist for fun!"
+  },
+  {
+    "id": "p4-sk-001",
+    "phase": 4,
+    "pattern": "sk",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /sk/. Two consonant sounds sit next to each other at the start: s then k. Help them blend through: s-k-i-p → skip. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "skip",
+        "teachingTip": "s-k-i-p → Blend the opening cluster: sk-i-p → skip",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "skid",
+        "teachingTip": "s-k-i-d → Say each sound: /s/-/k/-/i/-/d/. Blend: skid",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "skin",
+        "teachingTip": "s-k-i-n → Say each sound: /s/-/k/-/i/-/n/. Blend: skin",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "skill",
+        "teachingTip": "s-k-i-ll → The 'll' is one sound. Blend: sk-i-ll → skill",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "so",
+      "teachingTip": "Tricky word! The 'o' says its name /oh/. We say 'soh'. Learn it by sight."
+    },
+    "story": "She had so much skill! She could skip and not skid. She did not even graze her skin."
+  },
+  {
+    "id": "p4-sk-002",
+    "phase": 4,
+    "pattern": "sk",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /sk/. Two consonant sounds sit next to each other at the start: s then k. Help them blend through: s-k-u-ll → skull. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "skull",
+        "teachingTip": "s-k-u-ll → The 'll' is one sound. Blend: sk-u-ll → skull",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "skunk",
+        "teachingTip": "s-k-u-n-k → Five sounds! Blend the opening cluster: sk-u-nk → skunk",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "n", "type": "single" },
+          { "chars": "k", "type": "single" }
+        ]
+      },
+      {
+        "word": "skit",
+        "teachingTip": "s-k-i-t → Say each sound: /s/-/k/-/i/-/t/. Blend: skit",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "skim",
+        "teachingTip": "s-k-i-m → Say each sound: /s/-/k/-/i/-/m/. Blend: skim",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "do",
+      "teachingTip": "Tricky word! 'Do' doesn't sound like d-o. We say 'doo'. Learn it by sight."
+    },
+    "story": "What do you see? A skull and a skunk! The kids did a skit about it and had to skim past the smelly skunk."
+  },
+  {
+    "id": "p4-sk-003",
+    "phase": 4,
+    "pattern": "sk",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /sk/. Two consonant sounds sit next to each other at the start: s then k. Help them blend through: s-k-i-d → skid. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "skid",
+        "teachingTip": "s-k-i-d → Blend the opening cluster: sk-i-d → skid",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "skip",
+        "teachingTip": "s-k-i-p → Say each sound: /s/-/k/-/i/-/p/. Blend: skip",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "p", "type": "single" }
+        ]
+      },
+      {
+        "word": "skull",
+        "teachingTip": "s-k-u-ll → The 'll' is one sound. Blend: sk-u-ll → skull",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ll", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "skin",
+        "teachingTip": "s-k-i-n → Say each sound: /s/-/k/-/i/-/n/. Blend: skin",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "come",
+      "teachingTip": "Tricky word! The 'o' says 'u' and the 'e' is silent. We say 'cum'. Learn it by sight."
+    },
+    "story": "Come and skip with me! Mind you do not skid on the mud or graze your skin. Look — there is a skull on that flag!"
+  },
+  {
+    "id": "p4-sc-001",
+    "phase": 4,
+    "pattern": "sc",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /sc/. Two consonant sounds sit next to each other at the start: s then c. Help them blend through: s-c-a-b → scab. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "scab",
+        "teachingTip": "s-c-a-b → Blend the opening cluster: sc-a-b → scab",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      },
+      {
+        "word": "scan",
+        "teachingTip": "s-c-a-n → Say each sound: /s/-/c/-/a/-/n/. Blend: scan",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "scat",
+        "teachingTip": "s-c-a-t → Say each sound: /s/-/c/-/a/-/t/. Blend: scat",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "scam",
+        "teachingTip": "s-c-a-m → Say each sound: /s/-/c/-/a/-/m/. Blend: scam",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "there",
+      "teachingTip": "Tricky word! 'There' tells us a place. The 'e-r-e' makes an 'air' sound. Learn it by sight."
+    },
+    "story": "There was a cat with a scab on its leg. It had a scan at the vet. Scat, cat! It was no scam — the cat got well."
+  },
+  {
+    "id": "p4-sc-002",
+    "phase": 4,
+    "pattern": "sc",
+    "teachingHint": "Your child is practising words starting with the consonant cluster /sc/. Two consonant sounds sit next to each other at the start: s then c. Help them blend through: s-c-u-ff → scuff. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "scuff",
+        "teachingTip": "s-c-u-ff → The 'ff' is one sound. Blend: sc-u-ff → scuff",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ff", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "scold",
+        "teachingTip": "s-c-o-l-d → Five sounds! Blend the opening cluster: sc-o-ld → scold",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "l", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      },
+      {
+        "word": "scab",
+        "teachingTip": "s-c-a-b → Say each sound: /s/-/c/-/a/-/b/. Blend: scab",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "b", "type": "single" }
+        ]
+      },
+      {
+        "word": "scan",
+        "teachingTip": "s-c-a-n → Say each sound: /s/-/c/-/a/-/n/. Blend: scan",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "c", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "what",
+      "teachingTip": "Tricky word! 'What' has a silent 'h' and the 'a' says /o/. We say 'wot'. Learn it by sight."
+    },
+    "story": "What a scuff on those new red boots! Mum will scold you. Quick, scan for a scab of polish to fix them up."
+  }
+]

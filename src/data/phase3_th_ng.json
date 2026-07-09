@@ -1,0 +1,546 @@
+[
+  {
+    "id": "p3-th-001",
+    "phase": 3,
+    "pattern": "th",
+    "teachingHint": "Your child is learning the /th/ sound. When 't' and 'h' sit together, they make one sound: /th/. There are two versions — a quiet /th/ (as in 'thin', tongue between teeth, no voice) and a buzzy /th/ (as in 'this', tongue between teeth, with voice). Help your child spot 'th' and blend: th-i-n → thin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "thin",
+        "teachingTip": "th-i-n → The letters 'th' make one sound /th/. Blend: th-i-n → thin",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "thick",
+        "teachingTip": "th-i-ck → The letters 'th' make one sound /th/. Blend: th-i-ck → thick",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ck", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "thin",
+        "teachingTip": "th-i-n → The letters 'th' make one sound /th/. Blend: th-i-n → thin",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "thud",
+        "teachingTip": "th-u-d → The letters 'th' make one sound /th/. Blend: th-u-d → thud",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "u", "type": "single" },
+          { "chars": "d", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "he",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'hee'. Learn it by sight."
+    },
+    "story": "A thin cat jumped on a thick log — thud! He was so thin he slid off the thick log, and he landed with a big thud!"
+  },
+  {
+    "id": "p3-th-002",
+    "phase": 3,
+    "pattern": "th",
+    "teachingHint": "Your child is learning the /th/ sound. When 't' and 'h' sit together, they make one sound: /th/. There are two versions — a quiet /th/ (as in 'thin', tongue between teeth, no voice) and a buzzy /th/ (as in 'this', tongue between teeth, with voice). Help your child spot 'th' and blend: th-i-n → thin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "moth",
+        "teachingTip": "m-o-th → The letters 'th' make one sound /th/ at the end. Blend: m-o-th → moth",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "th", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "math",
+        "teachingTip": "m-a-th → The letters 'th' make one sound /th/ at the end. Blend: m-a-th → math",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "th", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "path",
+        "teachingTip": "p-a-th → The letters 'th' make one sound /th/ at the end. Blend: p-a-th → path",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "th", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "moth",
+        "teachingTip": "m-o-th → The letters 'th' make one sound /th/ at the end. Blend: m-o-th → moth",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "th", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "she",
+      "teachingTip": "Tricky word! We know 'sh' but the 'e' says its name 'ee'. We say 'shee'."
+    },
+    "story": "A moth did math on the path — she said the moth got all the math right! She told the moth to skip down the path and celebrate!"
+  },
+  {
+    "id": "p3-th-003",
+    "phase": 3,
+    "pattern": "th",
+    "teachingHint": "Your child is learning the /th/ sound. When 't' and 'h' sit together, they make one sound: /th/. There are two versions — a quiet /th/ (as in 'thin', tongue between teeth, no voice) and a buzzy /th/ (as in 'this', tongue between teeth, with voice). Help your child spot 'th' and blend: th-i-n → thin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "bath",
+        "teachingTip": "b-a-th → The letters 'th' make one sound /th/ at the end. Blend: b-a-th → bath",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "th", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "path",
+        "teachingTip": "p-a-th → The letters 'th' make one sound /th/ at the end. Blend: p-a-th → path",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "th", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "bath",
+        "teachingTip": "b-a-th → The letters 'th' make one sound /th/ at the end. Blend: b-a-th → bath",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "th", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "math",
+        "teachingTip": "m-a-th → The letters 'th' make one sound /th/ at the end. Blend: m-a-th → math",
+        "segments": [
+          { "chars": "m", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "th", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "we",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'wee'."
+    },
+    "story": "We ran down the path to the bath, but a duck was in the bath doing math! We went back up the path and the duck said the math was too hard for a bath."
+  },
+  {
+    "id": "p3-th-004",
+    "phase": 3,
+    "pattern": "th",
+    "teachingHint": "Your child is learning the /th/ sound. When 't' and 'h' sit together, they make one sound: /th/. There are two versions — a quiet /th/ (as in 'thin', tongue between teeth, no voice) and a buzzy /th/ (as in 'this', tongue between teeth, with voice). Help your child spot 'th' and blend: th-i-n → thin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "this",
+        "teachingTip": "th-i-s → The letters 'th' make the buzzy /th/ sound. Blend: th-i-s → this",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" }
+        ]
+      },
+      {
+        "word": "that",
+        "teachingTip": "th-a-t → The letters 'th' make the buzzy /th/ sound. Blend: th-a-t → that",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "t", "type": "single" }
+        ]
+      },
+      {
+        "word": "them",
+        "teachingTip": "th-e-m → The letters 'th' make the buzzy /th/ sound. Blend: th-e-m → them",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "m", "type": "single" }
+        ]
+      },
+      {
+        "word": "this",
+        "teachingTip": "th-i-s → The letters 'th' make the buzzy /th/ sound. Blend: th-i-s → this",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "s", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "was",
+      "teachingTip": "Tricky word! It looks like it should rhyme with 'has' but we say 'woz'. Learn it by sight."
+    },
+    "story": "This dog chased that cat — it was so funny to see them run! This dog bumped into that cat, and them two fell in a heap — it was a big mess!"
+  },
+  {
+    "id": "p3-th-005",
+    "phase": 3,
+    "pattern": "th",
+    "teachingHint": "Your child is learning the /th/ sound. When 't' and 'h' sit together, they make one sound: /th/. There are two versions — a quiet /th/ (as in 'thin', tongue between teeth, no voice) and a buzzy /th/ (as in 'this', tongue between teeth, with voice). Help your child spot 'th' and blend: th-i-n → thin. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "then",
+        "teachingTip": "th-e-n → The letters 'th' make the buzzy /th/ sound. Blend: th-e-n → then",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "than",
+        "teachingTip": "th-a-n → The letters 'th' make the buzzy /th/ sound. Blend: th-a-n → than",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "a", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      },
+      {
+        "word": "with",
+        "teachingTip": "w-i-th → The letters 'th' make one sound /th/ at the end. Blend: w-i-th → with",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "th", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "then",
+        "teachingTip": "th-e-n → The letters 'th' make the buzzy /th/ sound. Blend: th-e-n → then",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "e", "type": "single" },
+          { "chars": "n", "type": "single" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "me",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'mee'."
+    },
+    "story": "A frog is bigger than a bug — then the bug sat with me and said sit with me! The frog was bigger than the bug, but then they were happy to sit with each other."
+  },
+  {
+    "id": "p3-ng-001",
+    "phase": 3,
+    "pattern": "ng",
+    "teachingHint": "Your child is learning the /ng/ sound. When 'n' and 'g' sit together at the end of a word, they make one sound: /ng/ (like the end of 'sing'). It's not /n/ then /g/ — it's one sound made at the back of the throat. Help your child spot 'ng' and blend: r-i-ng → ring. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "ring",
+        "teachingTip": "r-i-ng → The letters 'ng' make one sound /ng/ at the end. Blend: r-i-ng → ring",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "sing",
+        "teachingTip": "s-i-ng → The letters 'ng' make one sound /ng/ at the end. Blend: s-i-ng → sing",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "king",
+        "teachingTip": "k-i-ng → The letters 'ng' make one sound /ng/ at the end. Blend: k-i-ng → king",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "ring",
+        "teachingTip": "r-i-ng → The letters 'ng' make one sound /ng/ at the end. Blend: r-i-ng → ring",
+        "segments": [
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "be",
+      "teachingTip": "Tricky word! The 'e' says its name 'ee'. We say 'bee'."
+    },
+    "story": "The king put on a ring and started to sing — it must be fun to be a king! The ring fell off as the king began to sing, so he had to pick up the ring."
+  },
+  {
+    "id": "p3-ng-002",
+    "phase": 3,
+    "pattern": "ng",
+    "teachingHint": "Your child is learning the /ng/ sound. When 'n' and 'g' sit together at the end of a word, they make one sound: /ng/ (like the end of 'sing'). It's not /n/ then /g/ — it's one sound made at the back of the throat. Help your child spot 'ng' and blend: r-i-ng → ring. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "long",
+        "teachingTip": "l-o-ng → The letters 'ng' make one sound /ng/ at the end. Blend: l-o-ng → long",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "song",
+        "teachingTip": "s-o-ng → The letters 'ng' make one sound /ng/ at the end. Blend: s-o-ng → song",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "long",
+        "teachingTip": "l-o-ng → The letters 'ng' make one sound /ng/ at the end. Blend: l-o-ng → long",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "song",
+        "teachingTip": "s-o-ng → The letters 'ng' make one sound /ng/ at the end. Blend: s-o-ng → song",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "you",
+      "teachingTip": "Tricky word! We can't sound this one out normally. Look at the word and say 'you'."
+    },
+    "story": "A worm sang a long song — you should hear that song! It was so long that you could nap and the song would still be going."
+  },
+  {
+    "id": "p3-ng-003",
+    "phase": 3,
+    "pattern": "ng",
+    "teachingHint": "Your child is learning the /ng/ sound. When 'n' and 'g' sit together at the end of a word, they make one sound: /ng/ (like the end of 'sing'). It's not /n/ then /g/ — it's one sound made at the back of the throat. Help your child spot 'ng' and blend: r-i-ng → ring. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "bang",
+        "teachingTip": "b-a-ng → The letters 'ng' make one sound /ng/ at the end. Blend: b-a-ng → bang",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "gang",
+        "teachingTip": "g-a-ng → The letters 'ng' make one sound /ng/ at the end. Blend: g-a-ng → gang",
+        "segments": [
+          { "chars": "g", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "hang",
+        "teachingTip": "h-a-ng → The letters 'ng' make one sound /ng/ at the end. Blend: h-a-ng → hang",
+        "segments": [
+          { "chars": "h", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "bang",
+        "teachingTip": "b-a-ng → The letters 'ng' make one sound /ng/ at the end. Blend: b-a-ng → bang",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "a", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "they",
+      "teachingTip": "Tricky word! The 'ey' sounds like 'ay'. We say 'thay'. Learn it by sight."
+    },
+    "story": "The gang heard a big bang, bang and rushed to hang up a flag — they wanted to hang it fast! They told the gang it was just a pot that went bang."
+  },
+  {
+    "id": "p3-ng-004",
+    "phase": 3,
+    "pattern": "ng",
+    "teachingHint": "Your child is learning the /ng/ sound. When 'n' and 'g' sit together at the end of a word, they make one sound: /ng/ (like the end of 'sing'). It's not /n/ then /g/ — it's one sound made at the back of the throat. Help your child spot 'ng' and blend: r-i-ng → ring. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "lung",
+        "teachingTip": "l-u-ng → The letters 'ng' make one sound /ng/ at the end. Blend: l-u-ng → lung",
+        "segments": [
+          { "chars": "l", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "sung",
+        "teachingTip": "s-u-ng → The letters 'ng' make one sound /ng/ at the end. Blend: s-u-ng → sung",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "u", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "ping",
+        "teachingTip": "p-i-ng → The letters 'ng' make one sound /ng/ at the end. Blend: p-i-ng → ping",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "pong",
+        "teachingTip": "p-o-ng → The letters 'ng' make one sound /ng/ at the end. Blend: p-o-ng → pong",
+        "segments": [
+          { "chars": "p", "type": "single" },
+          { "chars": "o", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "all",
+      "teachingTip": "Tricky word! The 'a' makes an 'or' sound here. We say 'orl'. Learn it by sight."
+    },
+    "story": "The frog sung and sung until his lung was sore — all that singing hurt his lung! Then they all played ping pong, and the pong of the ball went ping, pong, ping!"
+  },
+  {
+    "id": "p3-ng-005",
+    "phase": 3,
+    "pattern": "ng",
+    "teachingHint": "Your child is learning the /ng/ sound. When 'n' and 'g' sit together at the end of a word, they make one sound: /ng/ (like the end of 'sing'). It's not /n/ then /g/ — it's one sound made at the back of the throat. Help your child spot 'ng' and blend: r-i-ng → ring. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "thing",
+        "teachingTip": "th-i-ng → Two digraphs in one word! 'th' at the start and 'ng' at the end. Blend: th-i-ng → thing",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "bring",
+        "teachingTip": "b-r-i-ng → The letters 'ng' make one sound /ng/ at the end. Blend: b-r-i-ng → bring",
+        "segments": [
+          { "chars": "b", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "thing",
+        "teachingTip": "th-i-ng → Two digraphs in one word! 'th' at the start and 'ng' at the end. Blend: th-i-ng → thing",
+        "segments": [
+          { "chars": "th", "type": "digraph" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "wing",
+        "teachingTip": "w-i-ng → The letters 'ng' make one sound /ng/ at the end. Blend: w-i-ng → wing",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "are",
+      "teachingTip": "Tricky word! It looks like it should rhyme with 'care' but we say 'ar'. Learn it by sight."
+    },
+    "story": "What is that thing on the wing — bring it here so we are not scared! They are just spots, so bring the funny thing back to sit on the wing."
+  },
+  {
+    "id": "p3-ng-006",
+    "phase": 3,
+    "pattern": "ng",
+    "teachingHint": "Your child is learning the /ng/ sound. When 'n' and 'g' sit together at the end of a word, they make one sound: /ng/ (like the end of 'sing'). It's not /n/ then /g/ — it's one sound made at the back of the throat. Help your child spot 'ng' and blend: r-i-ng → ring. The underlined words are for your child to read — you can help with the rest!",
+    "phonicsWords": [
+      {
+        "word": "string",
+        "teachingTip": "s-t-r-i-ng → The letters 'ng' make one sound /ng/ at the end. Blend: s-t-r-i-ng → string",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "wing",
+        "teachingTip": "w-i-ng → The letters 'ng' make one sound /ng/ at the end. Blend: w-i-ng → wing",
+        "segments": [
+          { "chars": "w", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "string",
+        "teachingTip": "s-t-r-i-ng → The letters 'ng' make one sound /ng/ at the end. Blend: s-t-r-i-ng → string",
+        "segments": [
+          { "chars": "s", "type": "single" },
+          { "chars": "t", "type": "single" },
+          { "chars": "r", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      },
+      {
+        "word": "king",
+        "teachingTip": "k-i-ng → The letters 'ng' make one sound /ng/ at the end. Blend: k-i-ng → king",
+        "segments": [
+          { "chars": "k", "type": "single" },
+          { "chars": "i", "type": "single" },
+          { "chars": "ng", "type": "digraph" }
+        ]
+      }
+    ],
+    "bonusWord": {
+      "word": "my",
+      "teachingTip": "Tricky word! The 'y' says 'eye' here. We say 'my' (like 'eye' with an 'm')."
+    },
+    "story": "The king tied a string to his wing — my string, on my wing! The silly king flew up with the string on his wing, and they all cheered."
+  }
+]
