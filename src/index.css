@@ -73,6 +73,38 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* ---- Bloxie is alive: he blinks and looks around ---- */
+.bloxie-eye {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: bloxie-blink 5.4s infinite;
+}
+@keyframes bloxie-blink {
+  0%, 92%, 100% { transform: scaleY(1); }
+  94.5% { transform: scaleY(0.08); }
+  97% { transform: scaleY(1); }
+}
+
+.bloxie-pupil {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: bloxie-look 6.5s ease-in-out infinite;
+}
+@keyframes bloxie-look {
+  0%, 100% { transform: translate(0, 0); }
+  18% { transform: translate(13px, -6px); }
+  38% { transform: translate(-11px, 3px); }
+  58% { transform: translate(7px, 9px); }
+  78% { transform: translate(-4px, -8px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bloxie-eye,
+  .bloxie-pupil {
+    animation: none;
+  }
+}
+
 /* Loading screen: bloxie hops above the hole (used as its ground shadow) */
 @keyframes peek-bob {
   0%, 100% { transform: translateY(0); }

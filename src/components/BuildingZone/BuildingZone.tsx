@@ -259,6 +259,7 @@ export function BuildingZone({
             (containerRef as React.MutableRefObject<HTMLDivElement | null>).current = el;
             (buildAreaRef as React.MutableRefObject<HTMLDivElement | null>).current = el;
           }}
+          data-tour="build"
           className={`
             flex-1 relative rounded-2xl border-2 overflow-hidden
             ${hasPlacedParts ? 'bg-white border-gray-300' : 'bg-gray-50 border-dashed border-gray-200'}

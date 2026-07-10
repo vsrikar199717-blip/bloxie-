@@ -1,5 +1,6 @@
 import { useCallback, useState } from 'react';
 import { ReadingGuide } from '../ui/ReadingGuide';
+import { BloxieCharacter } from '../ui/BloxieCharacter';
 import type { WordSegment, WordStatus } from '../../types';
 import type { ReadingAids, Theme } from '../../types/profile';
 
@@ -139,7 +140,10 @@ export function LabWordPanel({
           )}
 
           {/* Theme switcher: tap to expand a column of worlds under settings */}
-          <div className="flex flex-col gap-2 p-1.5 rounded-3xl bg-white/85 shadow-[0_8px_20px_rgba(60,50,20,.16)] border border-black/5 w-fit">
+          <div
+            data-tour="theme"
+            className="flex flex-col gap-2 p-1.5 rounded-3xl bg-white/85 shadow-[0_8px_20px_rgba(60,50,20,.16)] border border-black/5 w-fit"
+          >
             {(themeOpen ? THEMES : [theme]).map((t) => {
               const selected = t === theme;
               return (
@@ -203,12 +207,14 @@ export function LabWordPanel({
         <button
           onClick={onSpeak}
           aria-label="Hear the word"
+          data-tour="hear"
           className="w-[58px] h-[58px] md:w-[66px] md:h-[66px] rounded-full bg-white shadow-[0_10px_30px_rgba(60,50,20,.12)] text-2xl grid place-items-center active:scale-90 transition mb-3"
         >
           🔊
         </button>
 
         <div
+          data-tour="word"
           className="font-display flex"
           style={{ fontSize: 'clamp(56px,11vw,120px)', letterSpacing: '0.05em', lineHeight: 1, gap: '0.06em' }}
         >
@@ -251,6 +257,7 @@ export function LabWordPanel({
 
         <button
           onClick={soundOut}
+          data-tour="soundout"
           className="mt-4 bg-white/90 border border-black/5 rounded-full px-4 py-2 text-sm font-semibold shadow-[0_4px_14px_rgba(60,50,20,.10)] active:translate-y-px"
         >
           🐢 Sound it out
@@ -282,6 +289,7 @@ export function LabWordPanel({
           <div className="relative">
             <button
               onClick={() => setShowTip((s) => !s)}
+              data-tour="tip"
               className="flex items-center gap-2 w-fit px-4 py-2 bg-white/80 border border-black/5 rounded-full text-sm font-semibold active:scale-95"
             >
               💡 Break it down
@@ -300,6 +308,7 @@ export function LabWordPanel({
           </div>
 
           {/* Cream outlined "how it went" pills */}
+          <div data-tour="marks" className="flex flex-col gap-2">
           <button
             onClick={() => mark('support')}
             className="w-fit px-6 py-2.5 rounded-2xl bg-[#F1E6A2] border-[2.5px] border-[#2B2A32] text-[#2B2A32] text-sm font-bold shadow-[0_3px_0_rgba(43,42,50,.5)] active:translate-y-0.5 active:shadow-none transition"
@@ -320,6 +329,7 @@ export function LabWordPanel({
               Need more practise
             </button>
           </div>
+          </div>
         </div>
 
         {/* Bloxie encouragement */}
@@ -330,7 +340,7 @@ export function LabWordPanel({
             </div>
           )}
           <div className="w-24 h-24 rounded-2xl bg-white shadow-[0_8px_20px_rgba(60,50,20,.16)] grid place-items-center overflow-hidden border border-black/5">
-            <img src="/assets/decorations/bloxie.svg" alt="" className="w-20 h-20 object-contain" />
+            <BloxieCharacter className="w-20 h-20" />
           </div>
         </div>
       </div>

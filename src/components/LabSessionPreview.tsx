@@ -21,7 +21,7 @@ const DUMMY_PROFILE: ChildProfile = {
   enabledSounds: [],
   parentOverride: false,
   visualPhonemeMarking: true,
-  hasSeenParentGuide: true,
+  hasSeenParentGuide: false, // so the first-run walkthrough shows in the preview
   wordHistory: [],
 };
 

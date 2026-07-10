@@ -1,11 +1,18 @@
 import { useState, useEffect, useRef } from 'react';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Navigate,
+  useNavigate,
+  useLocation,
+  useParams,
+} from 'react-router-dom';
 import { useStorage } from './hooks/useStorage';
-import { PrivacyNotice } from './components/Onboarding/PrivacyNotice';
+import { IntroScreen } from './components/Onboarding/IntroScreen';
 import { ProfileSetup } from './components/ProfileSetup';
 import { WhoIsPlaying } from './components/Onboarding/WhoIsPlaying';
-import { GreetingScreen } from './components/Onboarding/GreetingScreen';
 import { ThemeSelection } from './components/ThemeSelection/ThemeSelection';
-import { ParentGuideScreen } from './components/ParentGuide/ParentGuideScreen';
 import { ParentMode } from './components/Settings/ParentMode';
 import { EditProfile } from './components/Settings/EditProfile';
 import { SessionScreen } from './components/SessionScreen';
@@ -13,19 +20,11 @@ import { LoadingScreen } from './components/LoadingScreen';
 import { LabSessionPreview } from './components/LabSessionPreview';
 import type { Theme, YearGroup, PhonicsPhase } from './types/profile';
 
-type Screen =
-  | 'privacy-notice'
-  | 'welcome'
-  | 'add-child'
-  | 'who-is-playing'
-  | 'theme-selection'
-  | 'loading'
-  | 'parent-guide'
-  | 'session'
-  | 'parent-mode'
-  | 'edit-profile';
+function AppRoutes() {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const path = location.pathname;
 
-function App() {
   const {
     profiles,
     hasSeenPrivacyNotice,
@@ -37,39 +36,21 @@ function App() {
     deleteProfile,
     setActiveProfile,
     setProfileTheme,
-    markGuideAsSeen,
     updateReadingAids,
     deleteAllData,
   } = useStorage();
 
-  const [currentScreen, setCurrentScreen] = useState<Screen>('privacy-notice');
-  const [editingProfileId, setEditingProfileId] = useState<string | null>(null);
-  const [previousScreen, setPreviousScreen] = useState<Screen | null>(null);
+  // Where the user came from when they opened settings (to return to a session)
+  const [previousPath, setPreviousPath] = useState<string | null>(null);
   // Where to go after the loading screen finishes
-  const pendingAfterLoad = useRef<Screen>('session');
+  const pendingAfterLoad = useRef<string>('/session');
 
-  // Determine initial screen based on storage state
-  useEffect(() => {
-    if (!hasSeenPrivacyNotice) {
-      setCurrentScreen('privacy-notice');
-    } else if (profiles.length === 0) {
-      setCurrentScreen('welcome');
-    } else if (profiles.length === 1) {
-      // Auto-select single profile and go to theme selection
-      setActiveProfile(profiles[0].id);
-      setCurrentScreen('theme-selection');
-    } else {
-      setCurrentScreen('who-is-playing');
-    }
-  }, []); // Only run on mount
+  const activeProfile = getActiveProfile();
 
+  // ---- navigation handlers ----
   const handlePrivacyAccept = () => {
     markPrivacyNoticeSeen();
-    setCurrentScreen('welcome');
-  };
-
-  const handleWelcomeContinue = () => {
-    setCurrentScreen('add-child');
+    navigate('/setup');
   };
 
   const handleAddChild = (profileData: {
@@ -79,68 +60,50 @@ function App() {
     includedPhases: PhonicsPhase[];
   }) => {
     addProfile(profileData);
-    setCurrentScreen('theme-selection');
+    navigate('/theme');
   };
 
   const handleSelectProfile = (id: string) => {
     setActiveProfile(id);
-    setCurrentScreen('theme-selection');
+    navigate('/theme');
   };
 
   const handleSelectTheme = (theme: Theme) => {
     const profile = getActiveProfile();
-    if (profile) {
-      setProfileTheme(profile.id, theme);
-    }
-    // Show the loading screen, then continue to the right destination
-    pendingAfterLoad.current =
-      profile && !profile.hasSeenParentGuide ? 'parent-guide' : 'session';
-    setCurrentScreen('loading');
+    if (profile) setProfileTheme(profile.id, theme);
+    // First-timers are guided by the in-dashboard walkthrough, not a separate screen
+    pendingAfterLoad.current = '/session';
+    navigate('/loading');
   };
 
   // Hold on the loading screen for a beat, then proceed
   useEffect(() => {
-    if (currentScreen !== 'loading') return;
-    const t = setTimeout(() => setCurrentScreen(pendingAfterLoad.current), 3000);
+    if (path !== '/loading') return;
+    const t = setTimeout(() => navigate(pendingAfterLoad.current, { replace: true }), 3000);
     return () => clearTimeout(t);
-  }, [currentScreen]);
-
-  const handleGuideComplete = () => {
-    const profile = getActiveProfile();
-    if (profile) {
-      markGuideAsSeen(profile.id);
-    }
-    setCurrentScreen('session');
-  };
+  }, [path, navigate]);
 
   const handleOpenSettings = () => {
-    setPreviousScreen(currentScreen);
-    setCurrentScreen('parent-mode');
+    setPreviousPath(path);
+    navigate('/parent');
   };
 
   const handleReturnToSession = () => {
-    if (previousScreen === 'session') {
-      setCurrentScreen('session');
-      setPreviousScreen(null);
+    if (previousPath === '/session') {
+      setPreviousPath(null);
+      navigate('/session');
     }
   };
 
   const handleBackFromSettings = () => {
-    // Recalculate the correct screen based on current state
-    if (profiles.length === 0) {
-      setCurrentScreen('add-child');
-    } else if (profiles.length === 1) {
+    if (profiles.length === 0) navigate('/setup');
+    else if (profiles.length === 1) {
       setActiveProfile(profiles[0].id);
-      setCurrentScreen('theme-selection');
-    } else {
-      setCurrentScreen('who-is-playing');
-    }
+      navigate('/theme');
+    } else navigate('/who');
   };
 
-  const handleEditProfile = (id: string) => {
-    setEditingProfileId(id);
-    setCurrentScreen('edit-profile');
-  };
+  const handleEditProfile = (id: string) => navigate(`/edit/${id}`);
 
   const handleSaveProfile = (
     id: string,
@@ -153,145 +116,208 @@ function App() {
     }
   ) => {
     updateProfile(id, updates);
-    setCurrentScreen('parent-mode');
+    navigate('/parent');
   };
 
   const handleDeleteProfile = (id: string) => {
     deleteProfile(id);
-    // If no profiles left, go to add-child
-    if (profiles.length <= 1) {
-      setCurrentScreen('add-child');
-    } else {
-      setCurrentScreen('parent-mode');
-    }
+    navigate(profiles.length <= 1 ? '/setup' : '/parent');
   };
 
   const handleDeleteAllData = () => {
     deleteAllData();
-    setCurrentScreen('privacy-notice');
+    navigate('/welcome');
   };
 
-  const handleAddChildFromSettings = () => {
-    setCurrentScreen('add-child');
-  };
-
-  const handleFinishSession = () => {
-    // Return to theme selection for same profile
-    setCurrentScreen('theme-selection');
-  };
+  const handleAddChildFromSettings = () => navigate('/setup');
 
   const handleChangeTheme = () => {
-    setPreviousScreen(currentScreen);
-    setCurrentScreen('theme-selection');
+    setPreviousPath(path);
+    navigate('/theme');
   };
 
-  const activeProfile = getActiveProfile();
-
-  // Track if we've ever started a session (to keep it mounted)
+  // ---- keep the session mounted while in settings, so the build isn't lost ----
   const [sessionStarted, setSessionStarted] = useState(false);
+  const onSession = path === '/session';
+  const inSettingsFlow = path === '/parent' || path.startsWith('/edit');
 
-  // Track when session starts
   useEffect(() => {
-    if (currentScreen === 'session') {
-      setSessionStarted(true);
-    }
-  }, [currentScreen]);
+    if (onSession) setSessionStarted(true);
+  }, [onSession]);
 
-  // Reset session when finishing (going back to theme selection)
-  const handleFinishSessionWithReset = () => {
+  const handleFinishSession = () => {
     setSessionStarted(false);
-    handleFinishSession();
+    navigate('/theme');
   };
 
-  // Check if session should stay mounted
-  // Keep mounted if: session started AND (showing session OR in settings flow from session)
-  const inSettingsFlow = currentScreen === 'parent-mode' || currentScreen === 'edit-profile';
-  const keepSessionMounted = sessionStarted && (currentScreen === 'session' || (inSettingsFlow && previousScreen === 'session'));
-
-  // Prototype preview: open http://localhost:5173/#lab to try the Reading Lab
-  if (typeof window !== 'undefined' && window.location.hash === '#lab') {
-    return <LabSessionPreview />;
-  }
+  const keepSessionMounted =
+    !!activeProfile &&
+    (onSession || (sessionStarted && inSettingsFlow && previousPath === '/session'));
 
   return (
     <div className="h-screen w-screen overflow-hidden">
-      {currentScreen === 'privacy-notice' && (
-        <PrivacyNotice onAccept={handlePrivacyAccept} />
-      )}
-
-      {currentScreen === 'add-child' && (
-        <ProfileSetup
-          onComplete={handleAddChild}
-          onOpenSettings={handleOpenSettings}
-          showSettingsCog={profiles.length > 0}
-        />
-      )}
-
-      {currentScreen === 'welcome' && (
-        <GreetingScreen onContinue={handleWelcomeContinue} />
-      )}
-
-      {currentScreen === 'who-is-playing' && (
-        <WhoIsPlaying
-          profiles={profiles}
-          onSelectProfile={handleSelectProfile}
-          onAddChild={handleAddChildFromSettings}
-          onOpenSettings={handleOpenSettings}
-        />
-      )}
-
-      {currentScreen === 'theme-selection' && activeProfile && (
-        <ThemeSelection
-          childName={activeProfile.name}
-          onSelectTheme={handleSelectTheme}
-          onOpenSettings={handleOpenSettings}
-        />
-      )}
-
-      {currentScreen === 'loading' && <LoadingScreen />}
-
-      {currentScreen === 'parent-guide' && (
-        <ParentGuideScreen onComplete={handleGuideComplete} />
-      )}
-
-      {/* Keep SessionScreen mounted but hidden when going to settings mid-session */}
+      {/* Persistent session (hidden while in settings) */}
       {keepSessionMounted && (
-        <div className={currentScreen === 'session' ? '' : 'hidden'}>
+        <div className={onSession ? '' : 'hidden'}>
           <SessionScreen
-            onFinish={handleFinishSessionWithReset}
+            onFinish={handleFinishSession}
             onOpenSettings={handleOpenSettings}
             onChangeTheme={handleChangeTheme}
             activeProfile={activeProfile}
             onUpdateReadingAids={updateReadingAids}
-            onUpdatePhonemeMarking={(id, enabled) => updateProfile(id, { visualPhonemeMarking: enabled })}
+            onUpdatePhonemeMarking={(id, enabled) =>
+              updateProfile(id, { visualPhonemeMarking: enabled })
+            }
             onUpdateTheme={setProfileTheme}
             onUpdateProfile={updateProfile}
           />
         </div>
       )}
 
-      {currentScreen === 'parent-mode' && (
-        <ParentMode
-          profiles={profiles}
-          onBack={handleBackFromSettings}
-          onEditProfile={handleEditProfile}
-          onAddChild={handleAddChildFromSettings}
-          onDeleteAllData={handleDeleteAllData}
-          isSessionActive={previousScreen === 'session'}
-          onReturnToSession={handleReturnToSession}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <IndexRedirect
+              hasSeenPrivacyNotice={hasSeenPrivacyNotice}
+              profileCount={profiles.length}
+              firstProfileId={profiles[0]?.id}
+              setActiveProfile={setActiveProfile}
+            />
+          }
         />
-      )}
 
-      {currentScreen === 'edit-profile' && editingProfileId && (
-        <EditProfile
-          profile={getProfileById(editingProfileId)!}
-          onSave={handleSaveProfile}
-          onDelete={handleDeleteProfile}
-          onBack={() => setCurrentScreen('parent-mode')}
+        {/* Intro: "Hey there" → "Welcome to Bloxie" in one continuous screen */}
+        <Route path="/welcome" element={<IntroScreen onAccept={handlePrivacyAccept} />} />
+        <Route path="/privacy" element={<Navigate to="/welcome" replace />} />
+
+        <Route
+          path="/setup"
+          element={
+            <ProfileSetup
+              onComplete={handleAddChild}
+              onOpenSettings={handleOpenSettings}
+              showSettingsCog={profiles.length > 0}
+            />
+          }
         />
-      )}
+
+        <Route
+          path="/who"
+          element={
+            <WhoIsPlaying
+              profiles={profiles}
+              onSelectProfile={handleSelectProfile}
+              onAddChild={handleAddChildFromSettings}
+              onOpenSettings={handleOpenSettings}
+            />
+          }
+        />
+
+        <Route
+          path="/theme"
+          element={
+            activeProfile ? (
+              <ThemeSelection
+                childName={activeProfile.name}
+                onSelectTheme={handleSelectTheme}
+                onOpenSettings={handleOpenSettings}
+              />
+            ) : (
+              <Navigate to="/" replace />
+            )
+          }
+        />
+
+        <Route path="/loading" element={<LoadingScreen />} />
+
+        {/* Rendered by the persistent block above */}
+        <Route path="/session" element={activeProfile ? null : <Navigate to="/" replace />} />
+
+        <Route
+          path="/parent"
+          element={
+            <ParentMode
+              profiles={profiles}
+              onBack={handleBackFromSettings}
+              onEditProfile={handleEditProfile}
+              onAddChild={handleAddChildFromSettings}
+              onDeleteAllData={handleDeleteAllData}
+              isSessionActive={previousPath === '/session'}
+              onReturnToSession={handleReturnToSession}
+            />
+          }
+        />
+
+        <Route
+          path="/edit/:id"
+          element={
+            <EditProfileRoute
+              getProfileById={getProfileById}
+              onSave={handleSaveProfile}
+              onDelete={handleDeleteProfile}
+              onBack={() => navigate('/parent')}
+            />
+          }
+        />
+
+        {/* Reading Lab prototype */}
+        <Route path="/lab" element={<LabSessionPreview />} />
+
+        {/* Anything unknown → start */}
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
     </div>
   );
 }
 
-export default App;
+/** Decides the first screen based on saved data. */
+function IndexRedirect({
+  hasSeenPrivacyNotice,
+  profileCount,
+  firstProfileId,
+  setActiveProfile,
+}: {
+  hasSeenPrivacyNotice: boolean;
+  profileCount: number;
+  firstProfileId?: string;
+  setActiveProfile: (id: string) => void;
+}) {
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (!hasSeenPrivacyNotice) navigate('/welcome', { replace: true });
+    else if (profileCount === 0) navigate('/setup', { replace: true });
+    else if (profileCount === 1 && firstProfileId) {
+      setActiveProfile(firstProfileId);
+      navigate('/theme', { replace: true });
+    } else navigate('/who', { replace: true });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  return null;
+}
+
+/** Reads :id from the URL and loads that profile. */
+function EditProfileRoute({
+  getProfileById,
+  onSave,
+  onDelete,
+  onBack,
+}: {
+  getProfileById: (id: string) => ReturnType<typeof useStorage>['profiles'][number] | null;
+  onSave: Parameters<typeof EditProfile>[0]['onSave'];
+  onDelete: (id: string) => void;
+  onBack: () => void;
+}) {
+  const { id } = useParams();
+  const profile = id ? getProfileById(id) : null;
+  if (!profile) return <Navigate to="/parent" replace />;
+  return <EditProfile profile={profile} onSave={onSave} onDelete={onDelete} onBack={onBack} />;
+}
+
+export default function App() {
+  return (
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <AppRoutes />
+    </BrowserRouter>
+  );
+}

@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { ReadingZone } from './ReadingZone/ReadingZone';
 import { BuildingZone } from './BuildingZone/BuildingZone';
 import { GuideContent } from './ParentGuide/GuideContent';
+import { Walkthrough, type TourStep } from './Walkthrough';
 import { useSession } from '../hooks/useSession';
 import { useSpeech } from '../hooks/useSpeech';
 import { useSound } from '../hooks/useSound';
@@ -23,6 +24,17 @@ interface SessionScreenProps {
   onUpdateProfile: (id: string, updates: Partial<Omit<ChildProfile, 'id' | 'createdAt'>>) => void;
   bgColor?: string;
 }
+
+/** First-run walkthrough, shown over the real dashboard. */
+const TOUR_STEPS: TourStep[] = [
+  { target: 'word', title: 'The word', body: 'Your child reads this out loud. Sounds are underlined so tricky pairs like “sh” stay together.' },
+  { target: 'hear', title: 'Hear it', body: 'Not sure how it sounds? Tap the speaker to hear the whole word.' },
+  { target: 'soundout', title: 'Sound it out', body: 'Lights up and says each sound in turn — perfect when your child gets stuck.' },
+  { target: 'tip', title: 'Tips for grown-ups', body: 'Opens a short hint on how to help your child with this particular word.' },
+  { target: 'marks', title: 'How did it go?', body: 'Grown-up: tap one after each word. Every word earns a building part — nothing is ever “wrong”.' },
+  { target: 'build', title: 'Build your character!', body: 'Parts you earn appear in the tray on the right. Drag them here to build — that’s the reward for reading.' },
+  { target: 'theme', title: 'Change your world', body: 'Tap to switch between robot, mystical and monster. Then read on!' },
+];
 
 // Shuffle array helper
 function shuffleArray<T>(array: T[]): T[] {
@@ -210,6 +222,14 @@ export function SessionScreen({
     resetPartSystem,
     getUpcomingForCurrentFamily,
   } = usePartSystem(currentTheme);
+
+  // First-run walkthrough over the real dashboard (replaces the old guide screen)
+  const [tourDone, setTourDone] = useState(false);
+  const showTour = !!activeProfile && !activeProfile.hasSeenParentGuide && !tourDone;
+  const finishTour = useCallback(() => {
+    setTourDone(true);
+    if (activeProfile) onUpdateProfile(activeProfile.id, { hasSeenParentGuide: true });
+  }, [activeProfile, onUpdateProfile]);
 
   const [isSoundMuted, setIsSoundMuted] = useState(false);
   // NOTE: Guide modal JSX was removed but the setter is still called by onOpenGuide
@@ -444,6 +464,9 @@ export function SessionScreen({
           upcomingParts={getUpcomingForCurrentFamily()}
         />
       </div>
+
+      {/* First-run walkthrough on the real dashboard */}
+      {showTour && <Walkthrough steps={TOUR_STEPS} onDone={finishTour} />}
 
       {/* Parent Guide Modal */}
       {showGuideModal && (

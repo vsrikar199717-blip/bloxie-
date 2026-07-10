@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { FloatingDecorations } from './FloatingDecorations';
+import { BloxieCharacter } from '../ui/BloxieCharacter';
 
 interface GreetingScreenProps {
   onContinue: () => void;
@@ -34,12 +35,7 @@ export function GreetingScreen({ onContinue, headline = 'Hey there!!' }: Greetin
       </div>
 
       <div className="pointer-events-none absolute bottom-0 left-1/2 z-10 -translate-x-1/2 translate-y-[12%] w-[min(78vw,380px)] animate-[float_4.5s_ease-in-out_infinite]">
-        <img
-          src="/assets/decorations/bloxie.svg"
-          alt=""
-          aria-hidden="true"
-          className="w-full h-auto"
-        />
+        <BloxieCharacter className="w-full h-auto" />
       </div>
     </button>
   );
