@@ -304,8 +304,8 @@ export function DraggableObject({
               w-full h-full object-contain
               cursor-grab active:cursor-grabbing
               touch-none select-none
-              transition-transform duration-150
-              ${isDragging ? 'scale-105 opacity-90' : ''}
+              part-drag-transition
+              ${isDragging ? 'scale-105 part-dragging' : ''}
             `}
             style={{
               transformOrigin: '50% 50%',

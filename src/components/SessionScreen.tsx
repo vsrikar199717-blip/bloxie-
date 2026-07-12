@@ -452,6 +452,7 @@ export function SessionScreen({
       {/* Building Zone */}
       <div className={`min-h-0 min-w-0 md:flex-[505] md:rounded-[19px] bg-[#F2F2F2] ${activeTab === 'building' ? 'flex-1' : 'hidden md:block'}`}>
         <BuildingZone
+          theme={currentTheme}
           parts={awardedParts}
           onPartMove={movePart}
           onPartPlace={placePart}
