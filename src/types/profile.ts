@@ -44,6 +44,9 @@ export interface ChildProfile {
   // Theme preference
   preferredTheme?: Theme;
 
+  /** Reading background colour, chosen once before the first game (hex). */
+  readingColor?: string;
+
   // Progress tracking
   progress?: {
     completedSetIds: string[];

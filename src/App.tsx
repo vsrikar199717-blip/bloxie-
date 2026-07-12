@@ -17,6 +17,7 @@ import { ParentMode } from './components/Settings/ParentMode';
 import { EditProfile } from './components/Settings/EditProfile';
 import { SessionScreen } from './components/SessionScreen';
 import { LoadingScreen } from './components/LoadingScreen';
+import { ColorPicker } from './components/ColorPicker';
 import { LabSessionPreview } from './components/LabSessionPreview';
 import type { Theme, YearGroup, PhonicsPhase } from './types/profile';
 
@@ -72,6 +73,14 @@ function AppRoutes() {
     const profile = getActiveProfile();
     if (profile) setProfileTheme(profile.id, theme);
     // First-timers are guided by the in-dashboard walkthrough, not a separate screen
+    pendingAfterLoad.current = '/session';
+    // Ask for a reading colour once; after that it's remembered on the profile
+    navigate(profile?.readingColor ? '/loading' : '/colour');
+  };
+
+  const handleChooseColor = (hex: string) => {
+    const profile = getActiveProfile();
+    if (profile) updateProfile(profile.id, { readingColor: hex });
     pendingAfterLoad.current = '/session';
     navigate('/loading');
   };
@@ -160,6 +169,7 @@ function AppRoutes() {
       {keepSessionMounted && (
         <div className={onSession ? '' : 'hidden'}>
           <SessionScreen
+            bgColor={activeProfile.readingColor ?? '#FBF1BE'}
             onFinish={handleFinishSession}
             onOpenSettings={handleOpenSettings}
             onChangeTheme={handleChangeTheme}
@@ -223,6 +233,18 @@ function AppRoutes() {
                 onSelectTheme={handleSelectTheme}
                 onOpenSettings={handleOpenSettings}
               />
+            ) : (
+              <Navigate to="/" replace />
+            )
+          }
+        />
+
+        {/* Pick a reading colour once, before the first game */}
+        <Route
+          path="/colour"
+          element={
+            activeProfile ? (
+              <ColorPicker onChoose={handleChooseColor} />
             ) : (
               <Navigate to="/" replace />
             )
