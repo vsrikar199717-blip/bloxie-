@@ -403,7 +403,8 @@ export function SessionScreen({
   }, [activeProfile, onUpdateProfile]);
 
   return (
-    <div className="h-screen flex flex-col md:flex-row md:gap-2 md:p-2">
+    // pb-24 on mobile keeps content clear of the floating pill tab bar
+    <div className="h-screen flex flex-col pb-24 md:pb-0 md:flex-row md:gap-2 md:p-2">
       {/* Reading Zone */}
       <div
         className={`min-h-0 min-w-0 md:flex-[553] md:rounded-[36px] md:overflow-hidden ${activeTab === 'reading' ? 'flex-1' : 'hidden md:block'}`}
@@ -477,30 +478,48 @@ export function SessionScreen({
         </div>
       )}
 
-      {/* Tab Bar - small screens only */}
-      <div className="md:hidden flex-shrink-0 h-14 flex border-t border-gray-200 bg-white">
-        <button
-          onClick={() => setActiveTab('reading')}
-          className={`flex-1 flex flex-col items-center justify-center gap-0.5 text-xs font-semibold transition-colors ${
-            activeTab === 'reading'
-              ? 'text-blue-600 border-t-2 border-blue-600 -mt-px'
-              : 'text-gray-400'
-          }`}
-        >
-          <span className="text-lg leading-none">📖</span>
-          <span>Reading</span>
-        </button>
-        <button
-          onClick={() => setActiveTab('building')}
-          className={`flex-1 flex flex-col items-center justify-center gap-0.5 text-xs font-semibold transition-colors ${
-            activeTab === 'building'
-              ? 'text-blue-600 border-t-2 border-blue-600 -mt-px'
-              : 'text-gray-400'
-          }`}
-        >
-          <span className="text-lg leading-none">🔧</span>
-          <span>Building</span>
-        </button>
+      {/* Floating pill tab bar - small screens only */}
+      <div className="md:hidden fixed bottom-5 left-1/2 -translate-x-1/2 z-40 w-[min(92vw,420px)]">
+        <div className="relative flex bg-white rounded-full p-1.5 shadow-[0_10px_30px_rgba(0,0,0,0.18)]">
+          {/* Sliding black selector */}
+          <span
+            aria-hidden="true"
+            className="absolute top-1.5 bottom-1.5 left-1.5 w-[calc(50%-0.375rem)] rounded-full bg-black border-2 border-[#F5851F] transition-transform duration-300 ease-[cubic-bezier(0.22,1,0.36,1)]"
+            style={{
+              transform: activeTab === 'building' ? 'translateX(100%)' : 'translateX(0)',
+            }}
+          />
+
+          <button
+            onClick={() => setActiveTab('reading')}
+            aria-label="Reading"
+            aria-pressed={activeTab === 'reading'}
+            className="relative z-10 flex-1 h-12 grid place-items-center rounded-full"
+          >
+            <img
+              src="/assets/icons/book.svg"
+              alt=""
+              className={`w-7 h-7 object-contain transition-transform duration-300 ${
+                activeTab === 'reading' ? 'scale-110' : 'scale-100 opacity-80'
+              }`}
+            />
+          </button>
+
+          <button
+            onClick={() => setActiveTab('building')}
+            aria-label="Building"
+            aria-pressed={activeTab === 'building'}
+            className="relative z-10 flex-1 h-12 grid place-items-center rounded-full"
+          >
+            <img
+              src="/assets/icons/block.svg"
+              alt=""
+              className={`w-7 h-7 object-contain transition-transform duration-300 ${
+                activeTab === 'building' ? 'scale-110' : 'scale-100 opacity-80'
+              }`}
+            />
+          </button>
+        </div>
       </div>
     </div>
   );
