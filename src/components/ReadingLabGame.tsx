@@ -207,6 +207,7 @@ export function ReadingLabGame() {
       {/* ---------------- RIGHT: real BuildingZone (unchanged) ---------------- */}
       <section className="flex-1 min-h-0 rounded-[26px] overflow-hidden bg-[#FBFAF6] shadow-[0_10px_30px_rgba(60,50,20,.10)]">
         <BuildingZone
+          theme="robot"
           parts={parts.awardedParts}
           onPartMove={parts.movePart}
           onPartPlace={parts.placePart}

@@ -2,12 +2,15 @@ import { useRef, useState, useCallback } from 'react';
 import { DraggableObject } from './DraggableObject';
 import { PartsTray } from './PartsTray';
 import { PartControlBar } from './PartControlBar';
+import { ThemeBackdrop } from './ThemeBackdrop';
 import { captureAndDownload } from '../../utils/screenshot';
 import type { AwardedPart, PartTransform } from '../../hooks/usePartSystem';
 import { DEFAULT_TRANSFORM } from '../../hooks/usePartSystem';
+import type { Theme } from '../../types/profile';
 
 
 interface BuildingZoneProps {
+  theme: Theme;
   parts: AwardedPart[];
   onPartMove: (id: string, x: number, y: number) => void;
   onPartPlace: (id: string, x: number, y: number) => void;
@@ -22,6 +25,7 @@ interface BuildingZoneProps {
 }
 
 export function BuildingZone({
+  theme,
   parts,
   onPartMove,
   onPartPlace,
@@ -267,10 +271,12 @@ export function BuildingZone({
           onClick={handleBackgroundClick}
           onTouchEnd={handleBackgroundClick}
         >
+          <ThemeBackdrop theme={theme} />
+
           {/* Empty state */}
           {!hasPlacedParts && (
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <p className="text-gray-400 text-sm md:text-lg text-center px-4 md:px-8">
+              <p className="px-4 py-2 rounded-full bg-white/70 text-gray-600 text-sm md:text-lg text-center">
                 Drag parts here to build!
               </p>
             </div>
@@ -383,7 +389,7 @@ export function BuildingZone({
         <img
           src={draggingFromTray.path}
           alt="Dragging part"
-          className="fixed pointer-events-none z-[9999] w-20 h-20 object-contain opacity-80"
+          className="fixed pointer-events-none z-[9999] w-20 h-20 object-contain part-dragging"
           style={{
             left: dragPosition.x - 40,
             top: dragPosition.y - 40,

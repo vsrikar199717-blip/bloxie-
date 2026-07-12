@@ -166,6 +166,22 @@ body {
   }
 }
 
+/* A part lifts off the page while it's in the child's hand, and settles flat the
+   moment it's dropped. drop-shadow (not box-shadow) so the glow hugs the part's
+   silhouette rather than its bounding box. */
+.part-dragging {
+  filter:
+    drop-shadow(0 0 5px rgba(255, 255, 255, 0.95))
+    drop-shadow(0 0 12px rgba(249, 168, 61, 0.85))
+    drop-shadow(0 6px 10px rgba(0, 0, 0, 0.28));
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .part-drag-transition {
+    transition: filter 180ms ease-out, transform 150ms ease-out;
+  }
+}
+
 /* Dance mode animations - use translate only to preserve user transforms */
 @keyframes head-bob {
   0%, 100% { transform: translateY(0); }
