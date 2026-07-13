@@ -73,6 +73,7 @@ export type WordStatus = 'independent' | 'support' | 'practice';
 
 export type SessionAction =
   | { type: 'LOAD_CONTENT'; wordSets: WordSet[] }
+  | { type: 'RESTORE'; state: SessionState }
   | { type: 'MARK_WORD'; status: WordStatus }
   | { type: 'MARK_SKIPPED' }
   | { type: 'SHOW_BONUS_TRANSITION' }

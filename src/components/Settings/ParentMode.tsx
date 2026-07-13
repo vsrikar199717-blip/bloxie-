@@ -1,6 +1,8 @@
 import { useState } from 'react';
-import type { ChildProfile } from '../../types/profile';
+import { OnboardingLayout } from '../Onboarding/OnboardingLayout';
+import type { ChildProfile, YearGroup } from '../../types/profile';
 import { YEAR_GROUP_LABELS } from '../../types/profile';
+import './settings.css';
 
 interface ParentModeProps {
   profiles: ChildProfile[];
@@ -11,6 +13,17 @@ interface ParentModeProps {
   isSessionActive?: boolean;
   onReturnToSession?: () => void;
 }
+
+/**
+ * The plant that already stands for each year group on the onboarding cards,
+ * reused here as the child's avatar — so a child is recognised by the same
+ * illustration everywhere in the app.
+ */
+const YEAR_PLANT: Record<YearGroup, string> = {
+  Reception: '/assets/plants/plant-1.svg',
+  Year1: '/assets/plants/plant-2.svg',
+  Year2: '/assets/plants/plant-3.svg',
+};
 
 export function ParentMode({
   profiles,
@@ -23,123 +36,95 @@ export function ParentMode({
 }: ParentModeProps) {
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
 
-  const handleDeleteAllData = () => {
-    if (showDeleteConfirm) {
-      onDeleteAllData();
-    } else {
-      setShowDeleteConfirm(true);
-    }
-  };
-
   return (
-    <div className="min-h-screen bg-[#FFFFCC] p-6">
-      <div className="max-w-lg mx-auto">
-        {/* Return to Session Button - only shown when accessed mid-session */}
+    <OnboardingLayout>
+      <div className="settings-step">
+        {/* Mid-session: getting back to the child is the only urgent action */}
         {isSessionActive && onReturnToSession && (
-          <button
-            onClick={onReturnToSession}
-            className="w-full mb-4 p-4 bg-green-500 hover:bg-green-600 text-white rounded-xl font-semibold flex items-center justify-center gap-2 transition-colors shadow-md"
-          >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
+          <button onClick={onReturnToSession} className="settings-resume">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M11 15l-3-3 3-3" />
+              <path d="M8 12h8" />
+              <circle cx="12" cy="12" r="9" />
             </svg>
-            Return to reading session
+            Back to reading
           </button>
         )}
 
-        {/* Header */}
-        <div className="flex items-center justify-between mb-6">
-          {/* Hide generic back button when accessed mid-session —
-              "Return to reading session" button above handles that case */}
+        <div className="settings-header">
+          {/* The resume button above already covers going back mid-session */}
           {!isSessionActive ? (
-            <button
-              onClick={onBack}
-              className="flex items-center text-gray-600 hover:text-gray-800 font-semibold"
-            >
-              <svg className="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            <button onClick={onBack} className="settings-back">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <polyline points="15 18 9 12 15 6" />
               </svg>
               Back
             </button>
           ) : (
-            <div className="w-16" />
+            <div className="settings-header-spacer" />
           )}
-          <h1 className="text-xl font-bold text-gray-800">Parent Mode</h1>
-          <div className="w-16" /> {/* Spacer for centering */}
+
+          <h1 className="font-display">Parent Mode</h1>
+          <div className="settings-header-spacer" />
         </div>
 
-        {/* Children Section */}
-        <div className="bg-white rounded-2xl shadow-md p-6 mb-6">
-          <h2 className="text-lg font-bold text-gray-800 mb-4">Children</h2>
+        <section className="settings-section">
+          <h2>Children</h2>
 
-          <div className="space-y-3 mb-4">
-            {profiles.map((profile) => (
-              <div
-                key={profile.id}
-                className="flex items-center justify-between p-4 bg-gray-50 rounded-xl"
-              >
-                <div>
-                  <span className="font-semibold text-gray-800">{profile.name}</span>
-                  <span className="text-gray-500 text-sm ml-2">
-                    {YEAR_GROUP_LABELS[profile.yearGroup].label}
-                  </span>
+          {profiles.map((profile) => {
+            const year = YEAR_GROUP_LABELS[profile.yearGroup];
+
+            return (
+              <div key={profile.id} className="settings-child">
+                <div className="settings-child-plant">
+                  <img src={YEAR_PLANT[profile.yearGroup]} alt="" aria-hidden="true" />
                 </div>
-                <button
-                  onClick={() => onEditProfile(profile.id)}
-                  className="px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-lg font-semibold transition-colors"
-                >
+
+                <div className="settings-child-content">
+                  <p className="name font-display">{profile.name}</p>
+                  <p className="year">
+                    {year.label} · {year.ageRange}
+                  </p>
+                </div>
+
+                <button onClick={() => onEditProfile(profile.id)} className="settings-child-edit">
                   Edit
                 </button>
               </div>
-            ))}
-          </div>
+            );
+          })}
 
-          <button
-            onClick={onAddChild}
-            className="w-full p-4 bg-white border-2 border-dashed border-gray-300 hover:border-blue-400 rounded-xl text-gray-600 hover:text-blue-600 font-semibold transition-all"
-          >
+          <button onClick={onAddChild} className="settings-add">
             + Add another child
           </button>
-        </div>
+        </section>
 
-        {/* About Section */}
-        <div className="bg-white rounded-2xl shadow-md p-6">
-          <h2 className="text-lg font-bold text-gray-800 mb-4">About</h2>
+        <section className="settings-section">
+          <h2>About</h2>
 
-          <p className="text-gray-600 mb-6">
-            Your data is stored on this device only. We never see any of it.
-          </p>
+          <div className="settings-card">
+            <p>Your data is stored on this device only. We never see any of it.</p>
 
-          {showDeleteConfirm ? (
-            <div className="bg-red-50 border border-red-200 rounded-xl p-4">
-              <p className="text-red-800 font-medium mb-3">
-                Are you sure? This will delete all profiles and cannot be undone.
-              </p>
-              <div className="flex gap-3">
-                <button
-                  onClick={handleDeleteAllData}
-                  className="flex-1 py-2 px-4 bg-red-600 text-white rounded-lg font-semibold hover:bg-red-700"
-                >
-                  Yes, delete all
-                </button>
-                <button
-                  onClick={() => setShowDeleteConfirm(false)}
-                  className="flex-1 py-2 px-4 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300"
-                >
-                  Cancel
-                </button>
+            {showDeleteConfirm ? (
+              <div className="settings-confirm">
+                <p>Are you sure? This deletes every profile, and cannot be undone.</p>
+                <div className="settings-confirm-row">
+                  <button onClick={onDeleteAllData} className="settings-confirm-yes">
+                    Yes, delete all
+                  </button>
+                  <button onClick={() => setShowDeleteConfirm(false)} className="settings-confirm-no">
+                    Cancel
+                  </button>
+                </div>
               </div>
-            </div>
-          ) : (
-            <button
-              onClick={handleDeleteAllData}
-              className="text-red-600 hover:text-red-700 font-semibold"
-            >
-              Delete all data
-            </button>
-          )}
-        </div>
+            ) : (
+              <button onClick={() => setShowDeleteConfirm(true)} className="settings-danger">
+                Delete all data
+              </button>
+            )}
+          </div>
+        </section>
       </div>
-    </div>
+    </OnboardingLayout>
   );
 }

@@ -1,10 +1,11 @@
 import { useState, useMemo, useCallback, useRef } from 'react';
-import { ActionButton } from '../ui/ActionButton';
 import { ReadingGuide } from '../ui/ReadingGuide';
 import { StyledText } from '../ui/StyledText';
 import { PhonemeMarkedWord } from './PhonemeMarkedWord';
+import { MARK_ORDER, STATUS_LABELS, markLabel } from '../../utils/wordStatusLabels';
 import type { WordAttempt, ReadingAids } from '../../types/profile';
 import type { WordStatus, WordSet, WordSegment } from '../../types';
+import './sessionSummary.css';
 
 type AttemptStatus = WordStatus | 'skipped';
 
@@ -22,15 +23,12 @@ interface SessionSummaryProps {
   onPersistPracticeAttempt: (word: string, status: AttemptStatus, setId: string, phase: number) => void;
 }
 
-const STATUS_CONFIG: Record<AttemptStatus, { label: string; bgChip: string; bgSection: string; borderColor: string; emoji: string }> = {
-  practice: { label: 'Needs more practice', bgChip: 'bg-red-500', bgSection: 'bg-red-50', borderColor: 'border-red-200', emoji: '🔁' },
-  support: { label: 'With a little help', bgChip: 'bg-orange-400', bgSection: 'bg-orange-50', borderColor: 'border-orange-200', emoji: '🤝' },
-  independent: { label: 'Nailed it!', bgChip: 'bg-green-500', bgSection: 'bg-green-50', borderColor: 'border-green-200', emoji: '🎉' },
-  skipped: { label: 'Skipped', bgChip: 'bg-gray-400', bgSection: 'bg-gray-50', borderColor: 'border-gray-200', emoji: '⏭️' },
-};
+// Labels/colours come from the shared source of truth, so the recap always
+// speaks the same language as the marking pills during reading.
+const STATUS_CONFIG = STATUS_LABELS;
 
-// Section display order: practice, support, independent, skipped
-const SECTION_ORDER: AttemptStatus[] = ['practice', 'support', 'independent', 'skipped'];
+// Best outcome first, mirroring the marking pills.
+const SECTION_ORDER: AttemptStatus[] = ['independent', 'support', 'practice', 'skipped'];
 
 /** Get the latest attempt per word (by timestamp), keyed by word+setId for uniqueness */
 function getLatestAttempts(attempts: WordAttempt[]): WordAttempt[] {
@@ -59,8 +57,15 @@ export function SessionSummary({
   const [practiceWords, setPracticeWords] = useState<WordAttempt[]>([]);
   const [practiceIndex, setPracticeIndex] = useState(0);
   const [isLit, setIsLit] = useState(false);
+  const [dropTarget, setDropTarget] = useState<AttemptStatus | null>(null);
   // Local copy of attempts for optimistic UI updates during corrections
   const [localAttempts, setLocalAttempts] = useState<WordAttempt[]>(sessionAttempts);
+
+  // Touch-drag scratch state. Declared up here, above the practice-mode early
+  // return, because hooks must run in the same order on every render.
+  const touchDragId = useRef<string | null>(null);
+  const touchGhost = useRef<HTMLDivElement | null>(null);
+  const lastHighlighted = useRef<Element | null>(null);
 
   // Build a lookup from word+setId to its segments
   const segmentsLookup = useMemo(() => {
@@ -154,19 +159,18 @@ export function SessionSummary({
   // Practice mode: show one word at a time with assessment buttons
   if (isPracticing && practiceWords.length > 0) {
     const currentWord = practiceWords[practiceIndex];
+    const segments = segmentsLookup.get(`${currentWord.word}::${currentWord.setId}`);
+
     return (
-      <div className="h-full flex flex-col p-4 md:p-8">
-        {/* Header */}
-        <div className="text-center mb-2 md:mb-4">
-          <div className="text-2xl md:text-4xl mb-1">🔁</div>
-          <h2 className="text-lg md:text-2xl font-bold text-gray-700">Practice round</h2>
-          <p className="text-sm md:text-base text-gray-500">
+      <div className="practice">
+        <div className="practice-header">
+          <h2 className="font-display">One more go</h2>
+          <p className="practice-progress">
             Word {practiceIndex + 1} of {practiceWords.length}
           </p>
         </div>
 
-        {/* Word display */}
-        <div className="flex-1 min-h-0 flex items-center justify-center">
+        <div className="practice-word">
           <div
             className="flex flex-col items-center gap-2 p-3 md:p-8 rounded-2xl"
             onPointerDown={() => { if (readingAids.lightbox) setIsLit(true); }}
@@ -185,14 +189,14 @@ export function SessionSummary({
               <StyledText size="word">
                 <PhonemeMarkedWord
                   word={currentWord.word}
-                  segments={segmentsLookup.get(`${currentWord.word}::${currentWord.setId}`)}
+                  segments={segments}
                   size="word"
                   showMarks={visualPhonemeMarking}
                   emphasis="full"
                 />
               </StyledText>
             </div>
-            <div style={{ marginTop: visualPhonemeMarking && segmentsLookup.get(`${currentWord.word}::${currentWord.setId}`) ? '8px' : '0' }}>
+            <div style={{ marginTop: visualPhonemeMarking && segments ? '8px' : '0' }}>
               {readingAids.ruler && (
                 <ReadingGuide width={`${currentWord.word.length * 45}px`} />
               )}
@@ -200,33 +204,21 @@ export function SessionSummary({
           </div>
         </div>
 
-        {/* Assessment buttons */}
-        <div className="flex flex-col gap-2 md:gap-3 flex-shrink-0">
-          <div className="flex flex-col gap-2 md:flex-row md:gap-3">
-            <button
-              onClick={() => handlePracticeAssess('practice')}
-              className="flex-1 px-5 py-3 bg-[#CD0000] border-2 border-[#CD0000] rounded-[23px] text-white text-sm md:text-base font-semibold cursor-pointer transition-all hover:bg-[#B00000] active:scale-95"
-            >
-              🔁 Needs more practice
-            </button>
-            <button
-              onClick={() => handlePracticeAssess('support')}
-              className="flex-1 px-5 py-3 bg-[#F97316] border-2 border-[#EA580C] rounded-[23px] text-white text-sm md:text-base font-semibold cursor-pointer transition-all hover:bg-[#EA580C] active:scale-95"
-            >
-              🤝 {profileName} used a little help
-            </button>
-            <button
-              onClick={() => handlePracticeAssess('independent')}
-              className="flex-1 px-5 py-3 bg-[#22C55E] border-2 border-[#16A34A] rounded-[23px] text-white text-sm md:text-base font-semibold cursor-pointer transition-all hover:bg-[#16A34A] active:scale-95"
-            >
-              🎉 {profileName} nailed it!
-            </button>
+        <div className="practice-actions">
+          <div className="practice-marks">
+            {MARK_ORDER.map((status) => (
+              <button
+                key={status}
+                className="practice-mark"
+                style={{ background: STATUS_LABELS[status].color }}
+                onClick={() => handlePracticeAssess(status)}
+              >
+                {STATUS_LABELS[status].icon} {markLabel(status, profileName)}
+              </button>
+            ))}
           </div>
-          <button
-            onClick={handlePracticeSkip}
-            className="px-4 py-2 text-gray-500 text-sm md:text-base hover:text-gray-700 transition-colors"
-          >
-            Skip →
+          <button className="practice-skip" onClick={handlePracticeSkip}>
+            Skip this word →
           </button>
         </div>
       </div>
@@ -235,6 +227,7 @@ export function SessionSummary({
 
   // Summary view
   const hasPracticeWords = counts.practice > 0 || counts.skipped > 0;
+  const totalWords = latestAttempts.length;
 
   // --- Mouse/desktop drag handlers (HTML5 DnD API) ---
   const handleDragStart = (e: React.DragEvent<HTMLDivElement>, attemptId: string) => {
@@ -242,13 +235,15 @@ export function SessionSummary({
     e.dataTransfer.effectAllowed = 'move';
   };
 
-  const handleDragOver = (e: React.DragEvent<HTMLDivElement>) => {
+  const handleDragOver = (e: React.DragEvent<HTMLDivElement>, status: AttemptStatus) => {
     e.preventDefault();
     e.dataTransfer.dropEffect = 'move';
+    setDropTarget(status);
   };
 
   const handleDrop = (e: React.DragEvent<HTMLDivElement>, targetStatus: AttemptStatus) => {
     e.preventDefault();
+    setDropTarget(null);
     const attemptId = e.dataTransfer.getData('text/plain');
     const attempt = localAttempts.find(a => a.id === attemptId);
     if (!attempt || attempt.status === targetStatus) return;
@@ -257,16 +252,12 @@ export function SessionSummary({
   };
 
   // --- Touch drag handlers (mobile) ---
-  const touchDragId = useRef<string | null>(null);
-  const touchGhost = useRef<HTMLDivElement | null>(null);
-  const lastHighlighted = useRef<Element | null>(null);
-
   const applyDropHighlight = (el: Element | null) => {
     if (lastHighlighted.current && lastHighlighted.current !== el) {
-      (lastHighlighted.current as HTMLElement).style.outline = '';
+      (lastHighlighted.current as HTMLElement).classList.remove('drop-active');
     }
     if (el) {
-      (el as HTMLElement).style.outline = '2px dashed #6366f1';
+      (el as HTMLElement).classList.add('drop-active');
     }
     lastHighlighted.current = el;
   };
@@ -282,7 +273,7 @@ export function SessionSummary({
     return section ? (section.dataset.status as AttemptStatus) : null;
   };
 
-  const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>, attemptId: string, word: string) => {
+  const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>, attemptId: string, word: string, color: string) => {
     e.preventDefault();
     touchDragId.current = attemptId;
     const touch = e.touches[0];
@@ -294,17 +285,17 @@ export function SessionSummary({
       position: fixed;
       left: ${touch.clientX - 40}px;
       top: ${touch.clientY - 20}px;
-      padding: 6px 14px;
+      padding: 7px 15px;
       border-radius: 9999px;
-      background: #6366f1;
+      background: ${color};
       color: white;
-      font-size: 14px;
-      font-weight: 600;
+      font-size: 15px;
+      font-weight: 700;
       pointer-events: none;
       z-index: 9999;
-      opacity: 0.85;
+      opacity: 0.9;
       white-space: nowrap;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.28);
     `;
     document.body.appendChild(ghost);
     touchGhost.current = ghost;
@@ -342,68 +333,71 @@ export function SessionSummary({
   };
 
   return (
-    <div className="h-full flex flex-col p-4 md:p-8">
-      {/* Celebratory header */}
-      <div className="text-center mb-2 md:mb-4">
-        <div className="text-4xl md:text-6xl mb-1 md:mb-2">🎉</div>
-        <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-1">
-          Amazing job, {profileName}!
-        </h2>
-        <p className="text-xs md:text-sm text-gray-400 mt-1">
-          Drag and drop words to change it&apos;s status
+    <div className="recap">
+      <div className="recap-header">
+        <h2 className="font-display">Great reading, {profileName}!</h2>
+        <p className="recap-headline">
+          <strong>{counts.independent}</strong> of <strong>{totalWords}</strong>{' '}
+          {totalWords === 1 ? 'word' : 'words'} read all on their own
         </p>
+        <p className="recap-hint">Drag any word to move it between groups</p>
       </div>
 
-      {/* Scrollable word groups */}
-      <div className="flex-1 min-h-0 overflow-y-auto">
-        <div className="flex flex-col gap-3 md:gap-4 py-2">
-          {SECTION_ORDER.map(status => {
-            const words = grouped[status];
-            const config = STATUS_CONFIG[status];
+      <div className="recap-groups">
+        {SECTION_ORDER.map(status => {
+          const words = grouped[status];
+          const config = STATUS_CONFIG[status];
 
-            return (
-              <div
-                key={status}
-                data-status={status}
-                onDragOver={handleDragOver}
-                onDrop={(e) => handleDrop(e, status)}
-                className={`rounded-xl p-3 md:p-4 ${config.bgSection} border ${config.borderColor} min-h-[64px] transition-colors`}
-              >
-                <div className="text-sm md:text-base font-semibold text-gray-700 mb-2">
-                  {config.emoji} {config.label} ({words.length})
-                </div>
-                <div className="flex flex-wrap gap-2">
+          return (
+            <div
+              key={status}
+              data-status={status}
+              onDragOver={(e) => handleDragOver(e, status)}
+              onDragLeave={() => setDropTarget(null)}
+              onDrop={(e) => handleDrop(e, status)}
+              className={`recap-group ${dropTarget === status ? 'drop-active' : ''}`}
+            >
+              <div className="recap-group-title">
+                <span className="recap-dot" style={{ background: config.color }} />
+                <span aria-hidden="true">{config.icon}</span>
+                {config.recapLabel}
+                <span className="recap-count">({words.length})</span>
+              </div>
+
+              {words.length === 0 ? (
+                <p className="recap-empty">{config.empty}</p>
+              ) : (
+                <div className="recap-chips">
                   {words.map(attempt => (
                     <div
                       key={attempt.id}
                       draggable
                       onDragStart={(e) => handleDragStart(e, attempt.id)}
-                      onTouchStart={(e) => handleTouchStart(e, attempt.id, attempt.word)}
+                      onTouchStart={(e) => handleTouchStart(e, attempt.id, attempt.word, config.color)}
                       onTouchMove={handleTouchMove}
                       onTouchEnd={handleTouchEnd}
-                      className={`${config.bgChip} text-white px-3 py-1.5 md:px-4 md:py-2 rounded-full text-sm md:text-base font-medium cursor-grab active:cursor-grabbing transition-all hover:opacity-80 select-none`}
-                      style={{ touchAction: 'none' }}
+                      className="recap-chip"
+                      style={{ background: config.color, touchAction: 'none' }}
                     >
                       {attempt.word}
                     </div>
                   ))}
                 </div>
-              </div>
-            );
-          })}
-        </div>
+              )}
+            </div>
+          );
+        })}
       </div>
 
-      {/* Action buttons */}
-      <div className="flex flex-col gap-2 md:gap-3 flex-shrink-0 pt-2 md:pt-4">
+      <div className="recap-actions">
         {hasPracticeWords && (
-          <ActionButton onClick={handleStartPractice} color="secondary">
-            🔁 Practice these again
-          </ActionButton>
+          <button className="recap-btn-secondary" onClick={handleStartPractice}>
+            Practise the tricky ones
+          </button>
         )}
-        <ActionButton onClick={onExitSession} color="primary">
-          Save results and start again
-        </ActionButton>
+        <button className="recap-btn-primary" onClick={onExitSession}>
+          Save and finish
+        </button>
       </div>
     </div>
   );

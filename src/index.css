@@ -13,9 +13,10 @@
   }
 }
 
-/* Dyslexia-friendly text defaults */
+/* Dyslexia-friendly text defaults. Reading text is set in OpenDyslexic — the
+   --font-display stack is declared below, after the @font-face rules. */
 .dyslexia-text {
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: 'OpenDyslexic', 'Inter', system-ui, -apple-system, sans-serif;
   letter-spacing: 2.5px;
   line-height: 1.8;
   font-weight: 500;

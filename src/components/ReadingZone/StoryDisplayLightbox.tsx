@@ -196,7 +196,7 @@ export function StoryDisplayLightbox({
   return (
     <div
       ref={containerRef}
-      className="story-container max-w-xl text-center"
+      className="story-container w-full max-w-xl text-left"
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
     >

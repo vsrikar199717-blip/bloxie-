@@ -23,6 +23,9 @@ function sessionReducer(state: SessionState, action: SessionAction): SessionStat
         wordSets: action.wordSets,
       };
 
+    case 'RESTORE':
+      return action.state;
+
     case 'MARK_WORD': {
       const currentSet = state.wordSets[state.currentSetIndex];
       const phonicsCount = currentSet?.phonicsWords.length ?? CONSTANTS.session.phonicsWordsPerSet;
@@ -167,6 +170,11 @@ export function useSession() {
     dispatch({ type: 'LOAD_CONTENT', wordSets });
   }, []);
 
+  /** Re-enter a session saved before the app was closed or reloaded. */
+  const restore = useCallback((restoredState: SessionState) => {
+    dispatch({ type: 'RESTORE', state: restoredState });
+  }, []);
+
   const markWord = useCallback((status: WordStatus) => {
     dispatch({ type: 'MARK_WORD', status });
   }, []);
@@ -238,6 +246,7 @@ export function useSession() {
     isSessionComplete,
     hasMoreSets,
     loadContent,
+    restore,
     markWord,
     markSkipped,
     showBonusTransition,

@@ -3,6 +3,7 @@ import { ReadingZone } from './ReadingZone/ReadingZone';
 import { BuildingZone } from './BuildingZone/BuildingZone';
 import { GuideContent } from './ParentGuide/GuideContent';
 import { Walkthrough, type TourStep } from './Walkthrough';
+import { PauseOverlay, ResumePrompt } from './ui/SessionModals';
 import { useSession } from '../hooks/useSession';
 import { useSpeech } from '../hooks/useSpeech';
 import { useSound } from '../hooks/useSound';
@@ -11,6 +12,12 @@ import type { WordSet, WordStatus } from '../types';
 import type { ChildProfile, PhonicsPhase, ReadingAids, Theme, WordAttempt } from '../types/profile';
 import { getDefaultReadingAids } from '../types/profile';
 import { CONSTANTS } from '../utils/constants';
+import {
+  SNAPSHOT_VERSION,
+  clearSnapshot,
+  loadSnapshot,
+  saveSnapshot,
+} from '../utils/sessionPersistence';
 import wordSetsData from '../data/wordSets.json';
 
 interface SessionScreenProps {
@@ -30,10 +37,9 @@ const TOUR_STEPS: TourStep[] = [
   { target: 'word', title: 'The word', body: 'Your child reads this out loud. Sounds are underlined so tricky pairs like “sh” stay together.' },
   { target: 'hear', title: 'Hear it', body: 'Not sure how it sounds? Tap the speaker to hear the whole word.' },
   { target: 'soundout', title: 'Sound it out', body: 'Lights up and says each sound in turn — perfect when your child gets stuck.' },
-  { target: 'tip', title: 'Tips for grown-ups', body: 'Opens a short hint on how to help your child with this particular word.' },
+  { target: 'bloxie', title: 'Ask Bloxie', body: 'Tap Bloxie whenever you need a hand — he breaks the word down for grown-ups, switches worlds, pauses, and opens settings.' },
   { target: 'marks', title: 'How did it go?', body: 'Grown-up: tap one after each word. Every word earns a building part — nothing is ever “wrong”.' },
   { target: 'build', title: 'Build your character!', body: 'Parts you earn appear in the tray on the right. Drag them here to build — that’s the reward for reading.' },
-  { target: 'theme', title: 'Change your world', body: 'Tap to switch between robot, mystical and monster. Then read on!' },
 ];
 
 // Shuffle array helper
@@ -198,6 +204,7 @@ export function SessionScreen({
     currentWordSet,
     isSessionComplete,
     loadContent,
+    restore,
     markWord,
     markSkipped,
     endPreBonusBreak,
@@ -210,7 +217,19 @@ export function SessionScreen({
   const { speak, speakStoryWithHighlight, stop } = useSpeech();
   const { playObjectDrop, playDanceMusic, stopDanceMusic, setMuted } = useSound();
 
-  const [currentTheme, setCurrentTheme] = useState<Theme>(activeProfile?.preferredTheme ?? 'robot');
+  // Read any interrupted session ONCE, during the first render, so the restored
+  // build is in place before usePartSystem initialises. Reading it later would
+  // mean mounting a fresh random character and then overwriting it.
+  const [snapshot] = useState(() =>
+    activeProfile ? loadSnapshot(activeProfile.id) : null
+  );
+  const [showResumePrompt, setShowResumePrompt] = useState(!!snapshot);
+  const [discardedSnapshot, setDiscardedSnapshot] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
+
+  const [currentTheme, setCurrentTheme] = useState<Theme>(
+    snapshot?.theme ?? activeProfile?.preferredTheme ?? 'robot'
+  );
   const {
     awardedParts,
     awardParts,
@@ -221,7 +240,8 @@ export function SessionScreen({
     clearParts,
     resetPartSystem,
     getUpcomingForCurrentFamily,
-  } = usePartSystem(currentTheme);
+    partsSnapshot,
+  } = usePartSystem(currentTheme, snapshot?.parts);
 
   // First-run walkthrough over the real dashboard (replaces the old guide screen)
   const [tourDone, setTourDone] = useState(false);
@@ -236,14 +256,23 @@ export function SessionScreen({
   // and the onOpenSettings handler. Left as a no-op until the Guide feature is
   // either restored or fully torn out — out of scope for the TS-error cleanup.
   const [showGuideModal, setShowGuideModal] = useState(false);
-  const [sessionStartTime] = useState(() => Date.now());
 
-  // Load phase-filtered, shuffled content on mount or when phases/profile ID change.
+  // A resumed session keeps its original start time, so the recap still sees the
+  // words read before the interruption.
+  const [sessionStartTime, setSessionStartTime] = useState(
+    () => snapshot?.startedAt ?? Date.now()
+  );
+
+  // Either re-enter the interrupted session, or build a fresh one.
   // IMPORTANT: only depend on phases and ID, NOT the full activeProfile object,
   // because toggling reading aids updates the profile and would reset the session.
   const profileId = activeProfile?.id ?? 'default';
   const includedPhases = activeProfile?.includedPhases;
   useEffect(() => {
+    if (snapshot && !discardedSnapshot) {
+      restore(snapshot.session);
+      return;
+    }
     const phases = includedPhases ?? [2];
     const sessionSets = buildSessionSets(
       wordSetsData.wordSets as WordSet[],
@@ -251,7 +280,53 @@ export function SessionScreen({
       profileId,
     );
     loadContent(sessionSets);
-  }, [loadContent, profileId, includedPhases]);
+  }, [loadContent, restore, profileId, includedPhases, snapshot, discardedSnapshot]);
+
+  // Snapshot after every change, so an unexpected close loses nothing. Skipped
+  // while the resume prompt is still up, because the parent has not yet chosen
+  // whether this session continues — writing then could overwrite the very
+  // snapshot they are being offered.
+  useEffect(() => {
+    if (!activeProfile || showResumePrompt) return;
+    if (state.wordSets.length === 0) return;
+
+    // A finished session is not something to resume into.
+    if (isSessionComplete) {
+      clearSnapshot();
+      return;
+    }
+
+    saveSnapshot({
+      version: SNAPSHOT_VERSION,
+      profileId: activeProfile.id,
+      savedAt: Date.now(),
+      startedAt: sessionStartTime,
+      theme: currentTheme,
+      session: state,
+      parts: partsSnapshot,
+    });
+  }, [
+    activeProfile,
+    showResumePrompt,
+    isSessionComplete,
+    state,
+    partsSnapshot,
+    currentTheme,
+    sessionStartTime,
+  ]);
+
+  const handleResumeSession = useCallback(() => {
+    setShowResumePrompt(false);
+  }, []);
+
+  /** Throw away the interrupted session and start a brand new one. */
+  const handleStartFresh = useCallback(() => {
+    clearSnapshot();
+    setDiscardedSnapshot(true);
+    setShowResumePrompt(false);
+    setSessionStartTime(Date.now());
+    resetPartSystem();
+  }, [resetPartSystem]);
 
   // Note: bonus transition is now triggered synchronously in the reducer
   // when MARK_WORD/MARK_SKIPPED advances to the bonus word position.
@@ -322,6 +397,7 @@ export function SessionScreen({
 
   // Finish session (screenshot is handled in BuildingZone)
   const handleFinish = useCallback(() => {
+    clearSnapshot();
     onFinish();
   }, [onFinish]);
 
@@ -330,6 +406,18 @@ export function SessionScreen({
     endSession();
     setActiveTab('reading');
   }, [endSession]);
+
+  // Pausing stops any speech mid-flow; nothing else needs to halt, because
+  // reading is untimed.
+  const handlePause = useCallback(() => {
+    stop();
+    setIsPaused(true);
+  }, [stop]);
+
+  const handleFinishFromPause = useCallback(() => {
+    setIsPaused(false);
+    handleEndSession();
+  }, [handleEndSession]);
 
   const handleResetModel = useCallback(() => {
     resetPartSystem();
@@ -378,6 +466,21 @@ export function SessionScreen({
     return (activeProfile?.wordHistory ?? []).filter(a => a.timestamp >= sessionStartTime);
   }, [activeProfile?.wordHistory, sessionStartTime]);
 
+  // Light gamification, derived from real attempts — never invented numbers.
+  //  · Stars  = every word read this session. Nothing is ever "wrong", so every
+  //             attempt earns one, including the ones still finding the way.
+  //  · Streak = the current run of words read without needing the compass.
+  //             Broken by 'practice' or 'skipped', so it means something.
+  const gameStats = useMemo(() => {
+    let streak = 0;
+    for (let i = sessionAttempts.length - 1; i >= 0; i--) {
+      const { status } = sessionAttempts[i];
+      if (status !== 'independent' && status !== 'support') break;
+      streak++;
+    }
+    return { stars: sessionAttempts.length, streak };
+  }, [sessionAttempts]);
+
   // Update a specific WordAttempt status by id (for tap-to-cycle correction)
   const handleUpdateWordStatus = useCallback((attemptId: string, newStatus: WordAttempt['status']) => {
     if (!activeProfile) return;
@@ -407,7 +510,7 @@ export function SessionScreen({
     <div className="h-screen flex flex-col pb-24 md:pb-0 md:flex-row md:gap-2 md:p-2">
       {/* Reading Zone */}
       <div
-        className={`min-h-0 min-w-0 md:flex-[553] md:rounded-[36px] md:overflow-hidden ${activeTab === 'reading' ? 'flex-1' : 'hidden md:block'}`}
+        className={`min-h-0 min-w-0 md:flex-[45] md:rounded-[36px] md:overflow-hidden ${activeTab === 'reading' ? 'flex-1' : 'hidden md:block'}`}
         style={{ background: bgColor }}
       >
         <ReadingZone
@@ -428,6 +531,7 @@ export function SessionScreen({
           onCorrect={handleCorrect}
           onSkip={handleSkip}
           onGoBack={goBack}
+          onEndSession={handleEndSession}
           onCompleteStory={handleCompleteStory}
           onEndPreBonusBreak={endPreBonusBreak}
           onDismissBonusTransition={dismissBonusTransition}
@@ -445,27 +549,48 @@ export function SessionScreen({
           theme={currentTheme}
           onChangeTheme={handleChangeTheme}
           onOpenSettings={onOpenSettings}
+          onPause={handlePause}
           bgColor={bgColor}
         />
       </div>
 
       {/* Building Zone */}
-      <div className={`min-h-0 min-w-0 md:flex-[505] md:rounded-[19px] bg-[#F2F2F2] ${activeTab === 'building' ? 'flex-1' : 'hidden md:block'}`}>
+      <div className={`min-h-0 min-w-0 md:flex-[55] md:rounded-[19px] bg-[#F2F2F2] ${activeTab === 'building' ? 'flex-1' : 'hidden md:block'}`}>
         <BuildingZone
           theme={currentTheme}
           parts={awardedParts}
           onPartMove={movePart}
           onPartPlace={placePart}
           onPartUnplace={unplacePart}
-          onEndSession={handleEndSession}
           onPlayDanceMusic={playDanceMusic}
           onStopDanceMusic={stopDanceMusic}
           onResetModel={handleResetModel}
           isSoundMuted={isSoundMuted}
           onToggleMute={handleToggleMute}
           upcomingParts={getUpcomingForCurrentFamily()}
+          stars={gameStats.stars}
+          streak={gameStats.streak}
         />
       </div>
+
+      {isPaused && (
+        <PauseOverlay
+          profileName={profileName}
+          wordsRead={state.totalWordsAttempted}
+          onResume={() => setIsPaused(false)}
+          onFinish={handleFinishFromPause}
+        />
+      )}
+
+      {showResumePrompt && snapshot && (
+        <ResumePrompt
+          profileName={profileName}
+          wordsRead={snapshot.session.totalWordsAttempted}
+          partsEarned={snapshot.parts.awardedParts.length}
+          onResume={handleResumeSession}
+          onStartFresh={handleStartFresh}
+        />
+      )}
 
       {/* First-run walkthrough on the real dashboard */}
       {showTour && <Walkthrough steps={TOUR_STEPS} onDone={finishTour} />}

@@ -212,7 +212,6 @@ export function ReadingLabGame() {
           onPartMove={parts.movePart}
           onPartPlace={parts.placePart}
           onPartUnplace={parts.unplacePart}
-          onEndSession={() => showToast('Session ended')}
           onResetModel={parts.resetPartSystem}
           isSoundMuted={muted}
           onToggleMute={setMuted}

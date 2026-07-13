@@ -1,0 +1,127 @@
+/* ===== Pause / Resume overlays ===== */
+
+.session-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(17, 17, 17, 0.55);
+  backdrop-filter: blur(3px);
+  animation: session-overlay-in 0.2s ease;
+}
+
+@keyframes session-overlay-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.session-modal {
+  width: 100%;
+  max-width: 460px;
+  background: white;
+  border-radius: 28px;
+  padding: 34px 30px 30px;
+  text-align: center;
+  box-shadow: 0 30px 70px -20px rgba(0, 0, 0, 0.5);
+  animation: session-modal-in 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes session-modal-in {
+  from { opacity: 0; transform: translateY(12px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.session-modal-icon {
+  font-size: 46px;
+  line-height: 1;
+  margin-bottom: 14px;
+}
+
+.session-modal h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 10px 0;
+  line-height: 1.15;
+}
+
+.session-modal .subtext {
+  font-size: 15px;
+  color: #5a5a5a;
+  line-height: 1.55;
+  margin: 0 0 22px 0;
+}
+
+/* Progress pills on the resume prompt: "7 words read · 5 parts earned" */
+.session-stats {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 0 24px 0;
+  flex-wrap: wrap;
+}
+
+.session-stat {
+  background: #fff07a;
+  border-radius: 999px;
+  padding: 9px 18px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #111;
+}
+
+.session-modal-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.session-btn-primary {
+  padding: 16px;
+  border-radius: 999px;
+  border: none;
+  background: #111;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.session-btn-primary:hover {
+  background: #000;
+  box-shadow: 0 8px 20px -6px rgba(0, 0, 0, 0.35);
+}
+
+.session-btn-secondary {
+  padding: 15px;
+  border-radius: 999px;
+  border: 2px solid #e6e6e6;
+  background: white;
+  color: #1a1a1a;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.session-btn-secondary:hover {
+  background: #f6f6f6;
+}
+
+.session-btn-primary:active,
+.session-btn-secondary:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 767px) {
+  .session-modal {
+    padding: 28px 22px 24px;
+  }
+  .session-modal h2 {
+    font-size: 22px;
+  }
+}

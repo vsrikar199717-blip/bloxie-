@@ -53,7 +53,13 @@ export function StoryWithRuler({ story, wordSetWords, segmentLookup, visualPhone
       if (textRef.current && containerRef.current) {
         const computedStyle = window.getComputedStyle(textRef.current);
         const fontSize = parseFloat(computedStyle.fontSize);
-        const lh = fontSize * Number(CONSTANTS.typography.lineHeight);
+        // Read the line-height the browser ACTUALLY used. Deriving it from
+        // CONSTANTS (1.8) put the ruler through the middle of the text whenever
+        // phoneme marking was on, because that renders at 2.2.
+        const computedLh = parseFloat(computedStyle.lineHeight);
+        const lh = Number.isFinite(computedLh)
+          ? computedLh
+          : fontSize * Number(CONSTANTS.typography.lineHeight);
         setLineHeight(lh);
 
         const containerRect = containerRef.current.getBoundingClientRect();
@@ -165,7 +171,7 @@ export function StoryWithRuler({ story, wordSetWords, segmentLookup, visualPhone
   return (
     <div
       ref={containerRef}
-      className="story-with-ruler max-w-xl text-center"
+      className="story-with-ruler w-full max-w-xl text-left"
       style={{ position: 'relative' }}
     >
       <span

@@ -1,0 +1,268 @@
+/* ===== Session recap ===== */
+/* Onboarding language — display heading, white cards, 2px light borders,
+   24px radii, black pill actions. Status colour survives as an accent rather
+   than a full tint: a parent scanning the recap needs to tell the groups apart
+   at a glance, but three saturated blocks fought with everything around them. */
+
+.recap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.recap-header {
+  text-align: center;
+  flex-shrink: 0;
+  margin-bottom: 14px;
+}
+
+.recap-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 6px 0;
+  line-height: 1.15;
+}
+
+/* Headline count: the one number a parent actually wants */
+.recap-headline {
+  font-size: 15px;
+  color: #5a5a5a;
+  margin: 0;
+}
+
+.recap-headline strong {
+  color: #111;
+  font-weight: 800;
+}
+
+.recap-hint {
+  font-size: 12px;
+  color: #9a9a9a;
+  margin: 8px 0 0 0;
+}
+
+/* ===== Groups ===== */
+.recap-groups {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 2px;
+}
+
+.recap-group {
+  background: white;
+  border: 2px solid #ececec;
+  border-radius: 24px;
+  padding: 14px 16px;
+  min-height: 74px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Drop target feedback while a word is being dragged over */
+.recap-group.drop-active {
+  border-color: #111;
+  box-shadow: 0 8px 22px -10px rgba(0, 0, 0, 0.25);
+}
+
+.recap-group-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.recap-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.recap-count {
+  color: #9a9a9a;
+  font-weight: 700;
+}
+
+.recap-empty {
+  font-size: 12.5px;
+  color: #c4c4c4;
+  margin: 0;
+}
+
+/* ===== Word chips ===== */
+.recap-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.recap-chip {
+  padding: 7px 15px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  cursor: grab;
+  user-select: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.recap-chip:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px -6px rgba(0, 0, 0, 0.4);
+}
+
+.recap-chip:active {
+  cursor: grabbing;
+}
+
+/* ===== Actions ===== */
+.recap-actions {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 14px;
+}
+
+.recap-btn-primary {
+  padding: 16px;
+  border-radius: 999px;
+  border: none;
+  background: #111;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.recap-btn-primary:hover {
+  background: #000;
+  box-shadow: 0 8px 20px -6px rgba(0, 0, 0, 0.35);
+}
+
+.recap-btn-secondary {
+  padding: 15px;
+  border-radius: 999px;
+  border: none;
+  background: #fff07a;
+  color: #111;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 12px 30px -10px rgba(255, 150, 80, 0.55);
+}
+
+.recap-btn-secondary:hover {
+  box-shadow: 0 14px 32px -8px rgba(255, 150, 80, 0.7);
+}
+
+.recap-btn-primary:active,
+.recap-btn-secondary:active {
+  transform: scale(0.98);
+}
+
+/* ===== Practice round ===== */
+.practice {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.practice-header {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.practice-header h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 4px 0;
+}
+
+.practice-progress {
+  font-size: 14px;
+  color: #5a5a5a;
+  margin: 0;
+}
+
+.practice-word {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.practice-actions {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.practice-marks {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.practice-mark {
+  flex: 1;
+  padding: 13px 16px;
+  border-radius: 999px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.practice-mark:hover {
+  filter: brightness(0.94);
+}
+
+.practice-mark:active {
+  transform: scale(0.97);
+}
+
+.practice-skip {
+  padding: 10px;
+  border: none;
+  background: transparent;
+  color: #9a9a9a;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.practice-skip:hover {
+  color: #111;
+}
+
+@media (min-width: 768px) {
+  .recap,
+  .practice {
+    padding: 28px;
+  }
+  .recap-header h2 {
+    font-size: 34px;
+  }
+  .practice-marks {
+    flex-direction: row;
+  }
+}

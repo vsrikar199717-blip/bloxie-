@@ -203,9 +203,46 @@
   letter-spacing: 0.03em;
 }
 
+/* ===== Story screen header ===== */
+.story-header {
+  text-align: left;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+}
+
+.story-header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 4px 0;
+  line-height: 1.15;
+}
+
+.story-header .subtext {
+  font-size: 14px;
+  color: #5a5a5a;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .story-header {
+    margin-bottom: 18px;
+  }
+  .story-header h2 {
+    font-size: 32px;
+  }
+  .story-header .subtext {
+    font-size: 15px;
+  }
+}
+
 /* Phoneme Mark Styles */
+/* nowrap is load-bearing: every segment below is its own inline-flex box, so
+   without it the browser happily breaks a line BETWEEN phonemes and a word
+   like "important" renders as "imp / ortant" across two lines. */
 .phoneme-marked-word {
   display: inline;
+  white-space: nowrap;
 }
 
 /* Each segment is an inline-flex column: chars on top, mark below */

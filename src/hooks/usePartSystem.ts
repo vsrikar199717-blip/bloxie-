@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import {
   characterFamilies,
   getPartPath,
@@ -42,7 +42,7 @@ export const DEFAULT_TRANSFORM: PartTransform = {
   flipY: false,
 };
 
-interface SessionPartsState {
+export interface SessionPartsState {
   currentFamily: CharacterFamily;
   sessionHead: string;
   sessionBody: string;
@@ -141,13 +141,29 @@ function switchToNewFamily(state: SessionPartsState, theme?: Theme): SessionPart
   };
 }
 
-export function usePartSystem(theme: Theme = 'robot') {
-  const [partsState, setPartsState] = useState<SessionPartsState>(() => initialiseSessionParts(theme));
-  const [awardedParts, setAwardedParts] = useState<AwardedPart[]>([]);
-  const [nextZIndex, setNextZIndex] = useState(0);
+/** A build restored from a saved session, handed in at mount. */
+export interface RestoredParts {
+  partsState: SessionPartsState;
+  awardedParts: AwardedPart[];
+  nextZIndex: number;
+}
 
-  // Reset when theme changes
+export function usePartSystem(theme: Theme = 'robot', restored?: RestoredParts) {
+  const [partsState, setPartsState] = useState<SessionPartsState>(
+    () => restored?.partsState ?? initialiseSessionParts(theme)
+  );
+  const [awardedParts, setAwardedParts] = useState<AwardedPart[]>(() => restored?.awardedParts ?? []);
+  const [nextZIndex, setNextZIndex] = useState(() => restored?.nextZIndex ?? 0);
+
+  // Reset when the theme changes — but not on the very first render, which
+  // would throw away a restored build (and, before restore existed, silently
+  // re-rolled the random family chosen by the initialiser).
+  const isFirstRender = useRef(true);
   useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
     setPartsState(initialiseSessionParts(theme));
     setAwardedParts([]);
     setNextZIndex(0);
@@ -487,5 +503,7 @@ export function usePartSystem(theme: Theme = 'robot') {
     resetPartSystem,
     getUpcomingForCurrentFamily,
     currentCategoryName: partsState.currentFamily.name,
+    /** Everything needed to rebuild this exact build after a reload. */
+    partsSnapshot: { partsState, awardedParts, nextZIndex },
   };
 }
