@@ -1,7 +1,7 @@
 import { useCallback, useState } from 'react';
 import { ReadingGuide } from '../ui/ReadingGuide';
 import { BloxieCharacter } from '../ui/BloxieCharacter';
-import { PauseButton } from '../ui/SessionModals';
+import { MARK_ORDER, STATUS_LABELS, markLabel } from '../../utils/wordStatusLabels';
 import type { WordSegment, WordStatus } from '../../types';
 import type { ReadingAids, Theme } from '../../types/profile';
 
@@ -27,6 +27,9 @@ interface LabWordPanelProps {
   onCorrect: (status: WordStatus) => void;
   onSkip: () => void;
   onGoBack: () => void;
+  onEndSession: () => void;
+  onUpdateReadingAids: (aids: ReadingAids) => void;
+  onTogglePhonemeMarking: () => void;
   onSpeak: () => void;
   profileName: string;
   theme?: Theme;
@@ -50,6 +53,9 @@ export function LabWordPanel({
   onCorrect,
   onSkip,
   onGoBack,
+  onEndSession,
+  onUpdateReadingAids,
+  onTogglePhonemeMarking,
   onSpeak,
   profileName,
   theme = 'robot',
@@ -59,13 +65,20 @@ export function LabWordPanel({
   bgColor = '#FBF1BE',
 }: LabWordPanelProps) {
   const [lit, setLit] = useState<number | null>(null);
-  const [showTip, setShowTip] = useState(false);
   const [bubble, setBubble] = useState(`Hey ${profileName}!`);
-  const [themeOpen, setThemeOpen] = useState(false);
+
+  // Bloxie's helper menu: 'menu' is the list, the others are its sub-views.
+  const [helpOpen, setHelpOpen] = useState(false);
+  const [helpView, setHelpView] = useState<'menu' | 'tip' | 'theme' | 'aids'>('menu');
+
+  const closeHelp = useCallback(() => {
+    setHelpOpen(false);
+    setHelpView('menu');
+  }, []);
 
   const pickTheme = (t: Theme) => {
     if (t !== theme) onChangeTheme?.(t);
-    setThemeOpen(false);
+    closeHelp();
   };
 
   const graphemes: string[] =
@@ -103,10 +116,10 @@ export function LabWordPanel({
   const mark = (status: WordStatus) => {
     setBubble(
       status === 'independent'
-        ? 'Amazing! 🎉'
+        ? 'You star! 🌟'
         : status === 'support'
-          ? 'Great teamwork! 💪'
-          : "That's okay — keep going! 🌱"
+          ? 'Great teamwork! 🤝'
+          : 'Asking is smart! 💡'
     );
     onCorrect(status);
   };
@@ -118,94 +131,62 @@ export function LabWordPanel({
       className="h-full relative flex flex-col p-5 md:p-6 text-[#2B2A32] overflow-hidden"
       style={{ background: bgColor }}
     >
-      {/* ---- Top: settings + theme (stacked) · progress path ---- */}
-      <div className="flex items-start gap-4">
-        {themeOpen && <div className="fixed inset-0 z-20" onClick={() => setThemeOpen(false)} />}
-
-        {/* Settings on top, theme switcher directly under it */}
-        <div className="relative z-30 flex flex-col gap-2 flex-shrink-0">
-          {onOpenSettings && (
-            <button
-              onClick={onOpenSettings}
-              aria-label="Settings"
-              className="w-11 h-11 rounded-full bg-[#5a5a5a] hover:bg-[#6b6b6b] grid place-items-center transition-colors active:scale-95"
-            >
-              <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
-                />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-            </button>
-          )}
-
-          {onPause && <PauseButton onClick={onPause} />}
-
-          {/* Theme switcher: tap to expand a column of worlds under settings */}
-          <div
-            data-tour="theme"
-            className="flex flex-col gap-2 p-1.5 rounded-3xl bg-white/85 shadow-[0_8px_20px_rgba(60,50,20,.16)] border border-black/5 w-fit"
-          >
-            {(themeOpen ? THEMES : [theme]).map((t) => {
-              const selected = t === theme;
-              return (
-                <button
-                  key={t}
-                  onClick={() => (themeOpen ? pickTheme(t) : setThemeOpen(true))}
-                  aria-label={themeOpen ? `Choose ${t}` : 'Change world'}
-                  className="w-11 h-11 rounded-2xl grid place-items-center overflow-hidden border-2 transition-all active:scale-95"
-                  style={
-                    selected
-                      ? { background: '#1c1c1c', borderColor: '#1c1c1c' }
-                      : { background: '#fff', borderColor: '#ececec' }
-                  }
-                >
-                  <img src={`/assets/themes/${t}.gif`} alt="" className="w-9 h-9 object-contain" />
-                </button>
-              );
-            })}
-          </div>
-        </div>
-
-        {/* Progress path */}
-        <div className="flex-1 flex justify-center pt-3">
-          <div className="relative flex items-center justify-between w-full max-w-[360px]">
+      {/* ---- Top: progress path · end session ----
+           Settings, pause, theme and the teaching tip all used to live up here
+           and along the bottom edge. They now hide inside Bloxie's helper menu,
+           so the only things competing for a child's attention are the word
+           itself and the grown-up's marking pills. */}
+      <div className="flex items-center gap-4">
+        {/* Progress path — numbered steps, so a child can see how far along the
+            set they are rather than just how many dots are left. */}
+        <div className="flex-1 flex justify-start">
+          <div className="relative flex items-center justify-between w-full max-w-[320px]">
             <div
-              className="absolute left-2 right-2 h-[3px] bg-[#E7C445] rounded"
+              className="absolute left-3 right-3 h-[2px] bg-[#F0C98B] rounded"
               style={{ top: '50%', transform: 'translateY(-50%)' }}
             />
             {Array.from({ length: nodes }).map((_, i) => {
               const done = i < wordNumber - 1;
               const current = i === wordNumber - 1;
-              const isLast = i === nodes - 1;
               return (
                 <div
                   key={i}
-                  className="relative z-10 rounded-full grid place-items-center transition-all"
+                  className="relative z-10 w-7 h-7 rounded-full grid place-items-center text-xs font-bold transition-all"
                   style={{
-                    width: current ? 26 : 20,
-                    height: current ? 26 : 20,
-                    background: done || current ? '#F6A623' : '#fff',
-                    border: done || current ? 'none' : '2px solid #E7C445',
-                    boxShadow: current ? '0 0 0 4px rgba(246,166,35,.25)' : 'none',
+                    background: current ? '#F5851F' : '#fff',
+                    color: current ? '#fff' : done ? '#F5851F' : '#C9BCA8',
+                    border: current ? 'none' : `2px solid ${done ? '#F5851F' : '#EFE3D0'}`,
+                    boxShadow: current ? '0 0 0 4px rgba(245,133,31,.20)' : 'none',
                   }}
                 >
-                  {isLast && <span style={{ fontSize: 11, lineHeight: 1 }}>⭐</span>}
+                  {i + 1}
                 </div>
               );
             })}
           </div>
         </div>
+
+        {/* End session — lives in the reading panel, matching the story screen */}
+        <button
+          onClick={onEndSession}
+          className="flex-shrink-0 flex items-center gap-1.5 pl-5 pr-4 py-2.5 rounded-full bg-[#F5851F] text-white font-bold text-sm shadow-[0_6px_16px_rgba(245,133,31,0.32)] transition hover:bg-[#e0761a] active:scale-95"
+        >
+          End session
+          <Chevron className="w-4 h-4" />
+        </button>
       </div>
 
-      {/* ---- Middle: word stage ---- */}
-      <div className="flex-1 flex flex-col items-center justify-center relative min-h-0">
+      {/* ---- Middle: word stage ----
+           containerType makes cqw below resolve against THIS panel, not the
+           viewport. The panel is only ~45% of an iPad's width, so a vw-based
+           word size overflowed it. */}
+      <div
+        className="flex-1 flex flex-col items-center justify-center relative min-h-0"
+        style={{ containerType: 'inline-size' }}
+      >
         {isBonus && (
-          <span className="mb-1 bg-[#FFD24C] text-[#7a5a00] rounded-full px-3 py-1 text-xs font-bold">
-            ⭐ BONUS WORD
+          <span className="mb-3 bg-[#FFE9A8] text-[#8a6100] rounded-full px-3.5 py-1.5 text-xs font-bold">
+            ⭐ Bonus word!
           </span>
         )}
 
@@ -213,15 +194,15 @@ export function LabWordPanel({
           onClick={onSpeak}
           aria-label="Hear the word"
           data-tour="hear"
-          className="w-[58px] h-[58px] md:w-[66px] md:h-[66px] rounded-full bg-white shadow-[0_10px_30px_rgba(60,50,20,.12)] text-2xl grid place-items-center active:scale-90 transition mb-3"
+          className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-white text-[#6C5CE7] shadow-[0_6px_18px_rgba(60,50,20,.12)] grid place-items-center active:scale-90 transition mb-4"
         >
-          🔊
+          <SpeakerIcon className="w-5 h-5 md:w-6 md:h-6" />
         </button>
 
         <div
           data-tour="word"
-          className="font-display flex"
-          style={{ fontSize: 'clamp(56px,11vw,120px)', letterSpacing: '0.05em', lineHeight: 1, gap: '0.06em' }}
+          className="font-display flex max-w-full justify-center"
+          style={{ fontSize: 'clamp(48px,18cqw,120px)', letterSpacing: '0.05em', lineHeight: 1, gap: '0.06em' }}
         >
           {graphemes.map((g, i) => (
             <span
@@ -260,95 +241,260 @@ export function LabWordPanel({
           </div>
         )}
 
-        <button
-          onClick={soundOut}
-          data-tour="soundout"
-          className="mt-4 bg-white/90 border border-black/5 rounded-full px-4 py-2 text-sm font-semibold shadow-[0_4px_14px_rgba(60,50,20,.10)] active:translate-y-px"
-        >
-          🐢 Sound it out
-        </button>
-
-        {/* Word nav arrows */}
-        <div className="absolute right-0 top-1/2 -translate-y-1/2 flex flex-col gap-2">
-          <button
-            onClick={onSkip}
-            aria-label="Next word"
-            className="w-11 h-11 rounded-2xl bg-white shadow-[0_6px_16px_rgba(60,50,20,.14)] grid place-items-center text-2xl font-bold text-[#2B2A32] active:scale-95"
-          >
-            ›
-          </button>
+        {/* Word controls: back · sound it out · next, reading left-to-right like
+            the story screen's bar. Replaces the old arrows that floated at the
+            right edge with next stacked above back. */}
+        <div className="mt-7 md:mt-9 flex items-center gap-3">
           <button
             onClick={onGoBack}
             aria-label="Previous word"
-            className="w-11 h-11 rounded-2xl bg-white shadow-[0_6px_16px_rgba(60,50,20,.14)] grid place-items-center text-2xl font-bold text-[#2B2A32] active:scale-95"
+            className="w-10 h-10 rounded-full bg-white text-[#8A8378] border border-[#EFE6D8] grid place-items-center shadow-[0_2px_8px_rgba(60,50,20,.08)] transition hover:text-[#2B2A32] active:scale-95"
           >
-            ‹
+            <Chevron className="w-4 h-4 rotate-180" />
+          </button>
+
+          <button
+            onClick={soundOut}
+            data-tour="soundout"
+            className="flex items-center gap-2 rounded-full bg-[#6C5CE7] text-white px-6 py-3 text-sm md:text-base font-semibold shadow-[0_8px_20px_rgba(108,92,231,.30)] transition hover:bg-[#5c4cd6] active:scale-95"
+          >
+            <SpeakerIcon className="w-4 h-4" />
+            Sound it out
+          </button>
+
+          <button
+            onClick={onSkip}
+            aria-label="Next word"
+            className="w-10 h-10 rounded-full bg-white text-[#8A8378] border border-[#EFE6D8] grid place-items-center shadow-[0_2px_8px_rgba(60,50,20,.08)] transition hover:text-[#2B2A32] active:scale-95"
+          >
+            <Chevron className="w-4 h-4" />
           </button>
         </div>
       </div>
 
-      {/* ---- Bottom: marks (left) + Bloxie (right) ---- */}
+      {/* ---- Bottom: grown-up marking pills (left) + Bloxie helper (right) ---- */}
       <div className="flex items-end justify-between gap-4">
-        <div className="flex flex-col gap-2 max-w-[320px] w-full">
-          {/* Break it down */}
-          <div className="relative">
+        {/* "How did it go?" — adventure framing, best outcome first. Nothing here
+            is a failure: the compass is a journey still in progress. */}
+        {/* Cream fill + hard black border, as before — the flat white pills read
+            as disabled against the warm panel. Wording and order stay as the
+            help ladder: on my own · a clue · together. */}
+        <div data-tour="marks" className="flex flex-col items-start gap-2">
+          {MARK_ORDER.map((status) => (
             <button
-              onClick={() => setShowTip((s) => !s)}
-              data-tour="tip"
-              className="flex items-center gap-2 w-fit px-4 py-2 bg-white/80 border border-black/5 rounded-full text-sm font-semibold active:scale-95"
+              key={status}
+              onClick={() => mark(status)}
+              className="flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-[#F1E6A2] border-[2.5px] border-[#2B2A32] text-[#2B2A32] text-sm font-bold shadow-[0_3px_0_rgba(43,42,50,.5)] active:translate-y-0.5 active:shadow-none transition"
             >
-              💡 Break it down
+              <span className="text-base">{STATUS_LABELS[status].icon}</span>
+              {markLabel(status, profileName)}
             </button>
-            {showTip && (
-              <>
-                <div className="fixed inset-0 z-10" onClick={() => setShowTip(false)} />
-                <div className="absolute bottom-12 left-0 w-72 p-4 bg-white rounded-xl shadow-xl border-2 border-blue-100 z-20">
+          ))}
+        </div>
+
+        {/* Bloxie — the one place to ask for help. Tapping him opens everything
+            that used to clutter the panel: the tip, the worlds, pause, settings. */}
+        <div className="relative flex items-end gap-2 flex-shrink-0">
+          {helpOpen && (
+            <div className="fixed inset-0 z-30" onClick={closeHelp} />
+          )}
+
+          {/* Idle encouragement, only while he's not being asked for help */}
+          {bubble && !helpOpen && (
+            <div className="bg-white rounded-2xl px-3 py-2 text-sm font-semibold shadow-[0_6px_16px_rgba(60,50,20,.14)] mb-2 whitespace-nowrap">
+              {bubble}
+            </div>
+          )}
+
+          <button
+            onClick={() => (helpOpen ? closeHelp() : setHelpOpen(true))}
+            data-tour="bloxie"
+            aria-label="Ask Bloxie for help"
+            aria-expanded={helpOpen}
+            className={`relative z-40 w-24 h-24 rounded-2xl bg-white shadow-[0_8px_20px_rgba(60,50,20,.16)] grid place-items-center overflow-hidden border-2 transition active:scale-95 ${
+              helpOpen ? 'border-[#F5851F]' : 'border-black/5 hover:border-[#F5851F]/40'
+            }`}
+          >
+            <BloxieCharacter className="w-20 h-20" />
+          </button>
+
+          {/* Helper menu — opens upward, stays inside the reading panel */}
+          {helpOpen && (
+            <div className="absolute z-40 bottom-full right-0 mb-3 w-[290px] bg-white rounded-2xl shadow-[0_18px_44px_rgba(43,42,50,.28)] border border-black/5 overflow-hidden">
+              {helpView === 'menu' && (
+                <div className="p-2">
+                  <div className="px-3 pt-2 pb-3 font-display text-lg">Need a hand?</div>
+
+                  <HelpItem icon="💡" label="Break it down" onClick={() => setHelpView('tip')} />
+                  <HelpItem icon="📏" label="Reading aids" onClick={() => setHelpView('aids')} />
+                  {onChangeTheme && (
+                    <HelpItem icon="🌍" label="Change your world" onClick={() => setHelpView('theme')} />
+                  )}
+                  {onPause && <HelpItem icon="⏸️" label="Take a break" onClick={() => { closeHelp(); onPause(); }} />}
+                  {onOpenSettings && (
+                    <HelpItem icon="⚙️" label="Settings" onClick={() => { closeHelp(); onOpenSettings(); }} />
+                  )}
+                </div>
+              )}
+
+              {helpView === 'tip' && (
+                <div className="p-4">
+                  <HelpBack onClick={() => setHelpView('menu')} />
                   <div className="flex items-center gap-2 text-[#19A7A0] mb-1.5 text-sm font-semibold">
                     <span>💡</span> Tips for grown-ups
                   </div>
                   <div className="text-[15px] text-gray-700 leading-relaxed">{teachingTip}</div>
                 </div>
-              </>
-            )}
-          </div>
+              )}
 
-          {/* Cream outlined "how it went" pills */}
-          <div data-tour="marks" className="flex flex-col gap-2">
-          <button
-            onClick={() => mark('support')}
-            className="w-fit px-6 py-2.5 rounded-2xl bg-[#F1E6A2] border-[2.5px] border-[#2B2A32] text-[#2B2A32] text-sm font-bold shadow-[0_3px_0_rgba(43,42,50,.5)] active:translate-y-0.5 active:shadow-none transition"
-          >
-            Kid has used little help
-          </button>
-          <div className="flex gap-2.5">
-            <button
-              onClick={() => mark('independent')}
-              className="px-6 py-2.5 rounded-2xl bg-[#F1E6A2] border-[2.5px] border-[#2B2A32] text-[#2B2A32] text-sm font-bold shadow-[0_3px_0_rgba(43,42,50,.5)] active:translate-y-0.5 active:shadow-none transition"
-            >
-              Kid nailed it
-            </button>
-            <button
-              onClick={() => mark('practice')}
-              className="px-6 py-2.5 rounded-2xl bg-[#F1E6A2] border-[2.5px] border-[#2B2A32] text-[#2B2A32] text-sm font-bold shadow-[0_3px_0_rgba(43,42,50,.5)] active:translate-y-0.5 active:shadow-none transition"
-            >
-              Need more practise
-            </button>
-          </div>
-          </div>
-        </div>
+              {helpView === 'aids' && (
+                <div className="p-4">
+                  <HelpBack onClick={() => setHelpView('menu')} />
+                  <div className="text-sm font-semibold mb-3">Reading aids</div>
+                  <div className="flex flex-col gap-1.5">
+                    <AidToggle
+                      icon="📏"
+                      label="Ruler"
+                      active={readingAids.ruler}
+                      onClick={() => onUpdateReadingAids({ ...readingAids, ruler: !readingAids.ruler })}
+                    />
+                    <AidToggle
+                      icon="🔦"
+                      label="Lightbox"
+                      active={readingAids.lightbox}
+                      onClick={() => onUpdateReadingAids({ ...readingAids, lightbox: !readingAids.lightbox })}
+                    />
+                    <AidToggle
+                      icon="Aa"
+                      label="Sound marks"
+                      active={visualPhonemeMarking}
+                      onClick={onTogglePhonemeMarking}
+                    />
+                  </div>
+                </div>
+              )}
 
-        {/* Bloxie encouragement */}
-        <div className="flex items-end gap-2 flex-shrink-0">
-          {bubble && (
-            <div className="relative bg-white rounded-2xl px-3 py-2 text-sm font-semibold shadow-[0_6px_16px_rgba(60,50,20,.14)] mb-2 whitespace-nowrap">
-              {bubble}
+              {helpView === 'theme' && (
+                <div className="p-4">
+                  <HelpBack onClick={() => setHelpView('menu')} />
+                  <div className="text-sm font-semibold mb-3">Pick a world</div>
+                  <div className="flex gap-2.5">
+                    {THEMES.map((t) => {
+                      const selected = t === theme;
+                      return (
+                        <button
+                          key={t}
+                          onClick={() => pickTheme(t)}
+                          aria-label={`Choose ${t}`}
+                          className="flex-1 aspect-square rounded-2xl grid place-items-center overflow-hidden border-2 transition active:scale-95"
+                          style={
+                            selected
+                              ? { background: '#1c1c1c', borderColor: '#1c1c1c' }
+                              : { background: '#fff', borderColor: '#ececec' }
+                          }
+                        >
+                          <img src={`/assets/themes/${t}.gif`} alt="" className="w-12 h-12 object-contain" />
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
             </div>
           )}
-          <div className="w-24 h-24 rounded-2xl bg-white shadow-[0_8px_20px_rgba(60,50,20,.16)] grid place-items-center overflow-hidden border border-black/5">
-            <BloxieCharacter className="w-20 h-20" />
-          </div>
         </div>
       </div>
     </div>
+  );
+}
+
+/** Right-pointing chevron. Rotate it 180° for "back". */
+function Chevron({ className = '' }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2.5}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+    >
+      <path d="M9 6l6 6-6 6" />
+    </svg>
+  );
+}
+
+function SpeakerIcon({ className = '' }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+    >
+      <path d="M11 5L6 9H2v6h4l5 4V5z" />
+      <path d="M15.5 8.5a5 5 0 010 7" />
+      <path d="M18.5 5.5a9 9 0 010 13" />
+    </svg>
+  );
+}
+
+/** One row in Bloxie's helper menu. */
+function HelpItem({ icon, label, onClick }: { icon: string; label: string; onClick: () => void }) {
+  return (
+    <button
+      onClick={onClick}
+      className="w-full flex items-center gap-3 px-3 py-3 rounded-xl text-left text-[15px] font-semibold hover:bg-[#F7F5EF] transition active:scale-[0.98]"
+    >
+      <span className="text-xl">{icon}</span>
+      {label}
+    </button>
+  );
+}
+
+/** A reading-aid on/off row in Bloxie's menu. */
+function AidToggle({
+  icon,
+  label,
+  active,
+  onClick,
+}: {
+  icon: string;
+  label: string;
+  active: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      aria-pressed={active}
+      className={`flex items-center gap-3 px-3 py-2.5 rounded-xl text-left text-[15px] font-semibold transition active:scale-[0.98] ${
+        active ? 'bg-[#E8F1FA] text-[#2E7BC4]' : 'text-[#6b6b6b] hover:bg-[#F7F5EF]'
+      }`}
+    >
+      <span className="w-6 text-center">{icon}</span>
+      <span className="flex-1">{label}</span>
+      <span className={`text-xs font-bold ${active ? 'text-[#2E7BC4]' : 'text-[#C4BCB0]'}`}>
+        {active ? 'ON' : 'OFF'}
+      </span>
+    </button>
+  );
+}
+
+/** Back link inside a helper sub-view. */
+function HelpBack({ onClick }: { onClick: () => void }) {
+  return (
+    <button
+      onClick={onClick}
+      className="mb-2 text-sm font-semibold text-[#999] hover:text-[#555] transition"
+    >
+      ‹ Back
+    </button>
   );
 }

@@ -37,10 +37,9 @@ const TOUR_STEPS: TourStep[] = [
   { target: 'word', title: 'The word', body: 'Your child reads this out loud. Sounds are underlined so tricky pairs like “sh” stay together.' },
   { target: 'hear', title: 'Hear it', body: 'Not sure how it sounds? Tap the speaker to hear the whole word.' },
   { target: 'soundout', title: 'Sound it out', body: 'Lights up and says each sound in turn — perfect when your child gets stuck.' },
-  { target: 'tip', title: 'Tips for grown-ups', body: 'Opens a short hint on how to help your child with this particular word.' },
+  { target: 'bloxie', title: 'Ask Bloxie', body: 'Tap Bloxie whenever you need a hand — he breaks the word down for grown-ups, switches worlds, pauses, and opens settings.' },
   { target: 'marks', title: 'How did it go?', body: 'Grown-up: tap one after each word. Every word earns a building part — nothing is ever “wrong”.' },
   { target: 'build', title: 'Build your character!', body: 'Parts you earn appear in the tray on the right. Drag them here to build — that’s the reward for reading.' },
-  { target: 'theme', title: 'Change your world', body: 'Tap to switch between robot, mystical and monster. Then read on!' },
 ];
 
 // Shuffle array helper
@@ -467,6 +466,21 @@ export function SessionScreen({
     return (activeProfile?.wordHistory ?? []).filter(a => a.timestamp >= sessionStartTime);
   }, [activeProfile?.wordHistory, sessionStartTime]);
 
+  // Light gamification, derived from real attempts — never invented numbers.
+  //  · Stars  = every word read this session. Nothing is ever "wrong", so every
+  //             attempt earns one, including the ones still finding the way.
+  //  · Streak = the current run of words read without needing the compass.
+  //             Broken by 'practice' or 'skipped', so it means something.
+  const gameStats = useMemo(() => {
+    let streak = 0;
+    for (let i = sessionAttempts.length - 1; i >= 0; i--) {
+      const { status } = sessionAttempts[i];
+      if (status !== 'independent' && status !== 'support') break;
+      streak++;
+    }
+    return { stars: sessionAttempts.length, streak };
+  }, [sessionAttempts]);
+
   // Update a specific WordAttempt status by id (for tap-to-cycle correction)
   const handleUpdateWordStatus = useCallback((attemptId: string, newStatus: WordAttempt['status']) => {
     if (!activeProfile) return;
@@ -496,7 +510,7 @@ export function SessionScreen({
     <div className="h-screen flex flex-col pb-24 md:pb-0 md:flex-row md:gap-2 md:p-2">
       {/* Reading Zone */}
       <div
-        className={`min-h-0 min-w-0 md:flex-[553] md:rounded-[36px] md:overflow-hidden ${activeTab === 'reading' ? 'flex-1' : 'hidden md:block'}`}
+        className={`min-h-0 min-w-0 md:flex-[45] md:rounded-[36px] md:overflow-hidden ${activeTab === 'reading' ? 'flex-1' : 'hidden md:block'}`}
         style={{ background: bgColor }}
       >
         <ReadingZone
@@ -517,6 +531,7 @@ export function SessionScreen({
           onCorrect={handleCorrect}
           onSkip={handleSkip}
           onGoBack={goBack}
+          onEndSession={handleEndSession}
           onCompleteStory={handleCompleteStory}
           onEndPreBonusBreak={endPreBonusBreak}
           onDismissBonusTransition={dismissBonusTransition}
@@ -540,20 +555,21 @@ export function SessionScreen({
       </div>
 
       {/* Building Zone */}
-      <div className={`min-h-0 min-w-0 md:flex-[505] md:rounded-[19px] bg-[#F2F2F2] ${activeTab === 'building' ? 'flex-1' : 'hidden md:block'}`}>
+      <div className={`min-h-0 min-w-0 md:flex-[55] md:rounded-[19px] bg-[#F2F2F2] ${activeTab === 'building' ? 'flex-1' : 'hidden md:block'}`}>
         <BuildingZone
           theme={currentTheme}
           parts={awardedParts}
           onPartMove={movePart}
           onPartPlace={placePart}
           onPartUnplace={unplacePart}
-          onEndSession={handleEndSession}
           onPlayDanceMusic={playDanceMusic}
           onStopDanceMusic={stopDanceMusic}
           onResetModel={handleResetModel}
           isSoundMuted={isSoundMuted}
           onToggleMute={handleToggleMute}
           upcomingParts={getUpcomingForCurrentFamily()}
+          stars={gameStats.stars}
+          streak={gameStats.streak}
         />
       </div>
 

@@ -15,13 +15,24 @@ interface BuildingZoneProps {
   onPartMove: (id: string, x: number, y: number) => void;
   onPartPlace: (id: string, x: number, y: number) => void;
   onPartUnplace: (id: string) => void;
-  onEndSession: () => void;
   onPlayDanceMusic?: () => void;
   onStopDanceMusic?: () => void;
   onResetModel: () => void;
   isSoundMuted: boolean;
   onToggleMute: (muted: boolean) => void;
   upcomingParts?: string[];
+  /** Words read this session — every word earns one. */
+  stars?: number;
+  /** Current run of words read without needing the compass. */
+  streak?: number;
+}
+
+/** Encouragement that reacts to how the session is actually going. */
+function encouragement(stars: number, streak: number): string {
+  if (stars === 0) return 'Read a word to earn your first part!';
+  if (streak >= 5) return `${streak} in a row! 🔥`;
+  if (streak >= 3) return 'On a roll! 🎉';
+  return 'Keep going! 🎉';
 }
 
 export function BuildingZone({
@@ -30,13 +41,14 @@ export function BuildingZone({
   onPartMove,
   onPartPlace,
   onPartUnplace,
-  onEndSession,
   onPlayDanceMusic,
   onStopDanceMusic,
   onResetModel,
   isSoundMuted,
   onToggleMute,
   upcomingParts = [],
+  stars = 0,
+  streak = 0,
 }: BuildingZoneProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const buildAreaRef = useRef<HTMLDivElement>(null);
@@ -207,10 +219,6 @@ export function BuildingZone({
     }
   }, []);
 
-  const handleEndSession = () => {
-    onEndSession();
-  };
-
   const handleResetModelLocal = useCallback(() => {
     setSelectedPartId(null);
     setPartTransforms(new Map());
@@ -308,6 +316,26 @@ export function BuildingZone({
             />
           ))}
 
+          {/* Control bar floats OVER the scene rather than sitting below it.
+              In the flex column it added a row on every selection, so the build
+              area resized under the child's hands each time they tapped a part. */}
+          {selectedPartId && !isDancing && (
+            <div
+              className="absolute bottom-3 left-1/2 -translate-x-1/2 z-30 rounded-xl bg-white/15 backdrop-blur-md border border-white/25 p-1 shadow-[0_6px_18px_rgba(0,0,0,.18)]"
+              onClick={(e) => e.stopPropagation()}
+              onTouchEnd={(e) => e.stopPropagation()}
+            >
+              <PartControlBar
+                onRotate={handleRotate}
+                onFlipH={handleFlipH}
+                onFlipV={handleFlipV}
+                onResize={handleResize}
+                onBringForward={handleBringForward}
+                onSendBack={handleSendBack}
+                onRemove={handleRemovePart}
+              />
+            </div>
+          )}
         </div>
 
         {/* Parts Tray */}
@@ -318,21 +346,6 @@ export function BuildingZone({
           onDragStart={handleTrayDragStart}
         />
       </div>
-
-      {/* Control Bar - only when part selected and not dancing */}
-      {selectedPartId && !isDancing && (
-        <div className="mt-1 md:mt-2">
-          <PartControlBar
-            onRotate={handleRotate}
-            onFlipH={handleFlipH}
-            onFlipV={handleFlipV}
-            onResize={handleResize}
-            onBringForward={handleBringForward}
-            onSendBack={handleSendBack}
-            onRemove={handleRemovePart}
-          />
-        </div>
-      )}
 
       {/* Dance and Photo buttons - shows when 3+ parts placed */}
       {placedParts.length >= 3 && (
@@ -374,14 +387,25 @@ export function BuildingZone({
         </div>
       )}
 
-      {/* End Session button */}
-      <div className="mt-1 md:mt-3 flex justify-center">
-        <button
-          onClick={handleEndSession}
-          className="px-8 py-3 bg-[#606060] text-white rounded-[20px] text-base font-medium cursor-pointer transition-colors hover:bg-[#505050] active:scale-95"
-        >
-          End Session
-        </button>
+      {/* Progress bar — streak and stars, both real counts from the session */}
+      <div className="mt-2 md:mt-3 flex items-center gap-4 md:gap-6 px-4 py-2.5 md:py-3 rounded-2xl bg-white border border-black/5 shadow-[0_2px_10px_rgba(60,50,20,.06)]">
+        <div className="flex items-center gap-1.5 text-sm">
+          <span className="text-[#8A8378] font-medium">Streak</span>
+          <span aria-hidden="true">🔥</span>
+          <span className="font-bold text-[#2B2A32]">{streak}</span>
+        </div>
+
+        <span className="w-px h-5 bg-black/10" />
+
+        <div className="flex items-center gap-1.5 text-sm">
+          <span className="text-[#8A8378] font-medium">Stars</span>
+          <span aria-hidden="true">⭐</span>
+          <span className="font-bold text-[#2B2A32]">{stars}</span>
+        </div>
+
+        <span className="ml-auto text-sm font-semibold text-[#6C5CE7]">
+          {encouragement(stars, streak)}
+        </span>
       </div>
 
       {/* Drag preview from tray */}

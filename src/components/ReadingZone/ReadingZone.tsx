@@ -3,7 +3,6 @@ import { LabWordPanel } from './LabWordPanel';
 import { LabBonusCard } from './LabBonusCard';
 import { StoryScreen } from './StoryScreen';
 import { SessionSummary } from './SessionSummary';
-import { MobileReadingAids } from './MobileReadingAids';
 import type { WordSet, WordSegment, WordStatus } from '../../types';
 import type { ReadingAids, WordAttempt, Theme } from '../../types/profile';
 
@@ -25,6 +24,8 @@ interface ReadingZoneProps {
   onCorrect: (status: WordStatus) => void;
   onSkip: () => void;
   onGoBack: () => void;
+  /** Finish early — hands over to the parent recap. Lives in the reading panel. */
+  onEndSession: () => void;
   onCompleteStory: () => void;
   onEndPreBonusBreak: () => void;
   onDismissBonusTransition: () => void;
@@ -70,6 +71,7 @@ export function ReadingZone({
   onCorrect,
   onSkip,
   onGoBack,
+  onEndSession,
   onCompleteStory,
   onEndPreBonusBreak,
   onDismissBonusTransition,
@@ -133,16 +135,6 @@ export function ReadingZone({
     );
   }
 
-  // Mobile reading aids (shown in both word and story mode)
-  const mobileAids = (
-    <MobileReadingAids
-      readingAids={readingAids}
-      onUpdateReadingAids={onUpdateReadingAids}
-      visualPhonemeMarking={visualPhonemeMarking}
-      onTogglePhonemeMarking={onTogglePhonemeMarking}
-    />
-  );
-
   // Story mode
   if (isShowingStory && currentWordSet) {
     const wordSetWords = [
@@ -152,12 +144,13 @@ export function ReadingZone({
 
     return (
       <div className="h-full relative">
-        {mobileAids}
         <StoryScreen
           story={currentWordSet.story}
           wordSetWords={wordSetWords}
           phonicsWords={currentWordSet.phonicsWords}
           onNext={onCompleteStory}
+          onGoBack={onGoBack}
+          onEndSession={onEndSession}
           onPlayStoryWithHighlight={onSpeakStoryWithHighlight}
           onStopStory={onStopStory}
           readingAids={readingAids}
@@ -172,7 +165,6 @@ export function ReadingZone({
   if (currentWord && currentTeachingTip) {
     return (
       <div className="h-full relative">
-        {mobileAids}
         <LabWordPanel
           word={currentWord}
           teachingTip={currentTeachingTip}
@@ -186,6 +178,9 @@ export function ReadingZone({
           onCorrect={onCorrect}
           onSkip={onSkip}
           onGoBack={onGoBack}
+          onEndSession={onEndSession}
+          onUpdateReadingAids={onUpdateReadingAids}
+          onTogglePhonemeMarking={onTogglePhonemeMarking}
           onSpeak={() => onSpeak(currentWord)}
           profileName={profileName}
           theme={theme}

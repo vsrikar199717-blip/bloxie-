@@ -2,6 +2,7 @@ import { useState, useMemo, useCallback, useRef } from 'react';
 import { ReadingGuide } from '../ui/ReadingGuide';
 import { StyledText } from '../ui/StyledText';
 import { PhonemeMarkedWord } from './PhonemeMarkedWord';
+import { MARK_ORDER, STATUS_LABELS, markLabel } from '../../utils/wordStatusLabels';
 import type { WordAttempt, ReadingAids } from '../../types/profile';
 import type { WordStatus, WordSet, WordSegment } from '../../types';
 import './sessionSummary.css';
@@ -22,15 +23,12 @@ interface SessionSummaryProps {
   onPersistPracticeAttempt: (word: string, status: AttemptStatus, setId: string, phase: number) => void;
 }
 
-const STATUS_CONFIG: Record<AttemptStatus, { label: string; color: string; empty: string }> = {
-  practice: { label: 'Needs more practice', color: '#CD0000', empty: 'Nothing here — brilliant.' },
-  support: { label: 'With a little help', color: '#F97316', empty: 'Nothing needed a hand.' },
-  independent: { label: 'Nailed it', color: '#22C55E', empty: 'Drag words here as they click.' },
-  skipped: { label: 'Skipped', color: '#9A9A9A', empty: 'Nothing skipped.' },
-};
+// Labels/colours come from the shared source of truth, so the recap always
+// speaks the same language as the marking pills during reading.
+const STATUS_CONFIG = STATUS_LABELS;
 
-// Section display order: practice, support, independent, skipped
-const SECTION_ORDER: AttemptStatus[] = ['practice', 'support', 'independent', 'skipped'];
+// Best outcome first, mirroring the marking pills.
+const SECTION_ORDER: AttemptStatus[] = ['independent', 'support', 'practice', 'skipped'];
 
 /** Get the latest attempt per word (by timestamp), keyed by word+setId for uniqueness */
 function getLatestAttempts(attempts: WordAttempt[]): WordAttempt[] {
@@ -208,27 +206,16 @@ export function SessionSummary({
 
         <div className="practice-actions">
           <div className="practice-marks">
-            <button
-              className="practice-mark"
-              style={{ background: STATUS_CONFIG.practice.color }}
-              onClick={() => handlePracticeAssess('practice')}
-            >
-              Still tricky
-            </button>
-            <button
-              className="practice-mark"
-              style={{ background: STATUS_CONFIG.support.color }}
-              onClick={() => handlePracticeAssess('support')}
-            >
-              With a little help
-            </button>
-            <button
-              className="practice-mark"
-              style={{ background: STATUS_CONFIG.independent.color }}
-              onClick={() => handlePracticeAssess('independent')}
-            >
-              {profileName} nailed it
-            </button>
+            {MARK_ORDER.map((status) => (
+              <button
+                key={status}
+                className="practice-mark"
+                style={{ background: STATUS_LABELS[status].color }}
+                onClick={() => handlePracticeAssess(status)}
+              >
+                {STATUS_LABELS[status].icon} {markLabel(status, profileName)}
+              </button>
+            ))}
           </div>
           <button className="practice-skip" onClick={handlePracticeSkip}>
             Skip this word →
@@ -372,7 +359,8 @@ export function SessionSummary({
             >
               <div className="recap-group-title">
                 <span className="recap-dot" style={{ background: config.color }} />
-                {config.label}
+                <span aria-hidden="true">{config.icon}</span>
+                {config.recapLabel}
                 <span className="recap-count">({words.length})</span>
               </div>
 
