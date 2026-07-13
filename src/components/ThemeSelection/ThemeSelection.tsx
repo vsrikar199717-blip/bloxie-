@@ -88,7 +88,7 @@ export function ThemeSelection({ onSelectTheme, onOpenSettings }: ThemeSelection
 
           {/* Large preview: game-style conveyor swap (characters never overlap) */}
           <div className="order-2 flex justify-center w-full md:w-[54%]">
-            <div className="relative w-full max-w-[400px] md:max-w-[440px] aspect-square overflow-hidden">
+            <div className="relative w-full max-w-[280px] md:max-w-[320px] aspect-square overflow-hidden">
               {anim ? (
                 <div
                   className={`absolute inset-0 flex w-[200%] ${

@@ -12,6 +12,15 @@ const SCENES: Partial<Record<Theme, Scene>> = {
     src: '/assets/backdrops/robot.png',
     opacity: 0.9,
   },
+  // The mystical theme builds mythical creatures — the phoenix among them.
+  mystical: {
+    src: '/assets/backdrops/mystical.png',
+    opacity: 0.9,
+  },
+  monster: {
+    src: '/assets/backdrops/monster.png',
+    opacity: 0.9,
+  },
 };
 
 export function ThemeBackdrop({ theme }: { theme: Theme }) {
