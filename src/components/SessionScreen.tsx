@@ -3,6 +3,7 @@ import { ReadingZone } from './ReadingZone/ReadingZone';
 import { BuildingZone } from './BuildingZone/BuildingZone';
 import { GuideContent } from './ParentGuide/GuideContent';
 import { Walkthrough, type TourStep } from './Walkthrough';
+import { PauseOverlay, ResumePrompt } from './ui/SessionModals';
 import { useSession } from '../hooks/useSession';
 import { useSpeech } from '../hooks/useSpeech';
 import { useSound } from '../hooks/useSound';
@@ -11,6 +12,12 @@ import type { WordSet, WordStatus } from '../types';
 import type { ChildProfile, PhonicsPhase, ReadingAids, Theme, WordAttempt } from '../types/profile';
 import { getDefaultReadingAids } from '../types/profile';
 import { CONSTANTS } from '../utils/constants';
+import {
+  SNAPSHOT_VERSION,
+  clearSnapshot,
+  loadSnapshot,
+  saveSnapshot,
+} from '../utils/sessionPersistence';
 import wordSetsData from '../data/wordSets.json';
 
 interface SessionScreenProps {
@@ -198,6 +205,7 @@ export function SessionScreen({
     currentWordSet,
     isSessionComplete,
     loadContent,
+    restore,
     markWord,
     markSkipped,
     endPreBonusBreak,
@@ -210,7 +218,19 @@ export function SessionScreen({
   const { speak, speakStoryWithHighlight, stop } = useSpeech();
   const { playObjectDrop, playDanceMusic, stopDanceMusic, setMuted } = useSound();
 
-  const [currentTheme, setCurrentTheme] = useState<Theme>(activeProfile?.preferredTheme ?? 'robot');
+  // Read any interrupted session ONCE, during the first render, so the restored
+  // build is in place before usePartSystem initialises. Reading it later would
+  // mean mounting a fresh random character and then overwriting it.
+  const [snapshot] = useState(() =>
+    activeProfile ? loadSnapshot(activeProfile.id) : null
+  );
+  const [showResumePrompt, setShowResumePrompt] = useState(!!snapshot);
+  const [discardedSnapshot, setDiscardedSnapshot] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
+
+  const [currentTheme, setCurrentTheme] = useState<Theme>(
+    snapshot?.theme ?? activeProfile?.preferredTheme ?? 'robot'
+  );
   const {
     awardedParts,
     awardParts,
@@ -221,7 +241,8 @@ export function SessionScreen({
     clearParts,
     resetPartSystem,
     getUpcomingForCurrentFamily,
-  } = usePartSystem(currentTheme);
+    partsSnapshot,
+  } = usePartSystem(currentTheme, snapshot?.parts);
 
   // First-run walkthrough over the real dashboard (replaces the old guide screen)
   const [tourDone, setTourDone] = useState(false);
@@ -236,14 +257,23 @@ export function SessionScreen({
   // and the onOpenSettings handler. Left as a no-op until the Guide feature is
   // either restored or fully torn out — out of scope for the TS-error cleanup.
   const [showGuideModal, setShowGuideModal] = useState(false);
-  const [sessionStartTime] = useState(() => Date.now());
 
-  // Load phase-filtered, shuffled content on mount or when phases/profile ID change.
+  // A resumed session keeps its original start time, so the recap still sees the
+  // words read before the interruption.
+  const [sessionStartTime, setSessionStartTime] = useState(
+    () => snapshot?.startedAt ?? Date.now()
+  );
+
+  // Either re-enter the interrupted session, or build a fresh one.
   // IMPORTANT: only depend on phases and ID, NOT the full activeProfile object,
   // because toggling reading aids updates the profile and would reset the session.
   const profileId = activeProfile?.id ?? 'default';
   const includedPhases = activeProfile?.includedPhases;
   useEffect(() => {
+    if (snapshot && !discardedSnapshot) {
+      restore(snapshot.session);
+      return;
+    }
     const phases = includedPhases ?? [2];
     const sessionSets = buildSessionSets(
       wordSetsData.wordSets as WordSet[],
@@ -251,7 +281,53 @@ export function SessionScreen({
       profileId,
     );
     loadContent(sessionSets);
-  }, [loadContent, profileId, includedPhases]);
+  }, [loadContent, restore, profileId, includedPhases, snapshot, discardedSnapshot]);
+
+  // Snapshot after every change, so an unexpected close loses nothing. Skipped
+  // while the resume prompt is still up, because the parent has not yet chosen
+  // whether this session continues — writing then could overwrite the very
+  // snapshot they are being offered.
+  useEffect(() => {
+    if (!activeProfile || showResumePrompt) return;
+    if (state.wordSets.length === 0) return;
+
+    // A finished session is not something to resume into.
+    if (isSessionComplete) {
+      clearSnapshot();
+      return;
+    }
+
+    saveSnapshot({
+      version: SNAPSHOT_VERSION,
+      profileId: activeProfile.id,
+      savedAt: Date.now(),
+      startedAt: sessionStartTime,
+      theme: currentTheme,
+      session: state,
+      parts: partsSnapshot,
+    });
+  }, [
+    activeProfile,
+    showResumePrompt,
+    isSessionComplete,
+    state,
+    partsSnapshot,
+    currentTheme,
+    sessionStartTime,
+  ]);
+
+  const handleResumeSession = useCallback(() => {
+    setShowResumePrompt(false);
+  }, []);
+
+  /** Throw away the interrupted session and start a brand new one. */
+  const handleStartFresh = useCallback(() => {
+    clearSnapshot();
+    setDiscardedSnapshot(true);
+    setShowResumePrompt(false);
+    setSessionStartTime(Date.now());
+    resetPartSystem();
+  }, [resetPartSystem]);
 
   // Note: bonus transition is now triggered synchronously in the reducer
   // when MARK_WORD/MARK_SKIPPED advances to the bonus word position.
@@ -322,6 +398,7 @@ export function SessionScreen({
 
   // Finish session (screenshot is handled in BuildingZone)
   const handleFinish = useCallback(() => {
+    clearSnapshot();
     onFinish();
   }, [onFinish]);
 
@@ -330,6 +407,18 @@ export function SessionScreen({
     endSession();
     setActiveTab('reading');
   }, [endSession]);
+
+  // Pausing stops any speech mid-flow; nothing else needs to halt, because
+  // reading is untimed.
+  const handlePause = useCallback(() => {
+    stop();
+    setIsPaused(true);
+  }, [stop]);
+
+  const handleFinishFromPause = useCallback(() => {
+    setIsPaused(false);
+    handleEndSession();
+  }, [handleEndSession]);
 
   const handleResetModel = useCallback(() => {
     resetPartSystem();
@@ -445,6 +534,7 @@ export function SessionScreen({
           theme={currentTheme}
           onChangeTheme={handleChangeTheme}
           onOpenSettings={onOpenSettings}
+          onPause={handlePause}
           bgColor={bgColor}
         />
       </div>
@@ -466,6 +556,25 @@ export function SessionScreen({
           upcomingParts={getUpcomingForCurrentFamily()}
         />
       </div>
+
+      {isPaused && (
+        <PauseOverlay
+          profileName={profileName}
+          wordsRead={state.totalWordsAttempted}
+          onResume={() => setIsPaused(false)}
+          onFinish={handleFinishFromPause}
+        />
+      )}
+
+      {showResumePrompt && snapshot && (
+        <ResumePrompt
+          profileName={profileName}
+          wordsRead={snapshot.session.totalWordsAttempted}
+          partsEarned={snapshot.parts.awardedParts.length}
+          onResume={handleResumeSession}
+          onStartFresh={handleStartFresh}
+        />
+      )}
 
       {/* First-run walkthrough on the real dashboard */}
       {showTour && <Walkthrough steps={TOUR_STEPS} onDone={finishTour} />}

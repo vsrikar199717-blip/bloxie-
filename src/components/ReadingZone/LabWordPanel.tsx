@@ -1,6 +1,7 @@
 import { useCallback, useState } from 'react';
 import { ReadingGuide } from '../ui/ReadingGuide';
 import { BloxieCharacter } from '../ui/BloxieCharacter';
+import { PauseButton } from '../ui/SessionModals';
 import type { WordSegment, WordStatus } from '../../types';
 import type { ReadingAids, Theme } from '../../types/profile';
 
@@ -31,6 +32,7 @@ interface LabWordPanelProps {
   theme?: Theme;
   onChangeTheme?: (theme: Theme) => void;
   onOpenSettings?: () => void;
+  onPause?: () => void;
   bgColor?: string;
 }
 
@@ -53,6 +55,7 @@ export function LabWordPanel({
   theme = 'robot',
   onChangeTheme,
   onOpenSettings,
+  onPause,
   bgColor = '#FBF1BE',
 }: LabWordPanelProps) {
   const [lit, setLit] = useState<number | null>(null);
@@ -138,6 +141,8 @@ export function LabWordPanel({
               </svg>
             </button>
           )}
+
+          {onPause && <PauseButton onClick={onPause} />}
 
           {/* Theme switcher: tap to expand a column of worlds under settings */}
           <div

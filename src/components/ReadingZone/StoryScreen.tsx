@@ -2,7 +2,6 @@ import { useState, useMemo } from 'react';
 import { ActionButton } from '../ui/ActionButton';
 import { StoryDisplayLightbox } from './StoryDisplayLightbox';
 import { StoryWithRuler } from './StoryWithRuler';
-import { CONSTANTS } from '../../utils/constants';
 import type { PhonicsWord, WordSegment } from '../../types';
 import type { ReadingAids } from '../../types/profile';
 import './storyScreen.css';
@@ -20,6 +19,8 @@ interface StoryScreenProps {
   onStopStory: () => void;
   readingAids: ReadingAids;
   visualPhonemeMarking: boolean;
+  /** The child's chosen reading colour, same as every other reading panel. */
+  bgColor?: string;
 }
 
 export function StoryScreen({
@@ -31,6 +32,7 @@ export function StoryScreen({
   onStopStory,
   readingAids,
   visualPhonemeMarking,
+  bgColor,
 }: StoryScreenProps) {
   const [hasPlayed, setHasPlayed] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -84,13 +86,12 @@ export function StoryScreen({
   return (
     <div
       className="h-full flex flex-col p-4 md:p-8"
-      style={{ backgroundColor: CONSTANTS.colors.background }}
+      style={{ backgroundColor: bgColor }}
     >
       {/* Header */}
-      <div className="text-center mb-2 md:mb-4">
-        <div className="text-2xl md:text-4xl mb-0.5 md:mb-2">📖</div>
-        <h2 className="text-lg md:text-2xl font-bold text-gray-700">Story time!</h2>
-        <p className="hidden md:block text-gray-500 text-sm">Listen to the story</p>
+      <div className="story-header">
+        <h2 className="font-display">Story time</h2>
+        <p className="subtext">Read it together, then listen back.</p>
       </div>
 
       {/* Outer: scroll container — min-h-0 lets flex-1 shrink, overflow-y-auto enables scrolling */}
@@ -102,16 +103,17 @@ export function StoryScreen({
       </div>
 
       {/* Action buttons — flex-shrink-0 keeps the bar always visible */}
-      <div className="flex flex-col gap-2 md:gap-4 flex-shrink-0">
-        <ActionButton onClick={handlePlay} color="blue">
-          {hasPlayed ? '🔁 Replay story' : '🔊 Play story'}
-        </ActionButton>
-        {isPlaying && (
-          <ActionButton onClick={handleStop} color="secondary">
-            ⏸ Stop story
+      <div className="flex flex-col gap-2 md:gap-3 flex-shrink-0">
+        {isPlaying ? (
+          <ActionButton onClick={handleStop} color="outline">
+            Stop
+          </ActionButton>
+        ) : (
+          <ActionButton onClick={handlePlay} color="sunny">
+            {hasPlayed ? 'Play it again' : 'Listen to the story'}
           </ActionButton>
         )}
-        <ActionButton onClick={() => { onStopStory(); onNext(); }} color="primary">
+        <ActionButton onClick={() => { onStopStory(); onNext(); }} color="ink">
           Next set →
         </ActionButton>
       </div>

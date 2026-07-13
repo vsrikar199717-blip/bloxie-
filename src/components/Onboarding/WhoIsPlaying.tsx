@@ -1,6 +1,8 @@
 import { SettingsCog } from '../ui/SettingsCog';
+import { OnboardingLayout } from './OnboardingLayout';
 import type { ChildProfile } from '../../types/profile';
 import { YEAR_GROUP_LABELS } from '../../types/profile';
+import './whoIsPlaying.css';
 
 interface WhoIsPlayingProps {
   profiles: ChildProfile[];
@@ -16,38 +18,55 @@ export function WhoIsPlaying({
   onOpenSettings,
 }: WhoIsPlayingProps) {
   return (
-    <div className="min-h-screen bg-[#FFFFCC] flex items-center justify-center p-6">
+    <OnboardingLayout>
       <SettingsCog onClick={onOpenSettings} />
 
-      <div className="max-w-md w-full bg-white rounded-3xl shadow-lg p-8">
-        <h1 className="text-2xl font-bold text-gray-800 mb-6 text-center">
-          Who's playing today?
-        </h1>
-
-        <div className="space-y-3 mb-6">
-          {profiles.map((profile) => (
-            <button
-              key={profile.id}
-              onClick={() => onSelectProfile(profile.id)}
-              className="w-full p-4 bg-gray-50 hover:bg-blue-50 border-2 border-gray-200 hover:border-blue-300 rounded-xl text-left transition-all"
-            >
-              <span className="text-lg font-semibold text-gray-800">
-                {profile.name}
-              </span>
-              <span className="text-gray-500 ml-2">
-                ({YEAR_GROUP_LABELS[profile.yearGroup].label})
-              </span>
-            </button>
-          ))}
+      <div className="who-step">
+        <div className="who-heading">
+          <h1 className="font-display">Who's playing today?</h1>
+          <p className="subtext">Tap your name to start reading.</p>
         </div>
 
-        <button
-          onClick={onAddChild}
-          className="w-full p-4 bg-white border-2 border-dashed border-gray-300 hover:border-blue-400 rounded-xl text-gray-600 hover:text-blue-600 font-semibold transition-all"
-        >
+        <div className="who-cards">
+          {profiles.map((profile) => {
+            const year = YEAR_GROUP_LABELS[profile.yearGroup];
+
+            return (
+              <button
+                key={profile.id}
+                onClick={() => onSelectProfile(profile.id)}
+                className="who-card"
+              >
+                <div className="who-card-content">
+                  <p className="name font-display">{profile.name}</p>
+                  <p className="year">
+                    {year.label} · {year.ageRange}
+                  </p>
+                </div>
+
+                <svg
+                  className="who-card-chevron"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <polyline points="9 18 15 12 9 6" />
+                </svg>
+              </button>
+            );
+          })}
+        </div>
+
+        <button onClick={onAddChild} className="who-add">
           + Add another child
         </button>
       </div>
-    </div>
+    </OnboardingLayout>
   );
 }

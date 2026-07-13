@@ -1,0 +1,154 @@
+/* ===== Error / recovery screen ===== */
+/* Deliberately self-contained: this screen renders precisely when something
+   else has broken, so it must not depend on app state or other stylesheets. */
+
+.error-screen {
+  min-height: 100vh;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.error-panel {
+  width: 100%;
+  max-width: 520px;
+  text-align: center;
+}
+
+.error-face {
+  font-size: 56px;
+  line-height: 1;
+  margin-bottom: 18px;
+}
+
+.error-panel h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 12px 0;
+  line-height: 1.15;
+}
+
+.error-panel .subtext {
+  font-size: 16px;
+  color: #5a5a5a;
+  line-height: 1.55;
+  margin: 0 auto 28px;
+  max-width: 420px;
+}
+
+.error-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 340px;
+  margin: 0 auto;
+}
+
+.error-btn-primary {
+  padding: 16px;
+  border-radius: 999px;
+  border: none;
+  background: #111;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.error-btn-primary:hover {
+  background: #000;
+  box-shadow: 0 8px 20px -6px rgba(0, 0, 0, 0.35);
+}
+
+.error-btn-secondary {
+  padding: 15px;
+  border-radius: 999px;
+  border: 2px solid #e6e6e6;
+  background: white;
+  color: #1a1a1a;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.error-btn-secondary:hover {
+  background: #f6f6f6;
+}
+
+.error-btn-primary:active,
+.error-btn-secondary:active {
+  transform: scale(0.98);
+}
+
+/* ===== Report details (for testers) ===== */
+.error-report {
+  margin-top: 28px;
+  text-align: left;
+}
+
+.error-report summary {
+  font-size: 13px;
+  color: #9a9a9a;
+  cursor: pointer;
+  text-align: center;
+  list-style: none;
+}
+
+.error-report summary::-webkit-details-marker {
+  display: none;
+}
+
+.error-report summary:hover {
+  color: #111;
+}
+
+.error-details {
+  margin-top: 12px;
+  padding: 14px;
+  background: #f6f6f6;
+  border-radius: 14px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: #3a3a3a;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 180px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.error-copy {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 999px;
+  border: 2px solid #e6e6e6;
+  background: white;
+  color: #5a5a5a;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.error-copy:hover {
+  border-color: #111;
+  color: #111;
+}
+
+@media (max-width: 767px) {
+  .error-panel h1 {
+    font-size: 26px;
+  }
+  .error-panel .subtext {
+    font-size: 15px;
+  }
+}

@@ -48,6 +48,7 @@ interface ReadingZoneProps {
   theme?: Theme;
   onChangeTheme?: (theme: Theme) => void;
   onOpenSettings?: () => void;
+  onPause?: () => void;
   bgColor?: string;
 }
 
@@ -86,6 +87,7 @@ export function ReadingZone({
   theme,
   onChangeTheme,
   onOpenSettings,
+  onPause,
   bgColor,
 }: ReadingZoneProps) {
   // Auto-advance from pre-bonus break to bonus transition after a brief pause
@@ -160,6 +162,7 @@ export function ReadingZone({
           onStopStory={onStopStory}
           readingAids={readingAids}
           visualPhonemeMarking={visualPhonemeMarking}
+          bgColor={bgColor}
         />
       </div>
     );
@@ -188,6 +191,7 @@ export function ReadingZone({
           theme={theme}
           onChangeTheme={onChangeTheme}
           onOpenSettings={onOpenSettings}
+          onPause={onPause}
           bgColor={bgColor}
         />
       </div>
