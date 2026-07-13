@@ -1,0 +1,477 @@
+/* ===== Parent Mode / Edit Profile =====
+   Same language as onboarding: white page with floating decorations, near-black
+   display headings, soft white cards with a light border, signature yellow as
+   the active state. The plants from the year-group cards come back here as each
+   child's avatar, so a child is recognised by the same illustration throughout.
+
+   Deliberately NOT the flat yellow page + stock-blue buttons these screens used
+   to have — that was a different app. */
+
+.settings-step {
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+/* ===== Header: back on the left, title centred ===== */
+.settings-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.settings-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  padding: 8px 14px 8px 10px;
+  border: 2px solid #ececec;
+  border-radius: 9999px;
+  background: white;
+  font-size: 14px;
+  font-weight: 700;
+  color: #5a5a5a;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.settings-back:hover,
+.settings-back:focus-visible {
+  border-color: #111;
+  color: #111;
+  outline: none;
+}
+
+.settings-back:active {
+  transform: scale(0.97);
+}
+
+.settings-header h1 {
+  flex: 1;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #111;
+  margin: 0;
+  line-height: 1.15;
+}
+
+/* Balances the back button so the title stays optically centred */
+.settings-header-spacer {
+  flex-shrink: 0;
+  width: 84px;
+}
+
+/* ===== Return to session — the one loud, warm CTA ===== */
+.settings-resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 24px;
+  background: #f5851f;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 10px 24px -6px rgba(245, 133, 31, 0.55);
+  transition: all 0.2s;
+}
+
+.settings-resume:hover {
+  background: #e0761a;
+}
+
+.settings-resume:active {
+  transform: scale(0.98);
+}
+
+/* ===== Sections ===== */
+.settings-section {
+  margin-bottom: 26px;
+}
+
+.settings-section > h2 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #9a9a9a;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0 0 12px 4px;
+}
+
+/* ===== Child row — the who-card, reused ===== */
+.settings-child {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  padding: 14px 18px;
+  margin-bottom: 12px;
+  border: 2px solid #ececec;
+  border-radius: 24px;
+  background: white;
+  text-align: left;
+  transition: all 0.2s;
+}
+
+.settings-child:hover {
+  border-color: #ffe24d;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -6px rgba(255, 150, 80, 0.35);
+}
+
+/* The year-group plant, repurposed as the child's avatar */
+.settings-child-plant {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+  background: #fdf6d8;
+}
+
+.settings-child-plant img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.settings-child-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.settings-child-content .name {
+  font-size: 20px;
+  font-weight: 800;
+  color: #111;
+  margin: 0 0 2px 0;
+  line-height: 1.1;
+}
+
+.settings-child-content .year {
+  font-size: 14px;
+  color: #5a5a5a;
+  margin: 0;
+}
+
+.settings-child-edit {
+  flex-shrink: 0;
+  padding: 9px 18px;
+  border: 2px solid #111;
+  border-radius: 9999px;
+  background: #fff07a;
+  font-size: 14px;
+  font-weight: 700;
+  color: #111;
+  cursor: pointer;
+  box-shadow: 0 3px 0 rgba(43, 42, 50, 0.5);
+  transition: all 0.15s;
+}
+
+.settings-child-edit:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+/* ===== Add another child ===== */
+.settings-add {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  border: 2px dashed #dcdcdc;
+  border-radius: 24px;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 700;
+  color: #9a9a9a;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.settings-add:hover,
+.settings-add:focus-visible {
+  border-color: #111;
+  color: #111;
+  background: #fafafa;
+  outline: none;
+}
+
+.settings-add:active {
+  transform: scale(0.98);
+}
+
+/* ===== Plain card (About) ===== */
+.settings-card {
+  padding: 22px;
+  border: 2px solid #ececec;
+  border-radius: 24px;
+  background: white;
+}
+
+.settings-card p {
+  font-size: 15px;
+  color: #5a5a5a;
+  line-height: 1.6;
+  margin: 0 0 18px 0;
+}
+
+/* ===== Danger zone — quiet until confirmed ===== */
+.settings-danger {
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 700;
+  color: #b91c1c;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.settings-danger:hover {
+  color: #7f1d1d;
+}
+
+.settings-confirm {
+  padding: 16px;
+  border: 2px solid #fecaca;
+  border-radius: 18px;
+  background: #fef2f2;
+}
+
+.settings-confirm p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #991b1b;
+  margin: 0 0 14px 0;
+}
+
+.settings-confirm-row {
+  display: flex;
+  gap: 10px;
+}
+
+.settings-confirm-yes,
+.settings-confirm-no {
+  flex: 1;
+  padding: 11px;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.settings-confirm-yes {
+  border: 2px solid #991b1b;
+  background: #dc2626;
+  color: white;
+  box-shadow: 0 3px 0 rgba(153, 27, 27, 0.5);
+}
+
+.settings-confirm-no {
+  border: 2px solid #ececec;
+  background: white;
+  color: #5a5a5a;
+}
+
+.settings-confirm-yes:active,
+.settings-confirm-no:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+/* ===== Edit Profile form ===== */
+.settings-label {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #9a9a9a;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0 0 12px 4px;
+}
+
+.settings-input {
+  width: 100%;
+  padding: 15px 18px;
+  border: 2px solid #ececec;
+  border-radius: 20px;
+  background: white;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+  transition: border-color 0.2s;
+}
+
+.settings-input:focus {
+  border-color: #111;
+  outline: none;
+}
+
+/* Year cards — the plants stand in for each year, as they do on onboarding */
+.settings-years {
+  display: flex;
+  gap: 10px;
+}
+
+.settings-year-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 8px;
+  border: 2px solid #ececec;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.settings-year-card:hover {
+  border-color: #ffe24d;
+}
+
+.settings-year-card.selected {
+  border-color: #111;
+  background: #fff07a;
+  box-shadow: 0 3px 0 rgba(43, 42, 50, 0.5);
+}
+
+.settings-year-card img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.settings-year-card .label {
+  font-size: 15px;
+  font-weight: 800;
+  color: #111;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.settings-year-card .age {
+  font-size: 12px;
+  color: #7a7a7a;
+  margin: 0;
+}
+
+/* Phase rows */
+.settings-phase {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 15px 18px;
+  margin-bottom: 10px;
+  border: 2px solid #ececec;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.settings-phase:hover {
+  border-color: #ffe24d;
+}
+
+.settings-phase.selected {
+  border-color: #111;
+  background: #fffbe6;
+}
+
+.settings-phase.locked {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+.settings-phase input {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  accent-color: #111;
+}
+
+.settings-phase-chip {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 9999px;
+  background: #111;
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.settings-phase-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #111;
+}
+
+.settings-phase-desc {
+  font-size: 13px;
+  color: #7a7a7a;
+  margin: 4px 0 0 0;
+  line-height: 1.5;
+}
+
+/* Save — the one primary action on the page */
+.settings-save {
+  width: 100%;
+  padding: 16px;
+  border: 2px solid #111;
+  border-radius: 9999px;
+  background: #fff07a;
+  font-size: 16px;
+  font-weight: 800;
+  color: #111;
+  cursor: pointer;
+  box-shadow: 0 4px 0 rgba(43, 42, 50, 0.5);
+  transition: all 0.15s;
+}
+
+.settings-save:active:not(:disabled) {
+  transform: translateY(3px);
+  box-shadow: none;
+}
+
+.settings-save:disabled {
+  border-color: #e2e2e2;
+  background: #f4f4f4;
+  color: #b5b5b5;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+@media (max-width: 767px) {
+  .settings-header h1 {
+    font-size: 22px;
+  }
+  .settings-header-spacer {
+    width: 0;
+  }
+  .settings-child-content .name {
+    font-size: 18px;
+  }
+  .settings-year-card .label {
+    font-size: 13px;
+  }
+}

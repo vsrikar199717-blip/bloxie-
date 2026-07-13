@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { ActionButton } from '../ui/ActionButton';
+import { OnboardingLayout } from '../Onboarding/OnboardingLayout';
 import type { ChildProfile, YearGroup, PhonicsPhase } from '../../types/profile';
 import { YEAR_GROUP_LABELS, PHASE_INFO } from '../../types/profile';
+import './settings.css';
 
 interface EditProfileProps {
   profile: ChildProfile;
@@ -21,6 +22,13 @@ interface EditProfileProps {
 
 const YEAR_GROUPS: YearGroup[] = ['Reception', 'Year1', 'Year2'];
 
+/** Same plant-per-year mapping as onboarding and Parent Mode. */
+const YEAR_PLANT: Record<YearGroup, string> = {
+  Reception: '/assets/plants/plant-1.svg',
+  Year1: '/assets/plants/plant-2.svg',
+  Year2: '/assets/plants/plant-3.svg',
+};
+
 export function EditProfile({ profile, onSave, onDelete, onBack }: EditProfileProps) {
   const [name, setName] = useState(profile.name);
   const [yearGroup, setYearGroup] = useState<YearGroup>(profile.yearGroup);
@@ -33,7 +41,8 @@ export function EditProfile({ profile, onSave, onDelete, onBack }: EditProfilePr
     name.trim() !== profile.name ||
     yearGroup !== profile.yearGroup ||
     visualPhonemeMarking !== profile.visualPhonemeMarking ||
-    JSON.stringify(includedPhases.sort()) !== JSON.stringify([...profile.includedPhases].sort());
+    JSON.stringify([...includedPhases].sort()) !==
+      JSON.stringify([...profile.includedPhases].sort());
 
   const handleYearGroupChange = (newYearGroup: YearGroup) => {
     setYearGroup(newYearGroup);
@@ -48,10 +57,10 @@ export function EditProfile({ profile, onSave, onDelete, onBack }: EditProfilePr
   };
 
   const handleTogglePhase = (phase: PhonicsPhase) => {
-    // Don't allow unchecking Phase 5 for Y1/Y2
+    // Phase 5 is compulsory for Y1/Y2
     if (phase === 5 && yearGroup !== 'Reception') return;
 
-    // Don't allow unchecking the last phase
+    // Never leave a child with nothing to practise
     if (includedPhases.length === 1 && includedPhases.includes(phase)) return;
 
     if (includedPhases.includes(phase)) {
@@ -62,66 +71,49 @@ export function EditProfile({ profile, onSave, onDelete, onBack }: EditProfilePr
   };
 
   const handleSave = () => {
-    if (canSave) {
-      const phonicsPhase = Math.max(...includedPhases) as PhonicsPhase;
-      onSave(profile.id, {
-        name: name.trim(),
-        yearGroup,
-        phonicsPhase,
-        includedPhases,
-        visualPhonemeMarking,
-      });
-    }
+    if (!canSave) return;
+    const phonicsPhase = Math.max(...includedPhases) as PhonicsPhase;
+    onSave(profile.id, {
+      name: name.trim(),
+      yearGroup,
+      phonicsPhase,
+      includedPhases,
+      visualPhonemeMarking,
+    });
   };
 
-  const handleDelete = () => {
-    if (showDeleteConfirm) {
-      onDelete(profile.id);
-    } else {
-      setShowDeleteConfirm(true);
-    }
-  };
-
-  // Get available phases based on year group
-  const getAvailablePhases = (): PhonicsPhase[] => {
-    if (yearGroup === 'Reception') {
-      return [2, 3, 4];
-    }
-    return [2, 3, 4, 5];
-  };
+  const availablePhases: PhonicsPhase[] =
+    yearGroup === 'Reception' ? [2, 3, 4] : [2, 3, 4, 5];
 
   return (
-    <div className="h-screen bg-[#FFFFCC] p-6 overflow-y-auto pb-12">
-      <div className="max-w-lg mx-auto">
-        {/* Header */}
-        <div className="flex items-center justify-between mb-6">
-          <button
-            onClick={onBack}
-            className="flex items-center text-gray-600 hover:text-gray-800 font-semibold"
-          >
-            <svg className="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+    <OnboardingLayout>
+      <div className="settings-step">
+        <div className="settings-header">
+          <button onClick={onBack} className="settings-back">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <polyline points="15 18 9 12 15 6" />
             </svg>
             Back
           </button>
-          <h1 className="text-xl font-bold text-gray-800">Edit Profile</h1>
-          <div className="w-16" /> {/* Spacer for centering */}
+
+          <h1 className="font-display">Edit Profile</h1>
+          <div className="settings-header-spacer" />
         </div>
 
-        {/* Edit Form */}
-        <div className="bg-white rounded-2xl shadow-md p-6 mb-6">
-          {/* Name */}
-          <label className="block text-lg font-bold text-gray-800 mb-2">Name</label>
+        <section className="settings-section">
+          <label className="settings-label" htmlFor="child-name">Name</label>
           <input
+            id="child-name"
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="w-full px-4 py-3 text-xl border-2 border-gray-200 rounded-xl focus:border-blue-400 focus:outline-none mb-6"
+            className="settings-input"
           />
+        </section>
 
-          {/* Year Group */}
-          <label className="block text-lg font-bold text-gray-800 mb-4">Year Group</label>
-          <div className="grid grid-cols-3 gap-3 mb-6">
+        <section className="settings-section">
+          <h2>Year group</h2>
+          <div className="settings-years">
             {YEAR_GROUPS.map((yg) => {
               const { label, ageRange } = YEAR_GROUP_LABELS[yg];
               const isSelected = yearGroup === yg;
@@ -130,101 +122,77 @@ export function EditProfile({ profile, onSave, onDelete, onBack }: EditProfilePr
                 <button
                   key={yg}
                   onClick={() => handleYearGroupChange(yg)}
-                  className={`
-                    py-3 px-2 rounded-xl font-semibold text-sm transition-all
-                    ${isSelected
-                      ? 'bg-blue-500 text-white ring-4 ring-blue-200'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                    }
-                  `}
+                  aria-pressed={isSelected}
+                  className={`settings-year-card ${isSelected ? 'selected' : ''}`}
                 >
-                  {label}
-                  <span className="block text-xs mt-1 opacity-75">({ageRange})</span>
+                  <img src={YEAR_PLANT[yg]} alt="" aria-hidden="true" />
+                  <p className="label font-display">{label}</p>
+                  <p className="age">{ageRange}</p>
                 </button>
               );
             })}
           </div>
+        </section>
 
-          {/* Included Phases */}
-          <label className="block text-lg font-bold text-gray-800 mb-4">
-            {yearGroup === 'Reception' ? 'Phases to practise' : 'Include phases for practice'}
-          </label>
-          <div className="space-y-3 mb-6">
-            {getAvailablePhases().map((phase) => {
-              const { title, description } = PHASE_INFO[phase];
-              const isSelected = includedPhases.includes(phase);
-              const isDisabled = phase === 5 && yearGroup !== 'Reception';
+        <section className="settings-section">
+          <h2>{yearGroup === 'Reception' ? 'Phases to practise' : 'Phases to include'}</h2>
 
-              return (
-                <label
-                  key={phase}
-                  className={`
-                    flex items-start gap-3 p-4 rounded-xl border-2 cursor-pointer transition-all
-                    ${isSelected
-                      ? 'border-blue-500 bg-blue-50'
-                      : 'border-gray-200 bg-white hover:border-gray-300'
-                    }
-                    ${isDisabled ? 'opacity-75 cursor-not-allowed' : ''}
-                  `}
-                >
-                  <input
-                    type="checkbox"
-                    checked={isSelected}
-                    onChange={() => handleTogglePhase(phase)}
-                    disabled={isDisabled}
-                    className="mt-1 w-5 h-5"
-                  />
-                  <div>
-                    <div className="flex items-center gap-2">
-                      <span className="inline-block bg-blue-500 text-white px-2 py-0.5 rounded-full text-xs font-semibold">
-                        Phase {phase}
-                      </span>
-                      <span className="font-semibold text-gray-800">{title}</span>
-                    </div>
-                    <p className="text-gray-600 text-sm mt-1">{description}</p>
+          {availablePhases.map((phase) => {
+            const { title, description } = PHASE_INFO[phase];
+            const isSelected = includedPhases.includes(phase);
+            const isLocked = phase === 5 && yearGroup !== 'Reception';
+
+            return (
+              <label
+                key={phase}
+                className={`settings-phase ${isSelected ? 'selected' : ''} ${isLocked ? 'locked' : ''}`}
+              >
+                <input
+                  type="checkbox"
+                  checked={isSelected}
+                  onChange={() => handleTogglePhase(phase)}
+                  disabled={isLocked}
+                />
+                <div>
+                  <div className="settings-phase-title">
+                    <span className="settings-phase-chip">Phase {phase}</span>
+                    {title}
                   </div>
-                </label>
-              );
-            })}
-          </div>
+                  <p className="settings-phase-desc">{description}</p>
+                </div>
+              </label>
+            );
+          })}
+        </section>
 
-          <ActionButton onClick={handleSave} color="primary" disabled={!canSave || !hasChanges}>
+        <section className="settings-section">
+          <button onClick={handleSave} disabled={!canSave || !hasChanges} className="settings-save">
             Save changes
-          </ActionButton>
-        </div>
+          </button>
+        </section>
 
-        {/* Delete Section */}
-        <div className="bg-white rounded-2xl shadow-md p-6">
-          {showDeleteConfirm ? (
-            <div className="bg-red-50 border border-red-200 rounded-xl p-4">
-              <p className="text-red-800 font-medium mb-3">
-                Are you sure you want to delete {profile.name}'s profile?
-              </p>
-              <div className="flex gap-3">
-                <button
-                  onClick={handleDelete}
-                  className="flex-1 py-2 px-4 bg-red-600 text-white rounded-lg font-semibold hover:bg-red-700"
-                >
-                  Yes, delete
-                </button>
-                <button
-                  onClick={() => setShowDeleteConfirm(false)}
-                  className="flex-1 py-2 px-4 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300"
-                >
-                  Cancel
-                </button>
+        <section className="settings-section">
+          <div className="settings-card">
+            {showDeleteConfirm ? (
+              <div className="settings-confirm">
+                <p>Delete {profile.name}'s profile? This cannot be undone.</p>
+                <div className="settings-confirm-row">
+                  <button onClick={() => onDelete(profile.id)} className="settings-confirm-yes">
+                    Yes, delete
+                  </button>
+                  <button onClick={() => setShowDeleteConfirm(false)} className="settings-confirm-no">
+                    Cancel
+                  </button>
+                </div>
               </div>
-            </div>
-          ) : (
-            <button
-              onClick={handleDelete}
-              className="text-red-600 hover:text-red-700 font-semibold"
-            >
-              Delete this profile
-            </button>
-          )}
-        </div>
+            ) : (
+              <button onClick={() => setShowDeleteConfirm(true)} className="settings-danger">
+                Delete this profile
+              </button>
+            )}
+          </div>
+        </section>
       </div>
-    </div>
+    </OnboardingLayout>
   );
 }
