@@ -63,7 +63,7 @@ export function PhaseInclusionSelector({
         <p className="subtext">
           <strong>Phases</strong> are the UK's standard steps for learning letter
           sounds. Phase 5 covers common spelling patterns like{' '}
-          <strong>'ai' and 'igh'</strong>.
+          <strong>'a-e' (cake) and 'i-e' (bike)</strong>.
         </p>
       </div>
 
@@ -85,7 +85,7 @@ export function PhaseInclusionSelector({
 
         <div style={{ flex: 1 }}>
           <h3 className="font-display">Starting at Phase 5</h3>
-          <p className="helper">Common spelling patterns, eg 'ai', 'igh'</p>
+          <p className="helper">Common spelling patterns, eg 'a-e' (cake), 'i-e' (bike)</p>
         </div>
       </div>
 

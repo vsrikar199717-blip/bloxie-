@@ -81,9 +81,9 @@ export const YEAR_GROUP_LABELS: Record<YearGroup, { label: string; ageRange: str
 
 export const PHASE_INFO: Record<PhonicsPhase, { title: string; description: string }> = {
   2: { title: 'Starting sounds', description: 'First letter sounds: s, a, t, p, i, n...' },
-  3: { title: 'More sounds', description: 'Digraphs: ch, sh, ai, ee, oa...' },
-  4: { title: 'Blending words', description: 'Words like: spot, crash, blend...' },
-  5: { title: 'Alternative spellings', description: 'ay, ea, ie, ue, a-e...' },
+  3: { title: 'More sounds', description: 'Two letters, one sound: ch, sh, ai, ee, igh...' },
+  4: { title: 'Blending words', description: 'No new sounds — words like: spot, crash, jump...' },
+  5: { title: 'Spelling patterns', description: 'New ways to spell known sounds: a-e, i-e, ay, ea...' },
 };
 
 export const THEME_LABELS: Record<Theme, { label: string; emoji: string }> = {
