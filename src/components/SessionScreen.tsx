@@ -607,43 +607,58 @@ export function SessionScreen({
       {/* Floating pill tab bar - small screens only */}
       <div className="md:hidden fixed bottom-5 left-1/2 -translate-x-1/2 z-40 w-[min(92vw,420px)]">
         <div className="relative flex bg-white rounded-full p-1.5 shadow-[0_10px_30px_rgba(0,0,0,0.18)]">
-          {/* Sliding black selector */}
+          {/* Sliding black selector. The shine sweeps across it on every tab
+              change — keyed on activeTab so the animation replays each time. */}
           <span
             aria-hidden="true"
-            className="absolute top-1.5 bottom-1.5 left-1.5 w-[calc(50%-0.375rem)] rounded-full bg-black border-2 border-[#F5851F] transition-transform duration-300 ease-[cubic-bezier(0.22,1,0.36,1)]"
+            className="absolute top-1.5 bottom-1.5 left-1.5 w-[calc(50%-0.375rem)] rounded-full bg-black border-2 border-[#F5851F] overflow-hidden transition-transform duration-300 ease-[cubic-bezier(0.22,1,0.36,1)]"
             style={{
               transform: activeTab === 'building' ? 'translateX(100%)' : 'translateX(0)',
             }}
-          />
+          >
+            <span key={activeTab} className="nav-shine" />
+          </span>
 
           <button
             onClick={() => setActiveTab('reading')}
-            aria-label="Reading"
             aria-pressed={activeTab === 'reading'}
-            className="relative z-10 flex-1 h-12 grid place-items-center rounded-full"
+            className="relative z-10 flex-1 h-14 flex flex-col items-center justify-center gap-0.5 rounded-full"
           >
             <img
               src="/assets/icons/book.svg"
               alt=""
-              className={`w-7 h-7 object-contain transition-transform duration-300 ${
+              className={`w-6 h-6 object-contain transition-transform duration-300 ${
                 activeTab === 'reading' ? 'scale-110' : 'scale-100 opacity-80'
               }`}
             />
+            <span
+              className={`text-[11px] font-bold leading-none transition-colors duration-300 ${
+                activeTab === 'reading' ? 'text-white' : 'text-[#8A8378]'
+              }`}
+            >
+              Reading
+            </span>
           </button>
 
           <button
             onClick={() => setActiveTab('building')}
-            aria-label="Building"
             aria-pressed={activeTab === 'building'}
-            className="relative z-10 flex-1 h-12 grid place-items-center rounded-full"
+            className="relative z-10 flex-1 h-14 flex flex-col items-center justify-center gap-0.5 rounded-full"
           >
             <img
               src="/assets/icons/block.svg"
               alt=""
-              className={`w-7 h-7 object-contain transition-transform duration-300 ${
+              className={`w-6 h-6 object-contain transition-transform duration-300 ${
                 activeTab === 'building' ? 'scale-110' : 'scale-100 opacity-80'
               }`}
             />
+            <span
+              className={`text-[11px] font-bold leading-none transition-colors duration-300 ${
+                activeTab === 'building' ? 'text-white' : 'text-[#8A8378]'
+              }`}
+            >
+              Building
+            </span>
           </button>
         </div>
       </div>

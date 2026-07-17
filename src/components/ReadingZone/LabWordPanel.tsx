@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useLayoutEffect, useRef, useState } from 'react';
 import { ReadingGuide } from '../ui/ReadingGuide';
 import { BloxieCharacter } from '../ui/BloxieCharacter';
 import { MARK_ORDER, STATUS_LABELS, markLabel } from '../../utils/wordStatusLabels';
@@ -51,8 +51,6 @@ export function LabWordPanel({
   readingAids,
   visualPhonemeMarking,
   onCorrect,
-  onSkip,
-  onGoBack,
   onEndSession,
   onUpdateReadingAids,
   onTogglePhonemeMarking,
@@ -84,6 +82,50 @@ export function LabWordPanel({
 
   const graphemes: string[] =
     segments && segments.length > 0 ? segments.map((s) => s.chars) : word.split('');
+
+  /**
+   * Measure the word as it actually renders, so the sound marks and the ruler
+   * cover the WHOLE word.
+   *
+   * They used to guess from the character count (26px per grapheme, 46px per
+   * letter for the ruler), but the word is set in OpenDyslexic at a fluid
+   * clamp(48px,18cqw,120px) with letter-spacing — so the guess only ever
+   * matched at one panel width and fell short of the word everywhere else.
+   * Measuring the real grapheme boxes keeps them aligned at every size.
+   *
+   * Re-measures on resize (ResizeObserver, since the size is container-driven)
+   * and once the webfont lands — the first paint is in the fallback font, which
+   * is a different width.
+   */
+  const wordRef = useRef<HTMLDivElement>(null);
+  const [wordBox, setWordBox] = useState<{ width: number; marks: { left: number; width: number }[] }>({
+    width: 0,
+    marks: [],
+  });
+
+  const graphemeKey = graphemes.join('\u0000');
+
+  useLayoutEffect(() => {
+    const el = wordRef.current;
+    if (!el) return;
+
+    const measure = () => {
+      const box = el.getBoundingClientRect();
+      const marks = Array.from(el.children).map((child) => {
+        const r = child.getBoundingClientRect();
+        return { left: r.left - box.left, width: r.width };
+      });
+      setWordBox({ width: box.width, marks });
+    };
+
+    measure();
+
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    document.fonts?.ready.then(measure).catch(() => {});
+
+    return () => ro.disconnect();
+  }, [graphemeKey]);
 
   /**
    * Say each grapheme in turn, then the whole word.
@@ -143,59 +185,65 @@ export function LabWordPanel({
            These grown-up controls sit out here rather than inside Bloxie's
            menu: burying them left the menu crowded, and Bloxie's job is help
            with the reading — the aids — not app settings. */}
-      <div className="flex items-center gap-3">
-        {/* Change your world */}
-        {onChangeTheme && (
-          <div className="relative flex-shrink-0">
-            {themeOpen && <div className="fixed inset-0 z-30" onClick={() => setThemeOpen(false)} />}
-            <button
-              onClick={() => setThemeOpen((o) => !o)}
-              data-tour="theme"
-              aria-label="Change your world"
-              aria-expanded={themeOpen}
-              className="relative z-40 w-10 h-10 rounded-full bg-white shadow-[0_4px_12px_rgba(60,50,20,.14)] grid place-items-center overflow-hidden border-2 border-black/5 hover:border-[#F5851F]/40 transition active:scale-95"
-            >
-              <img src={`/assets/themes/${theme}.gif`} alt="" className="w-8 h-8 object-contain" />
-            </button>
-            {themeOpen && (
-              <div className="font-display absolute z-40 top-full left-0 mt-2 p-2 bg-white rounded-2xl shadow-[0_14px_36px_rgba(43,42,50,.24)] border border-black/5">
-                <div className="flex gap-2">
-                  {THEMES.map((t) => (
-                    <button
-                      key={t}
-                      onClick={() => { pickTheme(t); setThemeOpen(false); }}
-                      aria-label={`Choose ${t}`}
-                      className="w-11 h-11 rounded-xl grid place-items-center overflow-hidden border-2 transition active:scale-95"
-                      style={
-                        t === theme
-                          ? { background: '#1c1c1c', borderColor: '#1c1c1c' }
-                          : { background: '#fff', borderColor: '#ececec' }
-                      }
-                    >
-                      <img src={`/assets/themes/${t}.gif`} alt="" className="w-9 h-9 object-contain" />
-                    </button>
-                  ))}
+      <div className="flex items-start gap-3">
+        {/* Worlds and settings: two separate buttons, stacked vertically, both
+            always visible. Settings used to hide inside the worlds popover,
+            which meant a grown-up had to open the child's world picker to reach
+            it. Its own icon, directly under the world, keeps them apart. */}
+        <div className="flex-shrink-0 flex flex-col gap-2">
+          {/* Change your world */}
+          {onChangeTheme && (
+            <div className="relative">
+              {themeOpen && <div className="fixed inset-0 z-30" onClick={() => setThemeOpen(false)} />}
+              <button
+                onClick={() => setThemeOpen((o) => !o)}
+                data-tour="theme"
+                aria-label="Change your world"
+                aria-expanded={themeOpen}
+                className="relative z-40 w-10 h-10 rounded-full bg-white shadow-[0_4px_12px_rgba(60,50,20,.14)] grid place-items-center overflow-hidden border-2 border-black/5 hover:border-[#F5851F]/40 transition active:scale-95"
+              >
+                <img src={`/assets/themes/${theme}.gif`} alt="" className="w-8 h-8 object-contain" />
+              </button>
+              {themeOpen && (
+                <div className="font-display absolute z-40 top-full left-0 mt-2 p-2 bg-white rounded-2xl shadow-[0_14px_36px_rgba(43,42,50,.24)] border border-black/5">
+                  <div className="flex gap-2">
+                    {THEMES.map((t) => (
+                      <button
+                        key={t}
+                        onClick={() => { pickTheme(t); setThemeOpen(false); }}
+                        aria-label={`Choose ${t}`}
+                        className="w-11 h-11 rounded-xl grid place-items-center overflow-hidden border-2 transition active:scale-95"
+                        style={
+                          t === theme
+                            ? { background: '#1c1c1c', borderColor: '#1c1c1c' }
+                            : { background: '#fff', borderColor: '#ececec' }
+                        }
+                      >
+                        <img src={`/assets/themes/${t}.gif`} alt="" className="w-9 h-9 object-contain" />
+                      </button>
+                    ))}
+                  </div>
                 </div>
+              )}
+            </div>
+          )}
 
-                {/* Settings tucked under the worlds — a rare, grown-up action,
-                    so it shouldn't own a slot in the top row. */}
-                {onOpenSettings && (
-                  <button
-                    onClick={() => { setThemeOpen(false); onOpenSettings(); }}
-                    className="mt-2 w-full flex items-center gap-2.5 px-2.5 py-2 rounded-xl text-left text-[15px] font-medium text-[#4A4754] hover:bg-[#F7F5EF] transition active:scale-[0.98] border-t border-black/5 pt-3"
-                  >
-                    <span className="w-6 grid place-items-center text-base">⚙️</span>
-                    Settings
-                  </button>
-                )}
-              </div>
-            )}
-          </div>
-        )}
+          {/* Settings — its own control, under the world */}
+          {onOpenSettings && (
+            <button
+              onClick={onOpenSettings}
+              aria-label="Settings"
+              title="Settings"
+              className="w-10 h-10 rounded-full bg-white shadow-[0_4px_12px_rgba(60,50,20,.14)] grid place-items-center text-base border-2 border-black/5 hover:border-[#F5851F]/40 transition active:scale-95"
+            >
+              ⚙️
+            </button>
+          )}
+        </div>
 
         {/* Progress path — numbered steps, so a child can see how far along the
             set they are rather than just how many dots are left. */}
-        <div className="flex-1 flex justify-start">
+        <div className="flex-1 flex justify-start items-center h-10">
           <div className="relative flex items-center justify-between w-full max-w-[320px]">
             <div
               className="absolute left-3 right-3 h-[2px] bg-[#F0C98B] rounded"
@@ -268,6 +316,7 @@ export function LabWordPanel({
         </button>
 
         <div
+          ref={wordRef}
           data-tour="word"
           className="font-display flex max-w-full justify-center transition-colors duration-300"
           style={{
@@ -304,14 +353,17 @@ export function LabWordPanel({
           ))}
         </div>
 
+        {/* One bar per grapheme, sitting under the grapheme it belongs to and
+            exactly as wide — so the marks span the whole word. */}
         {visualPhonemeMarking && (
-          <div className="flex gap-2 mt-3 h-2">
-            {graphemes.map((g, i) => (
+          <div className="relative mt-3 h-2" style={{ width: wordBox.width }}>
+            {wordBox.marks.map((m, i) => (
               <span
                 key={i}
-                className="h-2 rounded-md transition-all duration-200"
+                className="absolute top-0 h-2 rounded-md transition-all duration-200"
                 style={{
-                  width: Math.max(26, g.length * 28),
+                  left: m.left,
+                  width: m.width,
                   // Warm tones only: blue/teal raise visual stress for dyslexic
                   // readers, so the sound marks use the panel's orange.
                   background: lit === i ? '#F5851F' : '#F0B37E',
@@ -324,22 +376,14 @@ export function LabWordPanel({
 
         {readingAids.ruler && (
           <div className="mt-3">
-            <ReadingGuide width={`${word.length * 46}px`} />
+            <ReadingGuide width={`${wordBox.width}px`} />
           </div>
         )}
 
-        {/* Word controls: back · sound it out · next, reading left-to-right like
-            the story screen's bar. Replaces the old arrows that floated at the
-            right edge with next stacked above back. */}
-        <div className="mt-7 md:mt-9 flex items-center gap-3">
-          <button
-            onClick={onGoBack}
-            aria-label="Previous word"
-            className="w-10 h-10 rounded-full bg-white text-[#8A8378] border border-[#EFE6D8] grid place-items-center shadow-[0_2px_8px_rgba(60,50,20,.08)] transition hover:text-[#2B2A32] active:scale-95"
-          >
-            <Chevron className="w-4 h-4 rotate-180" />
-          </button>
-
+        {/* Sound it out, on its own. The ‹ › word-nav circles that used to flank
+            it are gone: the panel reads calmer with a single obvious action, and
+            the "how did it go" pills are what move the session along. */}
+        <div className="mt-7 md:mt-9 flex items-center justify-center">
           <button
             onClick={soundOut}
             data-tour="soundout"
@@ -347,14 +391,6 @@ export function LabWordPanel({
           >
             <SpeakerIcon className="w-4 h-4" />
             Sound it out
-          </button>
-
-          <button
-            onClick={onSkip}
-            aria-label="Next word"
-            className="w-10 h-10 rounded-full bg-white text-[#8A8378] border border-[#EFE6D8] grid place-items-center shadow-[0_2px_8px_rgba(60,50,20,.08)] transition hover:text-[#2B2A32] active:scale-95"
-          >
-            <Chevron className="w-4 h-4" />
           </button>
         </div>
       </div>
@@ -422,8 +458,8 @@ export function LabWordPanel({
           >
               <BloxieCharacter className="w-20 h-20" />
               {/* Kids won't know he's tappable unless we say so */}
-              <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 whitespace-nowrap bg-[#F5851F] text-white text-[9px] font-bold tracking-wide px-2 py-1 rounded-md shadow-[0_3px_8px_rgba(245,133,31,.4)]">
-                CLICK ME FOR HELP
+              <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 whitespace-nowrap bg-[#F5851F] text-white text-[11px] font-bold px-2.5 py-1 rounded-md shadow-[0_3px_8px_rgba(245,133,31,.4)]">
+                Help?
               </span>
             </button>
           </div>

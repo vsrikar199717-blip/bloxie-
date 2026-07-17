@@ -96,7 +96,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background-color: #4A90D9;
+  background-color: #F5851F;
   border-radius: 2px;
   cursor: grab;
   transition: box-shadow 0.2s ease;
@@ -104,12 +104,12 @@
 }
 
 .ruler-line:hover {
-  box-shadow: 0 0 8px rgba(74, 144, 217, 0.5);
+  box-shadow: 0 0 8px rgba(245, 133, 31, 0.5);
 }
 
 .ruler-dragging {
   cursor: grabbing;
-  box-shadow: 0 0 12px rgba(74, 144, 217, 0.7);
+  box-shadow: 0 0 12px rgba(245, 133, 31, 0.7);
 }
 
 /* Story text in ruler mode */
