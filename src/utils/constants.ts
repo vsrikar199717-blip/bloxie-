@@ -2,7 +2,7 @@ export const CONSTANTS = {
   // Colours
   colors: {
     background: '#FFFFCC', // Pale yellow
-    readingGuide: '#3B82F6', // Blue
+    readingGuide: '#F5851F', // Orange — warm aids only, blue raises visual stress
     buttonPrimary: '#22C55E', // Green
     buttonSecondary: '#F97316', // Orange
     buildingZoneInactive: 'rgba(156, 163, 175, 0.3)', // Grey
