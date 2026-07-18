@@ -12,6 +12,7 @@ import { useStorage } from './hooks/useStorage';
 import { IntroScreen } from './components/Onboarding/IntroScreen';
 import { ProfileSetup } from './components/ProfileSetup';
 import { WhoIsPlaying } from './components/Onboarding/WhoIsPlaying';
+import { HowToPlay } from './components/Onboarding/HowToPlay';
 import { ThemeSelection } from './components/ThemeSelection/ThemeSelection';
 import { ParentMode } from './components/Settings/ParentMode';
 import { EditProfile } from './components/Settings/EditProfile';
@@ -72,15 +73,23 @@ function AppRoutes() {
   const handleSelectTheme = (theme: Theme) => {
     const profile = getActiveProfile();
     if (profile) setProfileTheme(profile.id, theme);
-    // First-timers are guided by the in-dashboard walkthrough, not a separate screen
     pendingAfterLoad.current = '/session';
-    // Ask for a reading colour once; after that it's remembered on the profile
-    navigate(profile?.readingColor ? '/loading' : '/colour');
+    // Ask for a reading colour once; after that it's remembered on the profile.
+    if (profile && !profile.readingColor) return navigate('/colour');
+    // First-timers get the "how to play" coach mark before their first game.
+    navigate(profile && !profile.hasSeenParentGuide ? '/how-to-play' : '/loading');
   };
 
   const handleChooseColor = (hex: string) => {
     const profile = getActiveProfile();
     if (profile) updateProfile(profile.id, { readingColor: hex });
+    pendingAfterLoad.current = '/session';
+    navigate(profile && !profile.hasSeenParentGuide ? '/how-to-play' : '/loading');
+  };
+
+  const handleFinishHowToPlay = () => {
+    const profile = getActiveProfile();
+    if (profile) updateProfile(profile.id, { hasSeenParentGuide: true });
     pendingAfterLoad.current = '/session';
     navigate('/loading');
   };
@@ -245,6 +254,18 @@ function AppRoutes() {
           element={
             activeProfile ? (
               <ColorPicker onChoose={handleChooseColor} />
+            ) : (
+              <Navigate to="/" replace />
+            )
+          }
+        />
+
+        {/* First-game coach mark: shows the grown-up their role */}
+        <Route
+          path="/how-to-play"
+          element={
+            activeProfile ? (
+              <HowToPlay childName={activeProfile.name} onStart={handleFinishHowToPlay} />
             ) : (
               <Navigate to="/" replace />
             )
