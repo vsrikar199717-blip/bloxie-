@@ -41,7 +41,6 @@ export function HowToPlay({ childName, onStart }: HowToPlayProps) {
           <strong className="font-bold text-[#111]">sound</strong>.
         </>
       ),
-      parent: 'Ooh, a new word!',
     },
     {
       caption: <>Say it out loud together, sound by sound.</>,
@@ -88,15 +87,15 @@ export function HowToPlay({ childName, onStart }: HowToPlayProps) {
   return (
     <div
       onClick={next}
-      className="min-h-screen w-full bg-white relative overflow-hidden flex flex-col items-center justify-center px-6 py-10"
+      className="min-h-screen w-full bg-white relative overflow-hidden flex flex-col items-center justify-center px-6 py-5"
     >
       {/* Eyebrow */}
-      <p className="text-[13px] font-bold tracking-[0.18em] uppercase text-[#9a9a9a]">
+      <p className="text-[12px] font-bold tracking-[0.18em] uppercase text-[#9a9a9a]">
         How to play
       </p>
 
       {/* Heading */}
-      <h1 className="mt-2 font-display text-[clamp(24px,4.6vw,40px)] font-bold text-[#111] text-center leading-tight">
+      <h1 className="mt-1.5 font-display text-[clamp(22px,3.8vw,30px)] font-bold text-[#111] text-center leading-tight [text-wrap:balance] max-w-[420px]">
         You and {name}, side by side
       </h1>
 
@@ -148,13 +147,13 @@ export function HowToPlay({ childName, onStart }: HowToPlayProps) {
       {/* Caption */}
       <p
         key={i}
-        className="mt-7 text-center text-[#3a3a3a] text-lg md:text-xl max-w-[460px] min-h-[3.5rem] animate-[fadeIn_0.4s_ease]"
+        className="mt-4 text-center text-[#3a3a3a] text-base md:text-lg max-w-[460px] min-h-[3rem] animate-[fadeIn_0.4s_ease]"
       >
         {beat.caption}
       </p>
 
       {/* Progress dots */}
-      <div className="mt-2 flex gap-2">
+      <div className="mt-3 flex gap-2">
         {BEATS.map((_, n) => (
           <span
             key={n}
@@ -166,7 +165,7 @@ export function HowToPlay({ childName, onStart }: HowToPlayProps) {
       </div>
 
       {/* CTA (only on the last beat) / hint to tap */}
-      <div className="mt-8 h-[56px] flex items-center">
+      <div className="mt-5 h-[52px] flex items-center">
         {last ? (
           <button
             onClick={(e) => {
