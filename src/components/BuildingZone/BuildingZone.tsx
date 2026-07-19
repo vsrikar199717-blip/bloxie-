@@ -357,8 +357,8 @@ export function BuildingZone({
               flex-1 py-2 px-3 md:py-3 md:px-4 rounded-xl font-bold text-base md:text-lg
               transition-all duration-300
               ${isDancing
-                ? 'bg-pink-400 text-white animate-pulse cursor-not-allowed'
-                : 'bg-gradient-to-r from-pink-500 to-purple-500 text-white hover:from-pink-600 hover:to-purple-600 active:scale-95'
+                ? 'bg-[#e0761a] text-white animate-pulse cursor-not-allowed'
+                : 'bg-[#F5851F] text-white hover:bg-[#e0761a] shadow-[0_6px_16px_rgba(245,133,31,0.28)] active:scale-95'
               }
             `}
           >
@@ -377,8 +377,8 @@ export function BuildingZone({
               flex-1 py-2 px-3 md:py-3 md:px-4 rounded-xl font-bold text-base md:text-lg
               transition-all duration-300
               ${isSaving
-                ? 'bg-blue-300 text-white cursor-not-allowed'
-                : 'bg-gradient-to-r from-blue-500 to-cyan-500 text-white hover:from-blue-600 hover:to-cyan-600 active:scale-95'
+                ? 'bg-[#5a5a5a] text-white cursor-not-allowed'
+                : 'bg-[#111] text-white hover:bg-black shadow-[0_6px_16px_rgba(0,0,0,0.2)] active:scale-95'
               }
             `}
           >
