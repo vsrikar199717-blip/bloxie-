@@ -87,8 +87,9 @@ export function HowToPlay({ childName, onStart }: HowToPlayProps) {
   return (
     <div
       onClick={next}
-      className="min-h-screen w-full bg-white relative overflow-hidden flex flex-col items-center justify-center px-6 py-5"
+      className="h-dvh w-full bg-white relative overflow-x-hidden overflow-y-auto"
     >
+      <div className="min-h-full w-full flex flex-col items-center justify-center px-4 py-4 sm:px-6 sm:py-5">
       {/* Eyebrow */}
       <p className="text-[12px] font-bold tracking-[0.18em] uppercase text-[#9a9a9a]">
         How to play
@@ -101,10 +102,10 @@ export function HowToPlay({ childName, onStart }: HowToPlayProps) {
 
       {/* The scene: illustration + speech bubbles + a word card + Bloxie.
           Sized to ~70% and pulled up closer to the heading. */}
-      <div className="relative w-full max-w-[392px] -mt-1 md:mt-0">
+      <div className="relative w-full max-w-[392px] mt-2 shrink-0">
         {/* Word card floating above the pair */}
         <div
-          className={`absolute left-1/2 -translate-x-1/2 -top-2 z-20 transition-all duration-500 ${
+          className={`absolute right-0 top-2 z-20 transition-all duration-150 ${
             i === 0 ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'
           }`}
         >
@@ -180,6 +181,7 @@ export function HowToPlay({ childName, onStart }: HowToPlayProps) {
           <span className="text-sm text-[#b0b0b0]">Tap to continue</span>
         )}
       </div>
+      </div>
     </div>
   );
 }
@@ -210,7 +212,9 @@ function Bubble({
   return (
     <div
       className={`absolute z-20 ${place} transition-all duration-400 ${
-        show ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-90 translate-y-1 pointer-events-none'
+        show
+          ? 'opacity-100 scale-100 translate-y-0 delay-150'
+          : 'opacity-0 scale-90 translate-y-1 delay-0 pointer-events-none'
       }`}
     >
       <div
