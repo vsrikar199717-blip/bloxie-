@@ -239,7 +239,7 @@ export function BuildingZone({
   }, [onPlayDanceMusic, onStopDanceMusic]);
 
   return (
-    <div className="h-full flex flex-col p-2 md:p-4 relative">
+    <div className="h-full flex flex-col p-2 md:p-4 relative isolate">
       {/* Utility bar */}
       <div className="flex items-center justify-between mb-1 md:mb-2">
         <div className="flex items-center gap-2">
