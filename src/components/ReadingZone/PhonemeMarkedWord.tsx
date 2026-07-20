@@ -203,7 +203,7 @@ function SplitCurve({
       <path
         d={`M ${inset} ${vh} Q 50 0 ${100 - inset} ${vh}`}
         fill="none"
-        stroke="#4A90D9"
+        stroke="#F5851F"
         strokeWidth={dims.underlineHeight}
         strokeLinecap="round"
       />
