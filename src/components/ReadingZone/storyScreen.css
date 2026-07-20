@@ -13,9 +13,9 @@
 }
 
 .toggle-active {
-  background-color: #E8F1FA;
-  border-color: #4A90D9;
-  color: #4A90D9;
+  background-color: #FFF3E6;
+  border-color: #F5851F;
+  color: #D96B0D;
 }
 
 .toggle-inactive {
@@ -74,7 +74,7 @@
 
 .word-bold {
   font-weight: bold;
-  color: #1D4ED8;
+  color: #111;
 }
 
 /* Story Container */
@@ -175,9 +175,9 @@
 }
 
 .toolbar-btn-active {
-  background-color: #E8F1FA;
-  border-color: #4A90D9;
-  color: #4A90D9;
+  background-color: #FFF3E6;
+  border-color: #F5851F;
+  color: #D96B0D;
 }
 
 .toolbar-btn-inactive {
@@ -269,12 +269,12 @@
 
 .phoneme-dot {
   border-radius: 50%;
-  background-color: #4A90D9;
+  background-color: #F5851F;
   flex-shrink: 0;
 }
 
 .phoneme-underline {
-  background-color: #4A90D9;
+  background-color: #F5851F;
   border-radius: 1px;
   flex-shrink: 0;
   width: 100%;

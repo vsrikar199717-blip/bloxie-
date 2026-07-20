@@ -28,6 +28,13 @@ function splitPunctuation(token: string): { prefix: string; core: string; suffix
   return { prefix, core, suffix };
 }
 
+/** Keep an unusually long story word on one line without letting it escape the panel. */
+function fitLongStoryWord(token: string): { fontSize: string } | undefined {
+  const length = token.replace(/[.,!?;:'"]/g, '').length;
+  if (length <= 14) return undefined;
+  return { fontSize: `${Math.max(0.62, 14 / length)}em` };
+}
+
 export function StoryDisplayLightbox({
   story,
   wordSetWords,
@@ -218,6 +225,7 @@ export function StoryDisplayLightbox({
               key={idx}
               ref={(el) => setWordRef(el, wordInfo.index)}
               className={getWordClass(wordInfo)}
+              style={fitLongStoryWord(wordInfo.text)}
             >
               {renderWordContent(wordInfo)}
             </span>

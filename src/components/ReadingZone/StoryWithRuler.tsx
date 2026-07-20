@@ -14,6 +14,12 @@ function splitPunctuation(token: string): { prefix: string; core: string; suffix
   return { prefix, core, suffix };
 }
 
+/** Keep an unusually long story word on one line without letting it escape the panel. */
+function fitLongStoryWord(word: string): { fontSize: string } | undefined {
+  if (word.length <= 14) return undefined;
+  return { fontSize: `${Math.max(0.62, 14 / word.length)}em` };
+}
+
 interface StoryWithRulerProps {
   story: string;
   wordSetWords: string[];
@@ -142,6 +148,7 @@ export function StoryWithRuler({ story, wordSetWords, segmentLookup, visualPhone
       const cleanWord = core.toLowerCase();
       const isBold = wordSetLower.has(cleanWord);
       const segments = segmentLookup.get(cleanWord);
+      const fitStyle = fitLongStoryWord(core);
 
       const wordContent = (
         <>
@@ -159,12 +166,12 @@ export function StoryWithRuler({ story, wordSetWords, segmentLookup, visualPhone
 
       if (isBold) {
         return (
-          <span key={idx} className="font-bold text-blue-700">
+          <span key={idx} className="font-bold text-[#111]" style={fitStyle}>
             {wordContent}
           </span>
         );
       }
-      return <span key={idx}>{wordContent}</span>;
+      return <span key={idx} style={fitStyle}>{wordContent}</span>;
     });
   };
 

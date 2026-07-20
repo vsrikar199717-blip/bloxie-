@@ -98,12 +98,45 @@ export function LabWordPanel({
    * is a different width.
    */
   const wordRef = useRef<HTMLDivElement>(null);
+  const wordStageRef = useRef<HTMLDivElement>(null);
+  const [wordFontSize, setWordFontSize] = useState(48);
   const [wordBox, setWordBox] = useState<{ width: number; marks: { left: number; width: number }[] }>({
     width: 0,
     marks: [],
   });
 
   const graphemeKey = graphemes.join('\u0000');
+
+  // Start at the normal fluid size, then shrink only when the rendered word
+  // is wider than the reading stage. Measuring the actual OpenDyslexic glyphs
+  // is more reliable than guessing from character count (wide letters and
+  // letter-spacing make similarly sized words very different widths).
+  useLayoutEffect(() => {
+    const stage = wordStageRef.current;
+    const el = wordRef.current;
+    if (!stage || !el) return;
+
+    const fitWord = () => {
+      const available = Math.max(stage.clientWidth - 16, 1);
+      const baseSize = Math.min(120, Math.max(48, stage.clientWidth * 0.18));
+
+      el.style.fontSize = `${baseSize}px`;
+      const naturalWidth = el.scrollWidth;
+      const fittedSize = naturalWidth > available
+        ? Math.max(28, Math.floor(baseSize * (available / naturalWidth) * 0.96))
+        : baseSize;
+
+      el.style.fontSize = `${fittedSize}px`;
+      setWordFontSize(fittedSize);
+    };
+
+    fitWord();
+    const ro = new ResizeObserver(fitWord);
+    ro.observe(stage);
+    document.fonts?.ready.then(fitWord).catch(() => {});
+
+    return () => ro.disconnect();
+  }, [graphemeKey]);
 
   useLayoutEffect(() => {
     const el = wordRef.current;
@@ -295,6 +328,7 @@ export function LabWordPanel({
            viewport. The panel is only ~45% of an iPad's width, so a vw-based
            word size overflowed it. */}
       <div
+        ref={wordStageRef}
         className={`flex-1 flex flex-col items-center justify-center relative min-h-0 ${
           readingAids.lightbox ? 'z-20' : ''
         }`}
@@ -320,7 +354,7 @@ export function LabWordPanel({
           data-tour="word"
           className="font-display flex max-w-full justify-center transition-colors duration-300"
           style={{
-            fontSize: 'clamp(48px,18cqw,120px)',
+            fontSize: wordFontSize,
             letterSpacing: '0.05em',
             lineHeight: 1,
             gap: '0.06em',
@@ -334,7 +368,7 @@ export function LabWordPanel({
           {graphemes.map((g, i) => (
             <span
               key={i}
-              className="rounded-xl transition-all duration-200"
+              className="shrink-0 rounded-xl transition-all duration-200"
               style={
                 lit === i
                   ? {
@@ -625,12 +659,12 @@ function AidToggle({
       onClick={onClick}
       aria-pressed={active}
       className={`flex items-center gap-3 px-3 py-2.5 rounded-xl text-left text-[15px] font-semibold transition active:scale-[0.98] ${
-        active ? 'bg-[#E8F1FA] text-[#2E7BC4]' : 'text-[#6b6b6b] hover:bg-[#F7F5EF]'
+        active ? 'bg-[#FFF3E6] text-[#D96B0D]' : 'text-[#6b6b6b] hover:bg-[#F7F5EF]'
       }`}
     >
       <span className="w-6 text-center">{icon}</span>
       <span className="flex-1">{label}</span>
-      <span className={`text-xs font-bold ${active ? 'text-[#2E7BC4]' : 'text-[#C4BCB0]'}`}>
+      <span className={`text-xs font-bold ${active ? 'text-[#D96B0D]' : 'text-[#C4BCB0]'}`}>
         {active ? 'ON' : 'OFF'}
       </span>
     </button>
